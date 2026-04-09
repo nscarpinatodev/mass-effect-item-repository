@@ -1,0 +1,60 @@
+{
+  "folder": null,
+  "name": "Titan Armor (H)",
+  "type": "armor",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/5/5f/Heavy-human-Titan.png/revision/latest?cb=20100209161744",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Rosenkov Materials' Titan series is engineered to the exacting tolerances of the Systems Alliance military procurement program. Hardened plating and high-output kinetic barriers provide tactical-grade protection suited to the most demanding combat operations.</p>"
+    },
+    "rules": [],
+    "slug": "titan-armor-h",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["bulwark", "tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "OGL", "remaster": false },
+    "level": { "value": 2 },
+    "quantity": 1,
+    "baseItem": "titan-armor",
+    "bulk": { "value": 2 },
+    "hp": { "value": 0, "max": 0 },
+    "hardness": 0,
+    "price": { "value": { "gp": 150 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "containerId": null,
+    "size": "med",
+    "material": { "type": null, "grade": null },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy",
+    "group": "plate",
+    "acBonus": 5,
+    "strength": 3,
+    "dexCap": 1,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "grade": "tactical",
+    "runes": { "potency": 0, "resilient": 0, "property": [] },
+    "subitems": [],
+    "specific": null
+  }
+}

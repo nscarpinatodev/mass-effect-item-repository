@@ -1,0 +1,60 @@
+{
+  "folder": null,
+  "name": "Duelist Armor (M)",
+  "type": "armor",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/72/Medium-human-Duelist.png/revision/latest?cb=20100209161746",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Elanus Risk Control produces the Duelist series using kinetic plastite weave — a cheaper alternative to armalite. Barrier output and damage absorption are both below Hahne-Kedar standards at equivalent levels, making these suits a budget option for less well-funded operators.</p>"
+    },
+    "rules": [],
+    "slug": "duelist-armor-m",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "OGL", "remaster": false },
+    "level": { "value": 0 },
+    "quantity": 1,
+    "baseItem": "duelist-armor",
+    "bulk": { "value": 2 },
+    "hp": { "value": 0, "max": 0 },
+    "hardness": 0,
+    "price": { "value": { "gp": 50 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "containerId": null,
+    "size": "med",
+    "material": { "type": null, "grade": null },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "category": "medium",
+    "group": "chain",
+    "acBonus": 3,
+    "strength": 2,
+    "dexCap": 2,
+    "checkPenalty": -2,
+    "speedPenalty": -5,
+    "grade": "commercial",
+    "runes": { "potency": 0, "resilient": 0, "property": [] },
+    "subitems": [],
+    "specific": null
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "folder": null,
+  "name": "Ursa Armor (L)",
+  "type": "armor",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/98/Light-human-Ursa.png/revision/latest?cb=20100209144202",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Hahne-Kedar's Ursa series blends tactical-grade barrier output with heavier physical plating than the manufacturer's other lines. The result is a suit that absorbs punishment while maintaining the agility needed for sustained combat operations.</p>"
+    },
+    "rules": [],
+    "slug": "ursa-armor-l",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "OGL", "remaster": false },
+    "level": { "value": 0 },
+    "quantity": 1,
+    "baseItem": "ursa-armor",
+    "bulk": { "value": 1 },
+    "hp": { "value": 0, "max": 0 },
+    "hardness": 0,
+    "price": { "value": { "gp": 20 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "containerId": null,
+    "size": "med",
+    "material": { "type": null, "grade": null },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "category": "light",
+    "group": "leather",
+    "acBonus": 2,
+    "strength": 1,
+    "dexCap": 3,
+    "checkPenalty": -1,
+    "speedPenalty": 0,
+    "grade": "commercial",
+    "runes": { "potency": 0, "resilient": 0, "property": [] },
+    "subitems": [],
+    "specific": null
+  }
+}
