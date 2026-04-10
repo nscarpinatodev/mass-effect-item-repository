@@ -3,7 +3,7 @@
   "name": "Survivor Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b8/Medium-human-Survivor.png/revision/latest?cb=20100209162439",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b8/Medium-human-Survivor.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

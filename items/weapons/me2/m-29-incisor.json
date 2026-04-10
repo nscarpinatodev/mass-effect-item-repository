@@ -3,7 +3,7 @@
   "name": "M-29 Incisor",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/34/ME2_SR_-_Incisor.png/revision/latest?cb=20140825070948",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/3/34/ME2_SR_-_Incisor.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

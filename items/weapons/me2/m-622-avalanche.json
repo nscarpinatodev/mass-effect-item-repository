@@ -38,7 +38,7 @@
     "splashDamage": { "value": 0 },
     "range": 30,
     "expend": 1,
-    "ammo": { "capacity": 8, "baseType": "projectile-ammo", "builtIn": false },
+    "ammo": { "capacity": 8, "baseType": "battery", "builtIn": false },
     "reload": { "value": "1" },
     "grade": "advanced",
     "runes": { "potency": 0, "striking": 0, "property": [] },

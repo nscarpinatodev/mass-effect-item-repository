@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Extended Barrel I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/c/cb/ME3_SMG_High_Caliber_Barrel.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A longer barrel with an extended kinetic acceleration chamber that increases the muzzle velocity of outgoing rounds. The additional distance allows the mass effect coils more time to impart momentum, resulting in harder-hitting impacts across all fire modes. Compatible with any ranged weapon. Grants a +1 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "extended-barrel-1",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 3 },
+    "quantity": 1,
+    "baseItem": "extended-barrel",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 100 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-ranged-weapon" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

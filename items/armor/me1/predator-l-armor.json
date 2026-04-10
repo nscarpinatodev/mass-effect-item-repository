@@ -3,7 +3,7 @@
   "name": "Predator L Armor",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/6b/Light-human-Predator_L.png/revision/latest?cb=20120605174003",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/6/6b/Light-human-Predator_L.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

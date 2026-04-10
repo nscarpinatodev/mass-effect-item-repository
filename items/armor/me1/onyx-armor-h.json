@@ -3,7 +3,7 @@
   "name": "Onyx Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/2/2f/Heavy-human-Onyx.png/revision/latest?cb=20100209161742",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/2/2f/Heavy-human-Onyx.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

@@ -3,7 +3,7 @@
   "name": "M-97 Viper",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f2/ME2_SR_-_Viper.png/revision/latest?cb=20140825071502",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f2/ME2_SR_-_Viper.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

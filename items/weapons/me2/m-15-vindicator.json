@@ -3,7 +3,7 @@
   "name": "M-15 Vindicator",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/75/ME2_AR_-_Vindicator.png/revision/latest?cb=20210628012724",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/75/ME2_AR_-_Vindicator.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

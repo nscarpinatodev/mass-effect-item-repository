@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Stability Damper II",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/87/ME3_SMG_Ultralight_Materials.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An advanced gyroscopic stabilization system integrated into the weapon's frame that actively counteracts recoil forces during automatic fire. The internal gyros detect barrel deviation in real time and correct before the next round fires, keeping the weapon on-target regardless of fire rate. Originally developed for Cerberus heavy infantry operating automatic weapons at extreme sustained rates. Grants a +2 item bonus to attack rolls made with automatic fire.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a weapon with the automatic trait.</p>"
+    },
+    "rules": [],
+    "slug": "stability-damper-2",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "quantity": 1,
+    "baseItem": "stability-damper",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-ranged-weapon" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

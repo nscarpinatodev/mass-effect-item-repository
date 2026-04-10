@@ -3,7 +3,7 @@
   "name": "Recharge Accelerator II",
   "type": "equipment",
   "effects": [],
-  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/amulet.webp",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f5/ME3_Defense_Matrix.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

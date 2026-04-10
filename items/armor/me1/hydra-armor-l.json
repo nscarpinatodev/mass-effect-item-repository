@@ -3,7 +3,7 @@
   "name": "Hydra Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d9/Light-human-Hydra.png/revision/latest?cb=20100209142541",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d9/Light-human-Hydra.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

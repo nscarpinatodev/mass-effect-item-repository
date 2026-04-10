@@ -3,7 +3,7 @@
   "name": "Kishock Harpoon Gun",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_Harpoon_Gun.png/revision/latest?cb=20120411201323",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_Harpoon_Gun.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

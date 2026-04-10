@@ -3,7 +3,7 @@
   "name": "Mercenary Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/58/Light-human-Mercenary.png/revision/latest?cb=20100209134257",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/5/58/Light-human-Mercenary.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

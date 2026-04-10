@@ -3,7 +3,7 @@
   "name": "Survivor Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e4/Light-human-Survivor.png/revision/latest?cb=20100209143517",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e4/Light-human-Survivor.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

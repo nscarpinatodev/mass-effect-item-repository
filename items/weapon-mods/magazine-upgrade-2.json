@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Magazine Upgrade II",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/5/51/ME3_SMG_Heat_Sink.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A double-capacity heat sink assembly using high-density composite thermal materials that absorb nearly twice the heat of a standard clip before requiring replacement. Soldiers equipped with this modification can sustain fire through engagements that would exhaust standard-capacity weapons multiple times over. Compatible with any ranged weapon. Doubles the weapon's ammo capacity.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "magazine-upgrade-2",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "quantity": 1,
+    "baseItem": "magazine-upgrade",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-ranged-weapon" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

@@ -3,7 +3,7 @@
   "name": "M-11 Suppressor",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/8/84/ME3_Suppressor.png/revision/latest?cb=20130227094606",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/84/ME3_Suppressor.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -25,16 +25,16 @@
     "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
     "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
     "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
-    "level": { "value": 3 },
+    "level": { "value": 5 },
     "baseItem": "m-11-suppressor",
     "bulk": { "value": 1 },
-    "price": { "value": { "gp": 100 } },
+    "price": { "value": { "gp": 250 } },
     "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
     "usage": { "value": "held-in-one-hand" },
     "category": "martial",
     "group": "pistol",
     "bonus": { "value": 0 },
-    "damage": { "dice": 1, "die": "d6", "damageType": "piercing", "persistent": null },
+    "damage": { "dice": 3, "die": "d4", "damageType": "piercing", "persistent": null },
     "splashDamage": { "value": 0 },
     "range": 40,
     "expend": 1,
@@ -46,6 +46,59 @@
     "property1": {
       "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
       "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
-    }
+    },
+    "subitems": [
+      {
+        "_id": "5fa4e7c8872165e0",
+        "name": "Silencer (Commercial)",
+        "type": "equipment",
+        "effects": [],
+        "img": "systems/pf2e/icons/equipment/consumables/other-consumables/silencer.webp",
+        "flags": {},
+        "ownership": { "default": 0 },
+        "_stats": {
+          "compendiumSource": "Compendium.sf2e-anachronism.equipment.Item.nPmeqjZ8b0mjqSfs",
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "pf2e",
+          "systemVersion": "7.12.2",
+          "lastModifiedBy": null
+        },
+        "system": {
+          "description": {
+            "gm": "",
+            "value": "<p>A cylinder is filled with internal sound baffles to reduce noise. The weapon doesn't make a loud noise when fired. However, creatures hit by the ammunition might still cry out in pain.</p>"
+          },
+          "rules": [],
+          "slug": "silencer-commercial",
+          "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+          "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+          "publication": { "title": "Starfinder Player Core", "authors": "", "license": "ORC", "remaster": true },
+          "level": { "value": 0 },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": { "value": 0 },
+          "hp": { "value": 0, "max": 0 },
+          "hardness": 0,
+          "price": { "value": { "sp": 10 } },
+          "equipped": { "carryType": "worn", "invested": null },
+          "containerId": null,
+          "size": "med",
+          "material": { "type": null, "grade": null },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "Unusual Object",
+              "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+              "data": { "description": { "value": "" } }
+            },
+            "misidentified": {}
+          },
+          "usage": { "value": "installed-in-ranged-weapon-without-a-loudener" },
+          "subitems": []
+        }
+      }
+    ]
   }
 }

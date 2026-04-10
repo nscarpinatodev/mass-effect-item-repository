@@ -3,7 +3,7 @@
   "name": "N7 Hurricane",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e9/ME3_N7_Hurricane_Smg.png/revision/latest?cb=20120317184439",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e9/ME3_N7_Hurricane_Smg.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

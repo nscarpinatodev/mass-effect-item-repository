@@ -3,7 +3,7 @@
   "name": "Explorer Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ad/Heavy-human-Explorer.png/revision/latest?cb=20100209161007",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ad/Heavy-human-Explorer.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

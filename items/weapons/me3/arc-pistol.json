@@ -3,7 +3,7 @@
   "name": "Arc Pistol",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png/revision/latest?cb=20120317185747",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -38,7 +38,7 @@
     "splashDamage": { "value": 0 },
     "range": 40,
     "expend": 1,
-    "ammo": { "capacity": 25, "baseType": "projectile-ammo", "builtIn": false },
+    "ammo": { "capacity": 25, "baseType": "battery", "builtIn": false },
     "reload": { "value": "0" },
     "grade": "tactical",
     "runes": { "potency": 0, "striking": 0, "property": [] },

@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "High-Velocity Barrel I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/83/ME3_Assault_Rifle_High-Velocity_Barrel.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A specially rifled barrel with hardened interior lining that increases round velocity to levels sufficient to punch through light armor plating. Rounds traveling at these velocities carry enough kinetic force that conventional armor weaves cannot fully absorb the impact. Your weapon's attacks ignore 5 points of physical resistance.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "high-velocity-barrel-1",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 3 },
+    "quantity": 1,
+    "baseItem": "high-velocity-barrel",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 100 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-ranged-weapon" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

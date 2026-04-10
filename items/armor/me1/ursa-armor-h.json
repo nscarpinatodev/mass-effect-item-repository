@@ -3,7 +3,7 @@
   "name": "Ursa Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f8/Heavy-human-Ursa.png/revision/latest?cb=20100209161744",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f8/Heavy-human-Ursa.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

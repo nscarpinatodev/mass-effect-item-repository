@@ -3,7 +3,7 @@
   "name": "M-11 Wraith",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/45/ME3_Wraith_Shotgun.png/revision/latest?cb=20120317200422",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/45/ME3_Wraith_Shotgun.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

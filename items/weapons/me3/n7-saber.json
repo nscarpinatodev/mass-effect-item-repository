@@ -3,7 +3,7 @@
   "name": "N7 Saber",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/65/ME3_Saber_Assault_Rifle.png/revision/latest?cb=20120317175044",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/6/65/ME3_Saber_Assault_Rifle.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Ultralight Materials II",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/87/ME3_SMG_Ultralight_Materials.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A full-frame reconstruction using aerospace-grade ultralight alloys and hollow-core carbon fiber components. The weapon retains full combat reliability at a fraction of its original mass, to the point where carrying it feels negligible even during extended operations. Developed originally for Salarian STG agents who carry multiple weapons simultaneously. Reduces the weapon's Bulk by 1 (minimum 0) and grants +5 feet to your Speed while this weapon is your primary drawn weapon.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "ultralight-materials-2",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 5 },
+    "quantity": 1,
+    "baseItem": "ultralight-materials",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 250 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-ranged-weapon" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

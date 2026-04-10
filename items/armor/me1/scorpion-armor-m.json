@@ -3,7 +3,7 @@
   "name": "Scorpion Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/0a/Medium-human-Scorpion.png/revision/latest?cb=20100209162438",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/0/0a/Medium-human-Scorpion.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

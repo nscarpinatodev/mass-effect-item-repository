@@ -3,7 +3,7 @@
   "name": "Liberator Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/8/86/Light-human-Liberator.png/revision/latest?cb=20100209143513",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/86/Light-human-Liberator.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

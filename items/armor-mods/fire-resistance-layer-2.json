@@ -3,7 +3,7 @@
   "name": "Fire Resistance Layer II",
   "type": "equipment",
   "effects": [],
-  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/amulet.webp",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e9/ME3_Fortification.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Thermal Scope I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/6/6c/ME3_Sniper_Rifle_Thermal_Scope.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A thermal imaging scope that overlays heat signatures onto the targeting display, allowing the sniper to identify biological targets behind light cover and track movement through smoke or debris. The heat signature mapping highlights organ-dense areas and joint gaps in armor, guiding rounds toward targets' most vulnerable points. Designed for sniper rifles. On a successful aimed shot, deal an additional 1d6 precision damage.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a sniper rifle.</p>"
+    },
+    "rules": [],
+    "slug": "thermal-scope-1",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 5 },
+    "quantity": 1,
+    "baseItem": "thermal-scope",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 250 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-sniper-rifle" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

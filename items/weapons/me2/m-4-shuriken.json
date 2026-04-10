@@ -3,7 +3,7 @@
   "name": "M-4 Shuriken",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/46/ME2_SMG_-_Shuriken.png/revision/latest?cb=20140823161846",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/46/ME2_SMG_-_Shuriken.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

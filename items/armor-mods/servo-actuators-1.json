@@ -3,7 +3,7 @@
   "name": "Servo Actuators I",
   "type": "equipment",
   "effects": [],
-  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/amulet.webp",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e7/ME3_Adrenaline_Rush.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

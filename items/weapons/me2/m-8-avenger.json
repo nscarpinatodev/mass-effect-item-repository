@@ -3,7 +3,7 @@
   "name": "M-8 Avenger",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f7/ME2_AR_-_Avenger.png/revision/latest?cb=20210628012741",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f7/ME2_AR_-_Avenger.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -34,7 +34,7 @@
     "category": "martial",
     "group": "rifle",
     "bonus": { "value": 0 },
-    "damage": { "dice": 1, "die": "d6", "damageType": "piercing", "persistent": null },
+    "damage": { "dice": 2, "die": "d4", "damageType": "piercing", "persistent": null },
     "splashDamage": { "value": 0 },
     "range": 60,
     "expend": 1,

@@ -3,7 +3,7 @@
   "name": "Titan Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/0d/Light-human-Titan.png/revision/latest?cb=20100209143517",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/0/0d/Light-human-Titan.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

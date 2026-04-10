@@ -3,7 +3,7 @@
   "name": "M-55 Argus",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/95/ME3_Argus_Assault_Rifle.png/revision/latest?cb=20120317173420",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/95/ME3_Argus_Assault_Rifle.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

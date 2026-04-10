@@ -3,7 +3,7 @@
   "name": "Javelin",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME3_Javelin_Sniper_Rifle.png/revision/latest?cb=20120317192031",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME3_Javelin_Sniper_Rifle.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -38,7 +38,7 @@
     "splashDamage": { "value": 0 },
     "range": 200,
     "expend": 1,
-    "ammo": { "capacity": 3, "baseType": "projectile-ammo", "builtIn": false },
+    "ammo": { "capacity": 3, "baseType": "battery", "builtIn": false },
     "reload": { "value": "1" },
     "grade": "superior",
     "runes": { "potency": 0, "striking": 0, "property": [] },

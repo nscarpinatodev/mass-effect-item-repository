@@ -3,7 +3,7 @@
   "name": "Mercenary Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/76/Heavy-human-Mercenary.png/revision/latest?cb=20100209161011",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/76/Heavy-human-Mercenary.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

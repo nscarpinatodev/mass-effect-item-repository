@@ -3,7 +3,7 @@
   "name": "M-3 Predator",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/2/20/ME2_HP_-_Predator.png/revision/latest?cb=20230626173805",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/2/20/ME2_HP_-_Predator.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

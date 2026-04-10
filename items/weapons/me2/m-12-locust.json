@@ -3,7 +3,7 @@
   "name": "M-12 Locust",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d0/ME2_SMG_-_Locust.png/revision/latest?cb=20140823161958",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d0/ME2_SMG_-_Locust.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

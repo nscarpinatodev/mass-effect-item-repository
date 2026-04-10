@@ -3,7 +3,7 @@
   "name": "M-451 Firestorm",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d6/ME2_HW_-_Firestorm.png/revision/latest?cb=20140823054106",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d6/ME2_HW_-_Firestorm.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -38,7 +38,7 @@
     "splashDamage": { "value": 0 },
     "range": 20,
     "expend": 1,
-    "ammo": { "capacity": 100, "baseType": "projectile-ammo", "builtIn": false },
+    "ammo": { "capacity": 100, "baseType": "battery", "builtIn": false },
     "reload": { "value": "0" },
     "grade": "tactical",
     "runes": { "potency": 0, "striking": 0, "property": [] },

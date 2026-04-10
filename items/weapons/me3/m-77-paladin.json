@@ -3,7 +3,7 @@
   "name": "M-77 Paladin",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/43/ME3_Paladin_Heavy_Pistol.png/revision/latest?cb=20120317185630",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/43/ME3_Paladin_Heavy_Pistol.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

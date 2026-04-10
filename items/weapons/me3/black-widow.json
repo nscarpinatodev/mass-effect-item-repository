@@ -3,7 +3,7 @@
   "name": "Black Widow",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/44/ME3_Black_Widow_Sniper_Rifle.png/revision/latest?cb=20120317191926",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/44/ME3_Black_Widow_Sniper_Rifle.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -34,7 +34,7 @@
     "category": "martial",
     "group": "sniper",
     "bonus": { "value": 0 },
-    "damage": { "dice": 4, "die": "d10", "damageType": "piercing", "persistent": null },
+    "damage": { "dice": 3, "die": "d10", "damageType": "piercing", "persistent": null },
     "splashDamage": { "value": 0 },
     "range": 200,
     "expend": 1,

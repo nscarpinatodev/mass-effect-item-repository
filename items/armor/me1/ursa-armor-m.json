@@ -3,7 +3,7 @@
   "name": "Ursa Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/95/Medium-human-Ursa.png/revision/latest?cb=20100209162744",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/95/Medium-human-Ursa.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

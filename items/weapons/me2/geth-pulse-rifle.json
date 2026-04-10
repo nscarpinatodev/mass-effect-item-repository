@@ -3,7 +3,7 @@
   "name": "Geth Pulse Rifle",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/4a/ME2_AR_-_Geth_Pulse_Rifle.png/revision/latest?cb=20210628012712",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/4a/ME2_AR_-_Geth_Pulse_Rifle.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -38,7 +38,7 @@
     "splashDamage": { "value": 0 },
     "range": 80,
     "expend": 1,
-    "ammo": { "capacity": 150, "baseType": "projectile-ammo", "builtIn": false },
+    "ammo": { "capacity": 150, "baseType": "battery", "builtIn": false },
     "reload": { "value": "0" },
     "grade": "tactical",
     "runes": { "potency": 0, "striking": 0, "property": [] },

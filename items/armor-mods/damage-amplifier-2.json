@@ -3,7 +3,7 @@
   "name": "Damage Amplifier II",
   "type": "equipment",
   "effects": [],
-  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/amulet.webp",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bc/ME3_Armor_Piercing_Ammo.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

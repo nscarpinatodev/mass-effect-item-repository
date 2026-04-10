@@ -3,7 +3,7 @@
   "name": "Liberator Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/9f/Heavy-human-Liberator.png/revision/latest?cb=20100209161010",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/9f/Heavy-human-Liberator.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

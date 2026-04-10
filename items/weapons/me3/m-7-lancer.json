@@ -3,7 +3,7 @@
   "name": "M-7 Lancer",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png/revision/latest?cb=20130227094559",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -38,7 +38,7 @@
     "splashDamage": { "value": 0 },
     "range": 70,
     "expend": 1,
-    "ammo": { "capacity": 200, "baseType": "projectile-ammo", "builtIn": false },
+    "ammo": { "capacity": 200, "baseType": "battery", "builtIn": false },
     "reload": { "value": "0" },
     "grade": "advanced",
     "runes": { "potency": 0, "striking": 0, "property": [] },

@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Thermal Scope II",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/6/6c/ME3_Sniper_Rifle_Thermal_Scope.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An advanced multi-spectrum thermal scope combining infrared imaging with a predictive targeting VI that calculates optimal impact points in real time. The system cross-references enemy species anatomy databases to identify the most lethal aiming solutions, accounting for environmental interference and barrier field distortion. Used exclusively by N7 infiltrators and Shadow Broker wetwork specialists. Designed for sniper rifles. On a successful aimed shot, deal an additional 2d6 precision damage.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a sniper rifle.</p>"
+    },
+    "rules": [],
+    "slug": "thermal-scope-2",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "rare" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 9 },
+    "quantity": 1,
+    "baseItem": "thermal-scope",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 2000 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-sniper-rifle" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

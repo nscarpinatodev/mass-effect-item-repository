@@ -3,7 +3,7 @@
   "name": "M-98 Widow",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b9/ME2_SR_-_Widow.png/revision/latest?cb=20140823090421",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b9/ME2_SR_-_Widow.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {
@@ -34,7 +34,7 @@
     "category": "martial",
     "group": "sniper",
     "bonus": { "value": 0 },
-    "damage": { "dice": 3, "die": "d10", "damageType": "piercing", "persistent": null },
+    "damage": { "dice": 4, "die": "d10", "damageType": "piercing", "persistent": null },
     "splashDamage": { "value": 0 },
     "range": 200,
     "expend": 1,

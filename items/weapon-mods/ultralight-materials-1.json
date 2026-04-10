@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Ultralight Materials I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/87/ME3_SMG_Ultralight_Materials.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A partial frame replacement using carbon-ceramic composite materials that retain the weapon's structural integrity while substantially reducing its mass. The lighter weapon is easier to move with, transitions between targets faster, and contributes less fatigue to extended carry. Favored by operatives who spend long missions on foot. Reduces the weapon's Bulk by 1 (minimum 0).</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "ultralight-materials-1",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 3 },
+    "quantity": 1,
+    "baseItem": "ultralight-materials",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 100 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-ranged-weapon" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

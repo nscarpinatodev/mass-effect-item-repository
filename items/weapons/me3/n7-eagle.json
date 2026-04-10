@@ -3,7 +3,7 @@
   "name": "N7 Eagle",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/01/ME3_N7_Eagle_Heavy_Pistol.png/revision/latest?cb=20120317185811",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/0/01/ME3_N7_Eagle_Heavy_Pistol.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

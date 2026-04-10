@@ -3,7 +3,7 @@
   "name": "Predator Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/94/Medium-human-Predator.png/revision/latest?cb=20120605175435",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/94/Medium-human-Predator.png",
   "flags": {},
   "ownership": { "default": 0 },
   "_stats": {

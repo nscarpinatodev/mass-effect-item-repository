@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Power Magnifier I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bc/ME3_Pistol_Heavy_Barrel.png",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A reinforced barrel and enhanced coil assembly designed specifically for pistol frames, increasing kinetic output without requiring the larger receiver of a rifle-class weapon. The upgrade effectively turns a standard combat pistol into a weapon capable of punching through armor grades it was not rated for. Designed for pistols. Grants a +1 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a pistol.</p>"
+    },
+    "rules": [],
+    "slug": "power-magnifier-1",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 3 },
+    "quantity": 1,
+    "baseItem": "power-magnifier",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 100 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "installed-in-pistol" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}
