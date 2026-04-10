@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Power Amplifier I",
+  "type": "equipment",
+  "effects": [],
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/amulet.webp",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A neural interface booster and omni-tool amplification module that increases the output power of both tech and biotic abilities. For tech users, it improves omni-tool field generation efficiency; for biotics, it enhances the dark energy focusing resonators built into the suit. Grants a +1 item bonus to ability/spell damage rolls (tech and biotic powers).</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "power-amplifier-1",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 3 },
+    "quantity": 1,
+    "baseItem": "power-amplifier",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 100 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "worn" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

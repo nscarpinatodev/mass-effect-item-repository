@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Shield Capacitor II",
+  "type": "equipment",
+  "effects": [],
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/amulet.webp",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A high-density barrier capacitor array using superconducting loop technology to sustain a substantially larger kinetic field than standard emitter hardware. The expanded field envelope intercepts more incoming mass-accelerated rounds before collapsing, giving the wearer a meaningful advantage in sustained engagements. Increases kinetic barrier pool by 10.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "shield-capacitor-2",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "quantity": 1,
+    "baseItem": "shield-capacitor",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "worn" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

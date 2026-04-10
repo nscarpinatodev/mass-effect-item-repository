@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Precision Targeting",
+  "type": "equipment",
+  "effects": [],
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/amulet.webp",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A biometric targeting overlay system that combines thermal imaging, structural weak-point mapping, and real-time ballistic compensation to guide rounds into joints, optics, and other critical target vulnerabilities. When properly applied, the system transforms a competent shot into a devastating one. When you make a targeted attack (aiming for a specific location or vulnerability), you deal an additional 1d6 precision damage on a hit.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "precision-targeting",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 5 },
+    "quantity": 1,
+    "baseItem": "precision-targeting",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 250 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "worn" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

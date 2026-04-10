@@ -5,7 +5,11 @@
       "Bash(where node:*)",
       "Read(//c/Program Files/nodejs/**)",
       "Read(//c/Users/djsco/AppData/Roaming/**)",
-      "Read(//c/Users/djsco/**)"
+      "Read(//c/Users/djsco/**)",
+      "WebSearch",
+      "WebFetch(domain:masseffect2.wiki.fextralife.com)",
+      "WebFetch(domain:masseffect3.wiki.fextralife.com)",
+      "WebFetch(domain:www.thegamer.com)"
     ]
   }
 }

@@ -1,0 +1,47 @@
+{
+  "folder": null,
+  "name": "Biotic Feedback Generator",
+  "type": "equipment",
+  "effects": [],
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/amulet.webp",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A dark energy resonance amplifier tuned specifically to biotic L5 implant frequencies. The device creates a sympathetic field loop that reinforces the user's own dark energy output, enhancing the precision and control of mass effect field manipulation. Developed by Sirta Foundation researchers studying elite biotic performance. Grants a +2 item bonus to biotic ability checks and attack rolls.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure. Requires an active biotic implant.</p>"
+    },
+    "rules": [],
+    "slug": "biotic-feedback-generator",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "quantity": 1,
+    "baseItem": "biotic-feedback-generator",
+    "bulk": { "value": 0 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "worn" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}
