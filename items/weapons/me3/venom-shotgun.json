@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "Venom Shotgun",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/76/ME3_Venom_Shotgun.png/revision/latest?cb=20121029075317",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Venom Shotgun is a Cerberus-developed weapon that fires charged explosive rounds rather than conventional scatter shot. The rounds detonate on impact in a concussive blast that knocks enemies off their feet regardless of their armor rating. Users who miss a direct hit still benefit from the blast radius. With only five rounds before requiring a heat sink swap, each shot must count — but the Venom rewards the patience to make them do exactly that.</p>"
+    },
+    "rules": [],
+    "slug": "venom-shotgun",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "scatter-5"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "baseItem": "venom-shotgun",
+    "bulk": { "value": 2 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "shotgun",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d8", "damageType": "bludgeoning", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 15,
+    "expend": 1,
+    "ammo": { "capacity": 5, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "1" },
+    "grade": "advanced",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

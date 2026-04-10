@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-90 Indra",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b6/ME3_Indra_Sniper_Rifle.png/revision/latest?cb=20120317191212",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-90 Indra is the only fully automatic sniper rifle in standard production, a design compromise that sacrifices per-shot stopping power to give snipers the ability to engage multiple targets without repositioning. Its twenty-round heat sink allows sustained precision fire at extreme range, making it particularly effective against lightly armored enemies that conventional snipers would waste a full-cycle reload on. Unusual enough in principle to be genuinely surprising in action.</p>"
+    },
+    "rules": [],
+    "slug": "m-90-indra",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "automatic", "volley-30"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 5 },
+    "baseItem": "m-90-indra",
+    "bulk": { "value": 2 },
+    "price": { "value": { "gp": 250 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "sniper",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d6", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 120,
+    "expend": 1,
+    "ammo": { "capacity": 20, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "tactical",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

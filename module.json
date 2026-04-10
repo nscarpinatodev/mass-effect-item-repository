@@ -1,0 +1,43 @@
+{
+  "id": "mass-effect-item-repository",
+  "title": "Mass Effect Item Repository",
+  "description": "A compendium of Mass Effect armor, armor mods, weapons, and weapon mods for use with the Pathfinder 2e / Starfinder 2e system.",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "nscarpinatodev" }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "packs": [
+    {
+      "name": "me-armors",
+      "label": "Mass Effect Armors",
+      "path": "packs/me-armors.db",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "me-armor-mods",
+      "label": "Mass Effect Armor Mods",
+      "path": "packs/me-armor-mods.db",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "me-weapons",
+      "label": "Mass Effect Weapons",
+      "path": "packs/me-weapons.db",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "me-weapon-mods",
+      "label": "Mass Effect Weapon Mods",
+      "path": "packs/me-weapon-mods.db",
+      "type": "Item",
+      "system": "pf2e"
+    }
+  ]
+}

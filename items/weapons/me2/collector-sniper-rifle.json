@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "Collector Sniper Rifle",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/40/ME3_Collector_Sniper_Rifle.png/revision/latest?cb=20121009204028",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Collector Sniper Rifle projects a sustained beam of superheated particle energy rather than discrete kinetic rounds. Recovered from Collector casualties during the Suicide Mission, its biological ammunition reservoir requires no conventional heat sinks. The beam burns through barriers and scorches everything behind them, delivering incendiary damage at extreme range with a precision that implies the weapon was designed to assassinate specific targets rather than engage formations.</p>"
+    },
+    "rules": [],
+    "slug": "collector-sniper-rifle",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "volley-30"], "rarity": "rare" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "baseItem": "collector-sniper-rifle",
+    "bulk": { "value": 2 },
+    "price": { "value": { "gp": 1000 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "sniper",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d10", "damageType": "fire", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 150,
+    "expend": 1,
+    "ammo": { "capacity": 15, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "advanced",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

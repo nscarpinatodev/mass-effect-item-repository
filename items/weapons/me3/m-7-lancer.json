@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-7 Lancer",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png/revision/latest?cb=20130227094559",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-7 Lancer is a legendary assault rifle from the First Contact War era, restored and reissued during the Reaper War when conventional ammunition supplies became unreliable. Unlike modern mass effect weapons, it draws power directly from its user's suit capacitors rather than consuming heat sink clips. Its internal power cell theoretically never runs dry as long as the wearer's kinetic barrier system is active, making it one of the few weapons that performs better the longer a firefight lasts.</p>"
+    },
+    "rules": [],
+    "slug": "m-7-lancer",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "automatic"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "baseItem": "m-7-lancer",
+    "bulk": { "value": 2 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "rifle",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d6", "damageType": "electricity", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 70,
+    "expend": 1,
+    "ammo": { "capacity": 200, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "advanced",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

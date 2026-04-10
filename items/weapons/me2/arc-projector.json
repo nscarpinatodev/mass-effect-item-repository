@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "Arc Projector",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ac/ME2_HW_-_Arc_Projector.png/revision/latest?cb=20140823053957",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Arc Projector fires a bolt of concentrated electromagnetic energy that ionizes the air between weapon and target, creating a conductive channel through which subsequent lightning arcs jump from enemy to enemy. A single shot can incapacitate an entire cluster of targets in rapid succession, bypassing their kinetic barriers entirely. Cerberus developed it for anti-Geth operations, where its chain lightning effect is most visible — and most lethal.</p>"
+    },
+    "rules": [],
+    "slug": "arc-projector",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "baseItem": "arc-projector",
+    "bulk": { "value": 3 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "bomb",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d6", "damageType": "electricity", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 30,
+    "expend": 1,
+    "ammo": { "capacity": 5, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "1" },
+    "grade": "advanced",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

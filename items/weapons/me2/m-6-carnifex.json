@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-6 Carnifex",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/0/04/ME2_HP_-_Carnifex.png/revision/latest?cb=20140823153532",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-6 Carnifex is a heavy combat pistol that delivers assault-rifle stopping power in a one-handed platform. Its oversized kinetic coils accelerate dense tungsten rounds with considerable force, and the recoil requires a firm grip to manage. Favored by soldiers who trust a single devastating shot over a hail of lighter rounds, the Carnifex earns its name at close range.</p>"
+    },
+    "rules": [],
+    "slug": "m-6-carnifex",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "kickback"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "baseItem": "m-6-carnifex",
+    "bulk": { "value": 1 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-one-hand" },
+    "category": "martial",
+    "group": "pistol",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d6", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 40,
+    "expend": 1,
+    "ammo": { "capacity": 8, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "advanced",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

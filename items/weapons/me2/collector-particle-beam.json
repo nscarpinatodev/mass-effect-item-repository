@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "Collector Particle Beam",
+  "type": "weapon",
+  "effects": [],
+  "img": "",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Collector Particle Beam is a heavy weapon of Reaper origin that projects a sustained stream of accelerated particles capable of burning through vehicle armor. Its internal biological reservoir generates ammunition through processes no human engineer fully understands, allowing continuous fire without conventional heat sinks. When wielded against organic enemies it produces results that Cerberus researchers describe clinically as \"total thermal cascade.\" Everyone else calls it something less professional.</p>"
+    },
+    "rules": [],
+    "slug": "collector-particle-beam",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "rare" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 9 },
+    "baseItem": "collector-particle-beam",
+    "bulk": { "value": 3 },
+    "price": { "value": { "gp": 3000 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "bomb",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 3, "die": "d6", "damageType": "fire", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 80,
+    "expend": 1,
+    "ammo": { "capacity": 50, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "superior",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

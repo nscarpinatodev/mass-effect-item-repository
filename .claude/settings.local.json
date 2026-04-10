@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:masseffect.fandom.com)"
+      "WebFetch(domain:masseffect.fandom.com)",
+      "Bash(where node:*)",
+      "Read(//c/Program Files/nodejs/**)",
+      "Read(//c/Users/djsco/AppData/Roaming/**)",
+      "Read(//c/Users/djsco/**)"
     ]
   }
 }

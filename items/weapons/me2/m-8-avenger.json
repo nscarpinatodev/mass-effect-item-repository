@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-8 Avenger",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f7/ME2_AR_-_Avenger.png/revision/latest?cb=20210628012741",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-8 Avenger is the standard-issue assault rifle of the Systems Alliance military. Reliable, accurate, and easy to maintain, it serves as the backbone of Alliance infantry engagements across the galaxy. Its moderate fire rate and solid kinetic impact make it a dependable choice for soldiers of any experience level.</p>"
+    },
+    "rules": [],
+    "slug": "m-8-avenger",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "automatic"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 1 },
+    "baseItem": "m-8-avenger",
+    "bulk": { "value": 2 },
+    "price": { "value": { "gp": 30 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "rifle",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 1, "die": "d6", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 60,
+    "expend": 1,
+    "ammo": { "capacity": 100, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "commercial",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

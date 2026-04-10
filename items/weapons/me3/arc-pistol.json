@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "Arc Pistol",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png/revision/latest?cb=20120317185747",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Arc Pistol fires a bolt of concentrated electromagnetic energy that can be charged for a more powerful shot at the cost of a brief delay. Standard fire delivers rapid electrical strikes against shielded targets; a charged shot releases a focused arc that tears through barrier fields and delivers a massive voltage spike to whatever is behind them. Quarian engineers originally developed it for hull cutting work; its adoption as a combat sidearm was an obvious next step.</p>"
+    },
+    "rules": [],
+    "slug": "arc-pistol",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 5 },
+    "baseItem": "arc-pistol",
+    "bulk": { "value": 1 },
+    "price": { "value": { "gp": 250 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-one-hand" },
+    "category": "martial",
+    "group": "pistol",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 1, "die": "d8", "damageType": "electricity", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 40,
+    "expend": 1,
+    "ammo": { "capacity": 25, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "tactical",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

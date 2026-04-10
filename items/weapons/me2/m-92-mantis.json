@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-92 Mantis",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bf/ME2_SR_-_Mantis.png/revision/latest?cb=20211219233137",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-92 Mantis is a bolt-action sniper rifle chambered for the heaviest kinetic rounds that a single operator can carry. Each shot must be manually cycled, limiting rate of fire while ensuring maximum acceleration of the projectile down the barrel. At extreme range, the Mantis punches through cover and armor with equal contempt. A standard-issue precision weapon for Alliance snipers who prefer certainty over speed.</p>"
+    },
+    "rules": [],
+    "slug": "m-92-mantis",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "fatal-d10", "kickback", "volley-30"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 1 },
+    "baseItem": "m-92-mantis",
+    "bulk": { "value": 2 },
+    "price": { "value": { "gp": 30 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "sniper",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 1, "die": "d10", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 120,
+    "expend": 1,
+    "ammo": { "capacity": 1, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "1" },
+    "grade": "commercial",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-97 Viper",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f2/ME2_SR_-_Viper.png/revision/latest?cb=20140825071502",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-97 Viper is a semi-automatic sniper rifle built for sustained precision fire. Where bolt-action rifles demand patience between shots, the Viper allows follow-up strikes without breaking scope alignment. Its heat sink holds twelve rounds before requiring a swap, enabling snipers to handle multiple targets at range without repositioning. The trade-off is a somewhat lighter kinetic impact per shot compared to the Mantis.</p>"
+    },
+    "rules": [],
+    "slug": "m-97-viper",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "volley-30"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 3 },
+    "baseItem": "m-97-viper",
+    "bulk": { "value": 2 },
+    "price": { "value": { "gp": 100 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "sniper",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 1, "die": "d10", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 120,
+    "expend": 1,
+    "ammo": { "capacity": 12, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "tactical",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

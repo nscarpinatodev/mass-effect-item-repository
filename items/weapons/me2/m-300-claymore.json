@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-300 Claymore",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/5/5a/ME2_SG_-_Claymore.png/revision/latest?cb=20140823090343",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-300 Claymore is the most powerful shotgun available to ground troops in Cerberus's arsenal. A single-shot weapon of staggering lethality, it fires a dense kinetic slug capable of piercing vehicle-grade armor at point-blank range. The recoil is severe enough to require Krogan physiology or specialized shock-absorbing harnesses — for everyone else, it is a weapon of last resort and absolute commitment.</p>"
+    },
+    "rules": [],
+    "slug": "m-300-claymore",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "scatter-5", "fatal-d12", "kickback"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 9 },
+    "baseItem": "m-300-claymore",
+    "bulk": { "value": 3 },
+    "price": { "value": { "gp": 2000 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "shotgun",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 3, "die": "d8", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 10,
+    "expend": 1,
+    "ammo": { "capacity": 1, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "1" },
+    "grade": "superior",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

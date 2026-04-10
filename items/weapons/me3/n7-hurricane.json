@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "N7 Hurricane",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e9/ME3_N7_Hurricane_Smg.png/revision/latest?cb=20120317184439",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The N7 Hurricane is the premier submachine gun in Alliance service, developed specifically for N7 operatives who require sustained fire at the upper limits of what SMG kinetics can deliver. Its enlarged heat sink holds seventy-five rounds and its oversized coil assembly fires them with enough force to threaten light armor — a capability few weapons in this size class can claim. The weapon requires two hands to manage effectively at its peak fire rate, but the volume of fire it produces has ended more than a few engagements before the enemy could mount a counter.</p>"
+    },
+    "rules": [],
+    "slug": "n7-hurricane",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "automatic"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 9 },
+    "baseItem": "n7-hurricane",
+    "bulk": { "value": 2 },
+    "price": { "value": { "gp": 2000 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "pistol",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d6", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 35,
+    "expend": 1,
+    "ammo": { "capacity": 75, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "superior",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

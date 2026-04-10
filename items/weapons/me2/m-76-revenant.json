@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-76 Revenant",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/3/35/ME2_AR_-_Revenant.png/revision/latest?cb=20210628012653",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-76 Revenant is a heavy machine gun designed to provide overwhelming suppressive fire. Its enormous heat sink capacity enables sustained bursts that shred through enemy cover and armor alike. The weapon's considerable mass and recoil make precise movement difficult while firing, but its sheer volume of fire compensates with devastating effect.</p>"
+    },
+    "rules": [],
+    "slug": "m-76-revenant",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "automatic", "unwieldy"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 7 },
+    "baseItem": "m-76-revenant",
+    "bulk": { "value": 3 },
+    "price": { "value": { "gp": 700 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "rifle",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d8", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 50,
+    "expend": 1,
+    "ammo": { "capacity": 200, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "advanced",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

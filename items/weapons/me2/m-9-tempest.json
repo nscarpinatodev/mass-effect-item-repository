@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-9 Tempest",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/c/ca/ME2_SMG_-_Tempest.png/revision/latest?cb=20140823161846",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-9 Tempest is an Alliance-issue submachine gun optimized for the highest sustained fire rate of any one-handed weapon in service. Its enormous heat sink holds one hundred rounds that it can expend in seconds, filling a volume with kinetic fire that makes individual accuracy less critical than statistical certainty. The Tempest is light enough that experienced users can sprint and fire simultaneously without significant penalty.</p>"
+    },
+    "rules": [],
+    "slug": "m-9-tempest",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "automatic", "agile"], "rarity": "common" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 3 },
+    "baseItem": "m-9-tempest",
+    "bulk": { "value": 1 },
+    "price": { "value": { "gp": 100 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-one-hand" },
+    "category": "martial",
+    "group": "pistol",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 1, "die": "d4", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 30,
+    "expend": 1,
+    "ammo": { "capacity": 100, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "tactical",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

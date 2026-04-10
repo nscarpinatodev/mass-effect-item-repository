@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "M-98 Widow",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b9/ME2_SR_-_Widow.png/revision/latest?cb=20140823090421",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-98 Widow is an anti-materiel rifle designed to destroy vehicles, not people — its use against personnel is technically prohibited by several Citadel treaties. Its single-round heat sink fires a kinetic slug at velocities sufficient to punch through the lightest starship hull plating at close range. The recoil is violent enough to shatter bones in unaugmented users. Those capable of wielding it treat it as a statement as much as a weapon.</p>"
+    },
+    "rules": [],
+    "slug": "m-98-widow",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "fatal-d12", "kickback", "unwieldy", "volley-30"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 9 },
+    "baseItem": "m-98-widow",
+    "bulk": { "value": 3 },
+    "price": { "value": { "gp": 2000 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "sniper",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 3, "die": "d10", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 200,
+    "expend": 1,
+    "ammo": { "capacity": 1, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "1" },
+    "grade": "superior",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}

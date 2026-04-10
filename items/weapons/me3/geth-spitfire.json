@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "Geth Spitfire",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/1/1d/ME3_Geth_Spitfire_Heavy_Weapon.png/revision/latest?cb=20120317194711",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "lastModifiedBy": null
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Geth Spitfire is a heavy infantry weapon fielded by Geth Primes during the Reaper War, offering the sustained fire rate of a machine gun with the stopping power of a heavy weapon. Its enormous heat sink capacity sustains two hundred and fifty rounds of high-velocity kinetic fire without interruption. The weapon was designed for Geth platforms that do not fatigue; organic users who attempt to match that fire discipline typically find their arms giving out before the heat sink does.</p>"
+    },
+    "rules": [],
+    "slug": "geth-spitfire",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "automatic", "unwieldy"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
+    "level": { "value": 9 },
+    "baseItem": "geth-spitfire",
+    "bulk": { "value": 3 },
+    "price": { "value": { "gp": 2000 } },
+    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
+    "usage": { "value": "held-in-two-hands" },
+    "category": "martial",
+    "group": "rifle",
+    "bonus": { "value": 0 },
+    "damage": { "dice": 2, "die": "d8", "damageType": "piercing", "persistent": null },
+    "splashDamage": { "value": 0 },
+    "range": 50,
+    "expend": 1,
+    "ammo": { "capacity": 250, "baseType": "projectile-ammo", "builtIn": false },
+    "reload": { "value": "0" },
+    "grade": "superior",
+    "runes": { "potency": 0, "striking": 0, "property": [] },
+    "bonusDamage": { "value": 0 },
+    "property1": {
+      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
+      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+    }
+  }
+}
