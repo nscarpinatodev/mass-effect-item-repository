@@ -18,15 +18,15 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The N7 Saber is a semi-automatic assault rifle built for N7 operatives who prioritize controlled precision over suppressive volume. Its reinforced kinetic coil assembly fires larger rounds than standard battle rifles with enough velocity to defeat medium armor at full combat range. Where the Mattock trades capacity for power, the Saber achieves both — at a price that reflects the engineering investment.</p>"
+      "value": "<p>The M-99 Saber is a semi-automatic assault rifle built for N7 operatives who prioritize controlled precision over suppressive volume. Its reinforced kinetic coil assembly fires larger rounds than standard battle rifles with enough velocity to defeat medium armor at full combat range. Where the Mattock trades capacity for power, the Saber achieves both — at a price that reflects the engineering investment.</p>"
     },
     "rules": [],
-    "slug": "n7-saber",
+    "slug": "m-99-saber",
     "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
     "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
     "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
     "level": { "value": 9 },
-    "baseItem": "n7-saber",
+    "baseItem": "m-99-saber",
     "bulk": { "value": 2 },
     "price": { "value": { "gp": 2000 } },
     "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },

@@ -18,7 +18,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The M-11 Suppressor is a lightweight combat pistol designed for operatives who need a reliable sidearm without the bulk and noise signature of heavier options. Its kinetic dampeners reduce acoustic discharge to levels below ambient station noise, making it genuinely difficult to locate by sound alone. Cerberus intelligence operatives and Shadow Broker agents carry it for exactly that reason — in environments where gunfire draws attention, the Suppressor keeps options available.</p>"
+      "value": "<p>The M-11 Suppressor is a lightweight combat pistol designed for operatives who need a reliable sidearm without the bulk and noise signature of heavier options. Its kinetic dampeners reduce acoustic discharge to levels below ambient station noise, making it genuinely difficult to locate by sound alone. Cerberus intelligence operatives and Shadow Broker agents carry it for exactly that reason — in environments where gunfire draws attention, the Suppressor keeps options available. The M-11 comes with a commercial silencer installed; the weapon does not make a loud noise when fired.</p>"
     },
     "rules": [],
     "slug": "m-11-suppressor",
@@ -47,58 +47,6 @@
       "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
       "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
     },
-    "subitems": [
-      {
-        "_id": "5fa4e7c8872165e0",
-        "name": "Silencer (Commercial)",
-        "type": "equipment",
-        "effects": [],
-        "img": "systems/pf2e/icons/equipment/consumables/other-consumables/silencer.webp",
-        "flags": {},
-        "ownership": { "default": 0 },
-        "_stats": {
-          "compendiumSource": "Compendium.sf2e-anachronism.equipment.Item.nPmeqjZ8b0mjqSfs",
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "pf2e",
-          "systemVersion": "7.12.2",
-          "lastModifiedBy": null
-        },
-        "system": {
-          "description": {
-            "gm": "",
-            "value": "<p>A cylinder is filled with internal sound baffles to reduce noise. The weapon doesn't make a loud noise when fired. However, creatures hit by the ammunition might still cry out in pain.</p>"
-          },
-          "rules": [],
-          "slug": "silencer-commercial",
-          "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-          "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
-          "publication": { "title": "Starfinder Player Core", "authors": "", "license": "ORC", "remaster": true },
-          "level": { "value": 0 },
-          "quantity": 1,
-          "baseItem": null,
-          "bulk": { "value": 0 },
-          "hp": { "value": 0, "max": 0 },
-          "hardness": 0,
-          "price": { "value": { "sp": 10 } },
-          "equipped": { "carryType": "worn", "invested": null },
-          "containerId": null,
-          "size": "med",
-          "material": { "type": null, "grade": null },
-          "identification": {
-            "status": "identified",
-            "unidentified": {
-              "name": "Unusual Object",
-              "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
-              "data": { "description": { "value": "" } }
-            },
-            "misidentified": {}
-          },
-          "usage": { "value": "installed-in-ranged-weapon-without-a-loudener" },
-          "subitems": []
-        }
-      }
-    ]
+    "subitems": []
   }
 }
