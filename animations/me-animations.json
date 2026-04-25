@@ -1,0 +1,335 @@
+{
+  "item:group:rifle": [
+    {
+      "triggers": ["attack-roll"],
+      "contents": [
+        {
+          "label": "ME Rifle (Bullet)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.bullet.01.white"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:group:pistol": [
+    {
+      "triggers": ["attack-roll"],
+      "contents": [
+        {
+          "label": "ME Pistol (Bullet)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.bullet.01.white"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:group:sniper": [
+    {
+      "triggers": ["attack-roll"],
+      "contents": [
+        {
+          "label": "ME Sniper (Bullet)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.bullet.snipe.white"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:group:shotgun": [
+    {
+      "triggers": ["attack-roll"],
+      "contents": [
+        {
+          "label": "ME Shotgun (Burst)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.bullet.01.white"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        },
+        {
+          "label": "ME Shotgun (Impact)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.impact.010.white"],
+            "position": { "type": "dynamic", "location": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:group:bomb": [
+    {
+      "triggers": ["attack-roll"],
+      "contents": [
+        {
+          "label": "ME Heavy (Explosion)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.explosion.01.orange"],
+            "position": { "type": "dynamic", "location": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:arc-pistol": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:pistol"],
+      "contents": [
+        {
+          "label": "Arc Pistol (Lightning Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.blue"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:arc-projector": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:bomb"],
+      "contents": [
+        {
+          "label": "Arc Projector (Lightning Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.blue"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:javelin": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:sniper"],
+      "contents": [
+        {
+          "label": "Javelin (Lightning Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.blue"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:m-7-lancer": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:rifle"],
+      "contents": [
+        {
+          "label": "M-7 Lancer (Energy Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.blue"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:geth-pulse-rifle": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:rifle"],
+      "contents": [
+        {
+          "label": "Geth Pulse Rifle (Energy Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.dark_green"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:m-451-firestorm": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:bomb"],
+      "contents": [
+        {
+          "label": "M-451 Firestorm (Fire Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.dark_red"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:collector-particle-beam": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:bomb"],
+      "contents": [
+        {
+          "label": "Collector Particle Beam (Fire Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.yellow"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:collector-sniper-rifle": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:sniper"],
+      "contents": [
+        {
+          "label": "Collector Sniper Rifle (Fire Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.yellow"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:geth-plasma-shotgun": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:shotgun"],
+      "contents": [
+        {
+          "label": "Geth Plasma Shotgun (Plasma Blast)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.dark_green"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        },
+        {
+          "label": "Geth Plasma Shotgun (Impact)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.impact.010.dark_green"],
+            "position": { "type": "dynamic", "location": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:m-920-cain": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:bomb"],
+      "contents": [
+        {
+          "label": "M-920 Cain (Nuclear Explosion)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.explosion.05.orange"],
+            "position": { "type": "dynamic", "location": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:m-622-avalanche": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:bomb"],
+      "contents": [
+        {
+          "label": "M-622 Avalanche (Cryo Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.blue"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ],
+
+  "item:slug:m-490-blackstorm": [
+    {
+      "triggers": ["attack-roll"],
+      "overrides": ["item:group:bomb"],
+      "contents": [
+        {
+          "label": "M-490 Blackstorm (Force Beam)",
+          "triggers": ["attack-roll"],
+          "execute": {
+            "type": "graphic",
+            "graphic": ["jb2a.energy_beam.normal.purple"],
+            "position": { "type": "static", "location": "SOURCES" },
+            "size": { "type": "directed", "endpoint": "TARGETS" }
+          }
+        }
+      ]
+    }
+  ]
+}

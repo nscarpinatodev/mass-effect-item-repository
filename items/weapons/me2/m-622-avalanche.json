@@ -5,7 +5,9 @@
   "effects": [],
   "img": "",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,30 +24,90 @@
     },
     "rules": [],
     "slug": "m-622-avalanche",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
-    "level": { "value": 7 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
     "baseItem": "m-622-avalanche",
-    "bulk": { "value": 3 },
-    "price": { "value": { "gp": 700 } },
-    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
-    "usage": { "value": "held-in-two-hands" },
+    "bulk": {
+      "value": 3
+    },
+    "price": {
+      "value": {
+        "gp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
     "category": "martial",
     "group": "bomb",
-    "bonus": { "value": 0 },
-    "damage": { "dice": 2, "die": "d8", "damageType": "cold", "persistent": null },
-    "splashDamage": { "value": 0 },
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 3,
+      "die": "d8",
+      "damageType": "cold",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
     "range": 30,
     "expend": 1,
-    "ammo": { "capacity": 8, "baseType": "battery", "builtIn": false },
-    "reload": { "value": "1" },
+    "ammo": {
+      "capacity": 8,
+      "baseType": "battery",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "1"
+    },
     "grade": "advanced",
-    "runes": { "potency": 0, "striking": 0, "property": [] },
-    "bonusDamage": { "value": 0 },
+    "runes": {
+      "potency": 0,
+      "striking": 2,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
-      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
-      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
     }
   }
 }

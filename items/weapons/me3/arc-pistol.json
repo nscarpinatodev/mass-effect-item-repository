@@ -5,7 +5,9 @@
   "effects": [],
   "img": "https://static.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,30 +24,90 @@
     },
     "rules": [],
     "slug": "arc-pistol",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
-    "level": { "value": 5 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
     "baseItem": "arc-pistol",
-    "bulk": { "value": 1 },
-    "price": { "value": { "gp": 250 } },
-    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
-    "usage": { "value": "held-in-one-hand" },
+    "bulk": {
+      "value": 1
+    },
+    "price": {
+      "value": {
+        "gp": 250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
     "category": "martial",
     "group": "pistol",
-    "bonus": { "value": 0 },
-    "damage": { "dice": 1, "die": "d8", "damageType": "electricity", "persistent": null },
-    "splashDamage": { "value": 0 },
-    "range": 40,
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 2,
+      "die": "d6",
+      "damageType": "electricity",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 45,
     "expend": 1,
-    "ammo": { "capacity": 25, "baseType": "battery", "builtIn": false },
-    "reload": { "value": "0" },
+    "ammo": {
+      "capacity": 25,
+      "baseType": "battery",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "1"
+    },
     "grade": "tactical",
-    "runes": { "potency": 0, "striking": 0, "property": [] },
-    "bonusDamage": { "value": 0 },
+    "runes": {
+      "potency": 0,
+      "striking": 1,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
-      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
-      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
     }
   }
 }

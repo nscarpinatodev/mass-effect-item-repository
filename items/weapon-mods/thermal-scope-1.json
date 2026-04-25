@@ -5,7 +5,9 @@
   "effects": [],
   "img": "https://static.wikia.nocookie.net/masseffect/images/6/6c/ME3_Sniper_Rifle_Thermal_Scope.png",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,22 +24,54 @@
     },
     "rules": [],
     "slug": "thermal-scope-1",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
-    "level": { "value": 5 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
     "quantity": 1,
     "baseItem": "thermal-scope",
-    "bulk": { "value": 0 },
-    "price": { "value": { "gp": 250 } },
-    "equipped": { "carryType": "worn", "invested": null },
-    "usage": { "value": "installed-in-sniper-rifle" },
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "installed-in-a-weapon"
+    },
     "identification": {
       "status": "identified",
       "unidentified": {
         "name": "Unknown Mod",
         "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
-        "data": { "description": { "value": "" } }
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
       },
       "misidentified": {}
     },

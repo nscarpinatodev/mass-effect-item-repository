@@ -9,7 +9,22 @@
       "WebSearch",
       "WebFetch(domain:masseffect2.wiki.fextralife.com)",
       "WebFetch(domain:masseffect3.wiki.fextralife.com)",
-      "WebFetch(domain:www.thegamer.com)"
+      "WebFetch(domain:www.thegamer.com)",
+      "WebFetch(domain:wiki.theripper93.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:library.jb2a.com)",
+      "WebFetch(domain:jules-bens-aa.github.io)",
+      "WebFetch(domain:jb2a.com)",
+      "WebFetch(domain:www.gmwintermute.com)",
+      "WebFetch(domain:www.patreon.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:foundryvtt.com)",
+      "WebFetch(domain:forge-vtt.com)",
+      "WebFetch(domain:www.foundryvtt-hub.com)",
+      "Bash(xargs -I{} basename {} .json)",
+      "Bash(node -e ' *)",
+      "Bash(/c/Users/djsco/.lmstudio/.internal/utils/node.exe -e ' *)",
+      "Bash(/c/Users/djsco/.lmstudio/.internal/utils/node.exe scripts/build.js)"
     ]
   }
 }

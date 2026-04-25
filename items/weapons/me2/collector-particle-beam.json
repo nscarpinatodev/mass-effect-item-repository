@@ -5,7 +5,9 @@
   "effects": [],
   "img": "",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,30 +24,90 @@
     },
     "rules": [],
     "slug": "collector-particle-beam",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["tech"], "rarity": "rare" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
-    "level": { "value": 9 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
     "baseItem": "collector-particle-beam",
-    "bulk": { "value": 3 },
-    "price": { "value": { "gp": 3000 } },
-    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
-    "usage": { "value": "held-in-two-hands" },
+    "bulk": {
+      "value": 3
+    },
+    "price": {
+      "value": {
+        "gp": 3000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
     "category": "martial",
     "group": "bomb",
-    "bonus": { "value": 0 },
-    "damage": { "dice": 3, "die": "d6", "damageType": "fire", "persistent": null },
-    "splashDamage": { "value": 0 },
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 4,
+      "die": "d8",
+      "damageType": "fire",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
     "range": 80,
     "expend": 1,
-    "ammo": { "capacity": 50, "baseType": "battery", "builtIn": false },
-    "reload": { "value": "0" },
+    "ammo": {
+      "capacity": 50,
+      "baseType": "battery",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "0"
+    },
     "grade": "superior",
-    "runes": { "potency": 0, "striking": 0, "property": [] },
-    "bonusDamage": { "value": 0 },
+    "runes": {
+      "potency": 0,
+      "striking": 3,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
-      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
-      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
     }
   }
 }

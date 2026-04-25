@@ -10,6 +10,11 @@
     "minimum": "12",
     "verified": "13"
   },
+  "flags": {
+    "pf2e-graphics": {
+      "path": "animations/me-animations.json"
+    }
+  },
   "packs": [
     {
       "name": "me-armors",

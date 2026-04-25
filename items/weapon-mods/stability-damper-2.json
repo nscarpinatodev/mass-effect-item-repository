@@ -5,7 +5,9 @@
   "effects": [],
   "img": "https://static.wikia.nocookie.net/masseffect/images/8/87/ME3_SMG_Ultralight_Materials.png",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,22 +24,54 @@
     },
     "rules": [],
     "slug": "stability-damper-2",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["tech"], "rarity": "uncommon" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
-    "level": { "value": 7 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
     "quantity": 1,
     "baseItem": "stability-damper",
-    "bulk": { "value": 0 },
-    "price": { "value": { "gp": 700 } },
-    "equipped": { "carryType": "worn", "invested": null },
-    "usage": { "value": "installed-in-ranged-weapon" },
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "installed-in-a-weapon"
+    },
     "identification": {
       "status": "identified",
       "unidentified": {
         "name": "Unknown Mod",
         "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
-        "data": { "description": { "value": "" } }
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
       },
       "misidentified": {}
     },

@@ -5,7 +5,9 @@
   "effects": [],
   "img": "https://static.wikia.nocookie.net/masseffect/images/d/db/ME2_AR_-_Collector_Assault_Rifle.png",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,30 +24,91 @@
     },
     "rules": [],
     "slug": "collector-assault-rifle",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["tech", "automatic"], "rarity": "rare" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
-    "level": { "value": 7 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "automatic"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
     "baseItem": "collector-assault-rifle",
-    "bulk": { "value": 2 },
-    "price": { "value": { "gp": 1000 } },
-    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
-    "usage": { "value": "held-in-two-hands" },
+    "bulk": {
+      "value": 2
+    },
+    "price": {
+      "value": {
+        "gp": 1000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
     "category": "martial",
     "group": "rifle",
-    "bonus": { "value": 0 },
-    "damage": { "dice": 2, "die": "d8", "damageType": "piercing", "persistent": null },
-    "splashDamage": { "value": 0 },
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 3,
+      "die": "d8",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
     "range": 70,
     "expend": 1,
-    "ammo": { "capacity": 100, "baseType": "projectile-ammo", "builtIn": false },
-    "reload": { "value": "0" },
+    "ammo": {
+      "capacity": 100,
+      "baseType": "projectile-ammo",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "1"
+    },
     "grade": "advanced",
-    "runes": { "potency": 0, "striking": 0, "property": [] },
-    "bonusDamage": { "value": 0 },
+    "runes": {
+      "potency": 0,
+      "striking": 2,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
-      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
-      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
     }
   }
 }

@@ -5,7 +5,9 @@
   "effects": [],
   "img": "https://static.wikia.nocookie.net/masseffect/images/0/04/Heavy-human-Predator.png",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,26 +24,63 @@
     },
     "rules": [],
     "slug": "predator-armor-hk-h",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["bulwark", "tech"], "rarity": "common" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "OGL", "remaster": false },
-    "level": { "value": 2 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bulwark",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
     "quantity": 1,
     "baseItem": "predator-armor-hk",
-    "bulk": { "value": 2 },
-    "hp": { "value": 0, "max": 0 },
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
     "hardness": 0,
-    "price": { "value": { "gp": 150 } },
-    "equipped": { "carryType": "worn", "invested": null },
+    "price": {
+      "value": {
+        "gp": 650
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
     "containerId": null,
     "size": "med",
-    "material": { "type": null, "grade": null },
+    "material": {
+      "type": null,
+      "grade": null
+    },
     "identification": {
       "status": "identified",
       "unidentified": {
         "name": "Unusual Armor",
         "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
-        "data": { "description": { "value": "" } }
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
       },
       "misidentified": {}
     },
@@ -49,11 +88,15 @@
     "group": "plate",
     "acBonus": 5,
     "strength": 3,
-    "dexCap": 1,
-    "checkPenalty": -3,
-    "speedPenalty": -10,
+    "dexCap": 2,
+    "checkPenalty": -2,
+    "speedPenalty": -5,
     "grade": "tactical",
-    "runes": { "potency": 0, "resilient": 0, "property": [] },
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
     "subitems": [],
     "specific": null
   }

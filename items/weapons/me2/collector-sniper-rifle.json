@@ -5,7 +5,9 @@
   "effects": [],
   "img": "https://static.wikia.nocookie.net/masseffect/images/4/40/ME3_Collector_Sniper_Rifle.png",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,30 +24,91 @@
     },
     "rules": [],
     "slug": "collector-sniper-rifle",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["tech", "volley-30"], "rarity": "rare" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "ORC", "remaster": true },
-    "level": { "value": 7 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "volley-30"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
     "baseItem": "collector-sniper-rifle",
-    "bulk": { "value": 2 },
-    "price": { "value": { "gp": 1000 } },
-    "equipped": { "carryType": "worn", "invested": null, "handsHeld": 0 },
-    "usage": { "value": "held-in-two-hands" },
+    "bulk": {
+      "value": 2
+    },
+    "price": {
+      "value": {
+        "gp": 1000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
     "category": "martial",
     "group": "sniper",
-    "bonus": { "value": 0 },
-    "damage": { "dice": 2, "die": "d10", "damageType": "fire", "persistent": null },
-    "splashDamage": { "value": 0 },
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 3,
+      "die": "d8",
+      "damageType": "fire",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
     "range": 150,
     "expend": 1,
-    "ammo": { "capacity": 15, "baseType": "battery", "builtIn": false },
-    "reload": { "value": "0" },
+    "ammo": {
+      "capacity": 15,
+      "baseType": "battery",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "1"
+    },
     "grade": "advanced",
-    "runes": { "potency": 0, "striking": 0, "property": [] },
-    "bonusDamage": { "value": 0 },
+    "runes": {
+      "potency": 0,
+      "striking": 2,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
-      "value": "", "dice": 0, "die": "", "damageType": "", "critDice": 0, "critDie": "", "critDamage": "", "critDamageType": "",
-      "strikeConditionType": "", "strikeConditionValue": null, "criticalConditionType": "", "criticalConditionValue": null
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
     }
   }
 }

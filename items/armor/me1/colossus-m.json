@@ -5,7 +5,9 @@
   "effects": [],
   "img": "https://static.wikia.nocookie.net/masseffect/images/c/ca/Medium-human-Colossus.png",
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -22,26 +24,62 @@
     },
     "rules": [],
     "slug": "colossus-m",
-    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
-    "traits": { "otherTags": [], "value": ["tech"], "rarity": "common" },
-    "publication": { "title": "Mass Effect Homebrew", "authors": "", "license": "OGL", "remaster": false },
-    "level": { "value": 3 },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
     "quantity": 1,
     "baseItem": "colossus",
-    "bulk": { "value": 2 },
-    "hp": { "value": 0, "max": 0 },
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
     "hardness": 0,
-    "price": { "value": { "gp": 250 } },
-    "equipped": { "carryType": "worn", "invested": null },
+    "price": {
+      "value": {
+        "gp": 250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
     "containerId": null,
     "size": "med",
-    "material": { "type": null, "grade": null },
+    "material": {
+      "type": null,
+      "grade": null
+    },
     "identification": {
       "status": "identified",
       "unidentified": {
         "name": "Unusual Armor",
         "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
-        "data": { "description": { "value": "" } }
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
       },
       "misidentified": {}
     },
@@ -53,7 +91,11 @@
     "checkPenalty": -2,
     "speedPenalty": -5,
     "grade": "advanced",
-    "runes": { "potency": 0, "resilient": 0, "property": [] },
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
     "subitems": [],
     "specific": null
   }
