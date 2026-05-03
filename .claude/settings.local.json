@@ -24,7 +24,8 @@
       "Bash(xargs -I{} basename {} .json)",
       "Bash(node -e ' *)",
       "Bash(/c/Users/djsco/.lmstudio/.internal/utils/node.exe -e ' *)",
-      "Bash(/c/Users/djsco/.lmstudio/.internal/utils/node.exe scripts/build.js)"
+      "Bash(/c/Users/djsco/.lmstudio/.internal/utils/node.exe scripts/build.js)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\\\\items\\\\\" -Recurse -Directory | Select-Object FullName | Sort-Object FullName)"
     ]
   }
 }

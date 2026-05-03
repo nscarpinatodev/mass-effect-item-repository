@@ -10,6 +10,7 @@
     "minimum": "12",
     "verified": "13"
   },
+  "scripts": ["scripts/shield-system.js"],
   "flags": {
     "pf2e-graphics": {
       "path": "animations/me-animations.json"
