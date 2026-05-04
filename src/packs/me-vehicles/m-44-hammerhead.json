@@ -132,7 +132,7 @@
         "hover"
       ],
       "size": {
-        "value": "large"
+        "value": "lg"
       },
       "rarity": "uncommon"
     },
