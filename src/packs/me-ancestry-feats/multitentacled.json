@@ -1,0 +1,63 @@
+{
+  "_key": "!items!MEFeature0000010",
+  "_id": "MEFeature0000010",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Multitentacled",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Hanar bodies trail dozens of tendrils, of which several are sufficiently strong and dexterous for complex manipulation. Unlike species with only two manipulating limbs, hanar can hold, carry, and use multiple items simultaneously without the constraint that limits most bipedal beings.</p><p>You can hold and use up to 4 items simultaneously (rather than the usual 2 for a creature with 2 hands). Switching which items you are actively using is a free action. Additionally, you gain a +1 circumstance bonus to Athletics checks to Grapple due to the difficulty of escaping a creature with dozens of flexible tendrils.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          "action:grapple"
+        ],
+        "label": "Multitentacled (Grapple)"
+      }
+    ],
+    "slug": "multitentacled",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hanar"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEAncFeat000017",
+  "_id": "MEAncFeat000017",
+  "img": "systems/pf2e/icons/features/ancestry/ancient-elf.webp",
+  "name": "Blood Rage",
+  "system": {
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You take damage that reduces you to fewer than half your maximum Hit Points.</p><p>Krogan adrenaline systems evolved to respond to injury by escalating combat effectiveness—a feedback loop that most medical researchers consider alarming and most krogan consider their best feature. When you are hurt badly enough, your body interprets this as a signal to hit harder, not to retreat.</p><p>You gain temporary Hit Points equal to your level + your Constitution modifier (minimum 1). These temporary Hit Points last until the end of the encounter. Additionally, until the end of your next turn, your melee Strikes deal an additional 1d6 damage.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "blood-rage",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "krogan",
+        "fortune"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

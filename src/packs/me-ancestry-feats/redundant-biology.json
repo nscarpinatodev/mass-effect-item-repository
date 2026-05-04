@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEFeature0000014",
+  "_id": "MEFeature0000014",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Redundant Biology",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Krogan evolved with two hearts, a secondary nervous system, and multiple backup biological systems that can compensate when primary systems fail. A killing blow that should end a krogan may instead find itself absorbed by redundant organ capacity that another species simply does not possess. Krogan have literally walked away from injuries that killed everything around them.</p><p>Once per day, when a physical attack would reduce you to 0 Hit Points, you can attempt a DC 15 Fortitude save. On a success, you are instead reduced to 1 Hit Point and are not knocked out or dying from that attack. You can only benefit from this ability while you are not dying.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "redundant-biology",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "krogan"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000035",
+  "_id": "MEHeritage000035",
+  "img": "systems/pf2e/icons/features/ancestry/hunting-catfolk.webp",
+  "name": "Turian Mercenary",
+  "system": {
+    "ancestry": {
+      "name": "Turian",
+      "slug": "turian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.TurianAncestry01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Not all turians serve the Hierarchy their entire lives. Some complete their mandatory service and seek work elsewhere—operating in the mercenary market where their military training is worth exactly what it cost to produce them, plus whatever premium the client is willing to pay for reliability. Turian mercenaries bring discipline and tactical competence to operations that would otherwise rely on considerably less organized personnel.</p><p>You become trained in Intimidation and gain the Mercenary Lore skill. You gain access to a wider range of weapons than standard class proficiency: you are trained with all martial weapons (regardless of class). You gain a +1 circumstance bonus to Deception checks to negotiate contract terms when the other party knows or suspects your military background.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.itm.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "turian-mercenary",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

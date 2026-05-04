@@ -1,0 +1,95 @@
+{
+  "folder": null,
+  "name": "Colossus Armor (M)",
+  "type": "armor",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/c/ca/Medium-human-Colossus.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Kassa Fabrication's Colossus hardsuit is built around a triple-layer ceramic ablative shell reinforced with woven durasteel. Onboard micro-generators boost shield efficiency while the suit's distinctive red-and-black plating provides the highest raw damage protection available to a soldier in the field.</p>"
+    },
+    "rules": [],
+    "slug": "colossus-m",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "colossus",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "medium",
+    "group": "chain",
+    "acBonus": 6,
+    "strength": 3,
+    "dexCap": 2,
+    "checkPenalty": -2,
+    "speedPenalty": -5,
+    "grade": "advanced",
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "018826376589d13c",
+  "_key": "!items!018826376589d13c"
+}

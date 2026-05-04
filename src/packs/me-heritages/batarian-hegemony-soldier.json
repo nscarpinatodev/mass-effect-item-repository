@@ -1,0 +1,57 @@
+{
+  "_key": "!items!MEHeritage000005",
+  "_id": "MEHeritage000005",
+  "img": "systems/pf2e/icons/features/ancestry/badlands-orc.webp",
+  "name": "Hegemony Soldier Batarian",
+  "system": {
+    "ancestry": {
+      "name": "Batarian",
+      "slug": "batarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.BatarianAncest01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You served in the Batarian Hegemony's military or paramilitary forces, trained in the brutal and systematic combat doctrine that has kept the Hegemony's caste system in place for generations. Hegemony soldiers are not tacticians by default—they are shock troops, enforcers, and heavy-fire specialists who are expected to overwhelm opposition rather than outmaneuver it.</p><p>You are trained in medium armor and martial weapons. You gain a +1 circumstance bonus to Athletics checks made to Shove or Grapple.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "action:shove",
+              "action:grapple"
+            ]
+          }
+        ],
+        "label": "Hegemony Soldier"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "hegemony-soldier-batarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "folder": null,
+  "name": "Mantis Armor (H)",
+  "type": "armor",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/5/5f/Heavy-human-Mantis.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Hahne-Kedar's Mantis series represents the entry point into the manufacturer's tactical-grade lineup. Armalite construction and precision-tuned barrier emitters provide noticeably superior protection compared to commercial alternatives, making it a staple among Alliance special operations units.</p>"
+    },
+    "rules": [],
+    "slug": "mantis-armor-h",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bulwark",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": "mantis-armor",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 150
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy",
+    "group": "plate",
+    "acBonus": 5,
+    "strength": 3,
+    "dexCap": 1,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "grade": "tactical",
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "719abd92ea852eb9",
+  "_key": "!items!719abd92ea852eb9"
+}

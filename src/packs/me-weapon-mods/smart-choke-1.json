@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Smart Choke I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/ee/ME3_Shotgun_Smart_Choke.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An adjustable choke collar that narrows the shot spread at the muzzle, tightening pellet groupings at range. The choke's internal geometry is tuned to maintain lethality at the tighter spread angle rather than just redirecting the pellets. Useful when a shotgun needs to reach targets beyond its standard effective envelope. Designed for shotguns. Increases the weapon's range increment by 10 feet.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a shotgun.</p>"
+    },
+    "rules": [],
+    "slug": "smart-choke-1",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "smart-choke",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "installed-in-a-weapon"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "6951413d84677765",
+  "_key": "!items!6951413d84677765"
+}

@@ -1,0 +1,350 @@
+{
+  "name": "Geth Hopper",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/9e/ME2_Geth_Hopper.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Geth Hopper",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/9/9e/ME2_Geth_Hopper.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "geth-hopper",
+    "details": {
+      "level": {
+        "value": 5
+      },
+      "publicNotes": "<p>Geth Hoppers are small, spider-like platforms designed for infiltration and close-quarters combat. They cling to walls and ceilings with ease and spring onto targets with shocking speed. Their small size makes them difficult to hit, though their shields are modest.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Geth Hoppers are small, spider-like platforms designed for infiltration and close-quarters combat."
+    },
+    "attributes": {
+      "hp": {
+        "value": 60,
+        "max": 60,
+        "temp": 20,
+        "details": ""
+      },
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "speed": {
+        "value": 40,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 40
+          }
+        ],
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "construct",
+        "geth",
+        "small"
+      ],
+      "size": {
+        "value": "small"
+      },
+      "rarity": "common"
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 6
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -4
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 16
+      },
+      "stealth": {
+        "base": 14
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "cb8e6761db68b209",
+      "name": "Bite",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "geth-hopper-bite",
+        "bonus": {
+          "value": 14
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d4+4",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7f4a5324298fa292.cb8e6761db68b209"
+    },
+    {
+      "_id": "ad953ee688f1d413",
+      "name": "Plasma Spit",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "geth-hopper-plasma-spit",
+        "bonus": {
+          "value": 15
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d4+3",
+            "damageType": "electricity"
+          }
+        },
+        "range": {
+          "value": 30
+        },
+        "traits": {
+          "value": []
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7f4a5324298fa292.ad953ee688f1d413"
+    },
+    {
+      "_id": "fc85a83b2844ba23",
+      "name": "Kinetic Barrier",
+      "type": "effect",
+      "img": "systems/pf2e/icons/spells/mystic-armor.webp",
+      "system": {
+        "slug": "npc-kinetic-barrier-geth-hopper",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 20,
+          "max": 20,
+          "label": "Shield Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 20,
+          "shieldRegen": 4
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7f4a5324298fa292.fc85a83b2844ba23"
+    }
+  ],
+  "_id": "7f4a5324298fa292",
+  "_key": "!actors!7f4a5324298fa292",
+  "effects": []
+}

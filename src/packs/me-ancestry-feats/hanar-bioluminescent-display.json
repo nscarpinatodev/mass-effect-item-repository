@@ -1,0 +1,53 @@
+{
+  "_key": "!items!MEAncFeat000012",
+  "_id": "MEAncFeat000012",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Bioluminescent Display",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Hanar bioluminescence evolved for communication, but the same chromatic cells that produce conversational flickers can be driven into something else entirely: a full-body strobing cascade of color and light that bypasses conscious processing and hits the visual cortex directly. It is not communication. It is something older than language.</p><p>You produce a disorienting bioluminescent display. Each sighted creature in a 20-foot cone must succeed at a Will save (DC = 10 + your level + your Charisma modifier) or become dazzled for 1 minute (stunned 1 on a critical failure, lasting until the end of their next turn). Creatures that critically succeed are immune to Bioluminescent Display for 24 hours. Creatures that cannot see are unaffected. After using this ability, you become concealed until the start of your next turn from the afterimage you leave in observers' vision.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "bioluminescent-display",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "hanar",
+        "light",
+        "visual"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

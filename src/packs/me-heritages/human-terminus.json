@@ -1,0 +1,54 @@
+{
+  "_key": "!items!MEHeritage000019",
+  "_id": "MEHeritage000019",
+  "img": "systems/pf2e/icons/features/ancestry/irongut-goblin.webp",
+  "name": "Terminus Human",
+  "system": {
+    "ancestry": {
+      "name": "Human",
+      "slug": "human",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.HumanMEAncestry1"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You grew up in Terminus space, outside Alliance jurisdiction and far beyond the reach of anything resembling consistent law. Terminus colonies are places where people go when they want to disappear or start over, and where survival depends on reading people fast, keeping your head down when it needs to be down, and having contingency plans for when plans fail. You've been making do your entire life and you're very good at it.</p><p>You become trained in Thievery and Deception. You gain a +1 circumstance bonus to Deception checks to Lie and to Stealth checks to Avoid Notice. You are never caught flat-footed in your first round of combat against creatures you haven't been formally introduced to.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.thi.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dec.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "terminus-human",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

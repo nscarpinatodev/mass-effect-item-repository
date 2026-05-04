@@ -1,0 +1,417 @@
+{
+  "_key": "!actors!MECRT00000000017",
+  "_id": "MECRT00000000017",
+  "name": "Thresher Maw",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 280,
+        "temp": 0,
+        "max": 280,
+        "details": ""
+      },
+      "ac": {
+        "value": 32,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "burrow",
+            "value": 20
+          }
+        ],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 13
+      },
+      "blurb": "Gargantuan apex megapredator capable of dissolving armored vehicles",
+      "publicNotes": "<p>Thresher Maws are the galaxy's most dangerous megafauna. They exist on multiple worlds throughout the Attican Traverse and Terminus Systems, most famously on Tuchanka, where they hold the distinction of being one of the few things the krogan consider genuinely dangerous. A single Thresher Maw can devastate mechanized military units; the only confirmed instances of small-unit ground forces successfully eliminating one involved significant losses, heavy weapons platforms, and accounts that would sound implausible if not confirmed by multiple survivors.</p><p><strong>Tremorsense (imprecise) 60 ft:</strong> The thresher maw detects movement through ground vibration.</p><p><strong>Acid Spew (2 actions, 1/round):</strong> 30-ft cone, 6d8 acid damage (DC 30 Reflex; half on success). The area is coated in acid until the end of the maw's next turn—creatures that begin their turn in the area take 2d6 acid damage.</p><p><strong>Burrow Surge (2 actions, 1/encounter):</strong> The thresher maw burrows up to its burrow speed and erupts from the ground. Each creature within 15 feet of the emergence point must succeed at a DC 32 Reflex save or take 6d6 bludgeoning damage and be knocked prone.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Actor and Ancestry Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 10
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 8
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "perception": {
+      "details": "tremorsense (imprecise) 60 ft.",
+      "mod": 23,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "type": "tremorsense",
+          "range": 60,
+          "acuity": "imprecise"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 27,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 16,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 17,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 28
+      },
+      "stealth": {
+        "base": 16
+      }
+    },
+    "traits": {
+      "value": [
+        "thresher-maw",
+        "animal"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "grg"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Thresher Maw",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "NPCMelee0000001A",
+      "name": "Bite",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "damageRolls": {
+          "dmgroll0001": {
+            "damage": "4d10+12",
+            "damageType": "piercing",
+            "category": null
+          },
+          "dmgroll0002": {
+            "damage": "2d6",
+            "damageType": "acid",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 28
+        },
+        "description": {
+          "value": "<p>The maw's jaws are coated in corrosive fluid. On a critical hit, the target is grabbed.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-15",
+            "unarmed"
+          ],
+          "config": {}
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MECRT00000000017.NPCMelee0000001A"
+    },
+    {
+      "_id": "NPCMelee0000002A",
+      "name": "Tentacle Lash",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "damageRolls": {
+          "dmgroll0003": {
+            "damage": "2d12+12",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 26
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "reach-20",
+            "unarmed"
+          ],
+          "config": {}
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MECRT00000000017.NPCMelee0000002A"
+    },
+    {
+      "_id": "NPCAction000001A",
+      "name": "Acid Spew",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "system": {
+        "slug": "thresher-maw-acid-spew",
+        "description": {
+          "value": "<p><strong>Acid Spew</strong> <span class=\"action-glyph\">2</span></p><p><strong>Frequency</strong> Once per round</p><hr /><p>The thresher maw expels a torrent of acid in a 30-foot cone. Each creature in the area takes 6d8 acid damage (DC 30 Reflex save; half on a success). The area remains coated in acid until the end of the maw's next turn—creatures that begin their turn in the area take 2d6 acid damage.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Actor and Ancestry Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MECRT00000000017.NPCAction000001A"
+    },
+    {
+      "_id": "NPCAction000002A",
+      "name": "Burrow Surge",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "system": {
+        "slug": "thresher-maw-burrow-surge",
+        "description": {
+          "value": "<p><strong>Burrow Surge</strong> <span class=\"action-glyph\">2</span></p><p><strong>Frequency</strong> Once per encounter</p><hr /><p>The thresher maw burrows up to its burrow speed and erupts from the ground. Each creature within 15 feet of the emergence point must succeed at a DC 32 Reflex save or take 6d6 bludgeoning damage and be knocked prone (half damage on a success, not knocked prone).</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Actor and Ancestry Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MECRT00000000017.NPCAction000002A"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

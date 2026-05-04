@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Ablative Coating III",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/3/37/ME3_Fitness.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Military-grade lattice shunting technology derived from dreadnought hull plating adapted for infantry scale. The coating actively redistributes impact forces through a reactive polymer mesh, dramatically expanding the trauma tolerance of the wearer's suit. Increases maximum Hit Points by 20.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "ablative-coating-3",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "quantity": 1,
+    "baseItem": "ablative-coating",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "a1741f934ab6be46",
+  "_key": "!items!a1741f934ab6be46"
+}

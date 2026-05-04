@@ -1,0 +1,58 @@
+{
+  "_key": "!items!MEHeritage000013",
+  "_id": "MEHeritage000013",
+  "img": "systems/pf2e/icons/features/ancestry/wintertouched-human.webp",
+  "name": "Diplomat Elcor",
+  "system": {
+    "ancestry": {
+      "name": "Elcor",
+      "slug": "elcor",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.ElcorAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Elcor diplomats spend lifetimes learning to bridge the vast communication gap between their pheromone-and-subsonic native language and the sonic speech and body language that other species rely on. The discipline required to translate emotional subtext into explicit verbal context, while simultaneously managing interspecies protocol, produces elcor diplomats of extraordinary patience and social precision.</p><p>You become trained in Diplomacy and two additional languages of your choice from among those available to ancestries in this compendium. Your explicit verbal emotional prefacing (\"With great sincerity:\", \"Calmly:\") grants you a +1 circumstance bonus to Diplomacy checks to Make an Impression, as your interlocutors always understand exactly what weight you intend behind your words.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dip.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          "action:make-an-impression"
+        ],
+        "label": "Elcor Diplomatic Prefacing"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "diplomat-elcor",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

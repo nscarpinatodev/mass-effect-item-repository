@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEFeature0000018",
+  "_id": "MEFeature0000018",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Analytical Mind",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Salarian cognition operates in parallel analytical streams that other species lack the neurological architecture to sustain. Where a human recognizes a situation, a salarian simultaneously categorizes it, cross-references it against accumulated experience, runs probability assessments, and produces a recommended action—all before their counterpart has finished blinking. This makes them exceptional researchers, strategists, and investigators, and deeply annoying to work with in social situations where others expect to contribute thoughts.</p><p>Once per hour when you attempt a Recall Knowledge check, you roll twice and use the better result. This is a fortune effect.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "analytical-mind",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "salarian"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

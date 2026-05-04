@@ -1,0 +1,249 @@
+{
+  "name": "Turian Cruiser",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/5/55/ME3_Turian_Cruiser.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Turian Cruiser",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/5/55/ME3_Turian_Cruiser.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "turian-cruiser",
+    "details": {
+      "level": {
+        "value": 15
+      },
+      "publicNotes": "<p>A Turian Hierarchy cruiser, distinguished by heavier armor and superior point defense compared to Alliance equivalents. The Turian military doctrine emphasizes durable ships that can sustain fire in the battle line. This cruiser mounts Turian-standard GARDIAN systems and multiple mass accelerator batteries.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "A Turian Hierarchy cruiser, distinguished by heavier armor and superior point defense compared to Alliance equivalents."
+    },
+    "attributes": {
+      "hp": {
+        "value": 950,
+        "max": 950,
+        "details": ""
+      },
+      "ac": {
+        "value": 35,
+        "details": ""
+      },
+      "speed": {
+        "value": 0,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 75
+          }
+        ],
+        "details": ""
+      },
+      "hardness": {
+        "value": 26
+      }
+    },
+    "traits": {
+      "value": [
+        "vehicle",
+        "ship",
+        "turian"
+      ],
+      "size": {
+        "value": "grg"
+      },
+      "rarity": "common"
+    },
+    "abilities": {
+      "str": {
+        "mod": 13
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 10
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -5
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 32,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 23,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 18,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 28,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "5ab78590367b0d8b",
+      "name": "Mass Accelerator Batteries",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "turian-cruiser-broadside",
+        "bonus": {
+          "value": 32
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "8d10+23",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 1500
+        },
+        "traits": {
+          "value": [
+            "brutal"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!680d4fef536ac1c5.5ab78590367b0d8b"
+    }
+  ],
+  "_id": "680d4fef536ac1c5",
+  "_key": "!actors!680d4fef536ac1c5",
+  "effects": []
+}

@@ -1,0 +1,291 @@
+{
+  "name": "Normandy SR-1",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/1/16/ME1_Normandy_SR-1.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Normandy SR-1",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/1/16/ME1_Normandy_SR-1.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "normandy-sr1",
+    "details": {
+      "level": {
+        "value": 14
+      },
+      "publicNotes": "<p>The SSV Normandy SR-1 is a joint Alliance-Spectre stealth frigate, the most advanced vessel of its class at launch. Its experimental drive core renders it nearly invisible to conventional sensors. It carries a small but elite crew and mounts a standard frigate armament. The Normandy relies on stealth and speed over brute firepower.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "The SSV Normandy SR-1 is a joint Alliance-Spectre stealth frigate, the most advanced vessel of its class at launch."
+    },
+    "attributes": {
+      "hp": {
+        "value": 600,
+        "max": 600,
+        "details": ""
+      },
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "speed": {
+        "value": 0,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 120
+          }
+        ],
+        "details": ""
+      },
+      "hardness": {
+        "value": 20
+      }
+    },
+    "traits": {
+      "value": [
+        "vehicle",
+        "ship",
+        "alliance",
+        "stealth"
+      ],
+      "size": {
+        "value": "grg"
+      },
+      "rarity": "unique"
+    },
+    "abilities": {
+      "str": {
+        "mod": 12
+      },
+      "dex": {
+        "mod": 6
+      },
+      "con": {
+        "mod": 8
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -5
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 28,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 24,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 18,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 28,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "ea55b633b9395669",
+      "name": "Mass Accelerator Broadside",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "normandy-sr1-broadside",
+        "bonus": {
+          "value": 30
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "6d10+20",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 1000
+        },
+        "traits": {
+          "value": [
+            "brutal"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c03dfd490fc2915d.ea55b633b9395669"
+    },
+    {
+      "_id": "3df6042a93df4492",
+      "name": "Stealth Systems",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "normandy-sr1-stealth",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "description": {
+          "value": "<p>The Normandy activates its experimental stealth drive, becoming Undetected by conventional sensor systems. While stealthed, it cannot fire weapons. The stealth drive can be maintained indefinitely but shuts down automatically if the ship fires or takes damage. Reactivating the stealth drive requires 1 action.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": []
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c03dfd490fc2915d.3df6042a93df4492"
+    }
+  ],
+  "_id": "c03dfd490fc2915d",
+  "_key": "!actors!c03dfd490fc2915d",
+  "effects": []
+}

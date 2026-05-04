@@ -1,0 +1,54 @@
+{
+  "_key": "!items!MEHeritage000023",
+  "_id": "MEHeritage000023",
+  "img": "systems/pf2e/icons/features/ancestry/wellspring-gnome.webp",
+  "name": "Krogan Shaman",
+  "system": {
+    "ancestry": {
+      "name": "Krogan",
+      "slug": "krogan",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.KroganAncestry01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Krogan shamans preserve the oral traditions, spiritual practices, and historical memory of their clans at a time when that memory is an endangered resource. They tend to the females who carry the crushing weight of the genophage, maintain connections to Tuchanka's ancestral spirits, and provide a counterweight to the culture of pure aggression that otherwise dominates krogan society. It takes a particular kind of strength to be the one who remembers what everyone else has decided doesn't matter anymore.</p><p>You become trained in Religion and Medicine. You can cast <em>stabilize</em> and <em>guidance</em> as occult innate cantrips, using Wisdom as your spellcasting ability. Once per day you can cast <em>heal</em> as a 1st-rank innate occult spell.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.rel.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.med.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "krogan-shaman",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

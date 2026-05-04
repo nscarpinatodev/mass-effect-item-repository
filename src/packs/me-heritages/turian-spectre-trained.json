@@ -1,0 +1,54 @@
+{
+  "_key": "!items!MEHeritage000034",
+  "_id": "MEHeritage000034",
+  "img": "systems/pf2e/icons/features/ancestry/hold-scarred-orc.webp",
+  "name": "Spectre-Trained Turian",
+  "system": {
+    "ancestry": {
+      "name": "Turian",
+      "slug": "turian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.TurianAncestry01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You underwent the covert operations training that the Hierarchy uses to prepare candidates for Spectre consideration—or you are a Spectre, or a former one. Hierarchy intelligence operations require a specific kind of turian: someone who can operate without the institutional support of their unit, make autonomous decisions in ambiguous situations, and return results without requiring their superiors to know exactly how. This training leaves distinctive marks on a person.</p><p>You become trained in Deception and Stealth. You gain a +1 circumstance bonus to Perception checks to Sense Motive. When you are gathering information using Diplomacy, Society, or Deception, you can choose to be remembered as a different species (with a successful DC 15 Deception check) due to specialized camouflage training.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dec.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.ste.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "rare",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spectre-trained-turian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

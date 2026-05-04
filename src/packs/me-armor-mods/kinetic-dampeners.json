@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Kinetic Dampeners",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/87/ME3_SMG_Ultralight_Materials.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A micro-suspension system installed in the joints and weight-bearing structures of the armor that absorbs and counters the movement resistance created by the suit's mass. By dynamically compensating for the armor's inertia, the wearer experiences significantly less impediment to agility-dependent tasks. Reduces the armor's check penalty by 1.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "kinetic-dampeners",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "kinetic-dampeners",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "952d4fd9bdea1ec7",
+  "_key": "!items!952d4fd9bdea1ec7"
+}

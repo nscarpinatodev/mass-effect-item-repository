@@ -1,0 +1,60 @@
+{
+  "_key": "!items!MEFeature0000017",
+  "_id": "MEFeature0000017",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Hypermetabolism",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Salarian metabolic processes operate at several times the rate of most other species. Their hearts beat faster, their reflexes engage more quickly, and their minds process sensory information in bursts that would be overwhelming to a slower brain. This comes with real costs—salarians need to eat and drink more frequently and burn through their 40-year lifespan at a pace that leaves them looking middle-aged before they are 30—but the tactical advantages in reaction speed and mental throughput are undeniable.</p><p>You require only 1 hour of sleep per day (rather than 8) and are immune to the <em>sleep</em> condition. You gain a +2 circumstance bonus to initiative rolls.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "initiative",
+        "type": "circumstance",
+        "value": 2,
+        "label": "Hypermetabolism"
+      }
+    ],
+    "slug": "hypermetabolism",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "salarian"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

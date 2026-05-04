@@ -1,0 +1,75 @@
+{
+  "_key": "!items!MEFeature0000023",
+  "_id": "MEFeature0000023",
+  "img": "systems/pf2e/icons/features/ancestry/vivacious-gnome.webp",
+  "name": "Rapid Cell Regeneration",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Vorcha biology is built around clusters of undifferentiated somatic cells that respond to injury by rapidly regenerating damaged tissue—a mechanism driven by evolutionary pressure on a world where constant harm was the norm. The speed of this healing is visible and, to many other species, deeply unsettling to watch: wounds close over minutes, and vorcha who survive encounters with fire, acid, or toxins often emerge with greater resistance to those hazards than they had going in.</p><p>You gain fast healing 2: at the start of each of your turns, if you are below half your maximum Hit Points, you recover 2 Hit Points. Additionally, you gain a +1 circumstance bonus to saving throws against poison and disease effects.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": 2,
+        "predicate": [
+          "hp-below-half"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "trait:poison",
+              "trait:disease"
+            ]
+          }
+        ],
+        "label": "Rapid Cell Regeneration"
+      }
+    ],
+    "slug": "rapid-cell-regeneration",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vorcha"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

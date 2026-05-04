@@ -1,0 +1,51 @@
+{
+  "_key": "!items!MEAncFeat000028",
+  "_id": "MEAncFeat000028",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Market Instinct",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>The volus did not invent currency, but they refined it, standardized it, and turned it into the infrastructure of Citadel civilization. A species that has spent millennia thinking about value—real value, not the number on a tag—develops an instinct for it that operates below the conscious level. You know what things are worth. You can usually tell when someone is lying about what things are worth. And you have a distinctive read on the moment when a negotiation is about to break down versus the moment when the other party is about to agree to something they will later regret.</p><p>You can always determine the approximate market value of any item you examine (within 10%). You gain a +2 circumstance bonus to Deception checks to misrepresent the value of goods and to Perception checks (Sense Motive) to detect when someone is misrepresenting value to you. When you critically succeed on a check to Earn Income, you earn an additional 50% of the base income.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "market-instinct",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "volus"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

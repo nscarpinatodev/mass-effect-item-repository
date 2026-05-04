@@ -1,0 +1,108 @@
+{
+  "_key": "!items!TurianAncestry01",
+  "_id": "TurianAncestry01",
+  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/turian.webp",
+  "name": "Turian",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Disciplined, duty-driven warriors from the militarized world of Palaven, turians form the backbone of the Citadel's Spectres and the largest military force among the Council races—a people for whom service is not merely a value but an identity.</em></p><p>Turians are bipedal humanoids with a natural exoskeleton of hard plates, sweeping facial structures that include rigid mandibles, and metallic-sheen skin caused by reflective cellular structures that provide minor radiation resistance—a necessity on the high-radiation world of Palaven. Turian society is fundamentally military in structure: every turian serves in the military between the ages of 15 and 30, and military hierarchies form the model for nearly all other social institutions. Turians joined the Citadel Council after the Krogan Rebellions and have served as the primary military enforcer of galactic order ever since. Despite their stern reputation, individual turians are not inherently aggressive—they are simply people who believe deeply that commitments must be honored and obligations must be met, and who find the failure to do so genuinely offensive.</p><hr/><p><strong>You Might...</strong></p><ul><li>Hold yourself to a strict personal code and extend the same expectation to others without apology.</li><li>Express approval through precision and reliability rather than warmth—but feel the warmth nonetheless.</li><li>Find chaotic or unprincipled behavior genuinely baffling, even when it's not directed at you.</li></ul><p><strong>Others Probably...</strong></p><ul><li>Initially read your directness as coldness before realizing that a turian who says something means it exactly.</li><li>Trust your reliability even when they're not sure they like you personally.</li><li>Feel a reflexive deference to your confidence and bearing, even if they try to resist it.</li></ul><p><strong>Physical Description</strong></p><p>Turians stand 1.8 to 2.1 meters tall with lean, plated builds and distinctive facial carapace structures—swept-back plates and mandibles that frame the lower jaw. Their skin has a metallic sheen from the dextro-amino biology adapted to Palaven's environment. Their eyes are vivid in color, typically blue, green, or yellow. Turian facial markings (clan markings applied in patterns unique to each lineage) cover the face and neck.</p><p><strong>Society</strong></p><p>Turian society is stratified by military rank and a deep sense of civic obligation. The Hierarchy governs all turian space through a ranked chain of command that values experience and demonstrated competence over birthright. Turian families are stable and close-knit; children are raised with a clear understanding that their duty to society outweighs their individual preferences.</p><p><strong>Alignment and Religion</strong></p><p>Turian spiritual life centers on the Spirits—ancestral forces that evaluate whether the living are living up to their commitments. Most turians are lawful by deep cultural conditioning; they respect authority that has earned authority and have genuine contempt for those who abandon their posts or betray their word. Individual ethics within that framework vary.</p><p><strong>Sample Names</strong></p><p>Garrus, Saren, Nihlus, Chellick, Vakarian, Nyreen, Corinthus, Adrien, Tarquin, Vetra, Macen, Oraka</p>"
+    },
+    "rules": [],
+    "slug": "turian",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "humanoid",
+        "turian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "con"
+        ]
+      },
+      "2": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "cha"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "taldane",
+        "turian"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "batarian",
+        "drell",
+        "elcor",
+        "krogan",
+        "salarian",
+        "volus"
+      ],
+      "custom": ""
+    },
+    "items": {
+      "feat1": {
+        "img": "systems/pf2e/icons/default-icons/feat.svg",
+        "level": 0,
+        "name": "Carapace",
+        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000019"
+      },
+      "feat2": {
+        "img": "systems/pf2e/icons/default-icons/feat.svg",
+        "level": 0,
+        "name": "Military Discipline",
+        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000020"
+      }
+    },
+    "vision": "lowLightVision"
+  },
+  "type": "ancestry",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

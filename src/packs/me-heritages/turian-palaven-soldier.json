@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000033",
+  "_id": "MEHeritage000033",
+  "img": "systems/pf2e/icons/features/ancestry/badlands-orc.webp",
+  "name": "Palaven Soldier Turian",
+  "system": {
+    "ancestry": {
+      "name": "Turian",
+      "slug": "turian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.TurianAncestry01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You trained through the full Turian Hierarchy military program on or near Palaven, the turian homeworld, and graduated into frontline service with the fleet or ground forces. Palaven produces soldiers of a quality that other species generally acknowledge, even grudgingly. The training is long, demanding, and designed to produce warriors who function as a unit first and as individuals second.</p><p>You become an expert in Athletics. When you Aid an ally in combat, your Aid bonus is increased by 1 (from +1 to +2, or from +2 to +3 on a critical success). Your Military Discipline ancestry feature applies to two martial weapon groups instead of one.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.ath.rank",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "palaven-soldier-turian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

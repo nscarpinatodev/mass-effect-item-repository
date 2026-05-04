@@ -1,0 +1,60 @@
+{
+  "_key": "!items!MEFeature0000021",
+  "_id": "MEFeature0000021",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Pressure Suit",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Volus evolved in the thick, high-pressure ammonia atmosphere of Irune and cannot survive in standard oxygen environments without their pressure suits, which regulate atmospheric pressure and filter their breathing mix. These suits are remarkably engineered for their compactness, providing both life support and a modest degree of physical protection. A volus without their suit in a standard atmosphere begins experiencing pressure differential distress immediately.</p><p>Your pressure suit provides a +1 item bonus to AC. You are immune to ammonia-atmosphere hazards and can breathe safely in high-pressure environments that would be lethal to most species. You are immune to inhaled poisons.</p><p><strong>Suit Dependency:</strong> If your pressure suit is breached or removed in a standard oxygen atmosphere, you become <em>sickened 1</em> and this condition does not improve until the suit is repaired or replaced (DC 15 Crafting, 10 minutes). If exposed for more than 10 minutes, you become <em>sickened 2</em>, increasing by 1 each additional 10 minutes.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "item",
+        "value": 1,
+        "label": "Pressure Suit"
+      }
+    ],
+    "slug": "pressure-suit",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "volus"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

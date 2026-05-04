@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Shield Capacitor I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/9a/ME3_Barrier.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An supplementary kinetic barrier emitter cell that augments the output of the armor's existing barrier projectors. The additional capacitor stores charge between barrier cycles, allowing the field to sustain a higher maximum strength before collapsing under fire. Increases kinetic barrier pool by 5.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "shield-capacitor-1",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "shield-capacitor",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "76c502366505826d",
+  "_key": "!items!76c502366505826d"
+}

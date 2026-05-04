@@ -1,0 +1,51 @@
+{
+  "_key": "!items!MEAncFeat000001",
+  "_id": "MEAncFeat000001",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Millennia of Memory",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>The asari lifespan spans centuries, and even a young asari carries a breadth of accumulated learning that most other species cannot match before middle age. You have been collecting knowledge for longer than some civilizations have existed in their current form, and it shows in the density of what you can pull up on demand.</p><p>You gain the Multilingual skill feat as a bonus feat. Additionally, once per day when you fail a Recall Knowledge check in a skill you are at least trained in, you can immediately attempt the same check again and use the better result, as a deeper layer of memory surfaces.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "millennia-of-memory",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "asari"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_key": "!items!MEHeritage000030",
+  "_id": "MEHeritage000030",
+  "img": "systems/pf2e/icons/features/ancestry/ancient-elf.webp",
+  "name": "Dalatrass Lineage Salarian",
+  "system": {
+    "ancestry": {
+      "name": "Salarian",
+      "slug": "salarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.SalarianAncs0001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You come from the matriarchal political families that govern salarian society—the Dalatrasses. Salarian politics are a web of long-term pairings, negotiated alliances, and calculated obligations that make most other species' governments look straightforwardly simple by comparison. Growing up in a Dalatrass family means learning that information is leverage, that every relationship has a value, and that what someone doesn't say is usually more important than what they do.</p><p>You become trained in Diplomacy and Society and gain the Salarian Political Lore skill. Once per day you can use the Lie (Deception) action as a free action to create a single false impression that you then immediately address with something technically true—the technical-truth defense being a cornerstone of Dalatrass political culture.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dip.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.soc.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "dalatrass-lineage-salarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

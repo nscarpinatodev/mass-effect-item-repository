@@ -1,0 +1,59 @@
+{
+  "_key": "!items!MEHeritage000014",
+  "_id": "MEHeritage000014",
+  "img": "systems/pf2e/icons/features/ancestry/anvil-dwarf.webp",
+  "name": "Rugged Elcor",
+  "system": {
+    "ancestry": {
+      "name": "Elcor",
+      "slug": "elcor",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.ElcorAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You are from Dekuuna's highlands or one of the herd communities that spent generations in the harshest parts of the planet's high-gravity plains. Your body has adapted to punishment at a level beyond even the elcor baseline—denser plate, thicker hide, a cardiovascular system built for sustained effort under Dekuuna's crushing gravity. Even for an elcor, you are difficult to hurt and harder to stop.</p><p>You gain 2 additional Hit Points per level (in addition to your ancestry's base HP). You gain resistance 2 to bludgeoning and piercing damage from your thickened plating.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "hp",
+        "value": 2,
+        "label": "Rugged Elcor (per level)",
+        "phase": "beforeDerived"
+      },
+      {
+        "key": "Resistance",
+        "type": "bludgeoning",
+        "value": 2
+      },
+      {
+        "key": "Resistance",
+        "type": "piercing",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "rugged-elcor",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

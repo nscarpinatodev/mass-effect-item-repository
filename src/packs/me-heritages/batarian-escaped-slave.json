@@ -1,0 +1,54 @@
+{
+  "_key": "!items!MEHeritage000006",
+  "_id": "MEHeritage000006",
+  "img": "systems/pf2e/icons/features/ancestry/deep-orc.webp",
+  "name": "Escaped Slave Batarian",
+  "system": {
+    "ancestry": {
+      "name": "Batarian",
+      "slug": "batarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.BatarianAncest01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You escaped from Hegemony slavery—an act requiring extraordinary courage, cunning, and luck. In doing so, you developed skills for moving unseen, surviving on almost nothing, reading the intentions of people who hold power over you, and making decisions fast when the window is small. You carry the knowledge of what was done to you and the determination that it will never happen again.</p><p>You become trained in Stealth and Survival. If you are already trained in both through your class or background, you instead gain a +1 circumstance bonus to Stealth and Survival checks. Additionally, you never become lost when you have seen the surrounding terrain before.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.ste.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.sur.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "escaped-slave-batarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

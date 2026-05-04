@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Shredder Mod II",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/42/ME3_Shotgun_Shredder_Module.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An advanced shredder configuration using serrated flechette sub-projectiles that deploy on impact and embed in tissue before the main pellet mass follows through. The flechettes tear open wounds that are difficult to seal even with medi-gel, and the sheer volume of penetrating fragments makes clean wounds nearly impossible. Originally developed by mercenary groups for anti-personnel operations in close quarters. Designed for shotguns. On a hit, the target takes 1d6 persistent bleed damage.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a shotgun.</p>"
+    },
+    "rules": [],
+    "slug": "shredder-mod-2",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": "shredder-mod",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "installed-in-a-weapon"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "6364503a9449c63e",
+  "_key": "!items!6364503a9449c63e"
+}

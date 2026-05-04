@@ -1,0 +1,49 @@
+{
+  "_key": "!items!MEHeritage000024",
+  "_id": "MEHeritage000024",
+  "img": "systems/pf2e/icons/features/ancestry/forge-dwarf.webp",
+  "name": "Tank-Bred Krogan",
+  "system": {
+    "ancestry": {
+      "name": "Krogan",
+      "slug": "krogan",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.KroganAncestry01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You were not born naturally but grown from a carefully curated genetic sequence in a breeding tank—a practice developed specifically to work around the genophage by producing viable krogan through controlled genetic manipulation rather than natural reproduction. Tank-bred krogan are selected for specific traits and raised in accelerated developmental programs, which makes them exceptional physical specimens but sometimes leaves them with a complicated relationship to krogan cultural identity and what it means to be one of your people.</p><p>You gain 2 additional maximum Hit Points (above your ancestry HP). Your Redundant Biology ancestry feature's DC is 13 instead of 15. You gain a +1 circumstance bonus to Fortitude saves against the genophage or biologically-targeted effects specifically targeting krogan physiology.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "hp",
+        "value": 2,
+        "label": "Tank-Bred Krogan",
+        "phase": "beforeDerived"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "tank-bred-krogan",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

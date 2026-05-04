@@ -1,0 +1,70 @@
+{
+  "_key": "!items!MEFeature0000022",
+  "_id": "MEFeature0000022",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Economic Acumen",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>The Elkoss Combine and the Vol Protectorate's banking networks have made volus the galactic economy's most important invisible hand. Volus instinctively think in terms of value, exchange, leverage, and long-term obligation—not because they are taught to, but because their culture treats economic understanding the way other cultures treat literacy: as a basic competency every adult should possess.</p><p>You become trained in Society. If you would already be trained in Society through your class or background, you instead become trained in Mercantile Lore or another trade-related Lore of your choice. You gain a +1 circumstance bonus to Diplomacy checks made in the context of negotiating contracts, brokering deals, or setting prices.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.soc.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          "action:make-an-impression",
+          "action:request"
+        ],
+        "label": "Economic Acumen (trade negotiations)"
+      }
+    ],
+    "slug": "economic-acumen",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "volus"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

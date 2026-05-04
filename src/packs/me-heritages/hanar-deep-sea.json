@@ -1,0 +1,47 @@
+{
+  "_key": "!items!MEHeritage000016",
+  "_id": "MEHeritage000016",
+  "img": "systems/pf2e/icons/features/ancestry/aquatic-adaptation.webp",
+  "name": "Deep-Sea Hanar",
+  "system": {
+    "ancestry": {
+      "name": "Hanar",
+      "slug": "hanar",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.HanarAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Most hanar encountered in the wider galaxy have adapted to environments designed for other species—controlled atmospheres, space stations, and sealed habitats that simulate comfortable conditions. You came from one of Kahje's deep-ocean communities where hanar live in their element, moving through crushing pressure and complete darkness with the ease of creatures evolved for exactly that environment. In open water, you are something to be feared.</p><p>You gain a swim Speed of 40 feet (instead of the base 20). You are immune to pressure-related hazards up to 3 miles of depth. You gain darkvision for underwater environments. Your Multitentacled ancestry feature grants a +2 circumstance bonus to Grapple (rather than +1) when you are in water.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 40
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "deep-sea-hanar",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

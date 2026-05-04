@@ -1,0 +1,340 @@
+{
+  "name": "Geth Destroyer",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e3/ME2_Geth_Heavy.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Geth Destroyer",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/e/e3/ME2_Geth_Heavy.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "geth-destroyer",
+    "details": {
+      "level": {
+        "value": 9
+      },
+      "publicNotes": "<p>The Geth Destroyer is a heavily-armored heavy weapons platform, larger and more durable than standard Geth troopers. It combines a kinetic barrier with thick armor plating and wields a heavy weapon capable of devastating fire at close-to-medium range.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "The Geth Destroyer is a heavily-armored heavy weapons platform, larger and more durable than standard Geth troopers."
+    },
+    "attributes": {
+      "hp": {
+        "value": 130,
+        "max": 130,
+        "temp": 50,
+        "details": ""
+      },
+      "ac": {
+        "value": 27,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "construct",
+        "geth"
+      ],
+      "size": {
+        "value": "medium"
+      },
+      "rarity": "uncommon"
+    },
+    "abilities": {
+      "str": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 21,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 16,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 18,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 22
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "bc43204008793759",
+      "name": "Heavy Weapon",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "geth-destroyer-heavy-weapon",
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "3d8+10",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 60
+        },
+        "traits": {
+          "value": [
+            "brutal"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!cb8282d0fb7f30ed.bc43204008793759"
+    },
+    {
+      "_id": "ebb3ba79ad6d5749",
+      "name": "Kinetic Barrier",
+      "type": "effect",
+      "img": "systems/pf2e/icons/spells/mystic-armor.webp",
+      "system": {
+        "slug": "npc-kinetic-barrier-geth-destroyer",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 50,
+          "max": 50,
+          "label": "Shield Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 50,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!cb8282d0fb7f30ed.ebb3ba79ad6d5749"
+    },
+    {
+      "_id": "d1bf92b8f9e6f964",
+      "name": "Geth Armor Plating",
+      "type": "effect",
+      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "system": {
+        "slug": "npc-geth-armor-destroyer",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 20,
+          "max": 20,
+          "label": "Armor Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "armorMax": 20,
+          "armorCurrent": 20
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!cb8282d0fb7f30ed.d1bf92b8f9e6f964"
+    }
+  ],
+  "_id": "cb8282d0fb7f30ed",
+  "_key": "!actors!cb8282d0fb7f30ed",
+  "effects": []
+}

@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000044",
+  "_id": "MEHeritage000044",
+  "img": "systems/pf2e/icons/features/ancestry/versatile-heritage.webp",
+  "name": "Void Vorcha",
+  "system": {
+    "ancestry": {
+      "name": "Vorcha",
+      "slug": "vorcha",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.VorchaAncestry01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Some vorcha end up in space—on stations, ships, or drifting habitats at the margins of mapped systems—and adapt to it in the way that vorcha adapt to everything: by changing. The low-gravity environments, recycled atmospheres, and vacuum-adjacent conditions of deep space living have shaped your biology in subtle but meaningful ways. You move differently in microgravity. You have an intuitive read on pressurized environments that vorcha who grew up planetside simply don't develop. The void is not comfortable, but it is yours.</p><p>You become trained in Acrobatics and gain the Starship Systems Lore and Vacuum Environments Lore skills. You ignore the first 2 points of penalty from low-gravity or zero-gravity environments on Athletics and Acrobatics checks. You gain a +1 circumstance bonus to Perception checks to detect atmospheric anomalies, pressure changes, or hull integrity issues.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.acr.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "void-vorcha",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

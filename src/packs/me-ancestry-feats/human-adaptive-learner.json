@@ -1,0 +1,59 @@
+{
+  "_key": "!items!MEAncFeat000014",
+  "_id": "MEAncFeat000014",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Adaptive Learner",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Humans do not have the longest lifespans, the most efficient minds, or the best physical equipment. What they have is an unusual capacity to learn across domains—to pick up skills that evolution never prepared them for and develop competence in areas that the species has only been exposed to for a generation. Where other species often excel within a defined area of specialization, humans accumulate breadth. This is, depending on your perspective, either their greatest strength or evidence that they cannot commit to anything.</p><p>You gain one additional skill in which you are trained (your choice). Additionally, when you receive a critical success on a check to learn a new skill or when you attempt a downtime activity to Earn Income using a skill, you gain a +1 circumstance bonus to your next check using that same skill within 24 hours.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.skills.choice.rank",
+        "value": 1,
+        "slug": "adaptive-learner-skill"
+      }
+    ],
+    "slug": "adaptive-learner",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "human"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

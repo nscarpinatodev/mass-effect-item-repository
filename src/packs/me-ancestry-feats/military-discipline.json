@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEFeature0000020",
+  "_id": "MEFeature0000020",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Military Discipline",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Every turian who reaches adulthood has served in the military. This is not mere cultural tradition—it is the core institution through which turian society transmits its values, builds its identity, and produces the competence it expects from all citizens. Fifteen years of mandatory military service instills combat training, unit cohesion, and an unfailing confidence in one's physical capabilities that most other species simply cannot replicate through any other means.</p><p>You gain the Assurance feat for your choice of Athletics or Acrobatics. Additionally, choose one martial weapon group (such as firearms, swords, or bows); you gain proficiency with all weapons in that group.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "military-discipline",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "turian"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_key": "!items!MEFeature0000004",
+  "_id": "MEFeature0000004",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Hegemony-Bred",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Life under the Batarian Hegemony—whether as enforcer, slave, or dissident—hardens batarians against psychological pressure in ways other species rarely experience. Batarian culture's pervasive authoritarian control, propaganda, and systematic fear conditioning paradoxically builds exceptional mental resistance to external manipulation. You have been conditioned either to apply fear or to endure it, and likely both.</p><p>You gain a +1 circumstance bonus to saving throws against fear effects and mental effects (effects with the <em>fear</em> or <em>mental</em> trait).</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "trait:fear",
+              "trait:mental"
+            ]
+          }
+        ],
+        "label": "Hegemony-Bred"
+      }
+    ],
+    "slug": "hegemony-bred",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "batarian"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

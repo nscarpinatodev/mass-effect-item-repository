@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000037",
+  "_id": "MEHeritage000037",
+  "img": "systems/pf2e/icons/features/ancestry/skilled-heritage.webp",
+  "name": "Trade Baron Volus",
+  "system": {
+    "ancestry": {
+      "name": "Volus",
+      "slug": "volus",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.VolusAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>The volus trade barons are the commercial apex of a species that has spent millennia perfecting the art of making money. You come from one of the great merchant houses or have built your own commercial empire through a combination of financial acuity, aggressive negotiation, and a tolerance for risk that other species might interpret as recklessness. You understand that the economy is the most powerful force in the galaxy—more reliable than weapons, more durable than governments, and considerably more profitable than either.</p><p>You become an expert in Society and gain the Mercantile Lore and Guild Lore skills. You gain a +2 circumstance bonus to checks to Earn Income or to Diplomacy checks made to negotiate financial agreements. When you critically succeed on an Earn Income check, you gain an additional 25% of the base income.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.soc.rank",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "trade-baron-volus",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

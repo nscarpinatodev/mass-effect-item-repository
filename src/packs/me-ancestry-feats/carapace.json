@@ -1,0 +1,68 @@
+{
+  "_key": "!items!MEFeature0000019",
+  "_id": "MEFeature0000019",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Carapace",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Turian bodies are encased in a natural exoskeleton of hard, overlapping plates that protect their vital organs and absorb glancing strikes that would cut or bruise softer species. This carapace is not rigid armor in the traditional sense—it flexes with movement and does not restrict agility—but it provides constant passive protection that turian warriors learn to rely on as a baseline before they strap on actual kit.</p><p>While you are unarmored or wearing light armor, your carapace provides a +1 circumstance bonus to AC.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "armor:trait:unarmored",
+              "armor:category:light"
+            ]
+          }
+        ],
+        "label": "Carapace"
+      }
+    ],
+    "slug": "carapace",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "turian"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

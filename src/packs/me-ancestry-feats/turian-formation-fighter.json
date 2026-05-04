@@ -1,0 +1,51 @@
+{
+  "_key": "!items!MEAncFeat000025",
+  "_id": "MEAncFeat000025",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Formation Fighter",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Turian military doctrine is built around unit cohesion—the idea that a soldier's effectiveness is a function of where they are relative to their unit, not just their individual capability. You internalized this during your service, and it shows in how you position yourself in combat. You don't just fight. You fight in relation to the people fighting next to you, and that relationship multiplies what both of you can do.</p><p>When you are adjacent to at least one ally, you gain a +1 circumstance bonus to attack rolls and a +1 circumstance bonus to AC. When you and an ally are flanking a creature, your flanking bonus to attack rolls increases to +3 (rather than the standard +2). You can use the Aid reaction even if you do not have the Aid skill feat, though you must still meet the check requirements normally.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "formation-fighter",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "turian"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

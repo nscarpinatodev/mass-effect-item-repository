@@ -1,0 +1,68 @@
+{
+  "_key": "!items!MEFeature0000008",
+  "_id": "MEFeature0000008",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Pheromone Awareness",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Elcor evolved with a rich pheromone-based communication system that still functions as a constant environmental sensor. They detect chemical emotional signals from creatures around them even when those creatures are making no sound and showing no visible body language—an awareness that extends to their own emotional regulation.</p><p>You gain a +1 circumstance bonus to Will saving throws against emotion and fear effects (those with the <em>emotion</em> or <em>fear</em> trait). Additionally, you cannot be deceived by effects that fabricate emotional states through pheromones or chemical means, as you can detect the artificiality of manufactured scent.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "will",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "trait:emotion",
+              "trait:fear"
+            ]
+          }
+        ],
+        "label": "Pheromone Awareness"
+      }
+    ],
+    "slug": "pheromone-awareness",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "elcor"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

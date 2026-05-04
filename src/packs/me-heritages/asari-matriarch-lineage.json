@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEHeritage000002",
+  "_id": "MEHeritage000002",
+  "img": "systems/pf2e/icons/features/ancestry/ancient-elf.webp",
+  "name": "Matriarch's Lineage Asari",
+  "system": {
+    "ancestry": {
+      "name": "Asari",
+      "slug": "asari",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.AsariAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You are descended from one of the great Matriarch lineages—asari who lived long enough and deeply enough to become living repositories of galactic wisdom. The weight of that heritage has shaped how you carry yourself and how others respond to your presence. Even young asari of Matriarch lineage carry a gravity beyond their years.</p><p>You gain a +1 circumstance bonus to Diplomacy and Intimidation checks. Additionally, once per day you may use the Aid action as a free action (once per encounter) to assist an ally, representing your instinct for elevating those around you.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy",
+          "intimidation"
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "label": "Matriarch's Lineage"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "matriarchs-lineage-asari",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

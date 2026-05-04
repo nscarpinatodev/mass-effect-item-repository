@@ -1,0 +1,53 @@
+{
+  "_key": "!items!MEAncFeat000010",
+  "_id": "MEAncFeat000010",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Subvocal Network",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Elcor communication runs on two simultaneous channels: the explicit verbal layer that other species hear, and the subvocal emotional layer that conveys the tone, context, and intensity of what is being said. You have developed the ability to use the subvocal channel deliberately—projecting a specific emotional state to allies who know to listen for it, or saturating your immediate environment with emotional signals that are difficult to consciously process but impossible to ignore.</p><p>Choose one of the following emotional signals to broadcast until the start of your next turn. This is a mental, auditory effect.</p><ul><li><strong>Calm:</strong> Allies within 30 feet gain a +1 circumstance bonus to saves against fear effects.</li><li><strong>Alert:</strong> Allies within 30 feet who can hear you are not flat-footed during their first turn of an encounter if they would otherwise be surprised.</li><li><strong>Urgent:</strong> One ally within 30 feet can immediately Step or Stand as a free action on their next turn.</li></ul>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "subvocal-network",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "elcor",
+        "auditory",
+        "mental"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

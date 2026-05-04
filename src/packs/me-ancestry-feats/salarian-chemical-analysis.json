@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEAncFeat000023",
+  "_id": "MEAncFeat000023",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Chemical Analysis",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Salarian olfactory and dermal sensor systems can perform crude chemical analysis on substances in contact with or near their skin. You can identify poisons, pharmaceuticals, chemical accelerants, contaminated water, atmospheric composition anomalies, and a range of other substances by exposure. This is not as precise as a laboratory analysis, but it is immediate, free, and available at all times.</p><p>You can attempt a Medicine or Nature check (your choice) to identify a poison, drug, or unknown chemical substance by smell and dermal contact, without requiring any tools. The DC is the same as normal identification, but you gain a +2 circumstance bonus to the check. Additionally, you automatically detect whether a substance you consume or touch is a poison before its effects trigger, giving you a chance to spit it out or drop it before taking damage (a DC 15 Fortitude save to avoid the initial effects if you act immediately).</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "chemical-analysis",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "salarian",
+        "concentrate"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

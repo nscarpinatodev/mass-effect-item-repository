@@ -1,0 +1,398 @@
+{
+  "name": "Banshee",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/ed/ME3_Banshee.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Banshee",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/e/ed/ME3_Banshee.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "banshee",
+    "details": {
+      "level": {
+        "value": 15
+      },
+      "publicNotes": "<p>Banshees are Reaper-corrupted Asari, warped into horrifying biotic juggernauts. They teleport short distances, unleash devastating biotic blasts, and shriek with a life-draining wail. A powerful biotic barrier makes them nearly impervious until it is stripped away.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Banshees are Reaper-corrupted Asari, warped into horrifying biotic juggernauts."
+    },
+    "attributes": {
+      "hp": {
+        "value": 210,
+        "max": 210,
+        "temp": 80,
+        "details": ""
+      },
+      "ac": {
+        "value": 35,
+        "details": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [
+          {
+            "type": "teleport",
+            "value": 30
+          }
+        ],
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "reaper",
+        "biotic"
+      ],
+      "size": {
+        "value": "large"
+      },
+      "rarity": "rare"
+    },
+    "abilities": {
+      "str": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 6
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 28,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 26,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 30,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 28
+      },
+      "intimidation": {
+        "base": 30
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 26,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "4c6a1762fcc2cf81",
+      "name": "Banshee Claw",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "banshee-claw",
+        "bonus": {
+          "value": 29
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "3d8+16",
+            "damageType": "slashing"
+          }
+        },
+        "traits": {
+          "value": [
+            "reach-10",
+            "agile"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c5c767165ca51f25.4c6a1762fcc2cf81"
+    },
+    {
+      "_id": "36c4873a154487d5",
+      "name": "Biotic Blast",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "banshee-biotic-blast",
+        "bonus": {
+          "value": 31
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "4d6+14",
+            "damageType": "force"
+          }
+        },
+        "range": {
+          "value": 60
+        },
+        "traits": {
+          "value": [
+            "splash-10"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c5c767165ca51f25.36c4873a154487d5"
+    },
+    {
+      "_id": "5cd17ea9b7fb45de",
+      "name": "Banshee Wail",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "banshee-wail",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>The Banshee unleashes a horrific shriek. All creatures within 30 feet must succeed at a DC 35 Will save or be Frightened 2 (Frightened 1 on a success; Frightened 3 and Stunned 1 on a critical failure).</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "auditory",
+            "emotion",
+            "fear",
+            "mental"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c5c767165ca51f25.5cd17ea9b7fb45de"
+    },
+    {
+      "_id": "589d263c9d44daed",
+      "name": "Biotic Barrier",
+      "type": "effect",
+      "img": "systems/pf2e/icons/spells/mystic-armor.webp",
+      "system": {
+        "slug": "npc-biotic-barrier-banshee",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 80,
+          "max": 80,
+          "label": "Barrier Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "barrierMax": 80,
+          "barrierCurrent": 80
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c5c767165ca51f25.589d263c9d44daed"
+    }
+  ],
+  "_id": "c5c767165ca51f25",
+  "_key": "!actors!c5c767165ca51f25",
+  "effects": []
+}

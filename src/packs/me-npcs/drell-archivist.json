@@ -1,0 +1,93 @@
+{
+  "_key": "!actors!MENPC00000000028",
+  "_id": "MENPC00000000028",
+  "name": "Drell Archivist",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": { "value": 14, "temp": 0, "max": 14, "details": "" },
+      "ac": { "value": 14, "details": "" },
+      "allSaves": { "value": "" },
+      "speed": { "value": 25, "otherSpeeds": [], "details": "" }
+    },
+    "initiative": { "statistic": "perception" },
+    "details": {
+      "languages": { "value": ["taldane", "drell", "hanar"], "details": "" },
+      "level": { "value": 1 },
+      "blurb": "Drell scholar with eidetic memory",
+      "publicNotes": "<p>Drell archivists serve the hanar as librarians, historians, and living repositories of knowledge. Their eidetic memory means they forget nothing they have ever read, seen, or experienced — a gift that occasionally becomes a burden when vivid recollections surface unbidden. They are careful, methodical, and utterly precise in their words.</p><p><strong>Eidetic Memory:</strong> The archivist can attempt any Recall Knowledge check as if trained, and gains a +2 circumstance bonus to all Recall Knowledge checks.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Actor and Ancestry Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": { "version": null, "previous": null },
+    "abilities": {
+      "str": { "mod": -1 },
+      "dex": { "mod": 2 },
+      "con": { "mod": 0 },
+      "int": { "mod": 4 },
+      "wis": { "mod": 3 },
+      "cha": { "mod": 1 }
+    },
+    "perception": { "details": "", "mod": 7, "senses": [], "vision": true },
+    "saves": {
+      "fortitude": { "value": 4, "saveDetail": "" },
+      "reflex": { "value": 6, "saveDetail": "" },
+      "will": { "value": 8, "saveDetail": "" }
+    },
+    "skills": {
+      "arcana": { "base": 8 },
+      "religion": { "base": 7 },
+      "society": { "base": 8 },
+      "nature": { "base": 6 },
+      "occultism": { "base": 7 }
+    },
+    "traits": {
+      "value": ["drell"],
+      "rarity": "common",
+      "size": { "value": "med" }
+    }
+  },
+  "prototypeToken": {
+    "name": "Drell Archivist",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1, "height": 1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5, "anchorY": 0.5,
+      "offsetX": 0, "offsetY": 0,
+      "fit": "contain", "scaleX": 1, "scaleY": 1,
+      "rotation": 0, "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
+      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": { "default": 0 }
+}

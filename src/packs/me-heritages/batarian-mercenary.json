@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000007",
+  "_id": "MEHeritage000007",
+  "img": "systems/pf2e/icons/features/ancestry/hunting-catfolk.webp",
+  "name": "Mercenary Batarian",
+  "system": {
+    "ancestry": {
+      "name": "Batarian",
+      "slug": "batarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.BatarianAncest01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You've built a career selling your skills and your willingness to use them, operating across the grey zones of Terminus space where no one asks too many questions about what you did before you arrived. Batarian mercenaries have a reputation as reliable and brutal, and you've cultivated exactly that reputation to keep the work coming. You know how mercenary contracts work, which employers pay and which don't, and when a job has gone wrong before anyone else in the room catches on.</p><p>You become trained in Intimidation and gain the Mercenary Lore skill. You gain a +1 circumstance bonus to Perception checks to Sense Motive when assessing whether an employer or contact is being honest about a job's terms or risks.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.itm.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "mercenary-batarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

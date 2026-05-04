@@ -21,10 +21,10 @@
 //
 // ============================================================
 
-const MODULE_ID = 'mass-effect-item-repository';
+const MODULE_ID = 'mass-effect-sf2e-conversion';
 
 // Bump this (not module.json version) when world items need recreating.
-const MODULE_DATA_VERSION = '1.1.0';
+const MODULE_DATA_VERSION = '1.1.2';
 
 // ── AMMO DEFINITIONS ──────────────────────────────────────────────────────────
 
@@ -33,10 +33,12 @@ const AMMO_DEFS = [
     id: 'incendiary',
     name: 'Incendiary Rounds',
     color: '#ff6f00',
-    img: 'icons/magic/fire/flame-burning-orange.webp',
+    img: 'https://static.wikia.nocookie.net/masseffect/images/c/cf/ME3_Incendiary_Ammo.png',
     damageType: 'fire',
-    diceNum: 1, dieSz: 'd6',
-    description: '<p>Thermite-tipped rounds that ignite on impact. Your weapon attacks deal an additional <strong>1d6 fire damage</strong>.</p>'
+    diceNum: 0, dieSz: '',
+    // Overrides the weapon's damage type to fire rather than adding bonus dice
+    rules: [{ key: 'DamageDice', selector: 'strike-damage', override: { damageType: 'fire' } }],
+    description: '<p>Thermite-tipped rounds that ignite on impact. Your weapon attacks deal <strong>fire damage</strong> instead of their normal damage type.</p>'
       + '<p>Incendiary rounds burn through armor 50% faster: when the target has an active Combat Armor Frame, each point of incoming damage depletes 1.5 points of armor.</p>'
       + '<p>Remove this effect to return to standard ammunition.</p>',
   },
@@ -44,7 +46,7 @@ const AMMO_DEFS = [
     id: 'phasic',
     name: 'Phasic Rounds',
     color: '#00e5ff',
-    img: 'icons/magic/light/beam-rays-blue-small.webp',
+    img: 'https://static.wikia.nocookie.net/masseffect/images/b/b5/Phasic_Rounds_MP.png',
     damageType: 'force',
     diceNum: 1, dieSz: 'd4',
     description: '<p>Rounds coated in a mass effect field that disrupts ablative plating. Your weapon attacks deal an additional <strong>1d4 force damage</strong>.</p>'
@@ -55,10 +57,14 @@ const AMMO_DEFS = [
     id: 'disruptor',
     name: 'Disruptor Rounds',
     color: '#fff176',
-    img: 'icons/magic/lightning/bolt-yellow.webp',
+    img: 'https://static.wikia.nocookie.net/masseffect/images/b/b2/ME3_Disruptor_Ammo.png',
     damageType: 'electricity',
-    diceNum: 1, dieSz: 'd4',
-    description: '<p>Rounds that generate a disruptive electrical pulse on impact. Your weapon attacks deal an additional <strong>1d4 electricity damage</strong>.</p>'
+    diceNum: 0, dieSz: '',
+    // Overrides the weapon's damage type to electricity rather than adding bonus dice.
+    // This ensures the damage-roll chat message carries item:damage:type:electricity,
+    // which triggers the double-damage shield routing.
+    rules: [{ key: 'DamageDice', selector: 'strike-damage', override: { damageType: 'electricity' } }],
+    description: '<p>Rounds that generate a disruptive electrical pulse on impact. Your weapon attacks deal <strong>electricity damage</strong> instead of their normal damage type.</p>'
       + '<p>Disruptor rounds deal double damage to kinetic shields: all electricity damage against shielded targets is automatically doubled.</p>'
       + '<p>Remove this effect to return to standard ammunition.</p>',
   },
@@ -66,7 +72,7 @@ const AMMO_DEFS = [
     id: 'cryo',
     name: 'Cryo Rounds',
     color: '#80deea',
-    img: 'icons/magic/water/ice-snowflake-cold-blue.webp',
+    img: 'https://static.wikia.nocookie.net/masseffect/images/9/94/ME3_Cryo_Ammo.png',
     damageType: 'cold',
     diceNum: 1, dieSz: 'd4',
     description: '<p>Cryogenically-charged rounds that flash-freeze on impact. Your weapon attacks deal an additional <strong>1d4 cold damage</strong>.</p>'
@@ -77,7 +83,7 @@ const AMMO_DEFS = [
     id: 'warp',
     name: 'Warp Rounds',
     color: '#ce93d8',
-    img: 'icons/magic/chaos/orb-purple-burst.webp',
+    img: 'https://static.wikia.nocookie.net/masseffect/images/6/63/ME3_Warp_Ammo.png',
     damageType: 'void',
     diceNum: 1, dieSz: 'd4',
     description: '<p>Rounds infused with destabilizing dark energy. Your weapon attacks deal an additional <strong>1d4 void damage</strong>.</p>'
@@ -88,7 +94,7 @@ const AMMO_DEFS = [
     id: 'armor-piercing',
     name: 'Armor-Piercing Rounds',
     color: '#90a4ae',
-    img: 'icons/weapons/ammunition/bullet-cartridge-round-red.webp',
+    img: 'https://static.wikia.nocookie.net/masseffect/images/b/bc/ME3_Armor_Piercing_Ammo.png',
     damageType: null,
     diceNum: 0, dieSz: '',
     description: '<p>Hard alloy sabot rounds designed to penetrate ablative armor plating. These rounds add no bonus damage type.</p>'
@@ -99,7 +105,7 @@ const AMMO_DEFS = [
     id: 'shredder',
     name: 'Shredder Rounds',
     color: '#d32f2f',
-    img: 'icons/weapons/ammunition/bullet-cartridge-round-copper.webp',
+    img: 'https://static.wikia.nocookie.net/masseffect/images/9/95/Shredderammo.png',
     damageType: 'slashing',
     diceNum: 1, dieSz: 'd6',
     description: '<p>Serrated flechette rounds designed to shred unprotected tissue. Your weapon attacks deal an additional <strong>1d6 slashing damage</strong>.</p>'
@@ -204,7 +210,7 @@ Hooks.on('createItem', async (item, _options, _userId) => {
     if (max > 0 && item.getFlag(MODULE_ID, 'armorCurrent') == null) {
       await item.update({
         [`flags.${MODULE_ID}.armorCurrent`]: max,
-        'system.badge': { type: 'counter', value: max, max },
+        'system.badge': { type: 'counter', value: max, max, label: 'Armor Points' },
       });
     }
     return;
@@ -273,7 +279,9 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
   // Electricity also falls back to chat message scan so natural-electric weapons work.
   const attackerAmmoType = getAttackerAmmoType();
   const detectedTypes    = detectDamageTypes();
-  const isElectricity    = detectedTypes.has('electricity');
+  // Double-check via attacker ammo type flag in case the rule element's override
+  // doesn't propagate item:damage:type:electricity into the roll options.
+  const isElectricity    = detectedTypes.has('electricity') || attackerAmmoType === 'disruptor';
   const isWarp           = attackerAmmoType === 'warp';
   const isIncendiary     = attackerAmmoType === 'incendiary';
   const isPhasic         = attackerAmmoType === 'phasic';
@@ -358,7 +366,7 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
       } else {
         armorFrame.update({
           [`flags.${MODULE_ID}.armorCurrent`]: newArmorHP,
-          'system.badge': { type: 'counter', value: newArmorHP, max: armorMax },
+          'system.badge': { type: 'counter', value: newArmorHP, max: armorMax, label: 'Armor Points' },
         });
         console.log(`  ARMOR      ${armorCurrent}→${newArmorHP}  HP leaked:${finalHpDamage}`);
       }
@@ -487,12 +495,12 @@ function getBioticBarrier(actor) {
 
 function isArmorFrame(item) {
   return item.flags?.[MODULE_ID]?.armorMax != null
-    && (item.type === 'equipment' || item.type === 'effect');
+    && (item.type === 'effect' || item.type === 'equipment');
 }
 
 function getArmorFrame(actor) {
-  return actor?.itemTypes?.equipment?.find(isArmorFrame)
-    ?? actor?.itemTypes?.effect?.find(isArmorFrame)
+  return actor?.itemTypes?.effect?.find(isArmorFrame)
+    ?? actor?.itemTypes?.equipment?.find(isArmorFrame)
     ?? null;
 }
 
@@ -915,7 +923,7 @@ async function createArmorFrameItems() {
   for (const tier of ARMOR_FRAME_TIERS) {
     await Item.create({
       name: tier.name,
-      type: 'equipment',
+      type: 'effect',
       img: 'icons/magic/defensive/shield-barrier-blue.webp',
       folder: folder.id,
       flags: { [MODULE_ID]: { armorMax: tier.ap } },
@@ -926,13 +934,9 @@ async function createArmorFrameItems() {
             + `<p>Armor Points absorb damage that gets through shields, before it reaches your HP. The frame is destroyed when all Armor Points are depleted.</p>`
             + `<p><strong>Incendiary Rounds</strong> burn through armor 50% faster. <strong>Phasic Rounds</strong> bypass the armor frame entirely. <strong>Armor-Piercing Rounds</strong> allow 50% of damage to bleed through to shields/HP.</p>`,
         },
-        level:    { value: tier.level },
-        price:    { value: tier.price },
-        bulk:     { value: 1 },
-        equipped: { carryType: 'worn', inSlot: true },
-        usage:    { value: 'other' },
-        traits:   { value: ['tech'], rarity: 'common' },
-        rules:    [],
+        duration: { value: -1, unit: 'unlimited', expiry: null },
+        badge: { type: 'counter', value: tier.ap, max: tier.ap, label: 'Armor Points' },
+        rules: [],
       },
     });
   }
@@ -948,14 +952,14 @@ async function createAmmoActionItems() {
 
   for (const ammo of AMMO_DEFS) {
     // Build DamageDice rule element (omit for ammo types with no bonus dice)
-    const rules = ammo.diceNum > 0 ? [{
+    const rules = ammo.rules ?? (ammo.diceNum > 0 ? [{
       key: 'DamageDice',
       selector: 'strike-damage',
       diceNumber: ammo.diceNum,
       dieSize: ammo.dieSz,
       damageType: ammo.damageType,
       label: ammo.name,
-    }] : [];
+    }] : []);
 
     // Create the effect item first so we can reference its ID in the action
     const effect = await Item.create({

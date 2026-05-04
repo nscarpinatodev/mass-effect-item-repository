@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000011",
+  "_id": "MEHeritage000011",
+  "img": "systems/pf2e/icons/features/ancestry/duskwalker.webp",
+  "name": "Shadow Drell",
+  "system": {
+    "ancestry": {
+      "name": "Drell",
+      "slug": "drell",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.DrellAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>The drell's extraordinary physical capabilities—adhesive grip, fast reflexes, perfect memory, and a predator's patience—make them naturally suited for infiltration and assassination work. You were trained in exactly that tradition, likely as part of the Compact's shadow service or as an independent contractor who found the galaxy pays extremely well for someone who can get in, finish the job, and disappear. Your calm is not detachment. It is precision.</p><p>You become an expert in Stealth. You gain a +1 circumstance bonus to Athletics checks to Climb and to attack rolls made when you are hidden or undetected. Your Adhesive Skin feature allows you to remain motionless on vertical surfaces indefinitely without a check.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.ste.rank",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "shadow-drell",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

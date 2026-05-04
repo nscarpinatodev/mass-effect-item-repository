@@ -1,0 +1,339 @@
+{
+  "name": "Geth Armature",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b6/ME1_Geth_Armature.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Geth Armature",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/b/b6/ME1_Geth_Armature.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "geth-armature",
+    "details": {
+      "level": {
+        "value": 11
+      },
+      "publicNotes": "<p>The Geth Armature is a mid-size quadrupedal combat platform that serves as Geth heavy fire support. Armed with a high-powered plasma cannon, it engages from long range while its composite armor protects against return fire. It lacks shields but its heavy plating compensates.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "The Geth Armature is a mid-size quadrupedal combat platform that serves as Geth heavy fire support."
+    },
+    "attributes": {
+      "hp": {
+        "value": 160,
+        "max": 160,
+        "temp": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "construct",
+        "geth"
+      ],
+      "size": {
+        "value": "large"
+      },
+      "rarity": "uncommon"
+    },
+    "abilities": {
+      "str": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 6
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -3
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 25,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 18,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 20,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 26
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 22,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "2521db58adc7052b",
+      "name": "Plasma Cannon",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "geth-armature-plasma-cannon",
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "3d8+12",
+            "damageType": "fire"
+          }
+        },
+        "range": {
+          "value": 150
+        },
+        "traits": {
+          "value": []
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c5a097839c2f4d69.2521db58adc7052b"
+    },
+    {
+      "_id": "c26da1c2be439b67",
+      "name": "Stomp",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "geth-armature-stomp",
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d10+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "traits": {
+          "value": [
+            "reach-10"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c5a097839c2f4d69.c26da1c2be439b67"
+    },
+    {
+      "_id": "071ab5daf47bc0f8",
+      "name": "Composite Armor Plating",
+      "type": "effect",
+      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "system": {
+        "slug": "npc-geth-armor-armature",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 40,
+          "max": 40,
+          "label": "Armor Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "armorMax": 40,
+          "armorCurrent": 40
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c5a097839c2f4d69.071ab5daf47bc0f8"
+    }
+  ],
+  "_id": "c5a097839c2f4d69",
+  "_key": "!actors!c5a097839c2f4d69",
+  "effects": []
+}

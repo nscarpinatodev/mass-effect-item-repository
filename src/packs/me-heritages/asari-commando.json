@@ -1,0 +1,41 @@
+{
+  "_key": "!items!MEHeritage000001",
+  "_id": "MEHeritage000001",
+  "img": "systems/pf2e/icons/features/ancestry/hold-scarred-orc.webp",
+  "name": "Commando Asari",
+  "system": {
+    "ancestry": {
+      "name": "Asari",
+      "slug": "asari",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.AsariAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You were trained from a young age in the Asari Commandos—the elite warrior caste whose members combine biotic power with combat precision into a fighting style other species spend lifetimes failing to replicate. Asari commandos move through battle with a fluid efficiency that makes them among the most feared individual combatants in the galaxy.</p><p>You are trained in light and medium armor and gain access to the Quick Draw feat (or become trained in Acrobatics if you already have Quick Draw). Additionally, your biotic abilities (including those from ancestry features and feats) deal an additional 1 damage when used as attacks.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "commando-asari",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEFeature0000012",
+  "_id": "MEFeature0000012",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Adaptive Resilience",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Humanity's rapid rise across the stars was built as much on the ability to absorb setbacks and adapt as on any special talent. Humans survive disasters that should have ended their ambitions and emerge recalibrating rather than broken. This resilience is both cultural and deeply personal—a stubbornness at the core of the species that refuses to accept permanent defeat.</p><p>Once per day, when you would critically fail a saving throw, you can reduce the result to a regular failure instead.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "adaptive-resilience",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

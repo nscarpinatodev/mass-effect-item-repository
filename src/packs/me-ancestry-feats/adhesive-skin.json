@@ -1,0 +1,58 @@
+{
+  "_key": "!items!MEFeature0000006",
+  "_id": "MEFeature0000006",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Adhesive Skin",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Drell evolved in rocky desert terrain and developed microscopic adhesive fibers in their fingertips and palms that allow them to cling to rough surfaces with minimal effort. This adaptation makes drell natural climbers, able to scale walls and ceilings that would defeat most bipedal species without equipment.</p><p>You gain a climb Speed of 15 feet. This Speed functions on any surface that is not perfectly smooth (glass, ice, or similar frictionless surfaces may still require an Athletics check at the GM's discretion).</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 15
+      }
+    ],
+    "slug": "adhesive-skin",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "drell"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

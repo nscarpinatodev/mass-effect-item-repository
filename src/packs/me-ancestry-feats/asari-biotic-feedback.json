@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEAncFeat000002",
+  "_id": "MEAncFeat000002",
+  "img": "systems/pf2e/icons/features/ancestry/fey-touched-gnome.webp",
+  "name": "Biotic Feedback",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature hits you with a melee Strike.</p><p>Your nervous system responds to physical impact with an involuntary biotic discharge—an uncontrolled surge of mass effect field energy that radiates outward from the point of contact. You didn't choose to do this. It happens faster than conscious thought.</p><p>The creature that hit you takes 1d4 force damage (no save). At 9th level this increases to 2d4 force damage. At 17th level this increases to 3d4 force damage.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "biotic-feedback",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "asari",
+        "force"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_key": "!items!MEAncFeat000031",
+  "_id": "MEAncFeat000031",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Adaptive Immunity",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Vorcha adaptive biology works faster than most species' immune systems can even register a threat. Where a human might spend a week fighting off an infection, you spend hours. Where a disease might permanently compromise another species' physiology, yours adapts to it, incorporates the relevant information, and continues operating. This extends beyond pathogens: toxins, chemical agents, and physiological stressors that accumulate in most bodies are processed out by yours in a fraction of the expected time.</p><p>At the end of each of your turns, you can attempt a DC 15 flat check to reduce the value of one of the following conditions by 1: clumsy, drained, enfeebled, sickened, or stupefied. Additionally, you gain a +2 circumstance bonus to Fortitude saves against disease, poison, and effects that would cause the drained or sickened conditions. The first time each day you would gain the sickened condition, you can attempt a DC 15 Fortitude save; on a success, you do not gain the condition.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "affliction:disease"
+        ],
+        "label": "Adaptive Immunity (Disease)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "affliction:poison"
+        ],
+        "label": "Adaptive Immunity (Poison)"
+      }
+    ],
+    "slug": "adaptive-immunity",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vorcha"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_key": "!items!MEHeritage000027",
+  "_id": "MEHeritage000027",
+  "img": "systems/pf2e/icons/features/ancestry/nomadic-halfling.webp",
+  "name": "Pilgrim Quarian",
+  "system": {
+    "ancestry": {
+      "name": "Quarian",
+      "slug": "quarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.QuarianAncest001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Every quarian who comes of age undertakes the Pilgrimage: a solo journey into the wider galaxy to return with something of value that proves they can survive and contribute beyond the safety of the Flotilla. Your Pilgrimage is complete—and whatever you found out there changed you. You've seen the galaxy at ground level, made contacts in unexpected places, and developed the particular competence of someone who spent years figuring out difficult situations alone.</p><p>You gain a +1 circumstance bonus to Diplomacy checks with non-quarian species from your Pilgrimage experience with them. You begin play with one Contact—a named individual from another species who owes you a favor or has reason to assist you (work with your GM to establish this contact and their capacity to help).</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Pilgrim's Cross-Species Experience"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "pilgrim-quarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

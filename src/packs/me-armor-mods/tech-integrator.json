@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Tech Integrator",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f5/ME3_Defense_Matrix.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A custom heuristics module that integrates directly with the wearer's omni-tool, replacing the standard combat VI with a specialized offensive technology suite. The module pre-computes optimal hack vectors, incinerate plasma trajectories, and combat drone deployment windows, allowing the user to execute tech abilities with significantly improved effectiveness and accuracy. Grants a +2 item bonus to tech ability checks and attack rolls.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure. Requires an omni-tool.</p>"
+    },
+    "rules": [],
+    "slug": "tech-integrator",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": "tech-integrator",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "130abfeddd93c5f0",
+  "_key": "!items!130abfeddd93c5f0"
+}

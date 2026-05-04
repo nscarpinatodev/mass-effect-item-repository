@@ -1,0 +1,334 @@
+{
+  "name": "Ravager",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7e/ME3_Ravager.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Ravager",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/7/7e/ME3_Ravager.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "ravager",
+    "details": {
+      "level": {
+        "value": 10
+      },
+      "publicNotes": "<p>The Ravager is a Reaper-corrupted Collector creature repurposed as a slow-moving artillery platform. It bombards enemies with acid projectiles and periodically spawns Seeker Swarms to harass targets. Its thick chitinous armor absorbs significant punishment.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "The Ravager is a Reaper-corrupted Collector creature repurposed as a slow-moving artillery platform."
+    },
+    "attributes": {
+      "hp": {
+        "value": 155,
+        "max": 155,
+        "temp": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "speed": {
+        "value": 20,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "beast",
+        "reaper"
+      ],
+      "size": {
+        "value": "large"
+      },
+      "rarity": "uncommon"
+    },
+    "abilities": {
+      "str": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": -2
+      },
+      "con": {
+        "mod": 6
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 24,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 18,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 20,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "7e8180e760cf2005",
+      "name": "Acid Barrage",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "ravager-acid-barrage",
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "3d6+10",
+            "damageType": "acid"
+          },
+          "1": {
+            "damage": "2d4",
+            "damageType": "acid",
+            "category": "persistent"
+          }
+        },
+        "range": {
+          "value": 100
+        },
+        "traits": {
+          "value": [
+            "splash-5"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!5852f1ce7ff95534.7e8180e760cf2005"
+    },
+    {
+      "_id": "6dcb7118846d570c",
+      "name": "Spawn Seekers",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "ravager-spawn-seekers",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "description": {
+          "value": "<p>The Ravager spawns 1d4 Seeker Swarms from its body. These arrive in adjacent squares and act on the Ravager's initiative. The Ravager can use this ability once per round.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": []
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!5852f1ce7ff95534.6dcb7118846d570c"
+    },
+    {
+      "_id": "7c28a794e3b9e4b0",
+      "name": "Reaper Armor",
+      "type": "effect",
+      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "system": {
+        "slug": "npc-reaper-armor-ravager",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 40,
+          "max": 40,
+          "label": "Armor Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "armorMax": 40,
+          "armorCurrent": 40
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!5852f1ce7ff95534.7c28a794e3b9e4b0"
+    }
+  ],
+  "_id": "5852f1ce7ff95534",
+  "_key": "!actors!5852f1ce7ff95534",
+  "effects": []
+}

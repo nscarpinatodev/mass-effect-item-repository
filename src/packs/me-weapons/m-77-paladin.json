@@ -1,0 +1,107 @@
+{
+  "folder": null,
+  "name": "M-77 Paladin",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/43/ME3_Paladin_Heavy_Pistol.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The M-77 Paladin is the heaviest combat pistol available to Alliance operatives, firing anti-armor rounds at velocities that blur the line between handgun and carbine. Its six-round heat sink fires slowly but with authority — each shot delivers enough kinetic force to stagger armored infantry and penetrate the lighter plating of Cerberus combat drones outright. Those who need a pistol that respects no armor class carry the Paladin.</p>"
+    },
+    "rules": [],
+    "slug": "m-77-paladin",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "kickback"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "baseItem": "m-77-paladin",
+    "bulk": {
+      "value": 1
+    },
+    "price": {
+      "value": {
+        "gp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "pistol",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 3,
+      "die": "d8",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 55,
+    "expend": 1,
+    "ammo": {
+      "capacity": 6,
+      "baseType": "projectile-ammo",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "1"
+    },
+    "grade": "superior",
+    "runes": {
+      "potency": 0,
+      "striking": 2,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "a89c1aa4260495c4",
+  "_key": "!items!a89c1aa4260495c4"
+}

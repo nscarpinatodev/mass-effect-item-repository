@@ -1,0 +1,67 @@
+{
+  "_key": "!items!MEAncFeat000016",
+  "_id": "MEAncFeat000016",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Headbutt",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>The krogan cranial ridge is a structural feature that serves multiple purposes: it protects the brain from impacts that would kill most species outright, it is a display indicator of age and status, and in a combat situation, it is a weapon. Striking with the crest delivers the force of a full upper body slam concentrated into one of the hardest surfaces on a krogan's body. Most species that have experienced this firsthand describe it as memorable, in the same way that a concussion is memorable.</p><p>You gain a Headbutt unarmed Strike. This attack is in the brawling group, uses your Strength modifier, and deals 1d8 bludgeoning damage. A creature hit by your Headbutt must succeed at a Fortitude save (DC = 10 + your level + your Strength modifier) or become stunned 1. On a critical hit, the creature is stunned 1 regardless of the save, and stunned 2 on a critical failure of the save.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "label": "Headbutt",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "category": "unarmed",
+        "traits": [
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "headbutt",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "krogan"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

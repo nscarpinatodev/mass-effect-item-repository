@@ -1,0 +1,293 @@
+{
+  "name": "Seeker Swarm",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d9/ME2_Seeker_Swarm.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Seeker Swarm",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/d/d9/ME2_Seeker_Swarm.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "seeker-swarm",
+    "details": {
+      "level": {
+        "value": 4
+      },
+      "publicNotes": "<p>Seeker Swarms are clouds of insectoid Collector parasites that immobilize victims by injecting a paralytic compound. They cannot be targeted by conventional weapons and are immune to most attacks — only area effects or special ammo can harm them. A swarm that successfully envelops a target renders that creature Paralyzed until the swarm is driven off.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Seeker Swarms are clouds of insectoid Collector parasites that immobilize victims by injecting a paralytic compound."
+    },
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "max": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "speed": {
+        "value": 0,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "swarm",
+        "collector",
+        "mindless"
+      ],
+      "size": {
+        "value": "large"
+      },
+      "rarity": "common"
+    },
+    "immunities": [
+      "precision",
+      "single-target"
+    ],
+    "abilities": {
+      "str": {
+        "mod": -2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -4
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 8,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "stealth": {
+        "base": 12
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "719e0fd8ec902f3b",
+      "name": "Envelop",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "seeker-swarm-envelop",
+        "bonus": {
+          "value": 12
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d4",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile"
+          ]
+        },
+        "attackEffects": {
+          "value": [
+            "paralyzed"
+          ]
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a7fe52781dd9c8c5.719e0fd8ec902f3b"
+    },
+    {
+      "_id": "5dbb22fb403e6326",
+      "name": "Paralytic Sting",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "seeker-swarm-paralytic-sting",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "description": {
+          "value": "<p>The swarm injects paralytic compounds into one creature it occupies the same space as. The target must succeed at a DC 20 Fortitude save or be Slowed 1 (Paralyzed on a critical failure) until the end of its next turn.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "poison"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a7fe52781dd9c8c5.5dbb22fb403e6326"
+    }
+  ],
+  "_id": "a7fe52781dd9c8c5",
+  "_key": "!actors!a7fe52781dd9c8c5",
+  "effects": []
+}

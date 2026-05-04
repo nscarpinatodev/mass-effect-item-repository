@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Trauma Module I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/3/37/ME3_Fitness.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A medi-gel dispenser and automated triage system integrated into the armor's inner layer. Pressure sensors detect tissue trauma and trigger controlled medi-gel release directly against damaged areas, stimulating rapid cellular repair throughout combat. Grants Fast Healing 1 (regain 1 HP at the start of each of your turns while above 0 HP).</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "trauma-module-1",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "trauma-module",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "48c3128d88fefc1c",
+  "_key": "!items!48c3128d88fefc1c"
+}

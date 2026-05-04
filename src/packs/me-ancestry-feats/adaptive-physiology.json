@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEFeature0000024",
+  "_id": "MEFeature0000024",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Adaptive Physiology",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>The same undifferentiated cell clusters that drive vorcha rapid healing also respond to sustained environmental stress by adapting the body for future exposure. A vorcha who survives a fire emerges with greater heat resistance. One who endures repeated acid burns becomes harder to damage with corrosives. This adaptation is not instantaneous—it requires sustained exposure over hours and will not save a vorcha from a killing blow—but over time, it makes vorcha increasingly difficult to kill with the same method twice.</p><p>After spending at least 24 hours exposed to a specific type of energy damage (fire, cold, acid, electricity, or sonic), you gain resistance 5 to that damage type. This resistance changes when you gain a new adaptation—you cannot maintain multiple resistances simultaneously. The adaptation fades if you go more than a week without relevant exposure.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "adaptive-physiology",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vorcha"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000017",
+  "_id": "MEHeritage000017",
+  "img": "systems/pf2e/icons/features/ancestry/aasimar.webp",
+  "name": "Enkindler-Devoted Hanar",
+  "system": {
+    "ancestry": {
+      "name": "Hanar",
+      "slug": "hanar",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.HanarAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Your family belongs to the most devout current of hanar religious practice, and the Enkindlers—the Protheans who the hanar believe gifted them sapience—are not simply history to you. They are sacred. You have spent years studying the Prothean ruins on Kahje, learning everything that can be learned about the beings your people revere, and carrying that knowledge as a practical tool as much as a spiritual one.</p><p>You become trained in Religion and Prothean Lore. You can identify Prothean technology and writings with a successful DC 15 Recall Knowledge check (with a +2 circumstance bonus from devoted study). Once per day, you may use a Focus Point (which you gain from this heritage) to enter a state of Enkindler Meditation, gaining a +1 status bonus to all saving throws for 1 minute as your faith steadies you.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.rel.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "enkindler-devoted-hanar",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

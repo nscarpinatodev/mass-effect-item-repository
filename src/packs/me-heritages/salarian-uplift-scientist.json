@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000032",
+  "_id": "MEHeritage000032",
+  "img": "systems/pf2e/icons/features/ancestry/wellspring-gnome.webp",
+  "name": "Uplift Scientist Salarian",
+  "system": {
+    "ancestry": {
+      "name": "Salarian",
+      "slug": "salarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.SalarianAncs0001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>The salarian science establishment has a long and complicated history of accelerating the technological development of other species for strategic purposes—the krogan uplift, the acceleration of human technology after first contact, various covert programs with less publicly acknowledged outcomes. You are a product of that tradition: a scientist trained specifically in cross-species biological, technological, and social development. The ethical dimensions of this work are something you think about more than your predecessors did.</p><p>You become trained in Medicine and two additional Lore skills related to biology, genetics, or a specific species (e.g., Krogan Lore, Xenobiology Lore). You gain the Assurance feat for Medicine. Once per day when you Treat Wounds, you can attempt to treat an additional creature simultaneously without a penalty to either check.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.med.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "uplift-scientist-salarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_key": "!items!MEAncFeat000005",
+  "_id": "MEAncFeat000005",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Castes and Leverage",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Batarian society is organized around a rigid caste system, and navigating that system has given you a finely tuned sense for social hierarchies of any kind—where the power sits, who defers to whom, who is resentful of that deference, and where the leverage points are. You have found that most species organize themselves in hierarchies that are not that different from the Hegemony's, once you strip away the cosmetic differences.</p><p>You gain a +1 circumstance bonus to Diplomacy and Intimidation checks against creatures who occupy a defined social or professional role (guards, officials, subordinates, commanders, servants). Once per day you can use Society to Sense Motive in place of Perception—rolling your Society check against the creature's Deception DC—to determine a creature's rank, authority level, or position within their organization.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "castes-and-leverage",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "batarian"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

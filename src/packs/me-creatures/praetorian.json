@@ -1,0 +1,393 @@
+{
+  "name": "Praetorian",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/fa/ME2_Praetorian.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Praetorian",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/f/fa/ME2_Praetorian.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "praetorian",
+    "details": {
+      "level": {
+        "value": 14
+      },
+      "publicNotes": "<p>The Praetorian is the apex Collector combat form — two Collectors fused together into a massive, floating biotic juggernaut. It projects powerful biotic fields and fires devastating eye-beams. A thick biotic barrier and heavy armor make it extraordinarily resilient. It hovers above the ground, ignoring terrain.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "The Praetorian is the apex Collector combat form — two Collectors fused together into a massive, floating biotic juggernaut."
+    },
+    "attributes": {
+      "hp": {
+        "value": 215,
+        "max": 215,
+        "temp": 80,
+        "details": ""
+      },
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "speed": {
+        "value": 0,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "collector",
+        "biotic"
+      ],
+      "size": {
+        "value": "huge"
+      },
+      "rarity": "rare"
+    },
+    "abilities": {
+      "str": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 6
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 28,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 22,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 26,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 28
+      },
+      "intimidation": {
+        "base": 26
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 26,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "6b25f4ccbdd7abde",
+      "name": "Eye Beam",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "praetorian-eye-beam",
+        "bonus": {
+          "value": 28
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "4d8+16",
+            "damageType": "fire"
+          }
+        },
+        "range": {
+          "value": 100
+        },
+        "traits": {
+          "value": [
+            "line-60"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!73171f71640fa444.6b25f4ccbdd7abde"
+    },
+    {
+      "_id": "39f6c05ddb265ad2",
+      "name": "Biotic Shockwave",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "praetorian-biotic-shockwave",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>The Praetorian unleashes a 30-foot cone of biotic force. All creatures in the area must succeed at a DC 34 Reflex save or take 5d6+14 force damage and be knocked prone (half damage on success, prone only on critical failure).</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "force"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!73171f71640fa444.39f6c05ddb265ad2"
+    },
+    {
+      "_id": "4b5068a760a9d822",
+      "name": "Biotic Barrier",
+      "type": "effect",
+      "img": "systems/pf2e/icons/spells/mystic-armor.webp",
+      "system": {
+        "slug": "npc-biotic-barrier-praetorian",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 80,
+          "max": 80,
+          "label": "Barrier Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "barrierMax": 80,
+          "barrierCurrent": 80
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!73171f71640fa444.4b5068a760a9d822"
+    },
+    {
+      "_id": "f76c16ccae3d4bae",
+      "name": "Collector Armor Plating",
+      "type": "effect",
+      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "system": {
+        "slug": "npc-collector-armor-praetorian",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 60,
+          "max": 60,
+          "label": "Armor Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "armorMax": 60,
+          "armorCurrent": 60
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!73171f71640fa444.f76c16ccae3d4bae"
+    }
+  ],
+  "_id": "73171f71640fa444",
+  "_key": "!actors!73171f71640fa444",
+  "effects": []
+}

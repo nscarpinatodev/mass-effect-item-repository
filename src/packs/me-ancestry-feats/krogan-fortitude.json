@@ -1,0 +1,60 @@
+{
+  "_key": "!items!MEFeature0000013",
+  "_id": "MEFeature0000013",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Krogan Fortitude",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Krogan biology is designed to keep functioning long after other species would be dead. Their distributed circulatory and nervous systems, multi-chambered hearts, and accelerated cellular repair make them extraordinarily difficult to bring down through conventional injury. Wounds that would cripple a human or turian are inconveniences to a krogan with time to breathe.</p><p>You gain fast healing 1: at the start of each of your turns, if you are below half your maximum Hit Points, you recover 1 Hit Point. This healing does not function if you are at 0 HP.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": 1,
+        "predicate": [
+          "hp-below-half"
+        ]
+      }
+    ],
+    "slug": "krogan-fortitude",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "krogan"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_key": "!items!MEAncFeat000026",
+  "_id": "MEAncFeat000026",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Hierarchy Command",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Turian command presence is not about volume or threat. It is about absolute clarity of expectation delivered at exactly the right moment—a tone and manner that cuts through confusion and fear and tells the people around you what to do next with enough authority that they do it without stopping to debate. You have this. It is not something you put on. It is something you are.</p><p>Choose up to two allies within 30 feet who can hear you. Each chosen ally gains a +1 circumstance bonus to their next attack roll or skill check made before the end of their next turn. Additionally, if any chosen ally is currently frightened, they reduce their frightened condition by 1. You can use this ability a number of times per day equal to your Charisma modifier (minimum 1).</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "hierarchy-command",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "turian",
+        "auditory",
+        "mental"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

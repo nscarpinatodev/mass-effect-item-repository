@@ -1,0 +1,108 @@
+{
+  "folder": null,
+  "name": "Javelin",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME3_Javelin_Sniper_Rifle.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Javelin is a Cerberus electromagnetic sniper rifle that charges and fires a bolt of arc energy capable of penetrating solid cover before detonating against the target on the other side. Enemies hidden behind walls, crates, or wreckage offer no protection against it — the bolt passes through non-conductive barriers entirely. Against shielded and synthetic targets the electrical devastation is unparalleled, and at maximum range its arc expands to catch clustered enemies in the discharge.</p>"
+    },
+    "rules": [],
+    "slug": "javelin",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "fatal-d12",
+        "volley-30"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "baseItem": "javelin",
+    "bulk": {
+      "value": 2
+    },
+    "price": {
+      "value": {
+        "gp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "category": "martial",
+    "group": "sniper",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 3,
+      "die": "d10",
+      "damageType": "electricity",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 200,
+    "expend": 1,
+    "ammo": {
+      "capacity": 3,
+      "baseType": "battery",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "1"
+    },
+    "grade": "superior",
+    "runes": {
+      "potency": 0,
+      "striking": 2,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "0730d1dabc8ed4e8",
+  "_key": "!items!0730d1dabc8ed4e8"
+}

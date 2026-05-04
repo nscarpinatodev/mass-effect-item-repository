@@ -1,0 +1,617 @@
+{
+  "_key": "!actors!MENPC00000000021",
+  "_id": "MENPC00000000021",
+  "name": "Turian Spectre",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 140,
+        "temp": 95,
+        "max": 140,
+        "details": ""
+      },
+      "ac": {
+        "value": 27,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "taldane",
+          "turian"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 8
+      },
+      "blurb": "Elite Council Spectre — autonomous operative, extreme threat",
+      "publicNotes": "<p>A turian Spectre is what happens when decades of military discipline intersect with covert operations training and the institutional authorization to do whatever is necessary. They operate without oversight, carry weapons and equipment restricted to standing military forces, and have contingency plans for situations most operatives would categorize as unwinnable.</p><p><strong>Formation Fighter:</strong> +1 circumstance to attacks and AC when adjacent to any ally.</p><p><strong>Hierarchy Command:</strong> Once per round as a free action, grants one ally within 30 ft a +1 circ. bonus to their next roll before the start of the Spectre's next turn.</p><p><strong>Kinetic Barrier:</strong> 95 Shield HP. Recharges 23 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Actor and Ancestry Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 18,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 18,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 17,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 17
+      },
+      "athletics": {
+        "base": 17
+      },
+      "deception": {
+        "base": 17
+      },
+      "intimidation": {
+        "base": 18
+      },
+      "society": {
+        "base": 16
+      },
+      "stealth": {
+        "base": 17
+      },
+      "survival": {
+        "base": 16
+      }
+    },
+    "traits": {
+      "value": [
+        "turian",
+        "humanoid"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Turian Spectre",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "NPCMelee0000001A",
+      "name": "Combat Knife",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "damageRolls": {
+          "dmgroll0001": {
+            "damage": "2d6+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "config": {}
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000021.NPCMelee0000001A"
+    },
+    {
+      "_id": "NPCRanged000001A",
+      "name": "Spectre-Issue Assault Rifle",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 19
+        },
+        "damageRolls": {
+          "dmgroll0002": {
+            "damage": "2d8+7",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "analog",
+            "reload-2"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "range": {
+          "increment": 40,
+          "max": 160
+        },
+        "description": {
+          "value": "<p>Spectre-issue hardware, restricted from civilian channels.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000021.NPCRanged000001A"
+    },
+    {
+      "_id": "NPCShield000001A",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A high-grade kinetic barrier providing <strong>95 Shield HP</strong>. Recharges <strong>23 HP per turn</strong>.</p>"
+        },
+        "rules": [],
+        "slug": "me-kinetic-shield",
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000021.NPCShield000001A"
+    },
+    {
+      "_key": "!actors.items!MENPC00000000021.73600256375783b0",
+      "_id": "73600256375783b0",
+      "name": "M-76 Revenant",
+      "type": "weapon",
+      "img": "https://static.wikia.nocookie.net/masseffect/images/3/35/ME2_AR_-_Revenant.png",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The M-76 Revenant is a heavy machine gun designed to provide overwhelming suppressive fire. Its enormous heat sink capacity enables sustained bursts that shred through enemy cover and armor alike. The weapon's considerable mass and recoil make precise movement difficult while firing, but its sheer volume of fire compensates with devastating effect.</p>"
+        },
+        "rules": [],
+        "slug": "m-76-revenant",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech",
+            "automatic",
+            "unwieldy"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Mass Effect Homebrew",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "baseItem": "m-76-revenant",
+        "bulk": {
+          "value": 3
+        },
+        "price": {
+          "value": {
+            "gp": 700
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 2
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "rifle",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 2,
+          "die": "d8",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 50,
+        "expend": 1,
+        "ammo": {
+          "capacity": 200,
+          "baseType": "projectile-ammo",
+          "builtIn": false
+        },
+        "reload": {
+          "value": "0"
+        },
+        "grade": "advanced",
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_key": "!actors.items!MENPC00000000021.b952a2dfeab75dc7",
+      "_id": "b952a2dfeab75dc7",
+      "name": "Predator H Armor",
+      "type": "armor",
+      "img": "https://static.wikia.nocookie.net/masseffect/images/8/8a/Heavy-human-Predator_H.png",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Armax Arsenal's Predator H is the definitive heavy hardsuit of its era. Dual-layer ceramic ablative plating, woven durasteel underlining, and Armax's proprietary shield amplification system combine to produce one of the best-protected suits available to any Alliance operative.</p>"
+        },
+        "rules": [],
+        "slug": "predator-h-armor",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bulwark",
+            "tech"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Mass Effect Homebrew",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": "predator-h-armor",
+        "bulk": {
+          "value": 3
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 600
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "heavy",
+        "group": "plate",
+        "acBonus": 6,
+        "strength": 4,
+        "dexCap": 1,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "grade": "superior",
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

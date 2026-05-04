@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000026",
+  "_id": "MEHeritage000026",
+  "img": "systems/pf2e/icons/features/ancestry/skilled-heritage.webp",
+  "name": "Migrant Fleet Quarian",
+  "system": {
+    "ancestry": {
+      "name": "Quarian",
+      "slug": "quarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.QuarianAncest001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You grew up on one of the Flotilla's ships, part of the intricate social ecology of a vessel where everyone's role is essential and every cubic meter of living space is precious. Flotilla-raised quarians develop an intimate familiarity with the ship systems that keep them alive, a sensitivity to when something is wrong long before the diagnostics say so, and an orientation toward community cooperation that is simply assumed rather than taught.</p><p>You become an expert in Crafting. The time required to Repair an item is reduced to one-quarter normal (rather than half). Once per day when you critically fail a Crafting check to Repair, you can reduce the result to a regular failure instead.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.cra.rank",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "migrant-fleet-quarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

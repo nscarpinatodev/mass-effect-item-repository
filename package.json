@@ -1,8 +1,13 @@
 {
-  "name": "mass-effect-item-repository",
-  "version": "1.0.0",
+  "name": "mass-effect-sf2e-conversion",
+  "version": "2.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
-    "build": "node scripts/build.js"
+    "build": "node build.mjs",
+    "clean": "node --input-type=module -e \"import { rmSync } from 'fs'; rmSync('packs', { recursive: true, force: true });\""
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0"
   }
 }

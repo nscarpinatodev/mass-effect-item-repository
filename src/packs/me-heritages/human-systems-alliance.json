@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000018",
+  "_id": "MEHeritage000018",
+  "img": "systems/pf2e/icons/features/ancestry/hold-scarred-orc.webp",
+  "name": "Systems Alliance Human",
+  "system": {
+    "ancestry": {
+      "name": "Human",
+      "slug": "human",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.HumanMEAncestry1"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You served in or grew up deeply embedded with the Systems Alliance—humanity's unified military and political arm to the galaxy. Alliance culture prizes adaptability, determination, and the ability to do more with less, and those values are bone-deep in you. Whether you were a soldier, engineer, pilot, or civilian contractor, the Alliance shaped you into someone who knows how to function under pressure and how to work with a team that might not like each other but has to perform anyway.</p><p>You become trained in Athletics and gain the Systems Alliance Lore skill. You gain proficiency with light armor and simple weapons. Once per day you can Shrug It Off as a free action when you would become frightened 1 or 2, reducing the value by 1.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.ath.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "systems-alliance-human",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

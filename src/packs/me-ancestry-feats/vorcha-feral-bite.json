@@ -1,0 +1,69 @@
+{
+  "_key": "!items!MEAncFeat000030",
+  "_id": "MEAncFeat000030",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Feral Bite",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Vorcha dentition is adapted for an omnivorous diet in competitive scarcity conditions—which is to say, it is designed to bite through things that do not want to be bitten through. The jaw structure is reinforced beyond what most species would consider necessary, and the bite reflex is connected to a threat-response system that activates faster than conscious decision-making. In close quarters, this is relevant.</p><p>You gain a Feral Bite unarmed Strike. This attack is in the brawling group, has the agile and finesse traits, and deals 1d6 piercing damage. On a critical hit, the target takes 1d4 persistent bleed damage in addition to the Strike's normal effects. If you have a grabbed or restrained target, your Feral Bite deals an additional 1d6 damage.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "label": "Feral Bite",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "category": "unarmed",
+        "traits": [
+          "agile",
+          "finesse",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "feral-bite",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vorcha"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "folder": null,
+  "name": "Kishock Harpoon Gun",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_Harpoon_Gun.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Kishock is a Batarian harpoon gun that fires a mass-accelerated barbed spike at extreme velocity. Originally designed for hunting the armored fauna of Khar'shan's southern continent, it translates to combat with lethal efficiency. The harpoon penetrates kinetic barriers and embeds in the target rather than passing through, ensuring the full kinetic transfer occurs internally. Against unarmored targets the results are immediate and final; against armored ones, the penetration capabilities still prove decisive.</p>"
+    },
+    "rules": [],
+    "slug": "kishock-harpoon-gun",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "fatal-d12",
+        "volley-30"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "baseItem": "kishock-harpoon-gun",
+    "bulk": {
+      "value": 2
+    },
+    "price": {
+      "value": {
+        "gp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "category": "martial",
+    "group": "sniper",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 3,
+      "die": "d10",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 150,
+    "expend": 1,
+    "ammo": {
+      "capacity": 1,
+      "baseType": "projectile-ammo",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "2"
+    },
+    "grade": "advanced",
+    "runes": {
+      "potency": 0,
+      "striking": 2,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "36f6f50630759c8c",
+  "_key": "!items!36f6f50630759c8c"
+}

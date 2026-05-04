@@ -1,0 +1,96 @@
+{
+  "folder": null,
+  "name": "Kestrel Armor",
+  "type": "armor",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/6/65/ME2_Kestrel_Armor.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Kestrel is an advanced hardsuit developed as part of Cerberus's Aegis Pack program. Its integrated combat systems and reinforced barrier projectors represent a significant leap over standard Alliance hardware, designed for operatives expected to operate alone against overwhelming odds.</p>"
+    },
+    "rules": [],
+    "slug": "kestrel-armor",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bulwark",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "kestrel-armor",
+    "bulk": {
+      "value": 3
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 325
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy",
+    "group": "plate",
+    "acBonus": 6,
+    "strength": 4,
+    "dexCap": 2,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "grade": "advanced",
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "07ab9de1733f8fc0",
+  "_key": "!items!07ab9de1733f8fc0"
+}

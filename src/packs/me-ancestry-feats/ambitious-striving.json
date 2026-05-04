@@ -1,0 +1,66 @@
+{
+  "_key": "!items!MEFeature0000011",
+  "_id": "MEFeature0000011",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Ambitious Striving",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Humanity's defining characteristic across galactic history has been an almost unreasonable drive to learn, improve, and exceed expectations—including their own. In the span of a single generation, humans went from their first steps into space to a seat on the Citadel Council. That same drive is present in every human, expressed as an insatiable hunger to be good at something that matters to them.</p><p>You become trained in one additional skill of your choice.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "ambitiousStrivingSkill",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "choices": "skills",
+        "adjustName": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.ambitiousStrivingSkill}.rank",
+        "value": 1
+      }
+    ],
+    "slug": "ambitious-striving",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

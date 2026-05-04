@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEAncFeat000021",
+  "_id": "MEAncFeat000021",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Emergency Evacuation Protocol",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You are reduced to fewer than one-quarter your maximum Hit Points.</p><p>Centuries of living aboard ships where an emergency can mean a hull breach, an engine failure, or enemy boarders in three corridors simultaneously has produced a quarian cultural reflex: when the situation becomes genuinely critical, you get out. Not in panic—in protocol. You know where the exits are because you always know where the exits are, and when the trigger fires, your body moves before your conscious mind has finished processing the situation.</p><p>You immediately Stride up to your full Speed. This movement does not provoke reactions. If you end this movement in cover or out of line of sight of all creatures that could be threatening you, you can attempt to Hide as a free action.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "emergency-evacuation-protocol",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "quarian",
+        "move"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

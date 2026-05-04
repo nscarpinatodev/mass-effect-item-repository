@@ -1,0 +1,55 @@
+{
+  "_key": "!items!MEHeritage000028",
+  "_id": "MEHeritage000028",
+  "img": "systems/pf2e/icons/features/ancestry/versatile-heritage.webp",
+  "name": "Rannoch Settler Quarian",
+  "system": {
+    "ancestry": {
+      "name": "Quarian",
+      "slug": "quarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.QuarianAncest001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You are among the quarians who returned to Rannoch after it was reclaimed—part of the generation attempting to rebuild a civilization on a planet none of them had ever seen, from stories and generations-old records. Settlement on Rannoch means learning to survive on solid ground after a lifetime aboard ships: exposure to open sky, planetary weather, and a natural ecosystem that your immune system was never prepared for. Those who succeed are genuinely remarkable.</p><p>Your environmental suit has been adapted for extended planetary use, reducing maintenance requirements. You gain a +1 circumstance bonus to Survival checks and become trained in Nature. Your suit's immune filters have been upgraded for outdoor environments, granting you resistance to natural poisons (those without the magical trait) equal to half your level.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.nat.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "survival",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Rannoch Settler"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "rannoch-settler-quarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

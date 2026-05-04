@@ -1,0 +1,60 @@
+{
+  "_key": "!items!MEFeature0000003",
+  "_id": "MEFeature0000003",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Four Eyes",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Batarians possess two pairs of eyes: a larger upper pair for primary focus and a smaller lower pair providing wide-angle peripheral awareness. This dual-pair arrangement gives batarians exceptional situational vision that is difficult to circumvent through misdirection.</p><p>You gain a +1 circumstance bonus to Perception checks that rely on sight. Additionally, you cannot be flanked by a creature attacking from directly behind you alone—flanking still applies when enemies flank from your sides, but a single attacker directly behind you does not cause you to be off-guard.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Four Eyes (sight-based)"
+      }
+    ],
+    "slug": "four-eyes",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "batarian"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

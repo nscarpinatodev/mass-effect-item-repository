@@ -1,0 +1,344 @@
+{
+  "name": "Geth Colossus",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/4f/ME1_Geth_Colossus.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Geth Colossus",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/4/4f/ME1_Geth_Colossus.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "geth-colossus",
+    "details": {
+      "level": {
+        "value": 14
+      },
+      "publicNotes": "<p>The Geth Colossus is a massive quadrupedal combat mech, the heaviest Geth ground unit deployed in battle. It carries a siege cannon capable of devastating long-range artillery fire and mounts thick composite armor that shrugs off most conventional weapons. It moves slowly but its firepower and durability make it an overwhelming battlefield threat.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "The Geth Colossus is a massive quadrupedal combat mech, the heaviest Geth ground unit deployed in battle."
+    },
+    "attributes": {
+      "hp": {
+        "value": 215,
+        "max": 215,
+        "temp": 80,
+        "details": ""
+      },
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "speed": {
+        "value": 20,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "construct",
+        "geth"
+      ],
+      "size": {
+        "value": "huge"
+      },
+      "rarity": "rare"
+    },
+    "abilities": {
+      "str": {
+        "mod": 10
+      },
+      "dex": {
+        "mod": -1
+      },
+      "con": {
+        "mod": 8
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 30,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 20,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 24,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 32
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 26,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "cab7a6b931401aa4",
+      "name": "Siege Cannon",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "geth-colossus-siege-cannon",
+        "bonus": {
+          "value": 28
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "4d10+16",
+            "damageType": "bludgeoning"
+          }
+        },
+        "range": {
+          "value": 200
+        },
+        "traits": {
+          "value": [
+            "brutal",
+            "splash-15"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb2dc44473813faa.cab7a6b931401aa4"
+    },
+    {
+      "_id": "e6c96c3d9f5df0c2",
+      "name": "Stomp",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "geth-colossus-stomp",
+        "bonus": {
+          "value": 30
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "3d10+18",
+            "damageType": "bludgeoning"
+          }
+        },
+        "traits": {
+          "value": [
+            "reach-10"
+          ]
+        },
+        "attackEffects": {
+          "value": [
+            "knockdown"
+          ]
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb2dc44473813faa.e6c96c3d9f5df0c2"
+    },
+    {
+      "_id": "227c3a555eba4ec5",
+      "name": "Composite Armor Plating",
+      "type": "effect",
+      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "system": {
+        "slug": "npc-geth-armor-colossus",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 80,
+          "max": 80,
+          "label": "Armor Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "armorMax": 80,
+          "armorCurrent": 80
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb2dc44473813faa.227c3a555eba4ec5"
+    }
+  ],
+  "_id": "fb2dc44473813faa",
+  "_key": "!actors!fb2dc44473813faa",
+  "effects": []
+}

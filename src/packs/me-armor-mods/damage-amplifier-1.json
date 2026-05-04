@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Damage Amplifier I",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bc/ME3_Armor_Piercing_Ammo.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A targeting VI module integrated into the helmet's HUD system, providing continuous ballistic calculation and micro-adjustment recommendations that improve hit placement across all weapon types. The system's feedback loop tightens shot grouping and ensures impacts strike against target weak points rather than center mass. Grants a +1 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+    },
+    "rules": [],
+    "slug": "damage-amplifier-1",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "damage-amplifier",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "ec2da01a8bdba786",
+  "_key": "!items!ec2da01a8bdba786"
+}

@@ -1,0 +1,57 @@
+{
+  "_key": "!items!MEAncFeat000029",
+  "_id": "MEAncFeat000029",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Ammonia Reserve",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Volus suits maintain a pressurized ammonia-nitrogen atmosphere, but the biological systems underneath are adapted to manage ammonia concentrations that would be lethal to most species—and to do so under variable conditions. When your suit is compromised or you are exposed to unusual atmospheric conditions, your body has reserves and tolerances that give you more time than biology alone would suggest.</p><p>You gain resistance 5 to poison damage. You can hold your breath or function in a compromised atmosphere for twice as long as normal before suffering negative effects. When you are exposed to an inhaled poison or hazardous atmosphere, you gain a +2 circumstance bonus to the initial Fortitude save. Additionally, if your environmental suit is breached, you do not immediately take penalties from the hostile environment—instead you have a number of rounds equal to your Constitution modifier (minimum 1) before environmental effects begin.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "poison",
+        "value": 5
+      }
+    ],
+    "slug": "ammonia-reserve",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "volus"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_key": "!items!MEAncFeat000009",
+  "_id": "MEAncFeat000009",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Crushing Blow",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>An elcor in motion is a significant mass traveling at meaningful velocity. Most elcor are too measured in their movements to use this casually, but you have learned—or perhaps simply remembered from instinct—how to put the full weight of your body into a strike. The results are difficult to argue with.</p><p>You gain a Crushing Blow unarmed Strike. This attack is in the brawling group, uses your Strength modifier to hit, and deals 2d6 bludgeoning damage. On a hit, the target must succeed at a Fortitude save (DC = 10 + your level + your Strength modifier) or be pushed 5 feet (10 feet on a critical failure). This attack has the forceful trait.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "label": "Crushing Blow",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 2,
+            "die": "d6"
+          }
+        },
+        "category": "unarmed",
+        "traits": [
+          "forceful",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "crushing-blow",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "elcor"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

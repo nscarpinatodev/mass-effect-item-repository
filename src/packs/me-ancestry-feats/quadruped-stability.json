@@ -1,0 +1,52 @@
+{
+  "_key": "!items!MEFeature0000007",
+  "_id": "MEFeature0000007",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Quadruped Stability",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Elcor evolved on the high-gravity world of Dekuuna walking on four massive limbs, giving them a physical foundation that is extraordinarily difficult to displace. Their wide stance and distributed mass make forced movement and knockdowns far less effective against them than against bipedal species.</p><p>You gain a +2 circumstance bonus to your Fortitude DC against Shove and Trip attempts, and to Fortitude saves against effects that would move you against your will or knock you prone. Whenever you would be pushed or pulled, reduce the distance by 5 feet (minimum 0).</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "quadruped-stability",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "elcor"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

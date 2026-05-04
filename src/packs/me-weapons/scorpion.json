@@ -1,0 +1,107 @@
+{
+  "folder": null,
+  "name": "Scorpion",
+  "type": "weapon",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/4/40/ME3_Scorpion_Heavy_Pistol.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Scorpion is a pistol that fires sticky explosive rounds that attach to their target before detonating a moment after impact. Enemies who survive the initial hit are forced to choose between standing still while the charge detonates or moving to let it blow — neither is a good option. The blast radius and concussive force makes it particularly effective against clustered infantry who can't scatter before the detonation chain catches them all.</p>"
+    },
+    "rules": [],
+    "slug": "scorpion",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "scatter-5"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "baseItem": "scorpion",
+    "bulk": {
+      "value": 1
+    },
+    "price": {
+      "value": {
+        "gp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "pistol",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 2,
+      "die": "d6",
+      "damageType": "bludgeoning",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 25,
+    "expend": 1,
+    "ammo": {
+      "capacity": 10,
+      "baseType": "projectile-ammo",
+      "builtIn": false
+    },
+    "reload": {
+      "value": "1"
+    },
+    "grade": "advanced",
+    "runes": {
+      "potency": 0,
+      "striking": 1,
+      "property": []
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "631ffa50b59a0051",
+  "_key": "!items!631ffa50b59a0051"
+}

@@ -1,0 +1,59 @@
+{
+  "_key": "!items!MEFeature0000016",
+  "_id": "MEFeature0000016",
+  "img": "systems/pf2e/icons/features/ancestry/forge-dwarf.webp",
+  "name": "Tech Expertise",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Three centuries of surviving aboard overcrowded ships where broken technology means death has produced quarian engineers capable of working miracles with improvised tools and salvaged parts. Every quarian is raised from childhood with a fundamental understanding of how machines work, how to repair them under pressure, and how to make them do things their designers never intended. It is less a skill than it is a survival instinct.</p><p>You become trained in Crafting. If you would already be trained in Crafting through your class or background, you instead become trained in a Lore skill related to technology or engineering (such as Engineering Lore or Starship Lore). Additionally, the time required for you to Repair an item is reduced by half.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.cra.rank",
+        "value": 1
+      }
+    ],
+    "slug": "tech-expertise",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "quarian"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

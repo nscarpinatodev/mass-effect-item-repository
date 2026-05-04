@@ -1,0 +1,58 @@
+{
+  "_key": "!items!MEHeritage000015",
+  "_id": "MEHeritage000015",
+  "img": "systems/pf2e/icons/features/ancestry/skilled-heritage.webp",
+  "name": "Emissary Hanar",
+  "system": {
+    "ancestry": {
+      "name": "Hanar",
+      "slug": "hanar",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.HanarAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You were trained as a formal emissary—a hanar chosen to interface with non-hanar species and serve as a bridge between the hanar's deeply protocol-driven society and the chaotic variety of the wider galaxy. Emissaries undergo extensive study of other species' body language, social conventions, and conversational priorities, learning to compress hanar elaborate courtesy into forms that won't exhaust their counterparts in a short meeting.</p><p>You become trained in Diplomacy and one additional language of your choice. You gain a +2 circumstance bonus to Diplomacy checks to Make an Impression with non-hanar, as you have perfected the art of making interspecies interactions comfortable and productive.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dip.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "action:make-an-impression"
+        ],
+        "label": "Emissary Hanar"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "emissary-hanar",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

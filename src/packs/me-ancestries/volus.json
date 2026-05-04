@@ -1,0 +1,108 @@
+{
+  "_key": "!items!VolusAncestry001",
+  "_id": "VolusAncestry001",
+  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/volus.webp",
+  "name": "Volus",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Short, pressure-suited ammonia-breathers from the high-gravity world of Irune, volus have built one of the galaxy's most powerful economic empires while being personally dependent on environmental suits that other species could remove with a screwdriver—a vulnerability that has made them very good at arranging for protection.</em></p><p>Volus evolved in the thick, ammonia-rich atmosphere of Irune and cannot survive in standard oxygen environments without their suits—which filter the air and regulate atmospheric pressure around their bodies. This permanent dependency on technology has shaped their worldview: volus understand better than almost anyone that survival requires systems you can trust, and they have built those systems in the form of banks, trade networks, and the Elkoss Combine mercantile empire. The Vol Protectorate formally allies with the Turian Hierarchy in exchange for military protection, a rational arrangement that turians honor and volus consider their greatest diplomatic achievement. Despite this dependency and their small stature, volus should not be underestimated: their economic influence shapes galactic markets, and a volus with a grudge and resources is a formidable long-term problem.</p><hr/><p><strong>You Might...</strong></p><ul><li>Evaluate every situation for its cost-benefit ratio before committing—action has consequences, and resources are finite.</li><li>Maintain carefully cultivated relationships with beings who can provide what you cannot do alone.</li><li>Find the willingness of other species to give away things of value deeply confusing—and slightly suspicious.</li></ul><p><strong>Others Probably...</strong></p><ul><li>Initially dismiss you as a nonthreat, which you find useful and have stopped trying to correct.</li><li>Respect your knowledge of trade, contracts, and economics even when they find you personally grating.</li><li>Feel vaguely guilty when your breathing apparatus makes a noise and they've forgotten it's there.</li></ul><p><strong>Physical Description</strong></p><p>Volus stand approximately 1.2 meters tall with round, squat bodies adapted for high-gravity and high-pressure environments. Their faces are broad with wide, flat nostrils and small mouths, and their skin is dark and rubbery. They are always seen in their environmental suits—typically bulky, sealed garments with rounded helmets and breathing apparatus. Their short arms and three-fingered hands are surprisingly dexterous.</p><p><strong>Society</strong></p><p>Volus society under the Vol Protectorate is organized around commerce, clan allegiance, and the careful management of status through economic achievement. Their caste system is loosely meritocratic—achievement in trade elevates one's standing. Volus cities on Irune are densely packed and highly organized by necessity; their homeworld's high gravity and atmospheric composition demand efficient infrastructure.</p><p><strong>Alignment and Religion</strong></p><p>Volus are practical and contract-minded; they respect agreements as sacred as any spiritual law and treat breaking a deal as a serious moral failure. Their spiritual traditions tie closely to Irune's natural cycles and the concept of balance in exchange. Most volus are lawful and self-interested, but their word, once given formally, is considered completely reliable.</p><p><strong>Sample Names</strong></p><p>Din Korlack, Barla Von, Expat, Niftu Cal, Jahleed, Blasto (hanar name sometimes used by volus), Vel Nol, Kor Tun, Shal Vin</p>"
+    },
+    "rules": [],
+    "slug": "volus",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "humanoid",
+        "volus"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 6,
+    "size": "sm",
+    "hands": 2,
+    "reach": 5,
+    "speed": 20,
+    "boosts": {
+      "0": {
+        "value": [
+          "int"
+        ]
+      },
+      "1": {
+        "value": [
+          "con"
+        ]
+      },
+      "2": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "taldane",
+        "volus"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "batarian",
+        "elcor",
+        "hanar",
+        "krogan",
+        "salarian",
+        "turian"
+      ],
+      "custom": ""
+    },
+    "items": {
+      "feat1": {
+        "img": "systems/pf2e/icons/default-icons/feat.svg",
+        "level": 0,
+        "name": "Pressure Suit",
+        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000021"
+      },
+      "feat2": {
+        "img": "systems/pf2e/icons/default-icons/feat.svg",
+        "level": 0,
+        "name": "Economic Acumen",
+        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000022"
+      }
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "name": "Harvester",
+  "type": "npc",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/71/ME3_Harvester.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Harvester",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "https://static.wikia.nocookie.net/masseffect/images/7/71/ME3_Harvester.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "harvester",
+    "details": {
+      "level": {
+        "value": 16
+      },
+      "publicNotes": "<p>The Harvester is a massive Reaper-controlled flying creature used as a living gunship. It swoops over the battlefield, strafing enemies with acid and scooping up victims. Its thick carapace provides heavy natural armor.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "The Harvester is a massive Reaper-controlled flying creature used as a living gunship."
+    },
+    "attributes": {
+      "hp": {
+        "value": 255,
+        "max": 255,
+        "temp": 60,
+        "details": ""
+      },
+      "ac": {
+        "value": 36,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 60
+          }
+        ],
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "beast",
+        "reaper"
+      ],
+      "size": {
+        "value": "huge"
+      },
+      "rarity": "uncommon"
+    },
+    "abilities": {
+      "str": {
+        "mod": 10
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 8
+      },
+      "int": {
+        "mod": -2
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 32,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 24,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 26,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 34
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 28,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "f8b7d43717863532",
+      "name": "Claw",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "harvester-claw",
+        "bonus": {
+          "value": 30
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "4d8+18",
+            "damageType": "slashing"
+          }
+        },
+        "traits": {
+          "value": [
+            "reach-15"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!154f6f7f94a60272.f8b7d43717863532"
+    },
+    {
+      "_id": "e8bdb369cd3707e9",
+      "name": "Acid Spit",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "harvester-acid-spit",
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "3d6+14",
+            "damageType": "acid"
+          },
+          "1": {
+            "damage": "2d6",
+            "damageType": "acid",
+            "category": "persistent"
+          }
+        },
+        "range": {
+          "value": 80
+        },
+        "traits": {
+          "value": []
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!154f6f7f94a60272.e8bdb369cd3707e9"
+    },
+    {
+      "_id": "ec8e915ff5b5e33c",
+      "name": "Reaper Armor",
+      "type": "effect",
+      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "system": {
+        "slug": "npc-reaper-armor-harvester",
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null
+        },
+        "badge": {
+          "type": "counter",
+          "value": 60,
+          "max": 60,
+          "label": "Armor Points"
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "armorMax": 60,
+          "armorCurrent": 60
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!154f6f7f94a60272.ec8e915ff5b5e33c"
+    }
+  ],
+  "_id": "154f6f7f94a60272",
+  "_key": "!actors!154f6f7f94a60272",
+  "effects": []
+}

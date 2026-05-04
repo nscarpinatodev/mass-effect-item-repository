@@ -1,0 +1,54 @@
+{
+  "_key": "!items!MEHeritage000029",
+  "_id": "MEHeritage000029",
+  "img": "systems/pf2e/icons/features/ancestry/hunting-catfolk.webp",
+  "name": "STG Operative Salarian",
+  "system": {
+    "ancestry": {
+      "name": "Salarian",
+      "slug": "salarian",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.SalarianAncs0001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>The Salarian Special Tasks Group operates in the space between what governments admit to and what they actually do. STG operatives are trained for intelligence gathering, sabotage, and covert insertion in environments where conventional military force would cause diplomatic incidents. The STG gets results, rarely leaves evidence, and is not technically supposed to exist in most of the places it operates. You are one of those operatives, or former ones—either is complicated.</p><p>You become an expert in Stealth and trained in Deception. You gain the Lie to Me feat. Additionally, you can maintain cover identities with remarkable depth; when you spend at least 1 week building a false identity, creatures attempting to investigate that identity take a –2 circumstance penalty to their checks.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.ste.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dec.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "stg-operative-salarian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

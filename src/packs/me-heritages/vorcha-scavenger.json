@@ -1,0 +1,54 @@
+{
+  "_key": "!items!MEHeritage000042",
+  "_id": "MEHeritage000042",
+  "img": "systems/pf2e/icons/features/ancestry/sewer-rat.webp",
+  "name": "Scavenger Vorcha",
+  "system": {
+    "ancestry": {
+      "name": "Vorcha",
+      "slug": "vorcha",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.VorchaAncestry01"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Most vorcha who end up in civilized space do so as scavengers—finding the gaps between organized society where survival is possible without the institutional backing that other species take for granted. You have learned to make use of what others discard, to find shelter in spaces others consider uninhabitable, and to identify value in things that more comfortable species overlook. It is not a glamorous existence, but it has made you extraordinarily resourceful and considerably harder to kill than the average person in your income bracket.</p><p>You become trained in Survival and Thievery and gain the Underworld Lore skill. You can use Survival in place of Society to Subsist in any environment, including urban settings. When you Craft improvised items or weapons, you treat your Crafting rank as one higher (maximum expert) for determining what you can produce.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.sur.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.thi.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "scavenger-vorcha",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

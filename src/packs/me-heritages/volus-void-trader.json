@@ -1,0 +1,54 @@
+{
+  "_key": "!items!MEHeritage000040",
+  "_id": "MEHeritage000040",
+  "img": "systems/pf2e/icons/features/ancestry/versatile-heritage.webp",
+  "name": "Void Trader Volus",
+  "system": {
+    "ancestry": {
+      "name": "Volus",
+      "slug": "volus",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.VolusAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>The edges of mapped space are where regulations are suggestions, tariffs are negotiable, and the margin on a cargo that everyone else considers too risky to move can be extraordinary. You have spent your career—or most of it—operating in those spaces: running routes between systems that don't appear on standard charts, trading in goods that occupy a complicated legal status, and developing relationships with the kind of clients who pay in advance and ask no questions. You are very good at your work. The authorities have varying opinions about this.</p><p>You become trained in Stealth and Thievery and gain the Underworld Lore skill. You gain a +1 circumstance bonus to Deception checks to conceal the nature or value of cargo or goods. When you attempt to Subsist in a settlement or urban environment, you can use Thievery in place of Society.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.ste.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.thi.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "void-trader-volus",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_key": "!items!MEAncFeat000004",
+  "_id": "MEAncFeat000004",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Four-Eyed Vigilance",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Four eyes cover a wider arc than two, and the batarian visual system is adapted to process that wider field of view without the attentional bottleneck that limits most binocular species. You are considerably harder to catch off-guard than your opponents generally expect.</p><p>You gain a +2 circumstance bonus to Perception checks to avoid being surprised and to detect creatures using Stealth. Creatures do not gain the flanking bonus to attack rolls against you when flanking from your sides—only from directly behind you. Additionally, you can't be flat-footed to creatures you can see.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "action:seek"
+        ],
+        "label": "Four-Eyed Vigilance"
+      }
+    ],
+    "slug": "four-eyed-vigilance",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "batarian"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

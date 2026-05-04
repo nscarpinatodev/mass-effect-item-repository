@@ -1,0 +1,92 @@
+{
+  "_key": "!actors!MENPC00000000032",
+  "_id": "MENPC00000000032",
+  "name": "Turian Magistrate",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": { "value": 16, "temp": 0, "max": 16, "details": "" },
+      "ac": { "value": 15, "details": "" },
+      "allSaves": { "value": "" },
+      "speed": { "value": 25, "otherSpeeds": [], "details": "" }
+    },
+    "initiative": { "statistic": "perception" },
+    "details": {
+      "languages": { "value": ["taldane", "turian"], "details": "" },
+      "level": { "value": 1 },
+      "blurb": "Turian government administrator and arbiter",
+      "publicNotes": "<p>Turian magistrates enforce the Hierarchy's laws with meticulous impartiality. Every turian serves a civic role, and the magistrate is no exception — their entire life is structured around duty, protocol, and precedent. They are not warriors, but they are not without teeth; even a paper-pusher completes mandatory military service.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Actor and Ancestry Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": { "version": null, "previous": null },
+    "abilities": {
+      "str": { "mod": 1 },
+      "dex": { "mod": 1 },
+      "con": { "mod": 1 },
+      "int": { "mod": 3 },
+      "wis": { "mod": 2 },
+      "cha": { "mod": 2 }
+    },
+    "perception": { "details": "", "mod": 6, "senses": [], "vision": true },
+    "saves": {
+      "fortitude": { "value": 6, "saveDetail": "" },
+      "reflex": { "value": 6, "saveDetail": "" },
+      "will": { "value": 7, "saveDetail": "" }
+    },
+    "skills": {
+      "society": { "base": 8 },
+      "intimidation": { "base": 7 },
+      "diplomacy": { "base": 6 },
+      "legal": { "base": 8 }
+    },
+    "traits": {
+      "value": ["turian"],
+      "rarity": "common",
+      "size": { "value": "med" }
+    }
+  },
+  "prototypeToken": {
+    "name": "Turian Magistrate",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1, "height": 1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5, "anchorY": 0.5,
+      "offsetX": 0, "offsetY": 0,
+      "fit": "contain", "scaleX": 1, "scaleY": 1,
+      "rotation": 0, "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
+      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": { "default": 0 }
+}

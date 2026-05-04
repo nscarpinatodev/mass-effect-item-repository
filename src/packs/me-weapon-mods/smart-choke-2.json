@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Smart Choke II",
+  "type": "equipment",
+  "effects": [],
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/ee/ME3_Shotgun_Smart_Choke.png",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A precision variable-choke system controlled by a targeting VI that dynamically adjusts spread angle based on target range data fed from the weapon's sensors. At close range it widens for maximum coverage; at distance it tightens to near-rifle precision. The result is a shotgun that can perform effectively at ranges previously requiring a dedicated rifle. Designed for shotguns. Increases the weapon's range increment by 20 feet.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a shotgun.</p>"
+    },
+    "rules": [],
+    "slug": "smart-choke-2",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Mass Effect Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": "smart-choke",
+    "bulk": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "usage": {
+      "value": "installed-in-a-weapon"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "f19db8f01de7cb10",
+  "_key": "!items!f19db8f01de7cb10"
+}

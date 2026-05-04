@@ -1,0 +1,59 @@
+{
+  "_key": "!items!MEAncFeat000013",
+  "_id": "MEAncFeat000013",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Tenacious Survivor",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Humanity's rapid expansion into the galaxy happened faster than most species thought was biologically possible, and the humans who survived the early colonial period were selected hard for a very specific trait: the refusal to stop. This is not mere stubbornness. It is a deep, physiological drive toward continued function even in conditions that would have convinced a more rational organism to quit.</p><p>You reduce your dying condition by 1 at the end of each of your turns (in addition to normal recovery), meaning you naturally stabilize faster. You gain a +1 circumstance bonus to recovery checks (the d20 roll to avoid dying when at dying 1+). When you succeed at a recovery check, you can immediately attempt a DC 15 flat check; if you succeed, you lose the unconscious condition and are at 0 Hit Points rather than needing to wait for a heal.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "recovery-check",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Tenacious Survivor"
+      }
+    ],
+    "slug": "tenacious-survivor",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "human"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

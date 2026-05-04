@@ -1,0 +1,60 @@
+{
+  "_key": "!items!MEFeature0000002",
+  "_id": "MEFeature0000002",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Millennial Lifespan",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Asari live for over a thousand years and accumulate a breadth of personal experience that shorter-lived species cannot match. You have personally witnessed historical events that others only read about, and your cultural memory is both a scholarly resource and a survival tool.</p><p>You gain a +1 circumstance bonus to Recall Knowledge checks about historical events, prominent figures, and past conflicts that occurred within the last 1,000 years. Additionally, you are immune to the <em>sickened</em> condition from natural aging and cannot be magically aged.</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "recall-knowledge",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Millennial Lifespan"
+      }
+    ],
+    "slug": "millennial-lifespan",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "asari"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

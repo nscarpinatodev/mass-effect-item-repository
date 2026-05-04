@@ -1,0 +1,48 @@
+{
+  "_key": "!items!MEHeritage000009",
+  "_id": "MEHeritage000009",
+  "img": "systems/pf2e/icons/features/ancestry/skilled-heritage.webp",
+  "name": "Hanar-Raised Drell",
+  "system": {
+    "ancestry": {
+      "name": "Drell",
+      "slug": "drell",
+      "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestries.DrellAncestry001"
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You were raised primarily within hanar communities and culture rather than among drell. The hanar reverence for the Enkindlers, their elaborate courtesy protocols, and their bioluminescent communication are as natural to you as breathing—or as natural as it gets for a species that can't breathe Kahje's atmosphere. You navigate hanar society with ease and carry the spiritual weight of Enkindler devotion in your daily outlook.</p><p>You learn the Hanar language if you don't already know it. You gain a +1 circumstance bonus to Diplomacy and Religion checks when interacting with hanar or subjects related to Enkindler (Prothean) lore. Additionally, you can produce simple bioluminescent signals using equipment available on most hanar vessels, gaining access to the Bioluminescent Speech ability in limited form even without hanar biology.</p>"
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.rel.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "hanar-raised-drell",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_key": "!items!MEAncFeat000019",
+  "_id": "MEAncFeat000019",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Suit Integrity",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "gm": "",
+      "value": "<p>Every quarian who leaves the Migrant Fleet understands that their environmental suit is the primary barrier between them and an immune system that has never had to defend itself against a normal pathogen load. You have spent enough time maintaining, repairing, and improvising repairs on that suit that you know its failure modes as well as you know your own heartbeat—and you know how to keep it functional under conditions that would compromise a less experienced operator's equipment.</p><p>You gain a +2 circumstance bonus to Fortitude saves against disease and poison. When your suit is breached (such as by a critical hit from a piercing or slashing weapon), you can attempt a DC 15 Crafting or Survival check as a free action to improvise a temporary seal; on a success, you negate the breach effect for 10 minutes. You are automatically trained in Crafting if you would not otherwise be.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "affliction:disease"
+        ],
+        "label": "Suit Integrity (Disease)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "affliction:poison"
+        ],
+        "label": "Suit Integrity (Poison)"
+      }
+    ],
+    "slug": "suit-integrity",
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "quarian"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

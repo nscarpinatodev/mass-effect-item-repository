@@ -1,0 +1,60 @@
+{
+  "_key": "!items!MEFeature0000015",
+  "_id": "MEFeature0000015",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Environmental Suit",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "gm": "",
+      "value": "<p>Every quarian wears a hermetically sealed environmental suit at all times, a necessity born from their compromised immune systems—exposure to ambient pathogens without suit protection can be rapidly fatal. Three centuries of Flotilla engineering have made these suits remarkably sophisticated: they filter air, regulate temperature, administer medication, and provide minor protection against physical harm. The suit is not a burden to most quarians; it is simply a part of who they are.</p><p>Your environmental suit provides a +1 item bonus to AC. You are immune to airborne diseases and inhaled poisons. You can breathe safely in mildly toxic or low-oxygen atmospheres (though not in vacuum or extreme hazard without additional support).</p><p><strong>Suit Breach:</strong> If your suit is significantly damaged (GM discretion, typically 25+ piercing or slashing damage from a single hit), you become <em>sickened 1</em> until you spend 10 minutes repairing it with a successful DC 15 Crafting check. Healing potions and similar consumables must be administered via injector port to function (takes an additional action).</p>"
+    },
+    "level": {
+      "value": 0
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "title": "Mass Effect Actor and Ancestry Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "item",
+        "value": 1,
+        "label": "Environmental Suit"
+      }
+    ],
+    "slug": "environmental-suit",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "quarian"
+      ],
+      "rarity": "common"
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}
