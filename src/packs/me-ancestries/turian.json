@@ -1,7 +1,7 @@
 {
   "_key": "!items!TurianAncestry01",
   "_id": "TurianAncestry01",
-  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/turian.webp",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ancestries/turian.webp",
   "name": "Turian",
   "system": {
     "description": {
@@ -87,13 +87,13 @@
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Carapace",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000019"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000019"
       },
       "feat2": {
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Military Discipline",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000020"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000020"
       }
     },
     "vision": "lowLightVision"

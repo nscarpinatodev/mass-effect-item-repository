@@ -1,7 +1,7 @@
 {
   "_key": "!items!HumanMEAncestry1",
   "_id": "HumanMEAncestry1",
-  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/human.webp",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ancestries/human.webp",
   "name": "Human",
   "system": {
     "description": {
@@ -80,13 +80,13 @@
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Ambitious Striving",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000011"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000011"
       },
       "feat2": {
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Adaptive Resilience",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000012"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000012"
       }
     },
     "vision": "normal"

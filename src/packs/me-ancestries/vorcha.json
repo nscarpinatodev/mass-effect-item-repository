@@ -1,7 +1,7 @@
 {
   "_key": "!items!VorchaAncestry01",
   "_id": "VorchaAncestry01",
-  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/vorcha.webp",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ancestries/vorcha.webp",
   "name": "Vorcha",
   "system": {
     "description": {
@@ -85,13 +85,13 @@
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Rapid Cell Regeneration",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000023"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000023"
       },
       "feat2": {
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Adaptive Physiology",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000024"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000024"
       }
     },
     "vision": "darkvision"

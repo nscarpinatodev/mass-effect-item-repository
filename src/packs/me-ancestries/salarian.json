@@ -1,7 +1,7 @@
 {
   "_key": "!items!SalarianAncs0001",
   "_id": "SalarianAncs0001",
-  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/salarian.webp",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ancestries/salarian.webp",
   "name": "Salarian",
   "system": {
     "description": {
@@ -91,13 +91,13 @@
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Hypermetabolism",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000017"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000017"
       },
       "feat2": {
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Analytical Mind",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000018"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000018"
       }
     },
     "vision": "normal"

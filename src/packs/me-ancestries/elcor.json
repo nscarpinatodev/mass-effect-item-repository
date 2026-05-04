@@ -1,7 +1,7 @@
 {
   "_key": "!items!ElcorAncestry001",
   "_id": "ElcorAncestry001",
-  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/elcor.webp",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ancestries/elcor.webp",
   "name": "Elcor",
   "system": {
     "description": {
@@ -88,13 +88,13 @@
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Quadruped Stability",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000007"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000007"
       },
       "feat2": {
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Pheromone Awareness",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000008"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000008"
       }
     },
     "vision": "lowLightVision"

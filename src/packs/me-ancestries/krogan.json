@@ -1,7 +1,7 @@
 {
   "_key": "!items!KroganAncestry01",
   "_id": "KroganAncestry01",
-  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/krogan.webp",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ancestries/krogan.webp",
   "name": "Krogan",
   "system": {
     "description": {
@@ -85,13 +85,13 @@
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Krogan Fortitude",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000013"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000013"
       },
       "feat2": {
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Redundant Biology",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000014"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000014"
       }
     },
     "vision": "darkvision"

@@ -1,7 +1,7 @@
 {
   "_key": "!items!AsariAncestry001",
   "_id": "AsariAncestry001",
-  "img": "modules/mass-effect-actor-and-ancestry-compendium/assets/img/ancestries/asari.webp",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ancestries/asari.webp",
   "name": "Asari",
   "system": {
     "description": {
@@ -91,13 +91,13 @@
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Biotic Affinity",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000001"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000001"
       },
       "feat2": {
         "img": "systems/pf2e/icons/default-icons/feat.svg",
         "level": 0,
         "name": "Millennial Lifespan",
-        "uuid": "Compendium.mass-effect-actor-and-ancestry-compendium.me-ancestry-features.MEFeature0000002"
+        "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000002"
       }
     },
     "vision": "lowLightVision"
