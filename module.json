@@ -316,6 +316,20 @@
           "alliance": "Alliance",
           "aircraft": "Aircraft"
         },
+        "featTraits": {
+          "asari": "Asari",
+          "batarian": "Batarian",
+          "drell": "Drell",
+          "elcor": "Elcor",
+          "hanar": "Hanar",
+          "human": "Human",
+          "krogan": "Krogan",
+          "quarian": "Quarian",
+          "salarian": "Salarian",
+          "turian": "Turian",
+          "volus": "Volus",
+          "vorcha": "Vorcha"
+        },
         "languages": {
           "thessian": "Thessian",
           "batarian": "Batarian",

@@ -98,7 +98,7 @@
         "uuid": "Compendium.mass-effect-sf2e-conversion.me-ancestry-feats.MEFeature0000016"
       }
     },
-    "vision": "lowLightVision"
+    "vision": "low-light-vision"
   },
   "type": "ancestry",
   "effects": [],
