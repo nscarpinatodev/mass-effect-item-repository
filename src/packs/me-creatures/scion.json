@@ -1,7 +1,7 @@
 {
   "name": "Scion",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME2_Scion.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f4/Scion_Frontal.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME2_Scion.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/f/f4/Scion_Frontal.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 11
       },
-      "publicNotes": "<p>The Scion is a horrific fusion of three Collectors merged into a shambling, tentacled mass. It projects a withering acid spray capable of corroding both shields and cover, and its bloated body is protected by chitinous armor. Slow-moving, it forces enemies out of cover with AOE attacks.</p>",
+      "publicNotes": "<p>Scions are Collector-created constructs assembled by fusing three Husks together into a single powerful unit, encountered in Mass Effect 2. They are armed with a powerful long-range arm cannon and protected entirely by heavy armor — no shields or barriers.</p><p>Scions fire their cannons in three-round salvos and can be possessed by Harbinger, which grants them faster fire, harder-to-dodge projectiles, and a devastating one-hit melee attack. They are slow but extremely resilient.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Scion is a horrific fusion of three Collectors merged into a shambling, tentacled mass."
+      "blurb": "Scions are Collector-created constructs assembled by fusing three Husks together into a single powerful unit, encountered in Mass Effect 2."
     },
     "attributes": {
       "hp": {

@@ -1,7 +1,7 @@
 {
   "name": "Geth Rocket Trooper",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/1/12/ME2_Geth_Rocket_Trooper.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/1/1f/Geth_rocket_trooper_ME_LE_enemy_box.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/1/12/ME2_Geth_Rocket_Trooper.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/1/1f/Geth_rocket_trooper_ME_LE_enemy_box.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 6
       },
-      "publicNotes": "<p>The Geth Rocket Trooper is a standard Geth platform modified to carry a shoulder-mounted rocket launcher. It engages at long range, firing explosive projectiles capable of destroying cover and dealing area damage. Its kinetic barrier provides baseline protection.</p>",
+      "publicNotes": "<p>Geth Rocket Troopers are geth support infantry units armed with powerful rocket launchers, providing anti-armor and anti-air capability from long range. They are equipped with shielding and usually operate alongside heavier geth units such as Armatures.</p><p>Their rockets deal heavy damage against grouped targets and vehicles, making them priority targets in any engagement. Leaving them unaddressed in cover will rapidly attrite any advancing squad.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Geth Rocket Trooper is a standard Geth platform modified to carry a shoulder-mounted rocket launcher."
+      "blurb": "Geth Rocket Troopers are geth support infantry units armed with powerful rocket launchers, providing anti-armor and anti-air capability from long range."
     },
     "attributes": {
       "hp": {

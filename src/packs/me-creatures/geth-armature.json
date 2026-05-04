@@ -1,7 +1,7 @@
 {
   "name": "Geth Armature",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b6/ME1_Geth_Armature.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d0/Geth_armature_enemy_box.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/b/b6/ME1_Geth_Armature.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/d/d0/Geth_armature_enemy_box.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 11
       },
-      "publicNotes": "<p>The Geth Armature is a mid-size quadrupedal combat platform that serves as Geth heavy fire support. Armed with a high-powered plasma cannon, it engages from long range while its composite armor protects against return fire. It lacks shields but its heavy plating compensates.</p>",
+      "publicNotes": "<p>The Geth Armature is a large quadrupedal walker platform used as a mobile anti-vehicle and anti-personnel unit, frequently deployed from Geth Dropships. When inactive, Armatures fold into a compact state for transport.</p><p>They are armed with a Siege Pulse assault cannon and are highly dangerous at long range. They are often escorted by Geth Rocket Troopers and represent a significant threat to infantry and vehicles alike.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Geth Armature is a mid-size quadrupedal combat platform that serves as Geth heavy fire support."
+      "blurb": "The Geth Armature is a large quadrupedal walker platform used as a mobile anti-vehicle and anti-personnel unit, frequently deployed from Geth Dropships."
     },
     "attributes": {
       "hp": {

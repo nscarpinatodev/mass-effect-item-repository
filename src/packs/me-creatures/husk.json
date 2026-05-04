@@ -1,7 +1,7 @@
 {
   "name": "Husk",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/c/c8/ME3_Husk.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/ec/Husk_ME_adversarybox.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/c/c8/ME3_Husk.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/e/ec/Husk_ME_adversarybox.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 3
       },
-      "publicNotes": "<p>Husks are humans converted by Reaper technology into mindless shock troops. Cybernetic spines protrude from their bodies and they discharge electricity on contact. They feel no pain and charge into combat recklessly, overwhelming enemies through sheer numbers.</p>",
+      "publicNotes": "<p>Husks are synthetic-organic soldiers created when living beings are impaled on Reaper-origin devices called Dragon's Teeth, which replace water and trace minerals with cybernetics that reanimate the body. They appear throughout all three Mass Effect games as the frontline troops of the geth, the Collectors, and the Reapers.</p><p>In combat, Husks charge in packs and deliver a powerful electrical overload blast at close range that disables shields. They are immune to Hacking but vulnerable to Neural Shock.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Husks are humans converted by Reaper technology into mindless shock troops."
+      "blurb": "Husks are synthetic-organic soldiers created when living beings are impaled on Reaper-origin devices called Dragon's Teeth, which replace water and trace minerals with cybernetics that reanimate the body."
     },
     "attributes": {
       "hp": {

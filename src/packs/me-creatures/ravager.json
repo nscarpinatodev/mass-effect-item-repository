@@ -1,7 +1,7 @@
 {
   "name": "Ravager",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7e/ME3_Ravager.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME3_Ravager.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/7/7e/ME3_Ravager.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME3_Ravager.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 10
       },
-      "publicNotes": "<p>The Ravager is a Reaper-corrupted Collector creature repurposed as a slow-moving artillery platform. It bombards enemies with acid projectiles and periodically spawns Seeker Swarms to harass targets. Its thick chitinous armor absorbs significant punishment.</p>",
+      "publicNotes": "<p>Ravagers are former rachni transformed by the Reapers through implantation and genetic modification into living heavy artillery platforms, encountered in Mass Effect 3. They are armed with two long-range cannons and continuously spawn Swarmers from egg sacs to harass enemies.</p><p>When a Ravager's egg sacs are destroyed or it is killed, all remaining Swarmers burst out and charge at enemies. Ravagers are protected by heavy armor only, with no shields or barriers.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Ravager is a Reaper-corrupted Collector creature repurposed as a slow-moving artillery platform."
+      "blurb": "Ravagers are former rachni transformed by the Reapers through implantation and genetic modification into living heavy artillery platforms, encountered in Mass Effect 3."
     },
     "attributes": {
       "hp": {

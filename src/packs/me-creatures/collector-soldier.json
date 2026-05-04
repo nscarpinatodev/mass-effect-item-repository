@@ -1,7 +1,7 @@
 {
   "name": "Collector Soldier",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/6e/ME2_Collector_Soldier.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d3/Collector_TrooperME3.jpg",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/6/6e/ME2_Collector_Soldier.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/d/d3/Collector_TrooperME3.jpg",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 7
       },
-      "publicNotes": "<p>Collector Soldiers are the standard Collector combat unit — ancient Protheans reshaped by Reapers into servile soldiers over thousands of years. They carry Collector assault rifles and maintain kinetic barriers. More dangerous than a basic drone but not individually exceptional.</p>",
+      "publicNotes": "<p>Collector Soldiers are a combat-specialized class of Collector drone encountered in Mass Effect 2, armed with Collector Assault Rifles. Like all Collectors, they are the remnants of the Prothean race, converted over 50,000 years into cybernetically enslaved servants of the Reapers.</p><p>They can be possessed by Harbinger during combat, transforming them into significantly more dangerous opponents with enhanced defenses and abilities.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Collector Soldiers are the standard Collector combat unit — ancient Protheans reshaped by Reapers into servile soldiers over thousands of years."
+      "blurb": "Collector Soldiers are a combat-specialized class of Collector drone encountered in Mass Effect 2, armed with Collector Assault Rifles."
     },
     "attributes": {
       "hp": {

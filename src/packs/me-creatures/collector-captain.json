@@ -1,7 +1,7 @@
 {
   "name": "Collector Captain",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/39/ME2_Collector_Captain.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/8f/Collector_CapME3.jpg",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/3/39/ME2_Collector_Captain.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/8/8f/Collector_CapME3.jpg",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 9
       },
-      "publicNotes": "<p>The Collector Captain is a squad-leader variant, identifiable by additional chitinous armor plating and more aggressive combat behaviors. It combines kinetic barriers with hardened armor and coordinates other Collectors on the battlefield. It poses a serious threat at close-to-medium range.</p>",
+      "publicNotes": "<p>Collector Captains are Collector tactician units that serve as squad commanders in Mass Effect 2, directing other Collector forces on the battlefield. They are armed with Collector Assault Rifles and protected by biotic barriers.</p><p>Their most notable role is deploying Seeker Swarms to disable the abilities of Shepard and squadmates. Like all Collectors, they can be possessed by Harbinger, which dramatically increases their combat lethality.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Collector Captain is a squad-leader variant, identifiable by additional chitinous armor plating and more aggressive combat behaviors."
+      "blurb": "Collector Captains are Collector tactician units that serve as squad commanders in Mass Effect 2, directing other Collector forces on the battlefield."
     },
     "attributes": {
       "hp": {

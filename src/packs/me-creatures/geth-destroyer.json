@@ -1,7 +1,7 @@
 {
   "name": "Geth Destroyer",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e3/ME2_Geth_Heavy.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/5/57/Geth_destroyer_ME_LE_enemy_box.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/e/e3/ME2_Geth_Heavy.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/5/57/Geth_destroyer_ME_LE_enemy_box.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 9
       },
-      "publicNotes": "<p>The Geth Destroyer is a heavily-armored heavy weapons platform, larger and more durable than standard Geth troopers. It combines a kinetic barrier with thick armor plating and wields a heavy weapon capable of devastating fire at close-to-medium range.</p>",
+      "publicNotes": "<p>The Geth Destroyer is a large, heavily armed geth infantry platform standing approximately eleven feet tall with dark grey armor and a bright blue optical sensor. It is equipped with a Geth Pulse Shotgun and strong shielding.</p><p>It will attempt to flank enemies before closing for powerful melee attacks. Despite not using cover as frequently as other geth units, its resilience and offensive power make it a serious threat at close range.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Geth Destroyer is a heavily-armored heavy weapons platform, larger and more durable than standard Geth troopers."
+      "blurb": "The Geth Destroyer is a large, heavily armed geth infantry platform standing approximately eleven feet tall with dark grey armor and a bright blue optical sensor."
     },
     "attributes": {
       "hp": {

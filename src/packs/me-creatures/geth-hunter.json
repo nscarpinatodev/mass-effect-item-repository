@@ -1,7 +1,7 @@
 {
   "name": "Geth Hunter",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/0a/ME2_Geth_Hunter.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e4/Geth_Hunter_LE2_enemy_box.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/0/0a/ME2_Geth_Hunter.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/e/e4/Geth_Hunter_LE2_enemy_box.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 7
       },
-      "publicNotes": "<p>The Geth Hunter is a stealth-capable platform equipped with a personal cloaking device. It flanks enemy positions while invisible, striking with a close-range shotgun before vanishing again. Its kinetic barrier must be stripped before its platform can take damage.</p>",
+      "publicNotes": "<p>Geth Hunters are stealth infantry units armed with shotguns, encountered in Mass Effect 2. They use tactical cloaking devices to approach unseen before closing distance and eliminating targets at short range.</p><p>Their stealth capability makes them especially dangerous when more visible threats demand attention. They are best countered with area-denial abilities that reveal their position before they can close to shotgun range.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Geth Hunter is a stealth-capable platform equipped with a personal cloaking device."
+      "blurb": "Geth Hunters are stealth infantry units armed with shotguns, encountered in Mass Effect 2."
     },
     "attributes": {
       "hp": {

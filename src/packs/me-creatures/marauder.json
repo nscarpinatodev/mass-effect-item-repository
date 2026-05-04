@@ -1,7 +1,7 @@
 {
   "name": "Marauder",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/2/2e/ME3_Marauder.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/9b/ME3_Marauder.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/2/2e/ME3_Marauder.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/9/9b/ME3_Marauder.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 8
       },
-      "publicNotes": "<p>Marauders are Reaper-corrupted Turians, serving as squad leaders among Reaper ground forces. They actively buff shields on nearby allies and engage with assault rifles from mid range. Their natural Turian discipline makes them dangerous coordinators on the battlefield.</p>",
+      "publicNotes": "<p>Marauders are Reaper-created synthetic-organic soldiers derived from turian victims, functioning as squad leaders and frontline combatants within the Reaper ground forces in Mass Effect 3. They are the only Reaper enemy type that uses conventional-style firearms.</p><p>Their most notable ability is granting armored plating to nearby Husks and Cannibals, significantly increasing those units' durability. Taking out Marauders quickly is a priority to prevent allied units from becoming heavily armored.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Marauders are Reaper-corrupted Turians, serving as squad leaders among Reaper ground forces."
+      "blurb": "Marauders are Reaper-created synthetic-organic soldiers derived from turian victims, functioning as squad leaders and frontline combatants within the Reaper ground forces in Mass Effect 3."
     },
     "attributes": {
       "hp": {

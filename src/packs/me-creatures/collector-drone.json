@@ -1,7 +1,7 @@
 {
   "name": "Collector Drone",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/49/ME2_Collector_Drone.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/a/a3/Collector.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/4/49/ME2_Collector_Drone.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/a/a3/Collector.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 5
       },
-      "publicNotes": "<p>Collector Drones are the most basic Collector combat unit — nearly mindless biomechanical soldiers that attack in swarms. They are lightly shielded and armed with a basic Collector pistol. Individually weak, they are dangerous in large numbers and serve as fodder while more powerful Collectors maneuver.</p>",
+      "publicNotes": "<p>Collector Drones are the standard foot soldiers of the Collector forces and the most numerous enemy type encountered in Mass Effect 2. Each drone is a Prothean-derived being cybernetically modified and indoctrinated to the point of having all independent intelligence eradicated.</p><p>They are armed with Collector Assault Rifles and represent the basic combat unit of the Collector army. Like all Collectors, they can be possessed by Harbinger.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Collector Drones are the most basic Collector combat unit — nearly mindless biomechanical soldiers that attack in swarms."
+      "blurb": "Collector Drones are the standard foot soldiers of the Collector forces and the most numerous enemy type encountered in Mass Effect 2."
     },
     "attributes": {
       "hp": {

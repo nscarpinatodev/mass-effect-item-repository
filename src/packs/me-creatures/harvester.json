@@ -1,7 +1,7 @@
 {
   "name": "Harvester",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/71/ME3_Harvester.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ae/ME3_Harvester.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 4,
     "height": 4,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/7/71/ME3_Harvester.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/a/ae/ME3_Harvester.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 16
       },
-      "publicNotes": "<p>The Harvester is a massive Reaper-controlled flying creature used as a living gunship. It swoops over the battlefield, strafing enemies with acid and scooping up victims. Its thick carapace provides heavy natural armor.</p>",
+      "publicNotes": "<p>Harvesters are large flying predator creatures native to worlds including Tuchanka, roughly a third the size of a Thresher Maw. During the Reaper invasion in Mass Effect 3, many were corrupted and repurposed as troop transports and atmospheric combat craft.</p><p>In combat they are armed with powerful head-mounted heavy cannons and can deploy other Reaper forces, making them both a direct threat and a force multiplier that demands immediate attention.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Harvester is a massive Reaper-controlled flying creature used as a living gunship."
+      "blurb": "Harvesters are large flying predator creatures native to worlds including Tuchanka, roughly a third the size of a Thresher Maw."
     },
     "attributes": {
       "hp": {

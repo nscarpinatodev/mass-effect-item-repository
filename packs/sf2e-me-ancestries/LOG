@@ -1,15 +1,15 @@
-2026/05/03-21:27:00.584 b334 Recovering log #8
-2026/05/03-21:27:00.588 b334 Delete type=0 #8
-2026/05/03-21:27:00.588 b334 Delete type=3 #6
-2026/05/03-21:27:00.591 a550 Level-0 table #14: started
-2026/05/03-21:27:00.593 a550 Level-0 table #14: 38749 bytes OK
-2026/05/03-21:27:00.594 a550 Delete type=0 #12
-2026/05/03-21:27:00.595 a550 Manual compaction at level-0 from '!items!AsariAncestry001' @ 72057594037927935 : 1 .. '!items!VorchaAncestry01' @ 0 : 0; will stop at (end)
-2026/05/03-21:27:00.595 a550 Manual compaction at level-1 from '!items!AsariAncestry001' @ 72057594037927935 : 1 .. '!items!VorchaAncestry01' @ 0 : 0; will stop at '!items!VorchaAncestry01' @ 36 : 1
-2026/05/03-21:27:00.595 a550 Compacting 1@1 + 1@2 files
-2026/05/03-21:27:00.597 a550 Generated table #15@1: 12 keys, 38749 bytes
-2026/05/03-21:27:00.598 a550 Compacted 1@1 + 1@2 files => 38749 bytes
-2026/05/03-21:27:00.599 a550 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/03-21:27:00.599 a550 Delete type=2 #10
-2026/05/03-21:27:00.599 a550 Delete type=2 #14
-2026/05/03-21:27:00.600 a550 Manual compaction at level-1 from '!items!VorchaAncestry01' @ 36 : 1 .. '!items!VorchaAncestry01' @ 0 : 0; will stop at (end)
+2026/05/03-22:44:34.110 8288 Recovering log #13
+2026/05/03-22:44:34.116 8288 Delete type=0 #13
+2026/05/03-22:44:34.116 8288 Delete type=3 #11
+2026/05/03-22:44:34.118 7cb4 Level-0 table #19: started
+2026/05/03-22:44:34.120 7cb4 Level-0 table #19: 38750 bytes OK
+2026/05/03-22:44:34.122 7cb4 Delete type=0 #17
+2026/05/03-22:44:34.122 7cb4 Manual compaction at level-0 from '!items!AsariAncestry001' @ 72057594037927935 : 1 .. '!items!VorchaAncestry01' @ 0 : 0; will stop at (end)
+2026/05/03-22:44:34.122 7cb4 Manual compaction at level-1 from '!items!AsariAncestry001' @ 72057594037927935 : 1 .. '!items!VorchaAncestry01' @ 0 : 0; will stop at '!items!VorchaAncestry01' @ 48 : 1
+2026/05/03-22:44:34.122 7cb4 Compacting 1@1 + 1@2 files
+2026/05/03-22:44:34.125 7cb4 Generated table #20@1: 12 keys, 38750 bytes
+2026/05/03-22:44:34.125 7cb4 Compacted 1@1 + 1@2 files => 38750 bytes
+2026/05/03-22:44:34.127 7cb4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/03-22:44:34.127 7cb4 Delete type=2 #15
+2026/05/03-22:44:34.127 7cb4 Delete type=2 #19
+2026/05/03-22:44:34.127 7cb4 Manual compaction at level-1 from '!items!VorchaAncestry01' @ 48 : 1 .. '!items!VorchaAncestry01' @ 0 : 0; will stop at (end)

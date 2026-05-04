@@ -3,7 +3,7 @@
   "_id": "MECRT00000000002",
   "name": "Abomination",
   "type": "npc",
-  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/7/72/Abomination.png",
   "system": {
     "attributes": {
       "hp": {
@@ -36,8 +36,8 @@
       "level": {
         "value": 2
       },
-      "blurb": "Explosive husk variant with volatile biotic containment",
-      "publicNotes": "<p>Abominations are a husk variant modified with a volatile biotic containment system that ruptures violently on death. They are used as area denial tools—deployed into defensive positions where the explosive consequence of killing them is as dangerous as the creature itself. Experienced operators have learned to use ranged fire and cover against abominations, or simply to let them detonate on less critical targets.</p><p><strong>Volatile Body (reaction):</strong> When the abomination is reduced to 0 HP, it immediately explodes in a 10-foot burst. Each creature in the area takes 3d6 fire damage (DC 16 Reflex save; half on a success). This explosion cannot be prevented.</p><p><strong>Mindless:</strong> Immune to mental effects, confusion, and fascination.</p>",
+      "blurb": "Abominations are a Husk variant created by the Collectors, distinguished from standard Husks by their red bioluminescent glow.",
+      "publicNotes": "<p>Abominations are a Husk variant created by the Collectors, distinguished from standard Husks by their red bioluminescent glow. They function as suicide shock troops, charging enemies and detonating on contact to deal heavy area damage.</p><p>Their death explosion can chain-kill nearby unarmored Husks, and unlike regular Husks they can be turned against their allies using the Dominate power.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Actor and Ancestry Compendium",
@@ -114,7 +114,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/7/72/Abomination.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

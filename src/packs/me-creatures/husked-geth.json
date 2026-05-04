@@ -87,7 +87,7 @@
       "level": {
         "value": 5
       },
-      "publicNotes": "<p>Husked Geth are Geth platforms that have been overridden and corrupted by Reaper indoctrination signals. They retain the Geth's physical resilience but lose their tactical networking, attacking mindlessly like organic Husks. Their synthetic armor provides solid protection.</p>",
+      "publicNotes": "<p>A Geth Trooper platform corrupted and reanimated by Reaper technology after battlefield destruction, known informally as a \"Geth Zombie.\" The Reaper signal overwrites their consensus network access and repurposes their combat chassis with reckless aggression.</p><p>Husked Geth retain the armor and basic combat capabilities of a standard trooper but operate without tactical networking, charging enemies in disorganized rushes. They are primarily encountered during the Reaper invasion of geth-controlled space in Mass Effect 3.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Husked Geth are Geth platforms that have been overridden and corrupted by Reaper indoctrination signals."
+      "blurb": "A Geth Trooper platform corrupted and reanimated by Reaper technology after battlefield destruction, known informally as a \"Geth Zombie."
     },
     "attributes": {
       "hp": {

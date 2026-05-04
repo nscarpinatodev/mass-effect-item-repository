@@ -1,7 +1,7 @@
 {
   "name": "Seeker Swarm",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d9/ME2_Seeker_Swarm.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/8/8f/SwarmME3.jpg",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/d/d9/ME2_Seeker_Swarm.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/8/8f/SwarmME3.jpg",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 4
       },
-      "publicNotes": "<p>Seeker Swarms are clouds of insectoid Collector parasites that immobilize victims by injecting a paralytic compound. They cannot be targeted by conventional weapons and are immune to most attacks — only area effects or special ammo can harm them. A swarm that successfully envelops a target renders that creature Paralyzed until the swarm is driven off.</p>",
+      "publicNotes": "<p>Seeker Swarms are insectoid Collector probes released in large numbers to neutralize organic targets. The Collectors use them to paralyze the populations of entire human colonies before moving in to collect the incapacitated bodies.</p><p>In combat, a swarm deals ongoing damage, disables cooldown-based powers, and reduces weapon accuracy. They are deployed by Collector Captains and are best countered by staying mobile and using environmental cover.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Seeker Swarms are clouds of insectoid Collector parasites that immobilize victims by injecting a paralytic compound."
+      "blurb": "Seeker Swarms are insectoid Collector probes released in large numbers to neutralize organic targets."
     },
     "attributes": {
       "hp": {

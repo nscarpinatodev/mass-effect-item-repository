@@ -1,7 +1,7 @@
 {
   "name": "Collector Guardian",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/8/88/ME2_Collector_Guardian.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/c/ce/Collector_Guardian.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/8/88/ME2_Collector_Guardian.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/c/ce/Collector_Guardian.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 10
       },
-      "publicNotes": "<p>The Collector Guardian is a hardened frontline warrior equipped with a massive kinetic shield projector in addition to standard barriers. It advances on enemy positions while its overlapping shields make it nearly impervious to ranged fire from the front. Flanking or using biotics to strip its barriers is essential.</p>",
+      "publicNotes": "<p>Collector Guardians are Collector combat units in Mass Effect 2 equipped with Collector Assault Rifles and protected by biotic barriers. They are distinguished by their ability to deploy personal anti-ballistic shields and use Warp ammunition against Shepard's squad.</p><p>Like all Collectors, they can be possessed by Harbinger, which significantly increases their combat effectiveness and damage output.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Collector Guardian is a hardened frontline warrior equipped with a massive kinetic shield projector in addition to standard barriers."
+      "blurb": "Collector Guardians are Collector combat units in Mass Effect 2 equipped with Collector Assault Rifles and protected by biotic barriers."
     },
     "attributes": {
       "hp": {

@@ -1,7 +1,7 @@
 {
   "name": "Cannibal",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f6/ME3_Cannibal.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/1/1b/ME3_Cannibal.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/f/f6/ME3_Cannibal.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/1/1b/ME3_Cannibal.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 6
       },
-      "publicNotes": "<p>Cannibals are Reaper-modified Batarians, bloated with grafted bone plating and a voracious hunger. They consume fallen enemies and allies alike to restore their armor plating. At range they fire a salvaged shotgun; in melee they use their reinforced fists.</p>",
+      "publicNotes": "<p>Cannibals are synthetic-organic Reaper soldiers created primarily from batarians, mutated by Reaper technology and deployed alongside Husks during the invasion of Earth. Their most distinctive ability is consuming fallen enemies on the battlefield to regenerate health and grow armored plating over their bodies.</p><p>They wield a gun fused to a human corpse used as an arm, and lack any dodge capability, making them vulnerable to powers. Incendiary Ammo can permanently halt their regeneration after they have fed.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Cannibals are Reaper-modified Batarians, bloated with grafted bone plating and a voracious hunger."
+      "blurb": "Cannibals are synthetic-organic Reaper soldiers created primarily from batarians, mutated by Reaper technology and deployed alongside Husks during the invasion of Earth."
     },
     "attributes": {
       "hp": {

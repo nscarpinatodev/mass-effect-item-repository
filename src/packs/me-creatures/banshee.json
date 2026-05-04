@@ -1,7 +1,7 @@
 {
   "name": "Banshee",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/ed/ME3_Banshee.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/eb/ME3_Banshee.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/e/ed/ME3_Banshee.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/e/eb/ME3_Banshee.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 15
       },
-      "publicNotes": "<p>Banshees are Reaper-corrupted Asari, warped into horrifying biotic juggernauts. They teleport short distances, unleash devastating biotic blasts, and shriek with a life-draining wail. A powerful biotic barrier makes them nearly impervious until it is stripped away.</p>",
+      "publicNotes": "<p>Banshees are Reaper-converted asari, specifically created from Ardat-Yakshi — asari with a rare neurological condition that makes them uniquely susceptible to the conversion process. The result amplifies their already formidable biotic abilities and strips away all independent will.</p><p>In combat, Banshees are lethal at both range and close quarters. They launch powerful biotic projectiles, teleport across the battlefield, and possess a lethal sync-kill grab. They are protected by both barriers and armor.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Banshees are Reaper-corrupted Asari, warped into horrifying biotic juggernauts."
+      "blurb": "Banshees are Reaper-converted asari, specifically created from Ardat-Yakshi — asari with a rare neurological condition that makes them uniquely susceptible to the conversion process."
     },
     "attributes": {
       "hp": {

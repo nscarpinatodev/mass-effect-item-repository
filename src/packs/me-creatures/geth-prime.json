@@ -1,7 +1,7 @@
 {
   "name": "Geth Prime",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d1/ME2_Geth_Prime.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ac/Geth_prime_ME_LE_enemy_box.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/d/d1/ME2_Geth_Prime.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/a/ac/Geth_prime_ME_LE_enemy_box.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 12
       },
-      "publicNotes": "<p>The Geth Prime is the most powerful standard Geth ground unit — a towering combat platform that serves as a battlefield commander and networked hub. It carries a powerful particle cannon, heavy kinetic barriers, and thick armor plating. Nearby Geth receive boosted combat performance through the Prime's networked coordination.</p>",
+      "publicNotes": "<p>Geth Primes are the most powerful and elite geth infantry platforms, standing approximately twelve feet tall with white armor. They carry a heavy pulse rifle capable of launching rockets, possess very strong shields and heavy armor, and wield a suite of tech abilities.</p><p>Geth Primes boost the combat capabilities of nearby geth units while jamming enemy radar. Eliminating them quickly significantly degrades the effectiveness of surrounding geth forces.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Geth Prime is the most powerful standard Geth ground unit — a towering combat platform that serves as a battlefield commander and networked hub."
+      "blurb": "Geth Primes are the most powerful and elite geth infantry platforms, standing approximately twelve feet tall with white armor."
     },
     "attributes": {
       "hp": {

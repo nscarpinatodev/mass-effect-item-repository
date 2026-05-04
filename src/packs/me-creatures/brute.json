@@ -1,7 +1,7 @@
 {
   "name": "Brute",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/5c/ME3_Brute.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/90/ME3_Brute.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/5/5c/ME3_Brute.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/9/90/ME3_Brute.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 12
       },
-      "publicNotes": "<p>Brutes are the result of Reaper modification fusing Turian and Krogan tissue into a massive, berserking shock trooper. They charge recklessly into melee range, smashing anything in their path. Thick Reaper-bonded armor plating makes them exceptionally durable.</p>",
+      "publicNotes": "<p>Brutes are Reaper-created amalgamations of turian and krogan tissue, fusing two biologically incompatible species with Reaper implants that regulate their body chemistry. The combination of turian military physiology and krogan blood rage produces a creature capable of destroying armored vehicles.</p><p>In combat, Brutes charge and sweep with melee attacks that can strip shields and health in a single hit, and can leap and slam to stagger nearby enemies. Their unprotected head is a weak point they often guard with their arm.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Brutes are the result of Reaper modification fusing Turian and Krogan tissue into a massive, berserking shock trooper."
+      "blurb": "Brutes are Reaper-created amalgamations of turian and krogan tissue, fusing two biologically incompatible species with Reaper implants that regulate their body chemistry."
     },
     "attributes": {
       "hp": {

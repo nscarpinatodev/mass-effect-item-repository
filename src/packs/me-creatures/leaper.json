@@ -87,7 +87,7 @@
       "level": {
         "value": 5
       },
-      "publicNotes": "<p>Leapers are Reaper-modified Collectors that have been stripped of their ranged capabilities and repurposed as fast melee attackers. They bound across terrain with startling speed and spring onto targets to deliver vicious slashing attacks.</p>",
+      "publicNotes": "<p>Leapers are small, agile Reaper-created creatures encountered during the ground war on Tuchanka in Mass Effect 3. They attack in packs, using their speed and leaping ability to close distance rapidly and overwhelm enemies with relentless melee pressure.</p><p>While individually weak, Leapers are dangerous in numbers and can quickly surround and bring down a soldier separated from their squad. They are best handled with area-of-effect attacks or high-rate-of-fire weapons.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Leapers are Reaper-modified Collectors that have been stripped of their ranged capabilities and repurposed as fast melee attackers."
+      "blurb": "Leapers are small, agile Reaper-created creatures encountered during the ground war on Tuchanka in Mass Effect 3."
     },
     "attributes": {
       "hp": {

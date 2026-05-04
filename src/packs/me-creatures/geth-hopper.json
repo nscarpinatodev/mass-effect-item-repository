@@ -1,7 +1,7 @@
 {
   "name": "Geth Hopper",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/9e/ME2_Geth_Hopper.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/ff/ME_LE_Geth_Hopper_Codex.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/9/9e/ME2_Geth_Hopper.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/f/ff/ME_LE_Geth_Hopper_Codex.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 5
       },
-      "publicNotes": "<p>Geth Hoppers are small, spider-like platforms designed for infiltration and close-quarters combat. They cling to walls and ceilings with ease and spring onto targets with shocking speed. Their small size makes them difficult to hit, though their shields are modest.</p>",
+      "publicNotes": "<p>The Geth Hopper is a specialized geth platform designed for stealth attacks, cyberwarfare, and sabotage, encountered in Mass Effect 1. Hoppers can disrupt hardsuit computers, shields, and weapons, and are capable of Sabotage, Overload, and radar jamming.</p><p>They use a geth sniper beam weapon and are lightly shielded, excelling at hit-and-run harassment. Their agility and disruptive capabilities make them a persistent nuisance in any engagement.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Geth Hoppers are small, spider-like platforms designed for infiltration and close-quarters combat."
+      "blurb": "The Geth Hopper is a specialized geth platform designed for stealth attacks, cyberwarfare, and sabotage, encountered in Mass Effect 1."
     },
     "attributes": {
       "hp": {

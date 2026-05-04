@@ -1,7 +1,7 @@
 {
   "name": "Geth Trooper",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f4/ME2_Geth_Trooper.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f9/Geth_trooper_ME_LE_enemy_box.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/f/f4/ME2_Geth_Trooper.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/f/f9/Geth_trooper_ME_LE_enemy_box.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 4
       },
-      "publicNotes": "<p>The Geth Trooper is the standard Geth ground combat platform. It carries a pulse rifle and relies on its kinetic barrier for protection. While not exceptional in any single area, it fights in coordinated groups, sharing tactical data across the Geth network.</p>",
+      "publicNotes": "<p>Geth Troopers are the standard ground infantry of the geth, encountered throughout the Mass Effect trilogy as the most common geth enemy type. They are equipped with Geth Pulse Rifles and Geth Barriers, and can use the Geth Shield Boost ability to recharge their defenses mid-combat.</p><p>While individually manageable, they attack in groups supported by heavier geth units. Their coordinated tactics and ability to rapidly restore shields make them a persistent threat.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "The Geth Trooper is the standard Geth ground combat platform."
+      "blurb": "Geth Troopers are the standard ground infantry of the geth, encountered throughout the Mass Effect trilogy as the most common geth enemy type."
     },
     "attributes": {
       "hp": {

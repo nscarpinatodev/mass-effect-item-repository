@@ -1,7 +1,7 @@
 {
   "name": "Geth Stalker",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/3a/ME2_Geth_Stalker.png",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/e/ec/ME_geth_stalker.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/3/3a/ME2_Geth_Stalker.png",
+      "src": "https://static.wikia.nocookie.net/masseffect/images/e/ec/ME_geth_stalker.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -87,7 +87,7 @@
       "level": {
         "value": 5
       },
-      "publicNotes": "<p>Geth Stalkers are fast, agile platforms designed for rapid flanking and harassment. They move on all fours at high speed, closing to close range to engage with a plasma blade before darting away. Their lightweight frame sacrifices durability for mobility.</p>",
+      "publicNotes": "<p>The Geth Stalker is a variant of the Geth Hopper platform used by geth loyal to Saren Arterius, distinguished by camouflage-patterned black-on-white coloring. Like standard Hoppers, Stalkers are cyberwarfare platforms capable of disrupting shields, weapons, and hardsuit systems.</p><p>They are agile, lightly shielded harassers that are difficult to pin down. Their cyberwarfare attacks can cripple a squad's defenses at the worst possible moment.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "Geth Stalkers are fast, agile platforms designed for rapid flanking and harassment."
+      "blurb": "The Geth Stalker is a variant of the Geth Hopper platform used by geth loyal to Saren Arterius, distinguished by camouflage-patterned black-on-white coloring."
     },
     "attributes": {
       "hp": {

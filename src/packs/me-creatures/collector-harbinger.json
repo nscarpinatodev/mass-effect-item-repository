@@ -87,7 +87,7 @@
       "level": {
         "value": 11
       },
-      "publicNotes": "<p>When Harbinger assumes direct control of a Collector, the host body glows with orange energy and gains dramatically enhanced biotic capabilities. The possessed Collector fires powerful biotic blasts and can detonate biotic fields. Harbinger can transfer possession to another Collector on the field when a possessed host is destroyed.</p>",
+      "publicNotes": "<p>Harbinger is the most powerful known Reaper and primary director of the Collector forces, participating in ground combat by remotely possessing individual Collector units. When it assumes control, the drone's skin becomes covered in glowing red cracks and its eyes emit a bright orange glow, granting it fully charged barriers, armor, and powerful biotic attacks.</p><p>Harbinger prefers to possess weaker or damaged Collector units and relinquishes control only when the possessed body is destroyed, at which point it can immediately possess another nearby unit.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "When Harbinger assumes direct control of a Collector, the host body glows with orange energy and gains dramatically enhanced biotic capabilities."
+      "blurb": "Harbinger is the most powerful known Reaper and primary director of the Collector forces, participating in ground combat by remotely possessing individual Collector units."
     },
     "attributes": {
       "hp": {
