@@ -1,15 +1,15 @@
-2026/05/03-21:27:00.817 740c Recovering log #8
-2026/05/03-21:27:00.822 740c Delete type=0 #8
-2026/05/03-21:27:00.822 740c Delete type=3 #6
-2026/05/03-21:27:00.824 a550 Level-0 table #14: started
-2026/05/03-21:27:00.826 a550 Level-0 table #14: 10666 bytes OK
-2026/05/03-21:27:00.828 a550 Delete type=0 #12
-2026/05/03-21:27:00.830 a550 Manual compaction at level-0 from '!actors!018df662e4af7e0e' @ 72057594037927935 : 1 .. '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 0 : 0; will stop at (end)
-2026/05/03-21:27:00.830 a550 Manual compaction at level-1 from '!actors!018df662e4af7e0e' @ 72057594037927935 : 1 .. '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 0 : 0; will stop at '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 45 : 1
-2026/05/03-21:27:00.830 a550 Compacting 1@1 + 1@2 files
-2026/05/03-21:27:00.833 a550 Generated table #15@1: 19 keys, 10666 bytes
-2026/05/03-21:27:00.833 a550 Compacted 1@1 + 1@2 files => 10666 bytes
-2026/05/03-21:27:00.835 a550 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/03-21:27:00.835 a550 Delete type=2 #10
-2026/05/03-21:27:00.835 a550 Delete type=2 #14
-2026/05/03-21:27:00.836 a550 Manual compaction at level-1 from '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 45 : 1 .. '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 0 : 0; will stop at (end)
+2026/05/03-22:44:34.350 1058 Recovering log #13
+2026/05/03-22:44:34.356 1058 Delete type=0 #13
+2026/05/03-22:44:34.356 1058 Delete type=3 #11
+2026/05/03-22:44:34.358 7cb4 Level-0 table #19: started
+2026/05/03-22:44:34.361 7cb4 Level-0 table #19: 10665 bytes OK
+2026/05/03-22:44:34.363 7cb4 Delete type=0 #17
+2026/05/03-22:44:34.363 7cb4 Manual compaction at level-0 from '!actors!018df662e4af7e0e' @ 72057594037927935 : 1 .. '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 0 : 0; will stop at (end)
+2026/05/03-22:44:34.363 7cb4 Manual compaction at level-1 from '!actors!018df662e4af7e0e' @ 72057594037927935 : 1 .. '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 0 : 0; will stop at '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 64 : 1
+2026/05/03-22:44:34.363 7cb4 Compacting 1@1 + 1@2 files
+2026/05/03-22:44:34.366 7cb4 Generated table #20@1: 19 keys, 10665 bytes
+2026/05/03-22:44:34.366 7cb4 Compacted 1@1 + 1@2 files => 10665 bytes
+2026/05/03-22:44:34.368 7cb4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/03-22:44:34.368 7cb4 Delete type=2 #15
+2026/05/03-22:44:34.368 7cb4 Delete type=2 #19
+2026/05/03-22:44:34.369 7cb4 Manual compaction at level-1 from '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 64 : 1 .. '!actors.items!e5076a449cc95ce3.a9265da80bcc53ca' @ 0 : 0; will stop at (end)
