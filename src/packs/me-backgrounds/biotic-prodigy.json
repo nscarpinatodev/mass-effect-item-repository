@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000002",
+  "_key": "!items!MEBackgnd0000002",
+  "type": "background",
+  "name": "Biotic Prodigy",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Element zero exposure before birth — or a rare, unexplained neurological event — gifted you with exceptional biotic potential. You were identified early and sent for training at a biotic academy, where instructors noted your unusual raw ability even among students with similar exposure. Most biotics develop adequate field application. You developed something else entirely.</p><p>You are trained in Occultism and gain the Biotic Theory Lore skill. You boost Constitution or Charisma, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "biotic-prodigy",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "con",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Biotic Theory",
+    "trainedSkills": {
+      "value": [
+        "occ"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000013",
+  "_key": "!items!MEBackgnd0000013",
+  "type": "background",
+  "name": "Smuggler",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The galaxy runs on legal commerce and officially sanctioned contracts. The parts that matter, though, frequently don't. You've moved cargo that couldn't be declared, navigated inspection protocols designed to fail against creative interpretation, and developed a working relationship with people who exist in the spaces between law and its enforcement. You know what things are actually worth and who actually wants them.</p><p>You are trained in Thievery and gain the Underworld Lore skill. You boost Dexterity or Charisma, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "smuggler",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Underworld",
+    "trainedSkills": {
+      "value": [
+        "thi"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

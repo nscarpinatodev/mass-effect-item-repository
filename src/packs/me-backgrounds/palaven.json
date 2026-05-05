@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000021",
+  "_key": "!items!MEBackgnd0000021",
+  "type": "background",
+  "name": "Palaven",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Every turian serves. This is not metaphor or tradition — it is the organizing principle of an entire civilization. Palaven's mandatory military service structures society around collective duty, hierarchy, and the understanding that the individual exists in service of something larger. Your fifteen years of service gave you military training, a place in the hierarchy, and a set of physical instincts that civilian life cannot replicate. You learned to move through danger efficiently, because fear doesn't excuse failure.</p><p>You are trained in Acrobatics and gain the Turian Military Doctrine Lore skill. You boost Dexterity or Wisdom, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "palaven",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Turian Military Doctrine",
+    "trainedSkills": {
+      "value": [
+        "acr"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

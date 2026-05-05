@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000017",
+  "_key": "!items!MEBackgnd0000017",
+  "type": "background",
+  "name": "Illium",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Technically, Illium is a lawfully governed asari world. Practically, it operates as a free market with diplomatic immunity — a planet where anything can be bought, sold, or contracted if the paperwork is correct. You navigated that system, which means you know how to read a contract, understand which regulations are enforced, and recognize when someone is using legality as a tool rather than a constraint. The smile and the clause are both part of the negotiation.</p><p>You are trained in Deception and gain the Illium Trade Law Lore skill. You boost Intelligence or Charisma, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "illium",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Illium Trade Law",
+    "trainedSkills": {
+      "value": [
+        "dec"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000007",
+  "_key": "!items!MEBackgnd0000007",
+  "type": "background",
+  "name": "Infiltrator",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gathered information that wasn't meant to be gathered. Whether you worked for Alliance Intelligence, a private security firm, or a client you never met in person, your value was your ability to be somewhere you weren't supposed to be and leave without anyone knowing you'd been there. The work changed how you process every room you enter.</p><p>You are trained in Deception and gain the Intelligence Operations Lore skill. You boost Dexterity or Intelligence, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "infiltrator",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "int"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Intelligence Operations",
+    "trainedSkills": {
+      "value": [
+        "dec"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

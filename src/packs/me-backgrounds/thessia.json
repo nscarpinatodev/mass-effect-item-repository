@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000020",
+  "_key": "!items!MEBackgnd0000020",
+  "type": "background",
+  "name": "Thessia",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The asari homeworld is everything the species has spent three thousand years becoming — prosperous, cultured, suffused with biotic tradition and diplomatic sophistication. Thessia's schools are among the galaxy's finest. Its biotic academies are the oldest. Growing up here means you absorbed a civilization's worth of accumulated knowledge — including the biotic theory that underlies everything from L2 amplifiers to singularity fields. The galaxy looks different when you can read its physics.</p><p>You are trained in Occultism and gain the Thessian Culture Lore skill. You boost Intelligence or Wisdom, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "thessia",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Thessian Culture",
+    "trainedSkills": {
+      "value": [
+        "occ"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

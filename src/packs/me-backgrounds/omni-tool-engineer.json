@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000010",
+  "_key": "!items!MEBackgnd0000010",
+  "type": "background",
+  "name": "Omni-Tool Engineer",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You didn't just learn to use an omni-tool. You learned to understand it — the hardware layer, the firmware, the edge cases the manufacturer never anticipated, and the modifications that turn consumer hardware into something else entirely. That knowledge made you valuable to anyone who needed tech that worked in conditions where it wasn't supposed to.</p><p>You are trained in Crafting and gain the Engineering Lore skill. You boost Intelligence or Dexterity, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "omni-tool-engineer",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Engineering",
+    "trainedSkills": {
+      "value": [
+        "cra"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

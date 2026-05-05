@@ -5,6 +5,7 @@ const PACKS = [
   { src: "src/packs/me-ancestries",     dest: "packs/me-ancestries" },
   { src: "src/packs/me-heritages",      dest: "packs/me-heritages" },
   { src: "src/packs/me-ancestry-feats", dest: "packs/me-ancestry-feats" },
+  { src: "src/packs/me-backgrounds",    dest: "packs/me-backgrounds" },
   { src: "src/packs/me-npcs",           dest: "packs/me-npcs" },
   { src: "src/packs/me-creatures",      dest: "packs/me-creatures" },
   { src: "src/packs/me-armors",         dest: "packs/me-armors" },

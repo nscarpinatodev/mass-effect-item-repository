@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000004",
+  "_key": "!items!MEBackgnd0000004",
+  "type": "background",
+  "name": "Citadel Bureaucrat",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Citadel's administrative machinery is vast enough that millions of careers disappear into it without trace. Yours didn't. You navigated the Presidium's endless layered jurisdictions, learned which regulations were enforced and which were merely words, and developed an instinct for institutional power that most people never acquire. The Council doesn't govern the galaxy so much as it ratifies what the bureaucracy has already decided.</p><p>You are trained in Society and gain the Citadel Politics Lore skill. You boost Intelligence or Charisma, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "citadel-bureaucrat",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Citadel Politics",
+    "trainedSkills": {
+      "value": [
+        "soc"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000012",
+  "_key": "!items!MEBackgnd0000012",
+  "type": "background",
+  "name": "Scientist",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The fundamental questions — of life, mass effect fields, dark energy, the Protheans, what lies beyond the relay network — pulled you into a life of research. You've worked in corporate labs, university positions, or independent settings where funding was uncertain and curiosity was the only constant. Science is the only methodology you trust completely, which makes you both valuable and occasionally difficult to work with.</p><p>You are trained in Arcana and gain the Scientific Research Lore skill. You boost Intelligence or Wisdom, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "scientist",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Scientific Research",
+    "trainedSkills": {
+      "value": [
+        "arc"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

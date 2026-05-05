@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000016",
+  "_key": "!items!MEBackgnd0000016",
+  "type": "background",
+  "name": "Omega",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>There is nowhere else in the galaxy quite like Omega. The Terminus's largest station has no government, no law, and no shortage of people willing to fill those vacancies violently. You grew up here, which means you learned early that visibility is a liability, that everyone wants something, and that the station's endless crowds are simultaneously your greatest danger and your best cover. Aria T'Loak keeps Omega from destroying itself. Everything else is negotiable.</p><p>You are trained in Stealth and gain the Omega Underworld Lore skill. You boost Dexterity or Charisma, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "omega",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Omega Underworld",
+    "trainedSkills": {
+      "value": [
+        "ste"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

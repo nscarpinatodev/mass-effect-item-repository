@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000014",
+  "_key": "!items!MEBackgnd0000014",
+  "type": "background",
+  "name": "Spectre Candidate",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Council's Special Tactics and Reconnaissance operatives answer to no one but the Council itself, receive no public acknowledgment, and operate by a mandate that begins and ends with results. You were identified as a potential candidate — screened, evaluated, and subjected to a preparation process that most people never know exists. Whether you've been formally inducted yet or not, you were changed by the process.</p><p>You are trained in Stealth and gain the Spectre Operations Lore skill. You boost Strength or Dexterity, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "spectre-candidate",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "str",
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Spectre Operations",
+    "trainedSkills": {
+      "value": [
+        "ste"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

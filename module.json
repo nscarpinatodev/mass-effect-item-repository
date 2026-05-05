@@ -64,6 +64,15 @@
       "flags": {}
     },
     {
+      "name": "me-backgrounds",
+      "label": "ME Backgrounds",
+      "path": "packs/me-backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
       "name": "me-npcs",
       "label": "ME NPCs",
       "path": "packs/me-npcs",
@@ -163,6 +172,15 @@
       "flags": {}
     },
     {
+      "name": "sf2e-me-backgrounds",
+      "label": "ME Backgrounds",
+      "path": "packs/sf2e-me-backgrounds",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
       "name": "sf2e-me-npcs",
       "label": "ME NPCs",
       "path": "packs/sf2e-me-npcs",
@@ -249,9 +267,11 @@
             "me-ancestries",
             "me-heritages",
             "me-ancestry-feats",
+            "me-backgrounds",
             "sf2e-me-ancestries",
             "sf2e-me-heritages",
-            "sf2e-me-ancestry-feats"
+            "sf2e-me-ancestry-feats",
+            "sf2e-me-backgrounds"
           ]
         },
         {

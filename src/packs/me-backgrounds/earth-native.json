@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000023",
+  "_key": "!items!MEBackgnd0000023",
+  "type": "background",
+  "name": "Earth Native",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Humanity's homeworld carries the weight of the species' entire history — every war, every art form, every scientific breakthrough, every catastrophic failure. Earth is the cultural core of the Systems Alliance and the reference point against which humanity measures everything it has become in the galaxy. Growing up here means you were shaped by that history: the music, the politics, the literature, the sports, and the contradictions of a species that nearly destroyed its own planet and then decided to expand into someone else's galaxy.</p><p>You are trained in Performance and gain the Human History Lore skill. You boost Charisma or Wisdom, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "earth-native",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Human History",
+    "trainedSkills": {
+      "value": [
+        "prf"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

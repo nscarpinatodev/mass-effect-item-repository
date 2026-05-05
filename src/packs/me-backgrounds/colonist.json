@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000005",
+  "_key": "!items!MEBackgnd0000005",
+  "type": "background",
+  "name": "Colonist",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You grew up somewhere humanity wasn't supposed to be able to survive — a colony world at the edge of explored space, an outpost that measured its isolation in months of travel time, a settlement that built everything it needed from whatever the planet provided. That experience gave you a pragmatic relationship with hardship that people raised in the inner systems simply don't have.</p><p>You are trained in Survival and gain the Frontier Survival Lore skill. You boost Constitution or Wisdom, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "colonist",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "con",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Frontier Survival",
+    "trainedSkills": {
+      "value": [
+        "sur"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

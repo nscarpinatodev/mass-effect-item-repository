@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000018",
+  "_key": "!items!MEBackgnd0000018",
+  "type": "background",
+  "name": "Citadel Wards",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Presidium gleams for visiting dignitaries. The Wards are where everyone else lives. Millions of beings from dozens of species crowd into residential towers, commercial districts, and service corridors that most Presidium residents never see. Growing up in the Wards means learning the rhythms of a genuinely multicultural society — who trusts whom, which districts belong to which communities, and what the actual power structures are beneath the ones on the organization chart.</p><p>You are trained in Society and gain the Citadel Wards Lore skill. You boost Charisma or Wisdom, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "citadel-wards",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Citadel Wards",
+    "trainedSkills": {
+      "value": [
+        "soc"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

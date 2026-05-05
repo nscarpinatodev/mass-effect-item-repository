@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000001",
+  "_key": "!items!MEBackgnd0000001",
+  "type": "background",
+  "name": "Alliance Soldier",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You served in the Systems Alliance military, humanity's primary defense force and its voice in galactic politics. Years of training, deployment, and combat experience hardened your body and sharpened your instincts. Whether you survived the Skyllian Blitz, patrolled the Terminus border, or served aboard an Alliance frigate, military service left an indelible mark on how you move, think, and solve problems.</p><p>You are trained in Athletics and gain the Alliance Military Lore skill. You boost Constitution or Strength, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "alliance-soldier",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "con",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Alliance Military",
+    "trainedSkills": {
+      "value": [
+        "ath"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

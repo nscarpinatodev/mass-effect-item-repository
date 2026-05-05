@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000009",
+  "_key": "!items!MEBackgnd0000009",
+  "type": "background",
+  "name": "Noble",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Wealth and influence are not the same thing, but you have both. Your family — or the institution you were born into — provided access to education, connections, and resources that most people spend careers trying to acquire. You've been in rooms where galaxy-shaping decisions were made, watched them be made badly, and understood that the real power usually belongs to whoever controls what gets said next.</p><p>You are trained in Diplomacy and gain the Aristocracy Lore skill. You boost Charisma or Intelligence, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "noble",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "int"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Aristocracy",
+    "trainedSkills": {
+      "value": [
+        "dip"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_id": "MEBackgnd0000006",
+  "_key": "!items!MEBackgnd0000006",
+  "type": "background",
+  "name": "Corporate Operative",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The major corporations operating in galactic space — Eldfell-Ashland, Binary Helix, Synthetic Insights — answer to no government and employ their own security, intelligence, and negotiation assets. You were one of those assets. Your work required knowing when to talk, when to listen, and when to let the contract speak for itself.</p><p>You are trained in Diplomacy and gain the Corporate Affairs Lore skill. You boost Intelligence or Charisma, and gain a free boost.</p>"
+    },
+    "rules": [],
+    "slug": "corporate-operative",
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Corporate Affairs",
+    "trainedSkills": {
+      "value": [
+        "dip"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}
