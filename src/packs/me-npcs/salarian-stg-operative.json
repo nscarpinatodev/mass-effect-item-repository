@@ -3,7 +3,7 @@
   "_id": "MENPC00000000018",
   "name": "Salarian STG Operative",
   "type": "npc",
-  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/salarian-stg-operative.png",
   "system": {
     "attributes": {
       "hp": {
@@ -132,7 +132,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/salarian-stg-operative.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

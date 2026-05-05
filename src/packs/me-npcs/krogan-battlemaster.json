@@ -3,7 +3,7 @@
   "_id": "MENPC00000000023",
   "name": "Krogan Battlemaster",
   "type": "npc",
-  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/krogan-battlemaster.png",
   "system": {
     "attributes": {
       "hp": {
@@ -127,7 +127,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/krogan-battlemaster.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

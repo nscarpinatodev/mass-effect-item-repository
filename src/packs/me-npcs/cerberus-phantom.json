@@ -1,7 +1,7 @@
 {
   "name": "Cerberus Phantom",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d8/ME3_Cerberus_Phantom.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-phantom.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/d/d8/ME3_Cerberus_Phantom.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-phantom.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
