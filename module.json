@@ -8,7 +8,7 @@
   "download": "https://github.com/nscarpinatodev/mass-effect-sf2e-conversion/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "relationships": {
     "systems": [
