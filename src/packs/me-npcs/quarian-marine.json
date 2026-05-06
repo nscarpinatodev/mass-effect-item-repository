@@ -402,7 +402,7 @@
       "_id": "04ecc0b7ffe8ba9e",
       "name": "M-8 Avenger",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/f/f7/ME2_AR_-_Avenger.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Avenger.png",
       "system": {
         "description": {
           "gm": "",
@@ -510,7 +510,7 @@
       "_id": "2eade1f4ce531b7b",
       "name": "Liberator Armor (M)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/7/73/Medium-human-Liberator.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Liberator.png",
       "system": {
         "description": {
           "gm": "",

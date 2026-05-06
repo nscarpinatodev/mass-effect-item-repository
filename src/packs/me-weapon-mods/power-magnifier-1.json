@@ -3,7 +3,7 @@
   "name": "Power Magnifier I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bc/ME3_Pistol_Heavy_Barrel.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapon-mods/ME3_Pistol_Heavy_Barrel.png",
   "flags": {},
   "ownership": {
     "default": 0

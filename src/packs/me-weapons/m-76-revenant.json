@@ -3,7 +3,7 @@
   "name": "M-76 Revenant",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/35/ME2_AR_-_Revenant.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Revenant.png",
   "flags": {},
   "ownership": {
     "default": 0

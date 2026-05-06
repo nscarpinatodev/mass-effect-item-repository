@@ -1,0 +1,52 @@
+{
+  "_key": "!items!meBioticBarrier0",
+  "_id": "meBioticBarrier0",
+  "folder": null,
+  "name": "Biotic Barrier",
+  "type": "effect",
+  "img": "icons/magic/lightning/barrier-shield-crackling-orb-pink.webp",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "barrier": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-barrier",
+    "description": {
+      "gm": "",
+      "value": "<p>A biotic barrier. HP = 5 × ⌊level ÷ 2⌋, calculated at activation.</p><p>Absorbs damage before shields and actual HP. Does not recharge per turn — spend actions to reactivate at full strength.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null
+    },
+    "badge": {
+      "type": "counter",
+      "value": 5,
+      "max": 5,
+      "label": "Barrier HP"
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "name": "M-300 Claymore",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/5a/ME2_SG_-_Claymore.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SG_-_Claymore.png",
   "flags": {},
   "ownership": {
     "default": 0

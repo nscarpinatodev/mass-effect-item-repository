@@ -3,7 +3,7 @@
   "name": "AT-12 Raider",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/3f/ME3_Raider_Shotgun.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Raider_Shotgun.png",
   "flags": {},
   "ownership": {
     "default": 0

@@ -1,0 +1,53 @@
+{
+  "_key": "!items!meBioticThrow000",
+  "_id": "meBioticThrow000",
+  "folder": null,
+  "name": "Throw",
+  "type": "feat",
+  "img": "icons/magic/movement/arrow-up-from-portal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-throw",
+    "description": {
+      "gm": "",
+      "value": "<p>You project a mass effect field that hurls a creature or object with violent force.</p><p>Choose a creature or unattended object within <strong>60 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target is pushed 5 feet away from you.</p><p><strong>Failure</strong> The target takes <strong>2d8 bludgeoning</strong> damage and is pushed 10 feet away from you. If pushed into a solid object, the target takes an additional 1d6 bludgeoning damage and is knocked prone.</p><p><strong>Critical Failure</strong> As failure, but 4d8 bludgeoning damage and pushed 20 feet. If pushed into an obstacle, additional 2d6 bludgeoning and knocked prone.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

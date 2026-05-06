@@ -1,7 +1,7 @@
 {
   "name": "Geth Stalker",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/ec/ME_geth_stalker.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME_geth_stalker.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/e/ec/ME_geth_stalker.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME_geth_stalker.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -105,7 +105,7 @@
       "hp": {
         "value": 65,
         "max": 65,
-        "temp": 30,
+        "temp": 40,
         "details": ""
       },
       "ac": {
@@ -246,28 +246,39 @@
       "_key": "!actors.items!998449d7cc92748c.fdcf1484ea45dcb5"
     },
     {
-      "_id": "42622007c89bfa43",
-      "name": "Kinetic Barrier",
-      "type": "effect",
-      "img": "systems/pf2e/icons/spells/mystic-armor.webp",
+      "_id": "3d36af2ff19e6892",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
-        "slug": "npc-kinetic-barrier-geth-stalker",
-        "duration": {
-          "value": -1,
-          "unit": "unlimited",
-          "expiry": null
-        },
-        "badge": {
-          "type": "counter",
-          "value": 30,
-          "max": 30,
-          "label": "Shield Points"
-        },
-        "rules": [],
+        "slug": "me-kinetic-shield",
         "description": {
-          "value": "",
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p><p>Equip <strong>Shield HP</strong> and <strong>Regen</strong> mods to upgrade your barrier. If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>",
           "gm": ""
         },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
         "_migration": {
           "version": null,
           "previous": null
@@ -285,13 +296,129 @@
       "flags": {
         "mass-effect-sf2e-conversion": {
           "shieldMax": 30,
-          "shieldRegen": 6
+          "shieldRegen": 10
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!998449d7cc92748c.42622007c89bfa43"
+      "_key": "!actors.items!998449d7cc92748c.3d36af2ff19e6892"
+    },
+    {
+      "_id": "752182fedb5adec5",
+      "name": "Shield HP Mod — Tier 1",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t1",
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+10 HP</strong> (base 30 → 40).</p><p>Only one Shield HP Mod can be installed at a time.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "price": {
+          "value": {
+            "sp": 600
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!998449d7cc92748c.752182fedb5adec5"
+    },
+    {
+      "_id": "ca624623874c88f8",
+      "name": "Shield Regen Mod — Tier 1",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+      "system": {
+        "slug": "me-shield-regen-mod-t1",
+        "description": {
+          "value": "<p>Boosts kinetic shield recharge rate by <strong>+50%</strong> (base 10 → 15 HP/turn).</p><p>Only one Shield Regen Mod can be installed at a time.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "price": {
+          "value": {
+            "sp": 600
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "regenMult": 1.5
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!998449d7cc92748c.ca624623874c88f8"
     }
   ],
   "_id": "998449d7cc92748c",

@@ -3,7 +3,7 @@
   "name": "Servo Actuators I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e7/ME3_Adrenaline_Rush.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_Adrenaline_Rush.png",
   "flags": {},
   "ownership": {
     "default": 0

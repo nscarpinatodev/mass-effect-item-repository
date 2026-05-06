@@ -1,0 +1,52 @@
+{
+  "_key": "!items!meEffTactCloak00",
+  "_id": "meEffTactCloak00",
+  "folder": null,
+  "name": "Tactical Cloak",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-effect-tactical-cloak",
+    "description": {
+      "gm": "",
+      "value": "<p>You are concealed by a personal cloaking field. You are <strong>Undetected</strong> by all creatures until you make a Strike or the duration expires.</p><p>Your first Strike made while Undetected deals an additional <strong>2d6 precision damage</strong>. Remove this effect after making that Strike.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "label": "Tactical Cloak Precision Strike",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "damageType": "precision"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end"
+    },
+    "badge": null
+  }
+}

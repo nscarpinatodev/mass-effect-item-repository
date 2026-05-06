@@ -3,7 +3,7 @@
   "name": "Black Widow",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/44/ME3_Black_Widow_Sniper_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Black_Widow_Sniper_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

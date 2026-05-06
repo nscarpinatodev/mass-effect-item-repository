@@ -3,7 +3,7 @@
   "name": "Kestrel Armor",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/65/ME2_Kestrel_Armor.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/ME2_Kestrel_Armor.png",
   "flags": {},
   "ownership": {
     "default": 0

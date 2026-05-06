@@ -1,0 +1,5 @@
+2026/05/06-15:35:00.595 70c4 Delete type=3 #1
+2026/05/06-15:35:00.597 7310 Level-0 table #5: started
+2026/05/06-15:35:00.599 7310 Level-0 table #5: 14269 bytes OK
+2026/05/06-15:35:00.600 7310 Delete type=0 #3
+2026/05/06-15:35:00.600 7310 Manual compaction at level-0 from '!items!meEffDefMatrix00' @ 72057594037927935 : 1 .. '!items!meTechTactCloak0' @ 0 : 0; will stop at (end)

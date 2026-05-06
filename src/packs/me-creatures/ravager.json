@@ -1,7 +1,7 @@
 {
   "name": "Ravager",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME3_Ravager.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Ravager.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME3_Ravager.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Ravager.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -280,12 +280,12 @@
       "_key": "!actors.items!5852f1ce7ff95534.6dcb7118846d570c"
     },
     {
-      "_id": "7c28a794e3b9e4b0",
-      "name": "Reaper Armor",
+      "_id": "bea5163442fd25cc",
+      "name": "Heavy Combat Frame",
       "type": "effect",
-      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/icons/combat-armor-frame.png",
       "system": {
-        "slug": "npc-reaper-armor-ravager",
+        "slug": "me-armor-frame-t3",
         "duration": {
           "value": -1,
           "unit": "unlimited",
@@ -293,8 +293,8 @@
         },
         "badge": {
           "type": "counter",
-          "value": 40,
-          "max": 40,
+          "value": 100,
+          "max": 100,
           "label": "Armor Points"
         },
         "rules": [],
@@ -318,14 +318,14 @@
       "sort": 300000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "armorMax": 40,
-          "armorCurrent": 40
+          "armorMax": 100,
+          "armorCurrent": 100
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!5852f1ce7ff95534.7c28a794e3b9e4b0"
+      "_key": "!actors.items!5852f1ce7ff95534.bea5163442fd25cc"
     }
   ],
   "_id": "5852f1ce7ff95534",

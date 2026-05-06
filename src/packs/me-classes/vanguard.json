@@ -1,0 +1,58 @@
+{
+  "_key": "!items!meClassVanguard0",
+  "_id": "meClassVanguard0",
+  "folder": null,
+  "name": "Vanguard",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-class-vanguard",
+    "description": {
+      "gm": "",
+      "value": "<p>The most aggressive class in the galaxy, Vanguards combine biotic power with close-range weapon mastery. Their signature abilities — Charge and Nova — define a high-risk, high-reward playstyle built around closing distance, overwhelming enemies, and recharging defenses through momentum.</p><p><strong>Bonus:</strong> +2 circumstance bonus to Reflex saves (constant movement and biotic enhancement make Vanguards extremely hard to pin down).</p><hr><p><strong>Signature Abilities:</strong> Charge, Nova, Biotic Barrier, Reave, Pull, Shockwave</p><p><strong>Power Access:</strong> Charge, Nova, Biotic Barrier, and the close-range biotic suite from the <em>ME Biotic Powers</em> compendium. Vanguards have limited access to long-range biotic control powers (no Singularity, limited Warp). No native tech power access.</p><p><strong>Weapons:</strong> Shotguns (primary), pistols (secondary). Vanguards close the distance with Charge and finish with a shotgun burst.</p><p><strong>Armor:</strong> Heavy armor preferred. Vanguards tank through aggression — Charge restores shield HP, Nova is a last resort. They need the HP to survive the approach.</p><p><strong>Playstyle:</strong> Aggressive melee-range biotic fighter. Charge into a group, Nova for point-blank devastation, shotgun any survivors, and rely on Charge's shield recharge to stay alive. Extremely effective in close quarters; exposed at range.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "reflex",
+        "type": "circumstance",
+        "value": 2,
+        "label": "Vanguard Momentum"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature"
+  }
+}

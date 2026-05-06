@@ -3,7 +3,7 @@
   "name": "M-920 Cain",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bf/ME3_Cain_Heavy_Weapon.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Cain_Heavy_Weapon.png",
   "flags": {},
   "ownership": {
     "default": 0

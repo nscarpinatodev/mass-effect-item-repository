@@ -3,7 +3,7 @@
   "name": "M-11 Suppressor",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/8/84/ME3_Suppressor.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Suppressor.png",
   "flags": {},
   "ownership": {
     "default": 0

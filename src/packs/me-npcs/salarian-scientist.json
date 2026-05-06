@@ -401,7 +401,7 @@
       "_id": "4422b92789fc0163",
       "name": "M-9 Tempest",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/c/ca/ME2_SMG_-_Tempest.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SMG_-_Tempest.png",
       "system": {
         "description": {
           "gm": "",
@@ -510,7 +510,7 @@
       "_id": "0e7a21030c6f523d",
       "name": "Phoenix Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/5/51/Light-human-Phoenix.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Phoenix.png",
       "system": {
         "description": {
           "gm": "",

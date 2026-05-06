@@ -3,7 +3,7 @@
   "name": "M-490 Blackstorm",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/ee/ME2_HW_-_Blackstorm.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_HW_-_Blackstorm.png",
   "flags": {},
   "ownership": {
     "default": 0

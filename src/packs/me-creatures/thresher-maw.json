@@ -3,7 +3,7 @@
   "_id": "MECRT00000000017",
   "name": "Thresher Maw",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e0/Codex_ME_-_Thresher_Maws.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Codex_ME_-_Thresher_Maws.png",
   "system": {
     "attributes": {
       "hp": {
@@ -131,7 +131,7 @@
     "width": 4,
     "height": 4,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/e/e0/Codex_ME_-_Thresher_Maws.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Codex_ME_-_Thresher_Maws.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

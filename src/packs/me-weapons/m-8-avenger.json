@@ -3,7 +3,7 @@
   "name": "M-8 Avenger",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f7/ME2_AR_-_Avenger.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Avenger.png",
   "flags": {},
   "ownership": {
     "default": 0

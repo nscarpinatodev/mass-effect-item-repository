@@ -494,7 +494,7 @@
       "_id": "831c2c4b1a8c7586",
       "name": "M-5 Phalanx",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/a/ae/ME3_Phalanx_Heavy_Pistol.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Phalanx_Heavy_Pistol.png",
       "system": {
         "description": {
           "gm": "",
@@ -601,7 +601,7 @@
       "_id": "f05389a7b33b053b",
       "name": "Predator Armor (M)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/9/94/Medium-human-Predator.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Predator.png",
       "system": {
         "description": {
           "gm": "",

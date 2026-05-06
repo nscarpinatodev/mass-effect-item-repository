@@ -3,7 +3,7 @@
   "name": "Phoenix Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/de/Heavy-human-Phoenix.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Phoenix.png",
   "flags": {},
   "ownership": {
     "default": 0

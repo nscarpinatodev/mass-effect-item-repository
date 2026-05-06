@@ -1,0 +1,53 @@
+{
+  "_key": "!items!meBioticShockwav",
+  "_id": "meBioticShockwav",
+  "folder": null,
+  "name": "Shockwave",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-shockwave",
+    "description": {
+      "gm": "",
+      "value": "<p>You slam biotic energy into the ground, sending a rolling kinetic shockwave along the surface that topples everything in its path.</p><p>All creatures in a <strong>60-foot line</strong> must attempt a <strong>Reflex</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature takes <strong>1d6 bludgeoning</strong> damage.</p><p><strong>Failure</strong> The creature takes <strong>2d6 bludgeoning</strong> damage and is pushed 10 feet away from you.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d6 bludgeoning</strong> and also <strong>Knocked Prone</strong>.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

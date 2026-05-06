@@ -1,0 +1,55 @@
+{
+  "_key": "!items!meTechDefDrone00",
+  "_id": "meTechDefDrone00",
+  "folder": null,
+  "name": "Defense Drone",
+  "type": "feat",
+  "img": "icons/magic/lightning/ball-medium-yellow.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-tech-defense-drone",
+    "description": {
+      "gm": "",
+      "value": "<p>You deploy a hovering electrocution drone that follows you and automatically zaps any enemy that ventures too close.</p><p>You deploy a Defense Drone that orbits you. The drone has <strong>10 HP</strong>, is immune to electricity, and cannot move independently (it follows you). It persists for up to <strong>1 minute</strong> or until destroyed.</p><p>At the start of each of your turns, the drone automatically zaps all enemies within <strong>10 feet</strong> of you: each must attempt a <strong>Reflex</strong> DC 18 save or take <strong>1d6 electricity</strong> damage (half on a success).</p><p>Additionally, any enemy that hits you with a melee attack while the drone is active takes <strong>1d4 electricity</strong> damage (no save) as the drone retaliates.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "electricity",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "class"
+  }
+}

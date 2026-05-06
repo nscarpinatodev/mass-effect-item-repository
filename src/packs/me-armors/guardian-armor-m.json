@@ -3,7 +3,7 @@
   "name": "Guardian Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/04/Medium-human-Guardian.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Guardian.png",
   "flags": {},
   "ownership": {
     "default": 0

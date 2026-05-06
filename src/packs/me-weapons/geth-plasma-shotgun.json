@@ -3,7 +3,7 @@
   "name": "Geth Plasma Shotgun",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b9/ME3_Geth_Plasma_Shotgun.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Geth_Plasma_Shotgun.png",
   "flags": {},
   "ownership": {
     "default": 0

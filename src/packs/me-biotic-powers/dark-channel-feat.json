@@ -1,0 +1,53 @@
+{
+  "_key": "!items!meBioticDarkChan",
+  "_id": "meBioticDarkChan",
+  "folder": null,
+  "name": "Dark Channel",
+  "type": "feat",
+  "img": "icons/magic/unholy/beam-impact-purple-small.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-dark-channel",
+    "description": {
+      "gm": "",
+      "value": "<p>You mark a target with a persistent dark energy curse that eats away at them from within — and leaps to a new host when they fall.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 void</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>1d6 void</strong> damage and gains <strong>1d6 persistent void</strong> damage (DC 15 flat check to end). When a creature affected by Dark Channel is reduced to 0 HP, the persistent void damage automatically transfers to the nearest enemy within <strong>30 feet</strong>.</p><p><strong>Critical Failure</strong> As failure, but <strong>2d6 persistent void</strong> damage (DC 18 flat check to end).</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

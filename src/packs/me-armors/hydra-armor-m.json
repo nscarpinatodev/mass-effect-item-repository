@@ -3,7 +3,7 @@
   "name": "Hydra Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/a/a9/Medium-human-Hydra.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Hydra.png",
   "flags": {},
   "ownership": {
     "default": 0

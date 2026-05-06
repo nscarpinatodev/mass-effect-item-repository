@@ -3,7 +3,7 @@
   "name": "Onyx Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/0b/Medium-human-Onyx.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Onyx.png",
   "flags": {},
   "ownership": {
     "default": 0

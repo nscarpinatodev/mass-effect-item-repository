@@ -1,0 +1,53 @@
+{
+  "_key": "!items!meBioticLift0000",
+  "_id": "meBioticLift0000",
+  "folder": null,
+  "name": "Lift",
+  "type": "feat",
+  "img": "icons/magic/movement/pinwheel-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-lift",
+    "description": {
+      "gm": "",
+      "value": "<p>You unleash an anti-gravity sphere that violently hurls nearby creatures into the air, leaving them floating helplessly.</p><p>All creatures in a <strong>10-foot radius</strong> burst within <strong>30 feet</strong> must attempt a <strong>Reflex</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature is lifted 5 feet off the ground and becomes <strong>Off-Guard</strong> until the start of your next turn.</p><p><strong>Failure</strong> The creature is lifted 10 feet into the air and becomes <strong>Grabbed</strong> and <strong>Off-Guard</strong> until the start of your next turn. When the effect ends, the creature falls and takes appropriate fall damage.</p><p><strong>Critical Failure</strong> As failure, but the creature is lifted 20 feet and remains suspended until the end of your next turn.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

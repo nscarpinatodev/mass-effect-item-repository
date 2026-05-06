@@ -3,7 +3,7 @@
   "name": "Geth Spitfire",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/1/1d/ME3_Geth_Spitfire_Heavy_Weapon.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Geth_Spitfire_Heavy_Weapon.png",
   "flags": {},
   "ownership": {
     "default": 0

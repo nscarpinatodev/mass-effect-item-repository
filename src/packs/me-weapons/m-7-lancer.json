@@ -3,7 +3,7 @@
   "name": "M-7 Lancer",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Lancer_AS.png",
   "flags": {},
   "ownership": {
     "default": 0

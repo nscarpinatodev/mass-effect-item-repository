@@ -3,7 +3,7 @@
   "name": "M-90 Indra",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b6/ME3_Indra_Sniper_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Indra_Sniper_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

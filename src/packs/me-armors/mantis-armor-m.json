@@ -3,7 +3,7 @@
   "name": "Mantis Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/9c/Medium-human-Mantis.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Mantis.png",
   "flags": {},
   "ownership": {
     "default": 0

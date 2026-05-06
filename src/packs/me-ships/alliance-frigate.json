@@ -1,7 +1,7 @@
 {
   "name": "Alliance Frigate",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/1/1d/ME3_Alliance_Frigate.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ships/Citadel_final_battle_-_Arcturus_Fleet_to_the_rescue.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 5,
     "height": 5,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/1/1d/ME3_Alliance_Frigate.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/ships/Citadel_final_battle_-_Arcturus_Fleet_to_the_rescue.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

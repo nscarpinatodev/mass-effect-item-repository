@@ -442,7 +442,7 @@
       "_id": "6250c5cc22cfe5da",
       "name": "M-77 Paladin",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/4/43/ME3_Paladin_Heavy_Pistol.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Paladin_Heavy_Pistol.png",
       "system": {
         "description": {
           "gm": "",
@@ -550,7 +550,7 @@
       "_id": "5fec79d3b4ab018c",
       "name": "Mercenary Armor (M)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/d/d5/Medium-human-Mercenary.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Mercenary.png",
       "system": {
         "description": {
           "gm": "",

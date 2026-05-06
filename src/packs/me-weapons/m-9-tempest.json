@@ -3,7 +3,7 @@
   "name": "M-9 Tempest",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/c/ca/ME2_SMG_-_Tempest.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SMG_-_Tempest.png",
   "flags": {},
   "ownership": {
     "default": 0

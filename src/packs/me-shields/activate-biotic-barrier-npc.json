@@ -1,0 +1,55 @@
+{
+  "_key": "!items!meActivateBbarNp",
+  "_id": "meActivateBbarNp",
+  "folder": null,
+  "name": "Activate Biotic Barrier (NPC)",
+  "type": "action",
+  "img": "icons/magic/lightning/barrier-shield-crackling-orb-pink.webp",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "barrier": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-activate-biotic-barrier-npc",
+    "description": {
+      "gm": "",
+      "value": "<p>You project a protective mass effect field. You gain a biotic barrier with Hit Points equal to 5 × half your level (rounded down, minimum 5). The barrier absorbs damage before your shields and actual HP.</p><p>The barrier lasts until depleted or dismissed. It does not recharge automatically — spend 2 actions to reactivate at full strength. Reactivating replaces any remaining barrier HP with a fresh full barrier.</p><table><tbody><tr><td><strong>Level</strong></td><td><strong>Barrier HP</strong></td></tr><tr><td>1–3</td><td>5</td></tr><tr><td>4–5</td><td>10</td></tr><tr><td>6–7</td><td>15</td></tr><tr><td>8–9</td><td>20</td></tr><tr><td>10–11</td><td>25</td></tr><tr><td>12–13</td><td>30</td></tr><tr><td>14–15</td><td>35</td></tr><tr><td>16–17</td><td>40</td></tr><tr><td>18–19</td><td>45</td></tr><tr><td>20</td><td>50</td></tr></tbody></table>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "biotic",
+        "barrier"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "interaction",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meBioticBarrier0",
+      "name": "Biotic Barrier"
+    }
+  }
+}

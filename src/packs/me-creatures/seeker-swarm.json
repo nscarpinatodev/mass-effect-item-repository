@@ -1,7 +1,7 @@
 {
   "name": "Seeker Swarm",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/8/8f/SwarmME3.jpg",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/SwarmME3.jpg",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/8/8f/SwarmME3.jpg",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/SwarmME3.jpg",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

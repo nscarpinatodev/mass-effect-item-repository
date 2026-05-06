@@ -3,7 +3,7 @@
   "name": "Guardian Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/1/1b/Light-human-Guardian.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Guardian.png",
   "flags": {},
   "ownership": {
     "default": 0

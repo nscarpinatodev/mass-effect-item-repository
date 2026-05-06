@@ -3,7 +3,7 @@
   "name": "N7 Crusader",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/3a/ME3_N7_Crusader_Shotgun.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_N7_Crusader_Shotgun.png",
   "flags": {},
   "ownership": {
     "default": 0

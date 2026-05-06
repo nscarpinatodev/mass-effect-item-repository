@@ -3,7 +3,7 @@
   "name": "Duelist Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f8/Heavy-human-Duelist.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Duelist.png",
   "flags": {},
   "ownership": {
     "default": 0

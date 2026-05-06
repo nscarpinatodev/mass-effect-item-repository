@@ -402,7 +402,7 @@
       "_id": "5a25db399c7f8f38",
       "name": "M-97 Viper",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/f/f2/ME2_SR_-_Viper.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SR_-_Viper.png",
       "system": {
         "description": {
           "gm": "",
@@ -510,7 +510,7 @@
       "_id": "c6fd3fb28f044c05",
       "name": "Assassin Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/0/00/Light-human-Assassin.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Assassin.png",
       "system": {
         "description": {
           "gm": "",

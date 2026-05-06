@@ -439,7 +439,7 @@
       "_id": "76bf73b1d98a007d",
       "name": "M-8 Avenger",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/f/f7/ME2_AR_-_Avenger.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Avenger.png",
       "system": {
         "description": {
           "gm": "",
@@ -547,7 +547,7 @@
       "_id": "dd69523f069665a8",
       "name": "Predator H Armor",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/8/8a/Heavy-human-Predator_H.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Predator_H.png",
       "system": {
         "description": {
           "gm": "",

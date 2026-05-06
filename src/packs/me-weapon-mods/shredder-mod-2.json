@@ -3,7 +3,7 @@
   "name": "Shredder Mod II",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/42/ME3_Shotgun_Shredder_Module.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapon-mods/ME3_Shotgun_Shredder_Module.png",
   "flags": {},
   "ownership": {
     "default": 0

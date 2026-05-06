@@ -3,7 +3,7 @@
   "name": "Ursa Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/98/Light-human-Ursa.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Ursa.png",
   "flags": {},
   "ownership": {
     "default": 0

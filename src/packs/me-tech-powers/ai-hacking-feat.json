@@ -1,0 +1,55 @@
+{
+  "_key": "!items!meTechAiHacking0",
+  "_id": "meTechAiHacking0",
+  "folder": null,
+  "name": "AI Hacking",
+  "type": "feat",
+  "img": "icons/magic/control/debuff-chains-yellow.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-tech-ai-hacking",
+    "description": {
+      "gm": "",
+      "value": "<p>You perform a deep hack of a synthetic enemy's core AI, fully subverting its combat programming and converting it to fight for your side.</p><p><strong>Requirements</strong> The target must be a synthetic or mech-type creature that is not immune to mental effects.</p><p>Choose a qualifying target within <strong>30 feet</strong>. The target must attempt a <strong>Will</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target is <strong>Stunned 1</strong>.</p><p><strong>Failure</strong> The target becomes your ally for up to <strong>1 minute</strong>, fighting as directed. This effect ends immediately if the target takes damage from one of your allies exceeding 10 HP in a single hit. At the end of each minute, it can attempt a new Will save to end the effect.</p><p><strong>Critical Failure</strong> As failure, but the target also has a +2 circumstance bonus to attack rolls and saving throws while under your control (its combat programming has been maximized).</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "concentrate",
+        "incapacitation",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "class"
+  }
+}

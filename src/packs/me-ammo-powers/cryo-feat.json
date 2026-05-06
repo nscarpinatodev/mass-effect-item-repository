@@ -1,0 +1,60 @@
+{
+  "_key": "!items!meAmmoCryoFeat00",
+  "_id": "meAmmoCryoFeat00",
+  "folder": null,
+  "name": "Cryo Rounds",
+  "type": "feat",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/94/ME3_Cryo_Ammo.png",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "ammoFeat": "cryo"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-feat-cryo",
+    "description": {
+      "gm": "",
+      "value": "<p>You have been trained in the use of cryo rounds. This feat grants you the ability to load your weapon with this special ammunition as a single action.</p><p>Cryogenically-charged rounds that flash-freeze on impact. Your weapon attacks deal an additional <strong>1d4 cold damage</strong>.</p><p>When Cryo Rounds deal direct HP damage, the target becomes <strong>Chilled</strong> (off-guard until the end of their next turn).</p><p>Remove this effect to return to standard ammunition.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "ammo-power"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-ammo-powers.Item.meAmmoCryoEff000",
+      "name": "Cryo Rounds"
+    }
+  }
+}

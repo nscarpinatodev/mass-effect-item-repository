@@ -1,7 +1,7 @@
 {
   "name": "M-44 Hammerhead",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/53/ME2_Hammerhead.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/vehicles/M-44_Hammerhead_2160p.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/5/53/ME2_Hammerhead.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/vehicles/M-44_Hammerhead_2160p.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

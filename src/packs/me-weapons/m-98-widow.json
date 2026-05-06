@@ -3,7 +3,7 @@
   "name": "M-98 Widow",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b9/ME2_SR_-_Widow.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SR_-_Widow.png",
   "flags": {},
   "ownership": {
     "default": 0

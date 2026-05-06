@@ -390,7 +390,7 @@
       "_id": "0e25b5d46dc9b585",
       "name": "M-96 Mattock",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/9/93/ME3_Mattock_Assault_Rifle.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Mattock_Assault_Rifle.png",
       "system": {
         "description": {
           "gm": "",
@@ -498,7 +498,7 @@
       "_id": "63a76d4cf1b20448",
       "name": "Kestrel Armor",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/6/65/ME2_Kestrel_Armor.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/ME2_Kestrel_Armor.png",
       "system": {
         "description": {
           "gm": "",

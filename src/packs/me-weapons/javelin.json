@@ -3,7 +3,7 @@
   "name": "Javelin",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7b/ME3_Javelin_Sniper_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Javelin_Sniper_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

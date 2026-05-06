@@ -14,6 +14,12 @@ const PACKS = [
   { src: "src/packs/me-weapon-mods",    dest: "packs/me-weapon-mods" },
   { src: "src/packs/me-vehicles",       dest: "packs/me-vehicles" },
   { src: "src/packs/me-ships",          dest: "packs/me-ships" },
+  { src: "src/packs/me-shields",        dest: "packs/me-shields" },
+  { src: "src/packs/me-ammo-powers",    dest: "packs/me-ammo-powers" },
+  { src: "src/packs/me-biotic-powers",  dest: "packs/me-biotic-powers" },
+  { src: "src/packs/me-tech-powers",    dest: "packs/me-tech-powers" },
+  { src: "src/packs/me-grenades",       dest: "packs/me-grenades" },
+  { src: "src/packs/me-classes",        dest: "packs/me-classes" },
 ];
 
 const SF2E_PACKS = PACKS.map(({ src, dest }) => ({

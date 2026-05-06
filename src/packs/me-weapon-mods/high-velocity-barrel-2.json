@@ -3,7 +3,7 @@
   "name": "High-Velocity Barrel II",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/8/83/ME3_Assault_Rifle_High-Velocity_Barrel.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapon-mods/ME3_Assault_Rifle_High-Velocity_Barrel.png",
   "flags": {},
   "ownership": {
     "default": 0

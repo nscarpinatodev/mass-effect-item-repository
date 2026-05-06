@@ -251,6 +251,114 @@
       "system": "sf2e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
       "flags": {}
+    },
+    {
+      "name": "me-shields",
+      "label": "ME Shields & Armor",
+      "path": "packs/me-shields",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "sf2e-me-shields",
+      "label": "ME Shields & Armor",
+      "path": "packs/sf2e-me-shields",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "me-ammo-powers",
+      "label": "ME Ammo Powers",
+      "path": "packs/me-ammo-powers",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "sf2e-me-ammo-powers",
+      "label": "ME Ammo Powers",
+      "path": "packs/sf2e-me-ammo-powers",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "me-biotic-powers",
+      "label": "ME Biotic Powers",
+      "path": "packs/me-biotic-powers",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "sf2e-me-biotic-powers",
+      "label": "ME Biotic Powers",
+      "path": "packs/sf2e-me-biotic-powers",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "me-tech-powers",
+      "label": "ME Tech Powers",
+      "path": "packs/me-tech-powers",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "sf2e-me-tech-powers",
+      "label": "ME Tech Powers",
+      "path": "packs/sf2e-me-tech-powers",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "me-grenades",
+      "label": "ME Grenades",
+      "path": "packs/me-grenades",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "sf2e-me-grenades",
+      "label": "ME Grenades",
+      "path": "packs/sf2e-me-grenades",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "me-classes",
+      "label": "ME Classes",
+      "path": "packs/me-classes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "sf2e-me-classes",
+      "label": "ME Classes",
+      "path": "packs/sf2e-me-classes",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -264,6 +372,8 @@
           "color": "#2E86C1",
           "sorting": "m",
           "packs": [
+            "me-classes",
+            "sf2e-me-classes",
             "me-ancestries",
             "me-heritages",
             "me-ancestry-feats",
@@ -298,10 +408,27 @@
             "me-armor-mods",
             "me-weapons",
             "me-weapon-mods",
+            "me-shields",
+            "me-grenades",
             "sf2e-me-armors",
             "sf2e-me-armor-mods",
             "sf2e-me-weapons",
-            "sf2e-me-weapon-mods"
+            "sf2e-me-weapon-mods",
+            "sf2e-me-shields",
+            "sf2e-me-grenades"
+          ]
+        },
+        {
+          "name": "Combat Systems",
+          "color": "#B7410E",
+          "sorting": "m",
+          "packs": [
+            "me-ammo-powers",
+            "sf2e-me-ammo-powers",
+            "me-biotic-powers",
+            "sf2e-me-biotic-powers",
+            "me-tech-powers",
+            "sf2e-me-tech-powers"
           ]
         }
       ]
@@ -339,6 +466,7 @@
         "featTraits": {
           "asari": "Asari",
           "batarian": "Batarian",
+          "biotic": "Biotic",
           "drell": "Drell",
           "elcor": "Elcor",
           "hanar": "Hanar",
@@ -346,6 +474,7 @@
           "krogan": "Krogan",
           "quarian": "Quarian",
           "salarian": "Salarian",
+          "tech": "Tech",
           "turian": "Turian",
           "volus": "Volus",
           "vorcha": "Vorcha"

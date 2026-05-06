@@ -3,7 +3,7 @@
   "name": "M-451 Firestorm",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d6/ME2_HW_-_Firestorm.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_HW_-_Firestorm.png",
   "flags": {},
   "ownership": {
     "default": 0

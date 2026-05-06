@@ -1,0 +1,55 @@
+{
+  "_key": "!items!meBioticDominate",
+  "_id": "meBioticDominate",
+  "folder": null,
+  "name": "Dominate",
+  "type": "feat",
+  "img": "icons/magic/control/silhouette-hold-mind.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-dominate",
+    "description": {
+      "gm": "",
+      "value": "<p>You reach into an organic creature's nervous system with a mass effect field and seize direct control of their actions, turning them against their own allies.</p><p><strong>Requirements</strong> The target must be an organic creature.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Will</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature is <strong>Confused</strong> until the end of its next turn.</p><p><strong>Failure</strong> The creature is under your control for 1 round, treating you and your allies as friends and enemies as foes. It uses its actions as you direct. At the end of each of its turns, it can attempt a new Will save to end the effect.</p><p><strong>Critical Failure</strong> As failure, but the effect lasts for 1 minute. The creature is also <strong>Stupefied 2</strong> for the duration.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "incapacitation",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "class"
+  }
+}

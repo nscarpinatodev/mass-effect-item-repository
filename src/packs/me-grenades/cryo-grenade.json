@@ -1,0 +1,88 @@
+{
+  "_key": "!items!meGrenadeCryo000",
+  "_id": "meGrenadeCryo000",
+  "folder": null,
+  "name": "Cryo Grenade",
+  "type": "consumable",
+  "img": "icons/magic/water/ice-spike-crystal-white-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cryo-grenade",
+    "description": {
+      "gm": "",
+      "value": "<p>A grenade that releases a cloud of cryogenic gas on detonation, flash-freezing everything in the blast radius.</p><p><strong>Throw (2 actions):</strong> Throw at a point within <strong>30 feet</strong>. All creatures in a <strong>10-foot burst</strong> must attempt a <strong>Fortitude</strong> DC 17 save.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> <strong>1d6 cold</strong> damage.</p><p><strong>Failure</strong> <strong>2d6 cold</strong> damage and the creature is <strong>Slowed 1</strong> until the end of its next turn.</p><p><strong>Critical Failure</strong> <strong>4d6 cold</strong> damage and the creature is <strong>Immobilized</strong> until the end of its next turn.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cold",
+        "thrown"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": "me-cryo-grenade",
+    "bulk": {
+      "value": "L"
+    },
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "stowed",
+      "inSlot": false
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Item",
+        "img": "systems/pf2e/icons/unidentified_item_icons/held-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null,
+    "consumableType": {
+      "value": "other"
+    },
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "autoDestroy": true
+    },
+    "activation": {
+      "cost": 2,
+      "type": "action",
+      "condition": ""
+    }
+  }
+}

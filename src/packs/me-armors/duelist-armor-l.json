@@ -3,7 +3,7 @@
   "name": "Duelist Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d7/Light-human-Duelist.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Duelist.png",
   "flags": {},
   "ownership": {
     "default": 0

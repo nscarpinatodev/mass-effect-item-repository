@@ -395,7 +395,7 @@
       "_id": "48b7794c6b87807c",
       "name": "M-300 Claymore",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/5/5a/ME2_SG_-_Claymore.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SG_-_Claymore.png",
       "system": {
         "description": {
           "gm": "",
@@ -505,7 +505,7 @@
       "_id": "f883fb7a4d3c4792",
       "name": "Colossus Armor (H)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/5/56/Heavy-human-Colossus.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Colossus.png",
       "system": {
         "description": {
           "gm": "",

@@ -1,7 +1,7 @@
 {
   "name": "Scion",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f4/Scion_Frontal.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Scion_Frontal.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/f/f4/Scion_Frontal.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Scion_Frontal.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -275,12 +275,12 @@
       "_key": "!actors.items!b8468b6645ad8fc9.3df83120dc7ea3a0"
     },
     {
-      "_id": "848de21a3258a40a",
-      "name": "Collector Armor Plating",
+      "_id": "e68acfaa42238638",
+      "name": "Heavy Combat Frame",
       "type": "effect",
-      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/icons/combat-armor-frame.png",
       "system": {
-        "slug": "npc-collector-armor-scion",
+        "slug": "me-armor-frame-t3",
         "duration": {
           "value": -1,
           "unit": "unlimited",
@@ -288,8 +288,8 @@
         },
         "badge": {
           "type": "counter",
-          "value": 40,
-          "max": 40,
+          "value": 100,
+          "max": 100,
           "label": "Armor Points"
         },
         "rules": [],
@@ -313,14 +313,14 @@
       "sort": 300000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "armorMax": 40,
-          "armorCurrent": 40
+          "armorMax": 100,
+          "armorCurrent": 100
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8468b6645ad8fc9.848de21a3258a40a"
+      "_key": "!actors.items!b8468b6645ad8fc9.e68acfaa42238638"
     }
   ],
   "_id": "b8468b6645ad8fc9",

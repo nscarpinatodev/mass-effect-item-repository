@@ -1,7 +1,7 @@
 {
   "name": "Harvester",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ae/ME3_Harvester.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Harvester.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 4,
     "height": 4,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/a/ae/ME3_Harvester.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Harvester.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -296,12 +296,12 @@
       "_key": "!actors.items!154f6f7f94a60272.e8bdb369cd3707e9"
     },
     {
-      "_id": "ec8e915ff5b5e33c",
-      "name": "Reaper Armor",
+      "_id": "b8030546a108d0a5",
+      "name": "Titan Combat Frame",
       "type": "effect",
-      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/icons/combat-armor-frame.png",
       "system": {
-        "slug": "npc-reaper-armor-harvester",
+        "slug": "me-armor-frame-t4",
         "duration": {
           "value": -1,
           "unit": "unlimited",
@@ -309,8 +309,8 @@
         },
         "badge": {
           "type": "counter",
-          "value": 60,
-          "max": 60,
+          "value": 200,
+          "max": 200,
           "label": "Armor Points"
         },
         "rules": [],
@@ -334,14 +334,14 @@
       "sort": 300000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "armorMax": 60,
-          "armorCurrent": 60
+          "armorMax": 200,
+          "armorCurrent": 200
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!154f6f7f94a60272.ec8e915ff5b5e33c"
+      "_key": "!actors.items!154f6f7f94a60272.b8030546a108d0a5"
     }
   ],
   "_id": "154f6f7f94a60272",

@@ -406,7 +406,7 @@
       "_id": "73600256375783b0",
       "name": "M-76 Revenant",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/3/35/ME2_AR_-_Revenant.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Revenant.png",
       "system": {
         "description": {
           "gm": "",
@@ -515,7 +515,7 @@
       "_id": "b952a2dfeab75dc7",
       "name": "Predator H Armor",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/8/8a/Heavy-human-Predator_H.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Predator_H.png",
       "system": {
         "description": {
           "gm": "",

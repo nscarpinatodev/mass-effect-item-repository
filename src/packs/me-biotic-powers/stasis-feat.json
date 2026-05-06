@@ -1,0 +1,54 @@
+{
+  "_key": "!items!meBioticStasis00",
+  "_id": "meBioticStasis00",
+  "folder": null,
+  "name": "Stasis",
+  "type": "feat",
+  "img": "icons/magic/time/clock-analog-gray.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-stasis",
+    "description": {
+      "gm": "",
+      "value": "<p>You encase a single target in an impenetrable mass effect stasis field, freezing them completely in place.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Will</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature is <strong>Immobilized</strong> until the start of your next turn.</p><p><strong>Failure</strong> The creature is <strong>Paralyzed</strong> until the start of your next turn. At the end of each of its turns, it can attempt a new Will save to end the effect early.</p><p><strong>Critical Failure</strong> The creature is <strong>Paralyzed</strong> for 1 minute. At the end of each of its turns, it can attempt a new Will save (same DC) to end the effect early.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "incapacitation",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

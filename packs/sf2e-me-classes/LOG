@@ -1,0 +1,5 @@
+2026/05/06-18:44:49.303 20b8 Delete type=3 #1
+2026/05/06-18:44:49.306 5194 Level-0 table #5: started
+2026/05/06-18:44:49.308 5194 Level-0 table #5: 7746 bytes OK
+2026/05/06-18:44:49.312 5194 Delete type=0 #3
+2026/05/06-18:44:49.312 5194 Manual compaction at level-0 from '!items!meClassAdept0000' @ 72057594037927935 : 1 .. '!items!meClassVanguard0' @ 0 : 0; will stop at (end)

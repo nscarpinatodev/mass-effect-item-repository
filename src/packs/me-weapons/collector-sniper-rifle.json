@@ -3,7 +3,7 @@
   "name": "Collector Sniper Rifle",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/40/ME3_Collector_Sniper_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Collector_Sniper_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

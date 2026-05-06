@@ -3,7 +3,7 @@
   "name": "M-27 Scimitar",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/73/ME2_SG_-_Scimitar.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SG_-_Scimitar.png",
   "flags": {},
   "ownership": {
     "default": 0

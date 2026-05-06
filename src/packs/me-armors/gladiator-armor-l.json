@@ -3,7 +3,7 @@
   "name": "Gladiator Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/de/Light-human-Gladiator.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Gladiator.png",
   "flags": {},
   "ownership": {
     "default": 0

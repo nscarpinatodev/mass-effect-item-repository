@@ -3,7 +3,7 @@
   "name": "M-100 Grenade Launcher",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f0/ME2_HW_-_Grenade_Launcher.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_HW_-_Grenade_Launcher.png",
   "flags": {},
   "ownership": {
     "default": 0

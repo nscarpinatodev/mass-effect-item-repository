@@ -1,0 +1,57 @@
+{
+  "_key": "!items!meTechDefMatrix0",
+  "_id": "meTechDefMatrix0",
+  "folder": null,
+  "name": "Defense Matrix",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-tech-defense-matrix",
+    "description": {
+      "gm": "",
+      "value": "<p>You activate a sophisticated energy matrix from your omni-tool that absorbs incoming damage and can be purged to restore your kinetic shields.</p><p>You gain the Defense Matrix effect: <strong>resistance 3 to all damage</strong>. You can Purge Defense Matrix as a <strong>free action</strong> on your turn to end the effect and immediately restore <strong>15 HP</strong> to your kinetic shields.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-tech-powers.Item.meEffDefMatrix00",
+      "name": "Defense Matrix"
+    }
+  }
+}

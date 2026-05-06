@@ -3,7 +3,7 @@
   "name": "M-25 Hornet",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/66/ME3_Hornet_Smg.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Hornet_Smg.png",
   "flags": {},
   "ownership": {
     "default": 0

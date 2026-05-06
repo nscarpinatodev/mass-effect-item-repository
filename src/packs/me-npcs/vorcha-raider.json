@@ -453,7 +453,7 @@
       "_id": "dcf6c4842ed1e229",
       "name": "AT-12 Raider",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/3/3f/ME3_Raider_Shotgun.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Raider_Shotgun.png",
       "system": {
         "description": {
           "gm": "",
@@ -561,7 +561,7 @@
       "_id": "189b62869058be3e",
       "name": "Gladiator Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/d/de/Light-human-Gladiator.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Gladiator.png",
       "system": {
         "description": {
           "gm": "",

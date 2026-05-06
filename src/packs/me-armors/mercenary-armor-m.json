@@ -3,7 +3,7 @@
   "name": "Mercenary Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d5/Medium-human-Mercenary.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Mercenary.png",
   "flags": {},
   "ownership": {
     "default": 0

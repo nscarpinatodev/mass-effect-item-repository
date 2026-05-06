@@ -1,0 +1,50 @@
+{
+  "_key": "!items!meEffDefMatrix00",
+  "_id": "meEffDefMatrix00",
+  "folder": null,
+  "name": "Defense Matrix",
+  "type": "effect",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-effect-defense-matrix",
+    "description": {
+      "gm": "",
+      "value": "<p>Protective energy currents reinforce your frame. You gain <strong>resistance 3 to all damage</strong>.</p><p><strong>Purge (Free Action):</strong> You can dismiss Defense Matrix as a free action on your turn. When you do, your kinetic shields immediately restore <strong>15 HP</strong> (the accumulated defensive charge). Remove this effect when purged or when it expires.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all",
+        "value": 3,
+        "label": "Defense Matrix"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null
+    },
+    "badge": null
+  }
+}

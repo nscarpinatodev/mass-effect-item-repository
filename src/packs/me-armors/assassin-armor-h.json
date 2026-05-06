@@ -3,7 +3,7 @@
   "name": "Assassin Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/8/81/Heavy-human-Assassin.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Assassin.png",
   "flags": {},
   "ownership": {
     "default": 0

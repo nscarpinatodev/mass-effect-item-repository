@@ -3,7 +3,7 @@
   "_id": "MECRT00000000006",
   "name": "Phantom",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/c/cb/ME3_Phantom.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Cerberus_Phantom.png",
   "system": {
     "attributes": {
       "hp": {
@@ -122,7 +122,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/c/cb/ME3_Phantom.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Cerberus_Phantom.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

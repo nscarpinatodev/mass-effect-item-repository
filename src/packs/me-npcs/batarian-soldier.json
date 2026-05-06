@@ -391,7 +391,7 @@
       "_id": "3dab1df4f2cb51d0",
       "name": "M-8 Avenger",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/f/f7/ME2_AR_-_Avenger.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Avenger.png",
       "system": {
         "description": {
           "gm": "",
@@ -499,7 +499,7 @@
       "_id": "9d7d7b27a4fe6e8f",
       "name": "Mantis Armor (M)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/9/9c/Medium-human-Mantis.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Mantis.png",
       "system": {
         "description": {
           "gm": "",

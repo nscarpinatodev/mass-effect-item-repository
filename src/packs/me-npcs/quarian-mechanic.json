@@ -448,7 +448,7 @@
       "_id": "79a984e81937d35a",
       "name": "M-27 Scimitar",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/7/73/ME2_SG_-_Scimitar.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SG_-_Scimitar.png",
       "system": {
         "description": {
           "gm": "",
@@ -556,7 +556,7 @@
       "_id": "cf79c3b3250f9588",
       "name": "Explorer Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/0/0f/Light-human-Explorer.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Explorer.png",
       "system": {
         "description": {
           "gm": "",

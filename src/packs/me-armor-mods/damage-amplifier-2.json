@@ -3,7 +3,7 @@
   "name": "Damage Amplifier II",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bc/ME3_Armor_Piercing_Ammo.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_Armor_Piercing_Ammo.png",
   "flags": {},
   "ownership": {
     "default": 0

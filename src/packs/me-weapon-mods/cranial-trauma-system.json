@@ -3,7 +3,7 @@
   "name": "Cranial Trauma System",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b6/ME3_Pistol_Cranial_Trauma_Systeme.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapon-mods/ME3_Pistol_Cranial_Trauma_Systeme.png",
   "flags": {},
   "ownership": {
     "default": 0

@@ -3,7 +3,7 @@
   "name": "Venom Shotgun",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/76/ME3_Venom_Shotgun.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Venom_Shotgun.png",
   "flags": {},
   "ownership": {
     "default": 0

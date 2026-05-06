@@ -1,0 +1,54 @@
+{
+  "_key": "!items!meTechEnergyDrn0",
+  "_id": "meTechEnergyDrn0",
+  "folder": null,
+  "name": "Energy Drain",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-forked-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-tech-energy-drain",
+    "description": {
+      "gm": "",
+      "value": "<p>You fire an omni-tool beam that siphons kinetic barrier energy directly from a target and transfers it to your own shields.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d8 electricity</strong> damage, or loses 10 shield HP if it has an active kinetic shield.</p><p><strong>Failure</strong> Against a shielded target: drain up to <strong>20 HP of shields</strong>; you gain that amount as temp HP (stacking with existing shields, up to your maximum). Against an unshielded target: <strong>2d8 electricity</strong> damage and you regain 10 temp HP.</p><p><strong>Critical Failure</strong> As failure, but drain <strong>40 shield HP</strong> (or 4d8 electricity) and you gain 20 temp HP from the drain.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "electricity",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

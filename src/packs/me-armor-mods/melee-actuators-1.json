@@ -3,7 +3,7 @@
   "name": "Melee Actuators I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/95/ME3_Shotgun_Blade_Attachment.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_Shotgun_Blade_Attachment.png",
   "flags": {},
   "ownership": {
     "default": 0

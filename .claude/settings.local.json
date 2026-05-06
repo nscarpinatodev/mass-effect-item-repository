@@ -41,7 +41,27 @@
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
       "Bash(python3 -c ' *)",
-      "Bash(node build.mjs)"
+      "Bash(node build.mjs)",
+      "Bash(sort -k5 -n)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" -L \"https://static.wikia.nocookie.net/masseffect/images/a/a8/ME3_Cerberus_Engineer.png\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" -L \"https://masseffect.fandom.com/wiki/File:ME3_Cerberus_Engineer.png\" -A \"Mozilla/5.0\")",
+      "Bash(Get-ChildItem -Path \"src\\\\packs\\\\me-ancestry-feats\\\\\" -Filter \"*.json\" | Select-Object -First 5 Name)",
+      "Bash(xargs grep *)",
+      "Bash(node scripts/generate-backgrounds.mjs)",
+      "Bash(node scripts/download-assets.mjs)",
+      "Bash(curl -s \"https://masseffect.fandom.com/api.php?action=query&titles=File:ME3_Phantom.png&prop=imageinfo&iiprop=url&format=json\")",
+      "Bash(curl -s \"https://masseffect.fandom.com/api.php?action=query&list=allimages&aiprefix=ME3_Phantom&format=json\")",
+      "Bash(curl -s \"https://masseffect.fandom.com/api.php?action=query&list=allimages&aiprefix=ME3_Leaper&format=json\")",
+      "Bash(curl -s \"https://masseffect.fandom.com/api.php?action=query&list=allimages&aiprefix=ME3&ailimit=50&format=json\")",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); imgs=data['query']['allimages']; [print\\(i['name']\\) for i in imgs]\")",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const data=JSON.parse\\(d\\); data.query.allimages.forEach\\(i=>console.log\\(i.name\\)\\)\")",
+      "Bash(curl -s \"https://masseffect.fandom.com/api.php?action=query&list=allimages&aiprefix=Phantom&ailimit=20&format=json\")",
+      "Bash(curl -s \"https://masseffect.fandom.com/api.php?action=query&list=search&srsearch=Phantom+cerberus&srnamespace=6&srlimit=5&format=json\")",
+      "Bash(node scripts/fix-missing-assets.mjs)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\" -Recurse -Filter \"*.js\")",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\\\\src\\\\packs\\\\me-npcs\" -Filter \"*.json\")",
+      "Bash(Select-Object -ExpandProperty Name)",
+      "Bash(powershell -Command 'Get-ChildItem -Path src/packs/me-npcs -Filter \"*.json\" | ForEach-Object { @{ File = $_.Name; Path = $_.FullName } } | ConvertTo-Json -AsArray')"
     ]
   }
 }

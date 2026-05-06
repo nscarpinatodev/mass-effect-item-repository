@@ -3,7 +3,7 @@
   "name": "Scope I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/71/ME3_SMG_Scope_Upgrade.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapon-mods/ME3_SMG_Scope_Upgrade.png",
   "flags": {},
   "ownership": {
     "default": 0

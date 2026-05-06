@@ -3,7 +3,7 @@
   "name": "Survivor Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/5e/Heavy-human-Survivor.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Survivor.png",
   "flags": {},
   "ownership": {
     "default": 0

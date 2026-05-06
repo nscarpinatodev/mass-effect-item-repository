@@ -3,7 +3,7 @@
   "name": "M-92 Mantis",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bf/ME2_SR_-_Mantis.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SR_-_Mantis.png",
   "flags": {},
   "ownership": {
     "default": 0

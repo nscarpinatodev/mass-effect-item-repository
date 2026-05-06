@@ -1,0 +1,88 @@
+{
+  "_key": "!items!meGrenadeArc0000",
+  "_id": "meGrenadeArc0000",
+  "folder": null,
+  "name": "Arc Grenade",
+  "type": "consumable",
+  "img": "icons/magic/lightning/orb-lightning-bolt-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-arc-grenade",
+    "description": {
+      "gm": "",
+      "value": "<p>A grenade packed with an electromagnetic charge that releases a burst of electricity on detonation. Particularly effective against kinetic shields.</p><p><strong>Throw (2 actions):</strong> Throw at a point within <strong>30 feet</strong>. All creatures in a <strong>10-foot burst</strong> must attempt a <strong>Reflex</strong> DC 17 save.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> Half damage.</p><p><strong>Failure</strong> <strong>2d8 electricity</strong> damage.</p><p><strong>Critical Failure</strong> <strong>4d8 electricity</strong> damage and the creature is <strong>Stunned 1</strong>.</p><p>Electricity damage from Arc Grenades is doubled against kinetic shields (handled automatically by the shield system).</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "electricity",
+        "thrown"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": "me-arc-grenade",
+    "bulk": {
+      "value": "L"
+    },
+    "price": {
+      "value": {
+        "gp": 120
+      }
+    },
+    "equipped": {
+      "carryType": "stowed",
+      "inSlot": false
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Item",
+        "img": "systems/pf2e/icons/unidentified_item_icons/held-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null,
+    "consumableType": {
+      "value": "other"
+    },
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "autoDestroy": true
+    },
+    "activation": {
+      "cost": 2,
+      "type": "action",
+      "condition": ""
+    }
+  }
+}

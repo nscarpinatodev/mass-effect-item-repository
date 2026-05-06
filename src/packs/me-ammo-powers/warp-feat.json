@@ -1,0 +1,60 @@
+{
+  "_key": "!items!meAmmoWarpFeat00",
+  "_id": "meAmmoWarpFeat00",
+  "folder": null,
+  "name": "Warp Rounds",
+  "type": "feat",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/6/63/ME3_Warp_Ammo.png",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "ammoFeat": "warp"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-feat-warp",
+    "description": {
+      "gm": "",
+      "value": "<p>You have been trained in the use of warp rounds. This feat grants you the ability to load your weapon with this special ammunition as a single action.</p><p>Rounds infused with destabilizing dark energy. Your weapon attacks deal an additional <strong>1d4 void damage</strong>.</p><p>Warp rounds are devastating against biotic barriers: damage to a Biotic Barrier is multiplied by 1.5×. Depleting a barrier with Warp rounds triggers a dark energy detonation.</p><p>Remove this effect to return to standard ammunition.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "ammo-power"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-ammo-powers.Item.meAmmoWarpEff000",
+      "name": "Warp Rounds"
+    }
+  }
+}

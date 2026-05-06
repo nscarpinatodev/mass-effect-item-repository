@@ -3,7 +3,7 @@
   "name": "Geth Pulse Rifle",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/4/4a/ME2_AR_-_Geth_Pulse_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Geth_Pulse_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

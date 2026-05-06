@@ -1,0 +1,15 @@
+2026/05/06-18:44:49.163 20b8 Recovering log #13
+2026/05/06-18:44:49.170 20b8 Delete type=0 #13
+2026/05/06-18:44:49.170 20b8 Delete type=3 #11
+2026/05/06-18:44:49.173 5194 Level-0 table #19: started
+2026/05/06-18:44:49.176 5194 Level-0 table #19: 6663 bytes OK
+2026/05/06-18:44:49.178 5194 Delete type=0 #17
+2026/05/06-18:44:49.179 5194 Manual compaction at level-0 from '!items!meAmmoAPierceEff' @ 72057594037927935 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at (end)
+2026/05/06-18:44:49.179 5194 Manual compaction at level-1 from '!items!meAmmoAPierceEff' @ 72057594037927935 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at '!items!meAmmoWarpFeat00' @ 77 : 1
+2026/05/06-18:44:49.179 5194 Compacting 1@1 + 1@2 files
+2026/05/06-18:44:49.182 5194 Generated table #20@1: 14 keys, 6663 bytes
+2026/05/06-18:44:49.182 5194 Compacted 1@1 + 1@2 files => 6663 bytes
+2026/05/06-18:44:49.193 5194 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/06-18:44:49.193 5194 Delete type=2 #15
+2026/05/06-18:44:49.193 5194 Delete type=2 #19
+2026/05/06-18:44:49.194 5194 Manual compaction at level-1 from '!items!meAmmoWarpFeat00' @ 77 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at (end)

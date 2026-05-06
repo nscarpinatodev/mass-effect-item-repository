@@ -3,7 +3,7 @@
   "name": "Colossus Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/c/ca/Medium-human-Colossus.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Colossus.png",
   "flags": {},
   "ownership": {
     "default": 0

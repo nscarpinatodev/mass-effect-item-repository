@@ -1,0 +1,57 @@
+{
+  "_key": "!items!meTechGethShldBs",
+  "_id": "meTechGethShldBs",
+  "folder": null,
+  "name": "Geth Shield Boost",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-tech-geth-shield-boost",
+    "description": {
+      "gm": "",
+      "value": "<p>You activate a geth-derived shield optimization algorithm from your omni-tool, temporarily supercharging your kinetic barrier.</p><p>Your kinetic shield maximum is doubled until the start of your next turn. Immediately set your current temp HP to the doubled maximum. Remove the Geth Shield Boost effect at the start of your next turn and reset temp HP to your normal shield maximum.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-tech-powers.Item.meEffGethShldBst",
+      "name": "Geth Shield Boost"
+    }
+  }
+}

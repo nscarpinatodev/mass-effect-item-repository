@@ -1,7 +1,7 @@
 {
   "name": "Brute",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/90/ME3_Brute.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Brute.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/9/90/ME3_Brute.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Brute.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -277,12 +277,12 @@
       "_key": "!actors.items!0c60185839ff2327.a0c87d6b0bad89ec"
     },
     {
-      "_id": "3a83257ff8c61db9",
-      "name": "Reaper Armor",
+      "_id": "f1ec4536ffee4dbd",
+      "name": "Heavy Combat Frame",
       "type": "effect",
-      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/icons/combat-armor-frame.png",
       "system": {
-        "slug": "npc-reaper-armor-brute",
+        "slug": "me-armor-frame-t3",
         "duration": {
           "value": -1,
           "unit": "unlimited",
@@ -290,8 +290,8 @@
         },
         "badge": {
           "type": "counter",
-          "value": 60,
-          "max": 60,
+          "value": 100,
+          "max": 100,
           "label": "Armor Points"
         },
         "rules": [],
@@ -315,14 +315,14 @@
       "sort": 300000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "armorMax": 60,
-          "armorCurrent": 60
+          "armorMax": 100,
+          "armorCurrent": 100
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!0c60185839ff2327.3a83257ff8c61db9"
+      "_key": "!actors.items!0c60185839ff2327.f1ec4536ffee4dbd"
     }
   ],
   "_id": "0c60185839ff2327",

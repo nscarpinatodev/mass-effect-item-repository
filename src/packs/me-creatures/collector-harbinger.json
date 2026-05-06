@@ -1,7 +1,7 @@
 {
   "name": "Harbinger-Possessed Collector",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/c/c3/ME2_Harbinger_Possessed.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Harbinger_LE2_enemybox.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/c/c3/ME2_Harbinger_Possessed.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Harbinger_LE2_enemybox.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

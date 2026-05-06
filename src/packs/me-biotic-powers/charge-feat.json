@@ -1,0 +1,54 @@
+{
+  "_key": "!items!meBioticCharge00",
+  "_id": "meBioticCharge00",
+  "folder": null,
+  "name": "Charge",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-charge",
+    "description": {
+      "gm": "",
+      "value": "<p>You surround yourself with a biotic field and launch forward in a devastating dash, crashing through enemies with tremendous impact force.</p><p>You move up to <strong>60 feet</strong> in a straight line, passing through the space of a single target. That target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 bludgeoning</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>3d6 bludgeoning</strong> damage and is pushed 10 feet away from you and knocked prone. Your kinetic shields (if any) recharge for 10 HP.</p><p><strong>Critical Failure</strong> As failure, but <strong>6d6 bludgeoning</strong> and pushed 20 feet. Shield recharge is 20 HP.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate",
+        "move"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

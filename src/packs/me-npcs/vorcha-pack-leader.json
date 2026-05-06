@@ -399,7 +399,7 @@
       "_id": "85baae88a7088edd",
       "name": "M-23 Eviscerator",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/3/34/ME2_SG_-_Eviscerator.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SG_-_Eviscerator.png",
       "system": {
         "description": {
           "gm": "",
@@ -507,7 +507,7 @@
       "_id": "2d0637410ccf258b",
       "name": "Scorpion Armor (M)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/0/0a/Medium-human-Scorpion.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Scorpion.png",
       "system": {
         "description": {
           "gm": "",

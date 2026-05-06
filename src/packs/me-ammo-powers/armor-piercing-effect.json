@@ -1,0 +1,47 @@
+{
+  "_key": "!items!meAmmoAPierceEff",
+  "_id": "meAmmoAPierceEff",
+  "folder": null,
+  "name": "Armor-Piercing Rounds",
+  "type": "effect",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bc/ME3_Armor_Piercing_Ammo.png",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "ammoType": "armor-piercing"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-ammo-armor-piercing",
+    "description": {
+      "gm": "",
+      "value": "<p>Hard alloy sabot rounds designed to penetrate ablative armor plating. These rounds add no bonus damage type.</p><p>When striking a target with an active Combat Armor Frame, 50% of the incoming HP damage bypasses the armor entirely and is dealt directly to shields and HP.</p><p>Remove this effect to return to standard ammunition.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null
+    },
+    "badge": null
+  }
+}

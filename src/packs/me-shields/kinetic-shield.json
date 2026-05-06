@@ -1,0 +1,77 @@
+{
+  "_key": "!items!meKineticShield0",
+  "_id": "meKineticShield0",
+  "folder": null,
+  "name": "Kinetic Shield",
+  "type": "equipment",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "shieldMax": 30,
+      "shieldRegen": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-kinetic-shield",
+    "description": {
+      "gm": "",
+      "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p><p>Equip <strong>Shield HP</strong> and <strong>Regen</strong> mods to upgrade your barrier. If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "me-kinetic-shield",
+    "bulk": {
+      "value": 1
+    },
+    "price": {
+      "value": {
+        "sp": 150
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "inSlot": true
+    },
+    "usage": {
+      "value": "other"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Mod",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

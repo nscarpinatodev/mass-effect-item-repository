@@ -1,0 +1,51 @@
+{
+  "_key": "!items!meEffTechArmor00",
+  "_id": "meEffTechArmor00",
+  "folder": null,
+  "name": "Tech Armor",
+  "type": "effect",
+  "img": "icons/equipment/chest/breastplate-banded-gray.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-effect-tech-armor",
+    "description": {
+      "gm": "",
+      "value": "<p>An energy-reinforced exoskeleton surrounds you, boosting your defenses. You gain a <strong>+2 circumstance bonus to AC</strong>.</p><p>If you take 20 or more damage from a single hit while this effect is active, it detonates: all creatures in a <strong>10-foot emanation</strong> take <strong>2d6 electricity</strong> damage (Reflex DC 18 basic save) and this effect ends. This detonation can be triggered intentionally as a free action on your turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "label": "Tech Armor",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null
+    },
+    "badge": null
+  }
+}

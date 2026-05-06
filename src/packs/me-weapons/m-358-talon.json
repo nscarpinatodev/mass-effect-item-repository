@@ -3,7 +3,7 @@
   "name": "M-358 Talon",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/99/ME3_Talon_Heavy_Pistol.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Talon_Heavy_Pistol.png",
   "flags": {},
   "ownership": {
     "default": 0

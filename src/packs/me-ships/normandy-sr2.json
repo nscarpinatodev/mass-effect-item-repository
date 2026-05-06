@@ -1,7 +1,7 @@
 {
   "name": "Normandy SR-2",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/2/2c/ME2_Normandy_SR-2.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ships/Mass_Effect_Normandy_SR2.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 6,
     "height": 6,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/2/2c/ME2_Normandy_SR-2.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/ships/Mass_Effect_Normandy_SR2.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

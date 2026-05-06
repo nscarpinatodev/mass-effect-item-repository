@@ -443,7 +443,7 @@
       "_id": "def86b72587d9b78",
       "name": "M-6 Carnifex",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/0/04/ME2_HP_-_Carnifex.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_HP_-_Carnifex.png",
       "system": {
         "description": {
           "gm": "",
@@ -551,7 +551,7 @@
       "_id": "7b838dbbe9804b87",
       "name": "Mercenary Armor (M)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/d/d5/Medium-human-Mercenary.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Mercenary.png",
       "system": {
         "description": {
           "gm": "",

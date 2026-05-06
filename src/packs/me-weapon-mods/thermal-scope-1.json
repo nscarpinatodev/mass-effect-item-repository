@@ -3,7 +3,7 @@
   "name": "Thermal Scope I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/6c/ME3_Sniper_Rifle_Thermal_Scope.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_Sniper_Rifle_Thermal_Scope.png",
   "flags": {},
   "ownership": {
     "default": 0

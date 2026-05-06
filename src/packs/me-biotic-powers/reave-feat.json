@@ -1,0 +1,54 @@
+{
+  "_key": "!items!meBioticReave000",
+  "_id": "meBioticReave000",
+  "folder": null,
+  "name": "Reave",
+  "type": "feat",
+  "img": "icons/magic/life/ankh-gold-green.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-reave",
+    "description": {
+      "gm": "",
+      "value": "<p>You drain the vital energy from a foe, siphoning their life force and preventing them from recovering while bolstering your own resilience.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d8 void</strong> damage and cannot regain HP until the start of your next turn.</p><p><strong>Failure</strong> The target takes <strong>2d8 void</strong> damage, cannot regain HP for 1 round, and you regain <strong>1d8 HP</strong>.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d8 void</strong> damage, you regain <strong>2d8 HP</strong>, and the target cannot regain HP for 1 minute (or until the end of combat).</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate",
+        "healing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

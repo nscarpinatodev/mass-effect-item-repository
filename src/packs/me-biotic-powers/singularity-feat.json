@@ -1,0 +1,54 @@
+{
+  "_key": "!items!meBioticSingulry",
+  "_id": "meBioticSingulry",
+  "folder": null,
+  "name": "Singularity",
+  "type": "feat",
+  "img": "icons/magic/control/debuff-gravity-pull-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-singularity",
+    "description": {
+      "gm": "",
+      "value": "<p>You create a localized mass effect gravity well that pulls nearby enemies in and suspends them helplessly.</p><p>You create a Singularity at a point within <strong>60 feet</strong>. All creatures within a <strong>20-foot radius</strong> burst centered on that point must attempt a <strong>Reflex</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature is pulled 10 feet toward the singularity's center.</p><p><strong>Failure</strong> The creature is pulled to the singularity's center and becomes <strong>Restrained</strong> (Escape DC equals your class DC). The singularity persists until the start of your next turn; you may Sustain it as a free action each round for up to 1 minute.</p><p><strong>Critical Failure</strong> As failure. Additionally, the creature takes <strong>2d6 bludgeoning</strong> damage at the start of each of its turns while restrained.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "class"
+  }
+}

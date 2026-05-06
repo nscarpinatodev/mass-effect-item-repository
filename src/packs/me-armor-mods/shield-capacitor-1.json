@@ -3,7 +3,7 @@
   "name": "Shield Capacitor I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/9a/ME3_Barrier.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_Barrier.png",
   "flags": {},
   "ownership": {
     "default": 0

@@ -3,7 +3,7 @@
   "name": "N7 Valiant",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/1/14/ME3_N7_Valiant_Sniper_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_N7_Valiant_Sniper_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

@@ -3,7 +3,7 @@
   "name": "M-23 Eviscerator",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/34/ME2_SG_-_Eviscerator.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SG_-_Eviscerator.png",
   "flags": {},
   "ownership": {
     "default": 0

@@ -1,7 +1,7 @@
 {
   "name": "Cannibal",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/1/1b/ME3_Cannibal.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Cannibal.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/1/1b/ME3_Cannibal.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/ME3_Cannibal.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -326,12 +326,12 @@
       "_key": "!actors.items!aeede87dbc69cfc1.f306766a6ef61c63"
     },
     {
-      "_id": "44abac8b1bf2185c",
-      "name": "Bone Armor",
+      "_id": "38e76a81ae274946",
+      "name": "Standard Combat Frame",
       "type": "effect",
-      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/icons/combat-armor-frame.png",
       "system": {
-        "slug": "npc-bone-armor-cannibal",
+        "slug": "me-armor-frame-t2",
         "duration": {
           "value": -1,
           "unit": "unlimited",
@@ -339,8 +339,8 @@
         },
         "badge": {
           "type": "counter",
-          "value": 30,
-          "max": 30,
+          "value": 50,
+          "max": 50,
           "label": "Armor Points"
         },
         "rules": [],
@@ -364,14 +364,14 @@
       "sort": 400000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "armorMax": 30,
-          "armorCurrent": 30
+          "armorMax": 50,
+          "armorCurrent": 50
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!aeede87dbc69cfc1.44abac8b1bf2185c"
+      "_key": "!actors.items!aeede87dbc69cfc1.38e76a81ae274946"
     }
   ],
   "_id": "aeede87dbc69cfc1",

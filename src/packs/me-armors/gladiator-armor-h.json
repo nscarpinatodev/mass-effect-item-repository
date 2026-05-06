@@ -3,7 +3,7 @@
   "name": "Gladiator Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/54/Heavy-human-Gladiator.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Gladiator.png",
   "flags": {},
   "ownership": {
     "default": 0

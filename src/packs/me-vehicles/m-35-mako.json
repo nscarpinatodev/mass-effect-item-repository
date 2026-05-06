@@ -1,7 +1,7 @@
 {
   "name": "M-35 Mako",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/35/ME1_Mako.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/vehicles/Normandy_-_M35_Mako.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/3/35/ME1_Mako.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/vehicles/Normandy_-_M35_Mako.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

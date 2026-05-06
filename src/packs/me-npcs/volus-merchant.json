@@ -340,7 +340,7 @@
       "_id": "fb279fcf8fef041a",
       "name": "M-3 Predator",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/2/20/ME2_HP_-_Predator.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_HP_-_Predator.png",
       "system": {
         "description": {
           "gm": "",
@@ -447,7 +447,7 @@
       "_id": "8cd59b5adc7b8984",
       "name": "Onyx Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/8/84/Light-human-Onyx.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Onyx.png",
       "system": {
         "description": {
           "gm": "",

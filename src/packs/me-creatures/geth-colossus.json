@@ -1,7 +1,7 @@
 {
   "name": "Geth Colossus",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/7e/Geth_colossus_enemy_box.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Geth_colossus_enemy_box.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 4,
     "height": 4,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/7/7e/Geth_colossus_enemy_box.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Geth_colossus_enemy_box.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -290,12 +290,12 @@
       "_key": "!actors.items!fb2dc44473813faa.e6c96c3d9f5df0c2"
     },
     {
-      "_id": "227c3a555eba4ec5",
-      "name": "Composite Armor Plating",
+      "_id": "5232ab8639c5285d",
+      "name": "Titan Combat Frame",
       "type": "effect",
-      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/icons/combat-armor-frame.png",
       "system": {
-        "slug": "npc-geth-armor-colossus",
+        "slug": "me-armor-frame-t4",
         "duration": {
           "value": -1,
           "unit": "unlimited",
@@ -303,8 +303,8 @@
         },
         "badge": {
           "type": "counter",
-          "value": 80,
-          "max": 80,
+          "value": 200,
+          "max": 200,
           "label": "Armor Points"
         },
         "rules": [],
@@ -328,14 +328,14 @@
       "sort": 300000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "armorMax": 80,
-          "armorCurrent": 80
+          "armorMax": 200,
+          "armorCurrent": 200
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!fb2dc44473813faa.227c3a555eba4ec5"
+      "_key": "!actors.items!fb2dc44473813faa.5232ab8639c5285d"
     }
   ],
   "_id": "fb2dc44473813faa",

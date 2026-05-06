@@ -494,7 +494,7 @@
       "_id": "18d7464c1e710fc8",
       "name": "M-5 Phalanx",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/a/ae/ME3_Phalanx_Heavy_Pistol.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Phalanx_Heavy_Pistol.png",
       "system": {
         "description": {
           "gm": "",
@@ -601,7 +601,7 @@
       "_id": "9cba3ca4eb2b679f",
       "name": "Duelist Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/d/d7/Light-human-Duelist.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Duelist.png",
       "system": {
         "description": {
           "gm": "",

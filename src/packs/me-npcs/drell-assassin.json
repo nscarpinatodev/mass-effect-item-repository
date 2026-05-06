@@ -451,7 +451,7 @@
       "_id": "f0a477ffae1db2cd",
       "name": "M-92 Mantis",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/b/bf/ME2_SR_-_Mantis.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SR_-_Mantis.png",
       "system": {
         "description": {
           "gm": "",
@@ -561,7 +561,7 @@
       "_id": "b2174d7eaa050efd",
       "name": "Assassin Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/0/00/Light-human-Assassin.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Assassin.png",
       "system": {
         "description": {
           "gm": "",

@@ -1,0 +1,87 @@
+{
+  "_key": "!items!meGrenadeProxMin",
+  "_id": "meGrenadeProxMin",
+  "folder": null,
+  "name": "Proximity Mine",
+  "type": "consumable",
+  "img": "icons/equipment/weapon/bomb-fuse-red.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-proximity-mine",
+    "description": {
+      "gm": "",
+      "value": "<p>A pressure-triggered explosive mine that detonates when a creature moves within range. Deploy it defensively or place it in a chokepoint.</p><p><strong>Place (2 actions):</strong> Place the mine at a point within <strong>15 feet</strong>. The mine arms at the start of your next turn. It remains active for 1 hour or until triggered.</p><p><strong>Trigger:</strong> Any creature (enemy or ally) that moves into or through the mine's <strong>5-foot space</strong> triggers it. All creatures in a <strong>10-foot burst</strong> must attempt a <strong>Reflex</strong> DC 16 save.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> Half damage.</p><p><strong>Failure</strong> <strong>3d6 bludgeoning</strong> damage and <strong>Knocked Prone</strong>.</p><p><strong>Critical Failure</strong> <strong>6d6 bludgeoning</strong> damage, Knocked Prone, and <strong>Stunned 1</strong>.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "thrown"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "me-proximity-mine",
+    "bulk": {
+      "value": "L"
+    },
+    "price": {
+      "value": {
+        "gp": 80
+      }
+    },
+    "equipped": {
+      "carryType": "stowed",
+      "inSlot": false
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Item",
+        "img": "systems/pf2e/icons/unidentified_item_icons/held-item.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null,
+    "consumableType": {
+      "value": "other"
+    },
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "autoDestroy": true
+    },
+    "activation": {
+      "cost": 2,
+      "type": "action",
+      "condition": ""
+    }
+  }
+}

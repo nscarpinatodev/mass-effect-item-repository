@@ -105,7 +105,7 @@
       "hp": {
         "value": 95,
         "max": 95,
-        "temp": 40,
+        "temp": 50,
         "details": ""
       },
       "ac": {
@@ -282,28 +282,39 @@
       "_key": "!actors.items!a8be7d8a58219074.9807fddb5ba25858"
     },
     {
-      "_id": "356d789ce4ca06de",
-      "name": "Kinetic Barrier",
-      "type": "effect",
-      "img": "systems/pf2e/icons/spells/mystic-armor.webp",
+      "_id": "4b1fedac97209131",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
-        "slug": "npc-kinetic-barrier-cerberus-engineer",
-        "duration": {
-          "value": -1,
-          "unit": "unlimited",
-          "expiry": null
-        },
-        "badge": {
-          "type": "counter",
-          "value": 40,
-          "max": 40,
-          "label": "Shield Points"
-        },
-        "rules": [],
+        "slug": "me-kinetic-shield",
         "description": {
-          "value": "",
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p><p>Equip <strong>Shield HP</strong> and <strong>Regen</strong> mods to upgrade your barrier. If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>",
           "gm": ""
         },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
         "_migration": {
           "version": null,
           "previous": null
@@ -320,14 +331,130 @@
       "sort": 300000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "shieldMax": 40,
-          "shieldRegen": 8
+          "shieldMax": 30,
+          "shieldRegen": 10
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!a8be7d8a58219074.356d789ce4ca06de"
+      "_key": "!actors.items!a8be7d8a58219074.4b1fedac97209131"
+    },
+    {
+      "_id": "1898c41bbdb46970",
+      "name": "Shield HP Mod — Tier 2",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t2",
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+20 HP</strong> (base 30 → 50).</p><p>Only one Shield HP Mod can be installed at a time.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 6
+        },
+        "price": {
+          "value": {
+            "sp": 2500
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 20
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a8be7d8a58219074.1898c41bbdb46970"
+    },
+    {
+      "_id": "2f65b9328c6fcaf9",
+      "name": "Shield Regen Mod — Tier 2",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+      "system": {
+        "slug": "me-shield-regen-mod-t2",
+        "description": {
+          "value": "<p>Boosts kinetic shield recharge rate by <strong>+100%</strong> (base 10 → 20 HP/turn).</p><p>Only one Shield Regen Mod can be installed at a time.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 6
+        },
+        "price": {
+          "value": {
+            "sp": 2500
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "regenMult": 2
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a8be7d8a58219074.2f65b9328c6fcaf9"
     }
   ],
   "_id": "a8be7d8a58219074",

@@ -1,0 +1,15 @@
+2026/05/06-15:35:00.302 70c4 Recovering log #33
+2026/05/06-15:35:00.307 70c4 Delete type=0 #33
+2026/05/06-15:35:00.307 70c4 Delete type=3 #31
+2026/05/06-15:35:00.309 7310 Level-0 table #39: started
+2026/05/06-15:35:00.311 7310 Level-0 table #39: 14595 bytes OK
+2026/05/06-15:35:00.312 7310 Delete type=0 #37
+2026/05/06-15:35:00.312 7310 Manual compaction at level-0 from '!items!MEBackgnd0000001' @ 72057594037927935 : 1 .. '!items!MEBackgnd0000023' @ 0 : 0; will stop at (end)
+2026/05/06-15:35:00.312 7310 Manual compaction at level-1 from '!items!MEBackgnd0000001' @ 72057594037927935 : 1 .. '!items!MEBackgnd0000023' @ 0 : 0; will stop at '!items!MEBackgnd0000023' @ 169 : 1
+2026/05/06-15:35:00.312 7310 Compacting 1@1 + 1@2 files
+2026/05/06-15:35:00.314 7310 Generated table #40@1: 23 keys, 14595 bytes
+2026/05/06-15:35:00.314 7310 Compacted 1@1 + 1@2 files => 14595 bytes
+2026/05/06-15:35:00.316 7310 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/06-15:35:00.316 7310 Delete type=2 #35
+2026/05/06-15:35:00.316 7310 Delete type=2 #39
+2026/05/06-15:35:00.316 7310 Manual compaction at level-1 from '!items!MEBackgnd0000023' @ 169 : 1 .. '!items!MEBackgnd0000023' @ 0 : 0; will stop at (end)

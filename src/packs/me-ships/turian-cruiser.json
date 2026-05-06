@@ -1,7 +1,7 @@
 {
   "name": "Turian Cruiser",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/55/ME3_Turian_Cruiser.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/ships/Citadel_final_battle_-_turian_cruiser.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 6,
     "height": 6,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/5/55/ME3_Turian_Cruiser.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/ships/Citadel_final_battle_-_turian_cruiser.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

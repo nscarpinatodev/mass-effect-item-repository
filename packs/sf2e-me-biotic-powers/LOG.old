@@ -1,0 +1,5 @@
+2026/05/06-15:35:01.039 a18c Delete type=3 #1
+2026/05/06-15:35:01.043 7310 Level-0 table #5: started
+2026/05/06-15:35:01.046 7310 Level-0 table #5: 9965 bytes OK
+2026/05/06-15:35:01.048 7310 Delete type=0 #3
+2026/05/06-15:35:01.048 7310 Manual compaction at level-0 from '!items!meBioticCharge00' @ 72057594037927935 : 1 .. '!items!meBioticWarp0000' @ 0 : 0; will stop at (end)

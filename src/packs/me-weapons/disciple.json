@@ -3,7 +3,7 @@
   "name": "Disciple",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/6a/ME3_Disciple_Shotgun.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Disciple_Shotgun.png",
   "flags": {},
   "ownership": {
     "default": 0

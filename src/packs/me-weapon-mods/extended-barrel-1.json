@@ -3,7 +3,7 @@
   "name": "Extended Barrel I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/c/cb/ME3_SMG_High_Caliber_Barrel.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapon-mods/ME3_SMG_High_Caliber_Barrel.png",
   "flags": {},
   "ownership": {
     "default": 0

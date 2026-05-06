@@ -1,0 +1,58 @@
+{
+  "_key": "!items!meClassSentinel0",
+  "_id": "meClassSentinel0",
+  "folder": null,
+  "name": "Sentinel",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-class-sentinel",
+    "description": {
+      "gm": "",
+      "value": "<p>The most defensively robust class in the game, Sentinels combine Tech Armor with a selection of both tech and biotic powers. They sacrifice the peak offensive output of pure specialists in exchange for unmatched survivability and tactical versatility.</p><p><strong>Bonus:</strong> +1 circumstance bonus to all saving throws (combined biotic/tech training creates comprehensive defensive conditioning).</p><hr><p><strong>Signature Abilities:</strong> Tech Armor, Throw, Warp, Overload, Cryo Blast</p><p><strong>Power Access:</strong> A hybrid selection from both <em>ME Biotic Powers</em> and <em>ME Tech Powers</em> compendiums. Sentinels can take biotic powers from the control/debuff suite (Throw, Warp, Stasis) and defensive/utility tech powers (Tech Armor, Overload, Cryo Blast). They do not access the highest-tier powers of either type.</p><p><strong>Weapons:</strong> Assault rifles and shotguns. More weapon-versatile than pure biotic/tech classes.</p><p><strong>Armor:</strong> Medium and heavy armor, supplemented by Tech Armor. The combination makes Sentinels the hardest class to kill outright.</p><p><strong>Playstyle:</strong> Durable generalist. Sentinels don't dominate any single tactical dimension but handle every situation adequately. Tech Armor provides a damage-buffer layer on top of regular armor. Throw and Warp enable biotic combos at lower power level, while Overload and Cryo Blast handle shields and crowd control. Best for players who want to be the team's anchor rather than its specialist.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Sentinel Conditioning"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature"
+  }
+}

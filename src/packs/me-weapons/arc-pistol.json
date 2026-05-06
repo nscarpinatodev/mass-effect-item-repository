@@ -3,7 +3,7 @@
   "name": "Arc Pistol",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Arc_Heavy_Pistol.png",
   "flags": {},
   "ownership": {
     "default": 0

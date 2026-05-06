@@ -3,7 +3,7 @@
   "name": "Recharge Accelerator I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/f/f5/ME3_Defense_Matrix.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_Defense_Matrix.png",
   "flags": {},
   "ownership": {
     "default": 0

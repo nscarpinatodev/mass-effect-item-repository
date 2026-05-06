@@ -1,0 +1,54 @@
+{
+  "_key": "!items!meTechCryoBlast0",
+  "_id": "meTechCryoBlast0",
+  "folder": null,
+  "name": "Cryo Blast",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-blue-white.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-tech-cryo-blast",
+    "description": {
+      "gm": "",
+      "value": "<p>You fire a cryogenic burst from your omni-tool that flash-freezes targets in a wide area, slowing their movements.</p><p>All creatures in a <strong>10-foot radius</strong> burst within <strong>30 feet</strong> must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 cold</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d6 cold</strong> damage and is <strong>Slowed 1</strong> until the end of its next turn.</p><p><strong>Critical Failure</strong> The target takes <strong>4d6 cold</strong> damage and is <strong>Immobilized</strong> until the end of its next turn. If the target is already Slowed, it is Immobilized instead.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "cold",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

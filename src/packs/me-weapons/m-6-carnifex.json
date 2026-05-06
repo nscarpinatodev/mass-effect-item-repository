@@ -3,7 +3,7 @@
   "name": "M-6 Carnifex",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/04/ME2_HP_-_Carnifex.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_HP_-_Carnifex.png",
   "flags": {},
   "ownership": {
     "default": 0

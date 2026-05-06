@@ -3,7 +3,7 @@
   "name": "Ultralight Materials I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/8/87/ME3_SMG_Ultralight_Materials.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_SMG_Ultralight_Materials.png",
   "flags": {},
   "ownership": {
     "default": 0

@@ -1,7 +1,7 @@
 {
   "name": "Praetorian",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ad/Praetorian_Combat.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Praetorian_Combat.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 4,
     "height": 4,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/a/ad/Praetorian_Combat.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Praetorian_Combat.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -339,12 +339,12 @@
       "_key": "!actors.items!73171f71640fa444.4b5068a760a9d822"
     },
     {
-      "_id": "f76c16ccae3d4bae",
-      "name": "Collector Armor Plating",
+      "_id": "8c3f39798f062add",
+      "name": "Titan Combat Frame",
       "type": "effect",
-      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/icons/combat-armor-frame.png",
       "system": {
-        "slug": "npc-collector-armor-praetorian",
+        "slug": "me-armor-frame-t4",
         "duration": {
           "value": -1,
           "unit": "unlimited",
@@ -352,8 +352,8 @@
         },
         "badge": {
           "type": "counter",
-          "value": 60,
-          "max": 60,
+          "value": 200,
+          "max": 200,
           "label": "Armor Points"
         },
         "rules": [],
@@ -377,14 +377,14 @@
       "sort": 400000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "armorMax": 60,
-          "armorCurrent": 60
+          "armorMax": 200,
+          "armorCurrent": 200
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!73171f71640fa444.f76c16ccae3d4bae"
+      "_key": "!actors.items!73171f71640fa444.8c3f39798f062add"
     }
   ],
   "_id": "73171f71640fa444",

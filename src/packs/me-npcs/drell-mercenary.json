@@ -396,7 +396,7 @@
       "_id": "9b5bd68b26361829",
       "name": "M-5 Phalanx",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/a/ae/ME3_Phalanx_Heavy_Pistol.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Phalanx_Heavy_Pistol.png",
       "system": {
         "description": {
           "gm": "",
@@ -503,7 +503,7 @@
       "_id": "4108d881c050794c",
       "name": "Survivor Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/e/e4/Light-human-Survivor.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Survivor.png",
       "system": {
         "description": {
           "gm": "",

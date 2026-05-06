@@ -3,7 +3,7 @@
   "name": "Hydra Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/34/Heavy-human-Hydra.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Hydra.png",
   "flags": {},
   "ownership": {
     "default": 0

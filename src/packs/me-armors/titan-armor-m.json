@@ -3,7 +3,7 @@
   "name": "Titan Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/3/32/Medium-human-Titan.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Titan.png",
   "flags": {},
   "ownership": {
     "default": 0

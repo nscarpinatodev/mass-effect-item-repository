@@ -3,7 +3,7 @@
   "name": "Collector Assault Rifle",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/db/ME2_AR_-_Collector_Assault_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Collector_Assault_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

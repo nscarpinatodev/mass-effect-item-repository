@@ -393,7 +393,7 @@
       "_id": "aa598bca2d23d607",
       "name": "M-8 Avenger",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/f/f7/ME2_AR_-_Avenger.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Avenger.png",
       "system": {
         "description": {
           "gm": "",
@@ -501,7 +501,7 @@
       "_id": "c557e375e22856cc",
       "name": "Gladiator Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/d/de/Light-human-Gladiator.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Gladiator.png",
       "system": {
         "description": {
           "gm": "",

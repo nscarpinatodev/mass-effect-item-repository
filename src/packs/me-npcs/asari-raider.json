@@ -440,7 +440,7 @@
       "_id": "1b851a63d4c6bf00",
       "name": "M-3 Predator",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/2/20/ME2_HP_-_Predator.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_HP_-_Predator.png",
       "system": {
         "description": {
           "gm": "",
@@ -547,7 +547,7 @@
       "_id": "425a1f3881cd0666",
       "name": "Mantis Armor (L)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/4/4d/Light-human-Mantis.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Mantis.png",
       "system": {
         "description": {
           "gm": "",

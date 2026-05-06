@@ -3,7 +3,7 @@
   "name": "N7 Typhoon",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ab/ME3_Typhoon_Assault_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Typhoon_Assault_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

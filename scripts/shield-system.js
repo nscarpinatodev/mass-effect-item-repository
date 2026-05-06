@@ -23,8 +23,6 @@
 
 const MODULE_ID = 'mass-effect-sf2e-conversion';
 
-// Bump this (not module.json version) when world items need recreating.
-const MODULE_DATA_VERSION = '1.1.2';
 
 // ── AMMO DEFINITIONS ──────────────────────────────────────────────────────────
 
@@ -39,7 +37,8 @@ const AMMO_DEFS = [
     // Overrides the weapon's damage type to fire rather than adding bonus dice
     rules: [{ key: 'DamageDice', selector: 'strike-damage', override: { damageType: 'fire' } }],
     description: '<p>Thermite-tipped rounds that ignite on impact. Your weapon attacks deal <strong>fire damage</strong> instead of their normal damage type.</p>'
-      + '<p>Incendiary rounds burn through armor 50% faster: when the target has an active Combat Armor Frame, each point of incoming damage depletes 1.5 points of armor.</p>'
+      + '<p>Incendiary rounds burn through armor faster: each point of incoming damage depletes 1.5× points of armor.</p>'
+      + '<p>On a <strong>critical hit</strong>, the target ignites and suffers <strong>persistent fire damage</strong> (DC 15 flat check to extinguish).</p>'
       + '<p>Remove this effect to return to standard ammunition.</p>',
   },
   {
@@ -50,7 +49,7 @@ const AMMO_DEFS = [
     damageType: 'force',
     diceNum: 1, dieSz: 'd4',
     description: '<p>Rounds coated in a mass effect field that disrupts ablative plating. Your weapon attacks deal an additional <strong>1d4 force damage</strong>.</p>'
-      + '<p>Phasic rounds bypass Combat Armor Frames entirely — damage goes directly to shields and HP without being absorbed by the armor layer.</p>'
+      + '<p>Phasic rounds bypass Combat Armor Frames entirely — damage goes directly to shields and HP. However, the phasing effect reduces total damage dealt to <strong>60%</strong>.</p>'
       + '<p>Remove this effect to return to standard ammunition.</p>',
   },
   {
@@ -114,15 +113,6 @@ const AMMO_DEFS = [
   },
 ];
 
-// ── ARMOR FRAME TIERS ─────────────────────────────────────────────────────────
-
-const ARMOR_FRAME_TIERS = [
-  { tier: 1, name: 'Light Combat Frame',    ap: 20,  level: 1,  price: { gp: 15 } },
-  { tier: 2, name: 'Standard Combat Frame', ap: 50,  level: 5,  price: { gp: 250 } },
-  { tier: 3, name: 'Heavy Combat Frame',    ap: 100, level: 9,  price: { gp: 2000 } },
-  { tier: 4, name: 'Titan Combat Frame',    ap: 200, level: 13, price: { gp: 12000 } },
-];
-
 // ── SETTINGS ──────────────────────────────────────────────────────────────────
 
 Hooks.once('init', () => {
@@ -135,12 +125,85 @@ Hooks.once('init', () => {
     default: 'effect-cover',
   });
 
-  game.settings.register(MODULE_ID, 'lastSyncedVersion', {
-    scope: 'world',
-    config: false,
-    type: String,
-    default: '',
+  // ── Damage multipliers ──
+  game.settings.register(MODULE_ID, 'warpMult', {
+    name: 'Warp Rounds — Barrier Damage Multiplier',
+    hint: 'Damage multiplier applied to biotic barriers when hit by Warp Rounds.',
+    scope: 'world', config: true, type: Number, default: 1.5,
+    range: { min: 1.0, max: 3.0, step: 0.1 },
   });
+  game.settings.register(MODULE_ID, 'disruptorMult', {
+    name: 'Disruptor Rounds — Shield Damage Multiplier',
+    hint: 'Damage multiplier applied to kinetic shields when hit by Disruptor Rounds.',
+    scope: 'world', config: true, type: Number, default: 2.0,
+    range: { min: 1.0, max: 4.0, step: 0.1 },
+  });
+  game.settings.register(MODULE_ID, 'shieldCollapsePct', {
+    name: 'Shield Collapse Threshold (%)',
+    hint: 'A single hit exceeding this percentage of max shield HP triggers a shield overload collapse.',
+    scope: 'world', config: true, type: Number, default: 50,
+    range: { min: 10, max: 100, step: 5 },
+  });
+  game.settings.register(MODULE_ID, 'incendiaryArmorMult', {
+    name: 'Incendiary Rounds — Armor Damage Multiplier',
+    hint: 'How much faster Incendiary Rounds burn through Combat Armor Frames.',
+    scope: 'world', config: true, type: Number, default: 1.5,
+    range: { min: 1.0, max: 3.0, step: 0.1 },
+  });
+  game.settings.register(MODULE_ID, 'apBleedThrough', {
+    name: 'Armor-Piercing Rounds — HP Bleed-Through (%)',
+    hint: 'Percentage of HP damage that bypasses the armor layer when AP Rounds are used.',
+    scope: 'world', config: true, type: Number, default: 50,
+    range: { min: 0, max: 100, step: 5 },
+  });
+  game.settings.register(MODULE_ID, 'phasicDamagePct', {
+    name: 'Phasic Rounds — Total Damage Modifier (%)',
+    hint: 'Phasic Rounds bypass armor entirely but deal reduced total damage. Set to 100 to disable the reduction.',
+    scope: 'world', config: true, type: Number, default: 60,
+    range: { min: 10, max: 100, step: 5 },
+  });
+
+  // ── Ammo special effects ──
+  game.settings.register(MODULE_ID, 'cryoChilled', {
+    name: 'Cryo Rounds — Apply Chilled Condition',
+    hint: 'When enabled, Cryo Rounds apply the Chilled condition when they deal direct HP damage.',
+    scope: 'world', config: true, type: Boolean, default: true,
+  });
+  game.settings.register(MODULE_ID, 'incendiaryPersistentFire', {
+    name: 'Incendiary Rounds — Persistent Fire on Critical Hit',
+    hint: 'When enabled, critical hits with Incendiary Rounds apply persistent fire damage to the target.',
+    scope: 'world', config: true, type: Boolean, default: true,
+  });
+  game.settings.register(MODULE_ID, 'incendiaryPersistentDice', {
+    name: 'Incendiary Rounds — Persistent Fire Dice Formula',
+    hint: 'Dice formula for the persistent fire damage applied on a critical hit (e.g. 1d6, 2d6).',
+    scope: 'world', config: true, type: String, default: '1d6',
+  });
+
+  // ── Shield behaviour ──
+  game.settings.register(MODULE_ID, 'shieldOfflineMessage', {
+    name: 'Shield Offline Chat Message',
+    hint: 'Post a chat message at turn start when shields are depleted and the actor has not taken cover.',
+    scope: 'world', config: true, type: Boolean, default: true,
+  });
+  game.settings.register(MODULE_ID, 'autoDeleteBarrier', {
+    name: 'Auto-Delete Depleted Barriers',
+    hint: 'Automatically remove the Biotic Barrier effect when its HP reaches zero at turn start.',
+    scope: 'world', config: true, type: Boolean, default: true,
+  });
+
+  // ── Token bars ──
+  game.settings.register(MODULE_ID, 'showArmorBars', {
+    name: 'Token Bars — Show Armor Points',
+    hint: 'Display a yellow Armor Points bar on tokens with an active Combat Armor Frame.',
+    scope: 'world', config: true, type: Boolean, default: true,
+  });
+  game.settings.register(MODULE_ID, 'showBarrierBars', {
+    name: 'Token Bars — Show Biotic Barrier',
+    hint: 'Display a purple Biotic Barrier bar on tokens with an active biotic barrier.',
+    scope: 'world', config: true, type: Boolean, default: true,
+  });
+
 });
 
 // ── READY ─────────────────────────────────────────────────────────────────────
@@ -273,7 +336,7 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
   if (derivedDamage <= 0) return;
 
   const reportedDamage = options?.damageTaken ?? null;
-  const totalDamage    = reportedDamage ?? derivedDamage;
+  let   totalDamage    = reportedDamage ?? derivedDamage;
 
   // Ammo detection: check attacker's active effects for all routing-relevant types.
   // Electricity also falls back to chat message scan so natural-electric weapons work.
@@ -287,6 +350,13 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
   const isPhasic         = attackerAmmoType === 'phasic';
   const isAP             = attackerAmmoType === 'armor-piercing';
   const isCryo           = attackerAmmoType === 'cryo';
+  const isCrit           = detectCriticalHit();
+
+  // Phasic rounds bypass armor entirely but deal reduced total damage
+  if (isPhasic) {
+    const pct = game.settings.get(MODULE_ID, 'phasicDamagePct') / 100;
+    totalDamage = Math.floor(totalDamage * pct);
+  }
 
   const barrierHPBefore = barrier ? (barrier.getFlag(MODULE_ID, 'barrierCurrent') ?? 0) : null;
   const barrierMax      = barrier ? (barrier.getFlag(MODULE_ID, 'barrierMax')     ?? 0) : null;
@@ -307,7 +377,7 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
   let warpDetonated   = false;
 
   if (barrier && barrierHPBefore > 0) {
-    const warpMult = isWarp ? 1.5 : 1.0;
+    const warpMult = isWarp ? game.settings.get(MODULE_ID, 'warpMult') : 1.0;
     const effectiveBarrierDamage = Math.min(Math.floor(overflow * warpMult), barrierHPBefore);
     const originalAbsorbed = Math.min(overflow, Math.ceil(effectiveBarrierDamage / warpMult));
     overflow -= originalAbsorbed;
@@ -327,11 +397,12 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
 
   // ── Step 2: Shield rules (electricity = 2×, massive hit = collapse) ────────
   const rawShieldDamage = Math.min(overflow, currentTemp);
+  const disruptorMult   = game.settings.get(MODULE_ID, 'disruptorMult');
   const effectiveShieldDamage = isElectricity
-    ? Math.min(rawShieldDamage * 2, currentTemp)
+    ? Math.min(rawShieldDamage * disruptorMult, currentTemp)
     : rawShieldDamage;
 
-  const massiveThreshold = shieldMax / 2;
+  const massiveThreshold = shieldMax * (game.settings.get(MODULE_ID, 'shieldCollapsePct') / 100);
   const isCollapse = shield && currentTemp > 0 && effectiveShieldDamage > massiveThreshold;
 
   const shieldAbsorbs = isCollapse ? Math.ceil(massiveThreshold) : rawShieldDamage;
@@ -351,12 +422,13 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
       // Phasic bypasses armor entirely
       console.log(`  ARMOR      BYPASSED (phasic)  HP:${hpDamage}`);
     } else {
-      // Incendiary burns 1.5× faster; AP lets 50% bleed through
-      const armorDmgMult = isIncendiary ? 1.5 : 1.0;
+      // Incendiary burns faster; AP lets a portion bleed through
+      const armorDmgMult = isIncendiary ? game.settings.get(MODULE_ID, 'incendiaryArmorMult') : 1.0;
       armorDamageTaken   = Math.min(Math.floor(hpDamage * armorDmgMult), armorCurrent);
       newArmorHP         = armorCurrent - armorDamageTaken;
       const hpNeutralized  = Math.min(hpDamage, Math.floor(armorDamageTaken / armorDmgMult));
-      const apBleedThrough = isAP ? Math.floor(hpDamage * 0.5) : 0;
+      const apBleedPct     = game.settings.get(MODULE_ID, 'apBleedThrough') / 100;
+      const apBleedThrough = isAP ? Math.floor(hpDamage * apBleedPct) : 0;
       finalHpDamage = Math.max(apBleedThrough, hpDamage - hpNeutralized);
 
       if (newArmorHP <= 0) {
@@ -391,7 +463,7 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
     postChat(actor, lightningShieldHtml(effectiveShieldDamage, currentTemp, finalShieldHP, shieldMax));
   }
   if (isCollapse) {
-    postChat(actor, shieldCollapseHtml(shieldMax));
+    postChat(actor, shieldCollapseHtml(shieldMax, massiveThreshold));
   }
 
   if (isPhasic && armorFrame && hpDamage > 0) {
@@ -402,8 +474,15 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
     postChat(actor, armorStatusHtml(newArmorHP, armorMax, isIncendiary, isAP));
   }
 
-  if (isCryo && finalHpDamage > 0) {
+  if (isCryo && finalHpDamage > 0 && game.settings.get(MODULE_ID, 'cryoChilled')) {
     createChilledEffect(actor);
+  }
+
+  if (isIncendiary && isCrit && finalHpDamage > 0
+      && game.settings.get(MODULE_ID, 'incendiaryPersistentFire')) {
+    const dice = game.settings.get(MODULE_ID, 'incendiaryPersistentDice');
+    createPersistentFireEffect(actor);
+    postChat(actor, persistentFireHtml(dice));
   }
 });
 
@@ -451,7 +530,7 @@ Hooks.on('pf2e.startTurn', async (first, second) => {
         const newTemp = Math.min(regen, max);
         await actor.update({ 'system.attributes.hp.temp': newTemp });
         parts.push(restoringHtml(newTemp, max));
-      } else {
+      } else if (game.settings.get(MODULE_ID, 'shieldOfflineMessage')) {
         parts.push(offlineHtml(max));
       }
     }
@@ -461,13 +540,99 @@ Hooks.on('pf2e.startTurn', async (first, second) => {
     const barrierMax     = barrier.getFlag(MODULE_ID, 'barrierMax')     ?? 0;
     const barrierCurrent = barrier.getFlag(MODULE_ID, 'barrierCurrent') ?? 0;
     if (barrierCurrent <= 0) {
-      await barrier.delete();
+      if (game.settings.get(MODULE_ID, 'autoDeleteBarrier')) await barrier.delete();
     } else {
       parts.push(barrierStatusHtml(barrierCurrent, barrierMax));
     }
   }
 
   if (parts.length > 0) postChat(actor, parts.join(''));
+});
+
+// ── CUSTOM TOKEN BARS ─────────────────────────────────────────────────────────
+
+const ME_BAR_TAG = '_mebar';
+
+function _meBarH() {
+  return Math.max((canvas?.dimensions?.size ?? 100) / 12, 8);
+}
+
+function refreshMETokenBars(token) {
+  if (!token?.bars) return;
+
+  const stale = token.bars.children.filter(c => c[ME_BAR_TAG]);
+  for (const c of stale) {
+    if (c.parent) c.parent.removeChild(c);
+    c.destroy();
+  }
+
+  const actor = token.actor;
+  if (!actor) return;
+
+  const barrier    = getBioticBarrier(actor);
+  const armorFrame = getArmorFrame(actor);
+  if (!barrier && !armorFrame) return;
+
+  const h = _meBarH();
+  const w = token.w;
+  let n = 2;
+
+  if (armorFrame && game.settings.get(MODULE_ID, 'showArmorBars')) {
+    const cur = armorFrame.getFlag(MODULE_ID, 'armorCurrent') ?? 0;
+    const max = armorFrame.getFlag(MODULE_ID, 'armorMax')     ?? 0;
+    _renderMEBar(token, w, h, n++, cur, max, 0xf9a825);
+  }
+  if (barrier && game.settings.get(MODULE_ID, 'showBarrierBars')) {
+    const cur = barrier.getFlag(MODULE_ID, 'barrierCurrent') ?? 0;
+    const max = barrier.getFlag(MODULE_ID, 'barrierMax')     ?? 0;
+    _renderMEBar(token, w, h, n, cur, max, 0xce93d8);
+  }
+}
+
+function _renderMEBar(token, w, h, n, value, max, fillColor) {
+  const pct = max > 0 ? Math.max(0, Math.min(value / max, 1)) : 0;
+  const g   = new PIXI.Graphics();
+  g[ME_BAR_TAG] = true;
+  g.position.set(0, token.h - h - n * (h + 2));
+
+  g.beginFill(0x000000, 0.5);
+  g.drawRoundedRect(0, 0, w, h, 2);
+  g.endFill();
+
+  const fillW = pct * (w - 2);
+  if (fillW >= 1) {
+    g.beginFill(fillColor, 1.0);
+    g.drawRoundedRect(1, 1, fillW, h - 2, 1);
+    g.endFill();
+  }
+
+  token.bars.addChild(g);
+}
+
+Hooks.on('drawToken',    (token)          => refreshMETokenBars(token));
+Hooks.on('refreshToken', (token, options) => {
+  if (options !== undefined && !options.bars) return;
+  refreshMETokenBars(token);
+});
+// canvas.tokens.placeables.filter(t => t.actor === actor) is used instead of
+// actor.getActiveTokens() so that unlinked (synthetic) actor instances match by
+// reference — getActiveTokens() matches by actorId, which can return tokens for
+// other unlinked copies of the same base actor.
+function _tokensForActor(actor) {
+  return (canvas.tokens?.placeables ?? []).filter(t => t.actor === actor);
+}
+
+Hooks.on('updateItem', (item) => {
+  if (!item.parent || (!isBioticBarrier(item) && !isArmorFrame(item))) return;
+  for (const t of _tokensForActor(item.parent)) refreshMETokenBars(t);
+});
+Hooks.on('createItem', (item) => {
+  if (!item.parent || (!isBioticBarrier(item) && !isArmorFrame(item))) return;
+  for (const t of _tokensForActor(item.parent)) refreshMETokenBars(t);
+});
+Hooks.on('deleteItem', (item) => {
+  if (!item.parent || (!isBioticBarrier(item) && !isArmorFrame(item))) return;
+  for (const t of _tokensForActor(item.parent)) refreshMETokenBars(t);
 });
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -531,6 +696,18 @@ function getShieldHpMod(actor) {
     ?? null;
 }
 
+// Returns true when the most recent damage-roll message was a critical hit.
+function detectCriticalHit() {
+  const recent = [...game.messages.contents].slice(-10).reverse();
+  for (const msg of recent) {
+    const pf2e = msg.flags?.pf2e;
+    if (!pf2e) continue;
+    if (pf2e.context?.type !== 'damage-roll') continue;
+    return pf2e.context?.degreeOfSuccess === 3;
+  }
+  return false;
+}
+
 // Returns a Set of damage types from the most recent damage-roll chat message.
 function detectDamageTypes() {
   const recent = [...game.messages.contents].slice(-10).reverse();
@@ -590,6 +767,24 @@ function postChat(actor, content) {
     content,
     whisper: getWhisperRecipients(actor),
   });
+}
+
+async function createPersistentFireEffect(actor) {
+  const dice = game.settings.get(MODULE_ID, 'incendiaryPersistentDice');
+  await actor.createEmbeddedDocuments('Item', [{
+    name: 'Persistent Fire Damage',
+    type: 'effect',
+    img: 'icons/magic/fire/flame-burning-orange.webp',
+    flags: {},
+    system: {
+      slug: 'me-persistent-fire',
+      description: {
+        value: `<p>Taking ${dice} persistent fire damage from Incendiary Rounds. At the end of each turn, attempt a DC 15 Flat check to end this effect.</p>`,
+      },
+      duration: { value: -1, unit: 'unlimited' },
+      rules: [{ key: 'PersistentDamage', formula: dice, damageType: 'fire' }],
+    },
+  }]);
 }
 
 async function createChilledEffect(actor) {
@@ -669,10 +864,10 @@ function lightningShieldHtml(shieldDamage, _prevTemp, finalShieldHP, shieldMax) 
     + shieldBar(finalShieldHP, shieldMax, C.lightning));
 }
 
-function shieldCollapseHtml(shieldMax) {
+function shieldCollapseHtml(shieldMax, threshold) {
   return card(C.overload,
     `<strong>🔴 Shield Overload — Shields Collapsed!</strong><br>`
-    + `Massive hit exceeded overload threshold (${Math.ceil(shieldMax / 2)} damage). `
+    + `Massive hit exceeded overload threshold (${Math.ceil(threshold)} damage). `
     + `<em>Take Cover to restart.</em>`
     + shieldBar(0, shieldMax, C.overload));
 }
@@ -695,8 +890,10 @@ function warpBarrierHtml(prevHP, max) {
 }
 
 function armorStatusHtml(current, max, isIncendiary, isAP) {
-  const note = isIncendiary ? ' <em>(Incendiary — 1.5× armor damage)</em>'
-             : isAP         ? ' <em>(AP — 50% bleed-through)</em>'
+  const incMult = game.settings.get(MODULE_ID, 'incendiaryArmorMult');
+  const apPct   = game.settings.get(MODULE_ID, 'apBleedThrough');
+  const note = isIncendiary ? ` <em>(Incendiary — ${incMult}× armor damage)</em>`
+             : isAP         ? ` <em>(AP — ${apPct}% bleed-through)</em>`
              : '';
   return card(C.armor,
     `<strong>🔩 Armor Absorbing Damage</strong>${note}`
@@ -710,307 +907,29 @@ function armorDepletedHtml(max) {
     + shieldBar(0, max, C.broken));
 }
 
+function persistentFireHtml(dice) {
+  return card(C.incendiary,
+    `<strong>🔥 Persistent Fire — Critical Hit!</strong><br>`
+    + `Incendiary rounds ignite the target. Taking <strong>${dice} persistent fire</strong> damage each turn.`
+    + ` <em>DC 15 Flat check to extinguish.</em>`);
+}
+
 function phasicBypassHtml(armorCurrent, armorMax) {
+  const damagePct = game.settings.get(MODULE_ID, 'phasicDamagePct');
   return card(C.phasic,
     `<strong>🔵 Phasic Bypass — Armor Ignored</strong><br>`
-    + `Phasic rounds phase through the armor frame (${armorCurrent}/${armorMax} AP remaining).`
+    + `Phasic rounds bypass the armor frame (${armorCurrent}/${armorMax} AP). Damage reduced to ${damagePct}%.`
     + shieldBar(armorCurrent, armorMax, C.phasic));
 }
 
-// ── ITEM CREATION UTILITIES ───────────────────────────────────────────────────
-
-async function createShieldEffects() {
-  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can create shield effects.');
-
-  let folder = game.folders.find(f => f.name === 'Mass Effect Shields' && f.type === 'Item');
-  if (!folder) folder = await Folder.create({ name: 'Mass Effect Shields', type: 'Item', color: '#4fc3f7' });
-
-  await Item.create({
-    name: 'Kinetic Shield',
-    type: 'equipment',
-    img: 'icons/magic/defensive/shield-barrier-blue.webp',
-    folder: folder.id,
-    flags: { [MODULE_ID]: { shieldMax: 30, shieldRegen: 10 } },
-    system: {
-      slug: 'me-kinetic-shield',
-      description: {
-        value: `<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>`
-          + `<p>Equip <strong>Shield HP</strong> and <strong>Regen</strong> mods to upgrade your barrier. If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>`,
-      },
-      level:   { value: 1 },
-      price:   { value: { sp: 150 } },
-      bulk:    { value: 1 },
-      equipped: { carryType: 'worn', inSlot: true },
-      usage:   { value: 'other' },
-      traits:  { value: [], rarity: 'common' },
-      rules:   [],
-    },
-  });
-
-  ui.notifications.info('ME Shields | Created Kinetic Shield item.');
-}
-
-async function createBarrierEffects() {
-  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can create barrier effects.');
-
-  let folder = game.folders.find(f => f.name === 'Mass Effect Barriers' && f.type === 'Item');
-  if (!folder) folder = await Folder.create({ name: 'Mass Effect Barriers', type: 'Item', color: '#ce93d8' });
-
-  await Item.create({
-    name: 'Biotic Barrier',
-    type: 'effect',
-    img: 'icons/magic/lightning/barrier-shield-crackling-orb-pink.webp',
-    folder: folder.id,
-    flags: { [MODULE_ID]: { barrier: true } },
-    system: {
-      slug: 'me-biotic-barrier',
-      description: {
-        value: `<p>A biotic barrier. HP = 5 × ⌊level ÷ 2⌋, calculated at activation.</p>`
-          + `<p>Absorbs damage before shields and actual HP. Does not recharge per turn — spend actions to reactivate at full strength.</p>`,
-      },
-      duration: { value: -1, unit: 'unlimited', expiry: null },
-      rules: [],
-    },
-  });
-
-  ui.notifications.info('ME Shields | Created Biotic Barrier effect.');
-}
-
-async function createBarrierActionItems() {
-  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can create barrier action items.');
-
-  let folder = game.folders.find(f => f.name === 'Mass Effect Barriers' && f.type === 'Item');
-  if (!folder) folder = await Folder.create({ name: 'Mass Effect Barriers', type: 'Item', color: '#ce93d8' });
-
-  const barrierEffect = game.items.find(i => i.type === 'effect' && i.flags?.[MODULE_ID]?.barrier === true);
-  const selfEffect = barrierEffect ? { uuid: `Item.${barrierEffect.id}`, name: 'Biotic Barrier' } : null;
-
-  const sharedDesc = `<p>You project a protective mass effect field. You gain a biotic barrier with Hit Points equal to 5 × half your level (rounded down, minimum 5). The barrier absorbs damage before your shields and actual HP.</p>`
-    + `<p>The barrier lasts until depleted or dismissed. It does not recharge automatically — spend 2 actions to reactivate at full strength. Reactivating replaces any remaining barrier HP with a fresh full barrier.</p>`
-    + `<table><tbody><tr><td><strong>Level</strong></td><td><strong>Barrier HP</strong></td></tr>`
-    + `<tr><td>1–3</td><td>5</td></tr><tr><td>4–5</td><td>10</td></tr><tr><td>6–7</td><td>15</td></tr>`
-    + `<tr><td>8–9</td><td>20</td></tr><tr><td>10–11</td><td>25</td></tr><tr><td>12–13</td><td>30</td></tr>`
-    + `<tr><td>14–15</td><td>35</td></tr><tr><td>16–17</td><td>40</td></tr><tr><td>18–19</td><td>45</td></tr>`
-    + `<tr><td>20</td><td>50</td></tr></tbody></table>`;
-
-  await Item.create({
-    name: 'Activate Biotic Barrier',
-    type: 'feat',
-    img: 'icons/magic/lightning/barrier-shield-crackling-orb-pink.webp',
-    folder: folder.id,
-    flags: { [MODULE_ID]: { barrier: true } },
-    system: {
-      slug: 'me-activate-biotic-barrier',
-      description: { value: sharedDesc },
-      rules: [],
-      category: 'classfeature',
-      level: { value: 1 },
-      traits: { otherTags: ['biotic', 'barrier'], value: [] },
-      prerequisites: { value: [{ value: 'Biotic Dedication or Biotic Barrier class feature' }] },
-      actionType: { value: 'action' },
-      actions: { value: 2 },
-      selfEffect,
-    },
-  });
-
-  await Item.create({
-    name: 'Activate Biotic Barrier (NPC)',
-    type: 'action',
-    img: 'icons/magic/lightning/barrier-shield-crackling-orb-pink.webp',
-    folder: folder.id,
-    flags: { [MODULE_ID]: { barrier: true } },
-    system: {
-      slug: 'me-activate-biotic-barrier-npc',
-      description: { value: sharedDesc },
-      rules: [],
-      traits: { otherTags: ['biotic', 'barrier'], value: [] },
-      actionType: { value: 'action' },
-      actions: { value: 2 },
-      category: 'interaction',
-      selfEffect,
-    },
-  });
-
-  ui.notifications.info('ME Shields | Created Activate Biotic Barrier items.');
-}
-
-const SHIELD_HP_MOD_TIERS = [
-  { tier: 1, bonus: 10, level: 3,  price: 600,   name: 'Shield HP Mod — Tier 1' },
-  { tier: 2, bonus: 20, level: 6,  price: 2500,  name: 'Shield HP Mod — Tier 2' },
-  { tier: 3, bonus: 40, level: 9,  price: 7000,  name: 'Shield HP Mod — Tier 3' },
-  { tier: 4, bonus: 70, level: 12, price: 16000, name: 'Shield HP Mod — Tier 4' },
-];
-
-async function createShieldHpModEffects() {
-  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can create HP mod effects.');
-
-  let folder = game.folders.find(f => f.name === 'Mass Effect Mods' && f.type === 'Item');
-  if (!folder) folder = await Folder.create({ name: 'Mass Effect Mods', type: 'Item', color: '#80cbc4' });
-
-  for (const mod of SHIELD_HP_MOD_TIERS) {
-    await Item.create({
-      name: mod.name,
-      type: 'equipment',
-      img: 'icons/magic/defensive/shield-barrier-glowing-blue.webp',
-      folder: folder.id,
-      flags: { [MODULE_ID]: { shieldHpBonus: mod.bonus } },
-      system: {
-        slug: `me-shield-hp-mod-t${mod.tier}`,
-        description: {
-          value: `<p>Increases kinetic shield capacity by <strong>+${mod.bonus} HP</strong> (base 30 → ${30 + mod.bonus}).</p>`
-            + `<p>Only one Shield HP Mod can be installed at a time.</p>`,
-        },
-        level:   { value: mod.level },
-        price:   { value: { sp: mod.price } },
-        bulk:    { value: 0 },
-        equipped: { carryType: 'worn', inSlot: true },
-        usage:   { value: 'other' },
-        traits:  { value: [], rarity: 'common' },
-        rules:   [],
-      },
-    });
-  }
-
-  ui.notifications.info(`ME Shields | Created ${SHIELD_HP_MOD_TIERS.length} Shield HP Mod items.`);
-}
-
-const REGEN_MOD_TIERS = [
-  { tier: 1, pct: 50,  mult: 1.5, level: 3,  price: 600,   name: 'Shield Regen Mod — Tier 1' },
-  { tier: 2, pct: 100, mult: 2.0, level: 6,  price: 2500,  name: 'Shield Regen Mod — Tier 2' },
-  { tier: 3, pct: 150, mult: 2.5, level: 9,  price: 7000,  name: 'Shield Regen Mod — Tier 3' },
-  { tier: 4, pct: 200, mult: 3.0, level: 12, price: 16000, name: 'Shield Regen Mod — Tier 4' },
-];
-
-async function createRegenModEffects() {
-  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can create regen mod effects.');
-
-  let folder = game.folders.find(f => f.name === 'Mass Effect Mods' && f.type === 'Item');
-  if (!folder) folder = await Folder.create({ name: 'Mass Effect Mods', type: 'Item', color: '#80cbc4' });
-
-  for (const mod of REGEN_MOD_TIERS) {
-    await Item.create({
-      name: mod.name,
-      type: 'equipment',
-      img: 'icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp',
-      folder: folder.id,
-      flags: { [MODULE_ID]: { regenMult: mod.mult } },
-      system: {
-        slug: `me-shield-regen-mod-t${mod.tier}`,
-        description: {
-          value: `<p>Boosts kinetic shield recharge rate by <strong>+${mod.pct}%</strong> (base 10 → ${Math.round(10 * mod.mult)} HP/turn).</p>`
-            + `<p>Only one Shield Regen Mod can be installed at a time.</p>`,
-        },
-        level:   { value: mod.level },
-        price:   { value: { sp: mod.price } },
-        bulk:    { value: 0 },
-        equipped: { carryType: 'worn', inSlot: true },
-        usage:   { value: 'other' },
-        traits:  { value: [], rarity: 'common' },
-        rules:   [],
-      },
-    });
-  }
-
-  ui.notifications.info(`ME Shields | Created ${REGEN_MOD_TIERS.length} Shield Regen Mod items.`);
-}
-
-async function createArmorFrameItems() {
-  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can create armor frame items.');
-
-  let folder = game.folders.find(f => f.name === 'Mass Effect Armor' && f.type === 'Item');
-  if (!folder) folder = await Folder.create({ name: 'Mass Effect Armor', type: 'Item', color: '#90a4ae' });
-
-  for (const tier of ARMOR_FRAME_TIERS) {
-    await Item.create({
-      name: tier.name,
-      type: 'effect',
-      img: 'icons/magic/defensive/shield-barrier-blue.webp',
-      folder: folder.id,
-      flags: { [MODULE_ID]: { armorMax: tier.ap } },
-      system: {
-        slug: `me-armor-frame-t${tier.tier}`,
-        description: {
-          value: `<p>An ablative combat armor frame providing <strong>${tier.ap} Armor Points</strong>.</p>`
-            + `<p>Armor Points absorb damage that gets through shields, before it reaches your HP. The frame is destroyed when all Armor Points are depleted.</p>`
-            + `<p><strong>Incendiary Rounds</strong> burn through armor 50% faster. <strong>Phasic Rounds</strong> bypass the armor frame entirely. <strong>Armor-Piercing Rounds</strong> allow 50% of damage to bleed through to shields/HP.</p>`,
-        },
-        duration: { value: -1, unit: 'unlimited', expiry: null },
-        badge: { type: 'counter', value: tier.ap, max: tier.ap, label: 'Armor Points' },
-        rules: [],
-      },
-    });
-  }
-
-  ui.notifications.info(`ME Shields | Created ${ARMOR_FRAME_TIERS.length} Combat Armor Frame items.`);
-}
-
-async function createAmmoActionItems() {
-  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can create ammo action items.');
-
-  let folder = game.folders.find(f => f.name === 'Mass Effect Ammo Powers' && f.type === 'Item');
-  if (!folder) folder = await Folder.create({ name: 'Mass Effect Ammo Powers', type: 'Item', color: '#ff6f00' });
-
-  for (const ammo of AMMO_DEFS) {
-    // Build DamageDice rule element (omit for ammo types with no bonus dice)
-    const rules = ammo.rules ?? (ammo.diceNum > 0 ? [{
-      key: 'DamageDice',
-      selector: 'strike-damage',
-      diceNumber: ammo.diceNum,
-      dieSize: ammo.dieSz,
-      damageType: ammo.damageType,
-      label: ammo.name,
-    }] : []);
-
-    // Create the effect item first so we can reference its ID in the action
-    const effect = await Item.create({
-      name: ammo.name,
-      type: 'effect',
-      img: ammo.img,
-      folder: folder.id,
-      flags: { [MODULE_ID]: { ammoType: ammo.id } },
-      system: {
-        slug: `me-ammo-${ammo.id}`,
-        description: { value: ammo.description },
-        duration: { value: -1, unit: 'unlimited', expiry: null },
-        rules,
-      },
-    });
-
-    const selfEffect = { uuid: `Item.${effect.id}`, name: ammo.name };
-
-    const actionDesc = `<p>You load ${ammo.name.toLowerCase()} into your weapon. ${ammo.description.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()}</p>`;
-
-    // PC feat action
-    await Item.create({
-      name: `Load ${ammo.name}`,
-      type: 'feat',
-      img: ammo.img,
-      folder: folder.id,
-      flags: { [MODULE_ID]: { ammoType: ammo.id } },
-      system: {
-        slug: `me-load-${ammo.id}`,
-        description: { value: actionDesc },
-        rules: [],
-        category: 'classfeature',
-        level: { value: 1 },
-        traits: { otherTags: ['ammo-power'], value: [] },
-        actionType: { value: 'action' },
-        actions: { value: 1 },
-        selfEffect,
-      },
-    });
-  }
-
-  ui.notifications.info(`ME Shields | Created ${AMMO_DEFS.length} ammo power items.`);
-}
-
-// ── AUTO-SYNC ─────────────────────────────────────────────────────────────────
+// ── LEGACY CLEANUP ────────────────────────────────────────────────────────────
+// All module items (shields, barriers, armor frames, ammo) now live in the
+// me-shields and me-ammo-powers compendiums. If old world items from a previous
+// sync() run are present they can be removed with MassEffectShields.sync().
 
 async function syncEffects(version, { force = false } = {}) {
-  const lastVersion = game.settings.get(MODULE_ID, 'lastSyncedVersion');
-  if (!force && lastVersion === MODULE_DATA_VERSION) return;
-
-  console.log(`ME Shields | Syncing effects (data v${MODULE_DATA_VERSION}, module v${version})…`);
+  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can run sync.');
+  console.log(`ME Shields | Removing legacy world items (module v${version})…`);
 
   const stale = game.items.filter(i => {
     const f = i.flags?.[MODULE_ID];
@@ -1021,7 +940,8 @@ async function syncEffects(version, { force = false } = {}) {
       f.regenMult     != null ||
       f.shieldHpBonus != null ||
       f.armorMax      != null ||
-      f.ammoType      != null
+      f.ammoType      != null ||
+      f.ammoFeat      != null
     );
   });
   for (const item of stale) await item.delete();
@@ -1031,15 +951,9 @@ async function syncEffects(version, { force = false } = {}) {
     if (folder && folder.contents.length === 0) await folder.delete();
   }
 
-  await createShieldEffects();
-  await createBarrierEffects();
-  await createBarrierActionItems();
-  await createShieldHpModEffects();
-  await createRegenModEffects();
-  await createArmorFrameItems();
-  await createAmmoActionItems();
-  await game.settings.set(MODULE_ID, 'lastSyncedVersion', MODULE_DATA_VERSION);
-  console.log(`ME Shields | Sync complete.`);
+  const removed = stale.length;
+  ui.notifications.info(`ME Shields | Removed ${removed} legacy world item(s). Items now live in the ME Shields & Armor and ME Ammo Powers compendiums.`);
+  console.log(`ME Shields | Sync complete — ${removed} legacy items removed.`);
 }
 
 // ── DEBUG UTILITY ─────────────────────────────────────────────────────────────
@@ -1081,16 +995,27 @@ function debugShields(actor) {
   console.groupEnd();
 }
 
+// Removes any stuck "Load X Rounds" feat items from all world actors.
+// Call once after sync() to clean up old classfeature/bonus feats.
+async function cleanAmmoFeats() {
+  if (!game.user.isGM) return ui.notifications.warn('ME Shields | Only the GM can run cleanAmmoFeats.');
+  let removed = 0;
+  for (const actor of game.actors.contents) {
+    const stuck = actor.items.filter(i => i.type === 'feat' && i.flags?.[MODULE_ID]?.ammoType != null);
+    for (const item of stuck) {
+      await item.delete();
+      removed++;
+    }
+  }
+  ui.notifications.info(`ME Shields | Removed ${removed} stuck ammo feat(s) from world actors.`);
+  console.log(`ME Shields | cleanAmmoFeats removed ${removed} item(s).`);
+}
+
 // ── PUBLIC API ────────────────────────────────────────────────────────────────
 
 globalThis.MassEffectShields = {
-  createShieldEffects,
-  createBarrierEffects,
-  createBarrierActionItems,
-  createShieldHpModEffects,
-  createRegenModEffects,
-  createArmorFrameItems,
-  createAmmoActionItems,
-  sync:  (force = false) => syncEffects(game.modules.get(MODULE_ID)?.version ?? '?', { force }),
-  debug: debugShields,
+  sync:             () => syncEffects(game.modules.get(MODULE_ID)?.version ?? '?'),
+  debug:            debugShields,
+  refreshTokenBars: refreshMETokenBars,
+  cleanAmmoFeats,
 };

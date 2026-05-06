@@ -1,0 +1,58 @@
+{
+  "_key": "!items!meClassAdept0000",
+  "_id": "meClassAdept0000",
+  "folder": null,
+  "name": "Adept",
+  "type": "feat",
+  "img": "icons/magic/light/orb-shining-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-class-adept",
+    "description": {
+      "gm": "",
+      "value": "<p>The most powerful biotic class in the galaxy, Adepts use mass effect fields to dominate, suspend, and destroy enemies with devastating efficiency. Their biotic combos — particularly the Biotic Explosion chain — are the most powerful burst damage in the game.</p><p><strong>Bonus:</strong> +2 circumstance bonus to Fortitude saves (years of biotic conditioning hardens the body against physical trauma).</p><hr><p><strong>Signature Abilities:</strong> Singularity, Warp, Throw, Stasis, Pull, Dark Channel, Dominate</p><p><strong>Power Access:</strong> All biotic powers (<em>ME Biotic Powers</em> compendium). Adepts do not natively access tech power feats.</p><p><strong>Weapons:</strong> Pistols and submachine guns only. Adepts depend on powers, not guns.</p><p><strong>Armor:</strong> Light armor only. Biotic Barrier compensates for the lack of physical protection.</p><p><strong>Playstyle:</strong> Crowd control and combo detonation. An Adept's power is in setup — priming multiple enemies simultaneously with Singularity, then detonating with Throw or Warp for cascading Biotic Explosions. Fragile without their barrier up; devastating when they control positioning.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "type": "circumstance",
+        "value": 2,
+        "label": "Biotic Conditioning"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature"
+  }
+}

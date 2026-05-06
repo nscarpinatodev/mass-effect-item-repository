@@ -1,0 +1,54 @@
+{
+  "_key": "!items!meTechOverload00",
+  "_id": "meTechOverload00",
+  "folder": null,
+  "name": "Overload",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-tech-overload",
+    "description": {
+      "gm": "",
+      "value": "<p>You fire a concentrated electromagnetic pulse that shreds kinetic shields and fries synthetic circuitry.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC. Electricity damage dealt to kinetic shields is doubled by the shield system.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d8 electricity</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d8 electricity</strong> damage. Synthetic or mech creatures take an additional <strong>1d8 electricity</strong> damage.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d8 electricity</strong> damage (plus the synthetic bonus). The target is also <strong>Stunned 1</strong>.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "electricity",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

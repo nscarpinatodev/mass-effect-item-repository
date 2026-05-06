@@ -3,7 +3,7 @@
   "name": "M-5 Phalanx",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/a/ae/ME3_Phalanx_Heavy_Pistol.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Phalanx_Heavy_Pistol.png",
   "flags": {},
   "ownership": {
     "default": 0

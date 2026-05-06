@@ -3,7 +3,7 @@
   "name": "Recharge Module I",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/51/ME3_SMG_Heat_Sink.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_SMG_Heat_Sink.png",
   "flags": {},
   "ownership": {
     "default": 0

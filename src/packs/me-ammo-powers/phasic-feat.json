@@ -1,0 +1,60 @@
+{
+  "_key": "!items!meAmmoPhasicFeat",
+  "_id": "meAmmoPhasicFeat",
+  "folder": null,
+  "name": "Phasic Rounds",
+  "type": "feat",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b5/Phasic_Rounds_MP.png",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "ammoFeat": "phasic"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-feat-phasic",
+    "description": {
+      "gm": "",
+      "value": "<p>You have been trained in the use of phasic rounds. This feat grants you the ability to load your weapon with this special ammunition as a single action.</p><p>Rounds coated in a mass effect field that disrupts ablative plating. Your weapon attacks deal an additional <strong>1d4 force damage</strong>.</p><p>Phasic rounds bypass Combat Armor Frames entirely — damage goes directly to shields and HP. However, the phasing effect reduces total damage dealt to <strong>60%</strong>.</p><p>Remove this effect to return to standard ammunition.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "ammo-power"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-ammo-powers.Item.meAmmoPhasicEff0",
+      "name": "Phasic Rounds"
+    }
+  }
+}

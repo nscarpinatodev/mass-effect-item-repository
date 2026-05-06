@@ -3,7 +3,7 @@
   "_id": "MECRT00000000012",
   "name": "Varren",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/63/Codex_ME_-_Varren.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Codex_ME_-_Varren.png",
   "system": {
     "attributes": {
       "hp": {
@@ -129,7 +129,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/6/63/Codex_ME_-_Varren.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Codex_ME_-_Varren.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

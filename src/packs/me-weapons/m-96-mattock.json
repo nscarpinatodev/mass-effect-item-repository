@@ -3,7 +3,7 @@
   "name": "M-96 Mattock",
   "type": "weapon",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/93/ME3_Mattock_Assault_Rifle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME3_Mattock_Assault_Rifle.png",
   "flags": {},
   "ownership": {
     "default": 0

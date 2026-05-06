@@ -1,0 +1,53 @@
+{
+  "_key": "!items!meBioticSlam0000",
+  "_id": "meBioticSlam0000",
+  "folder": null,
+  "name": "Slam",
+  "type": "feat",
+  "img": "icons/magic/earth/spike-stone-attack-orange.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-slam",
+    "description": {
+      "gm": "",
+      "value": "<p>You seize a target with a biotic field, lift them helplessly into the air, then slam them into the ground with crushing force.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 bludgeoning</strong> damage and is moved 5 feet in any direction.</p><p><strong>Failure</strong> The target is lifted 10 feet into the air and then slammed down, taking <strong>3d6 bludgeoning</strong> damage and becoming <strong>Stunned 1</strong> and <strong>Prone</strong>.</p><p><strong>Critical Failure</strong> As failure, but <strong>6d6 bludgeoning</strong>, <strong>Stunned 2</strong>, and the target's movement speed is halved until the end of its next turn.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class"
+  }
+}

@@ -3,7 +3,7 @@
   "name": "Omni-Blade",
   "type": "equipment",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/6/6a/ME3_Assault_Rifle_Omni-Blade.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/weapon-mods/ME3_Assault_Rifle_Omni-Blade.png",
   "flags": {},
   "ownership": {
     "default": 0

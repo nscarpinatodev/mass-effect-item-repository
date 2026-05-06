@@ -3,7 +3,7 @@
   "name": "Predator Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/04/Heavy-human-Predator.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Predator.png",
   "flags": {},
   "ownership": {
     "default": 0

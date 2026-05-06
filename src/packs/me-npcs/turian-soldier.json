@@ -394,7 +394,7 @@
       "_id": "3d2a1cf645058f03",
       "name": "M-15 Vindicator",
       "type": "weapon",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/7/75/ME2_AR_-_Vindicator.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_AR_-_Vindicator.png",
       "system": {
         "description": {
           "gm": "",
@@ -502,7 +502,7 @@
       "_id": "1556ddc93b1616c0",
       "name": "Mercenary Armor (H)",
       "type": "armor",
-      "img": "https://static.wikia.nocookie.net/masseffect/images/7/76/Heavy-human-Mercenary.png",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Mercenary.png",
       "system": {
         "description": {
           "gm": "",

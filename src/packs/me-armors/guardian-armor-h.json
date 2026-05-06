@@ -3,7 +3,7 @@
   "name": "Guardian Armor (H)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/08/Heavy-human-Guardian.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Heavy-human-Guardian.png",
   "flags": {},
   "ownership": {
     "default": 0

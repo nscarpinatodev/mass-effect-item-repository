@@ -1,0 +1,60 @@
+{
+  "_key": "!items!meAmmoShredFeat0",
+  "_id": "meAmmoShredFeat0",
+  "folder": null,
+  "name": "Shredder Rounds",
+  "type": "feat",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/95/Shredderammo.png",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "ammoFeat": "shredder"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-feat-shredder",
+    "description": {
+      "gm": "",
+      "value": "<p>You have been trained in the use of shredder rounds. This feat grants you the ability to load your weapon with this special ammunition as a single action.</p><p>Serrated flechette rounds designed to shred unprotected tissue. Your weapon attacks deal an additional <strong>1d6 slashing damage</strong>.</p><p>Most effective against targets with no active shields, barriers, or armor.</p><p>Remove this effect to return to standard ammunition.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "ammo-power"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-ammo-powers.Item.meAmmoShredEff00",
+      "name": "Shredder Rounds"
+    }
+  }
+}

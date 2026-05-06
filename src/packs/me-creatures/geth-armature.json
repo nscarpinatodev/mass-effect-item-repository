@@ -1,7 +1,7 @@
 {
   "name": "Geth Armature",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/d/d0/Geth_armature_enemy_box.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Geth_armature_enemy_box.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/d/d0/Geth_armature_enemy_box.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Geth_armature_enemy_box.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -285,12 +285,12 @@
       "_key": "!actors.items!c5a097839c2f4d69.c26da1c2be439b67"
     },
     {
-      "_id": "071ab5daf47bc0f8",
-      "name": "Composite Armor Plating",
+      "_id": "365aad4133eb2e06",
+      "name": "Heavy Combat Frame",
       "type": "effect",
-      "img": "systems/pf2e/icons/equipment/armor/plate-armor.webp",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/icons/combat-armor-frame.png",
       "system": {
-        "slug": "npc-geth-armor-armature",
+        "slug": "me-armor-frame-t3",
         "duration": {
           "value": -1,
           "unit": "unlimited",
@@ -298,8 +298,8 @@
         },
         "badge": {
           "type": "counter",
-          "value": 40,
-          "max": 40,
+          "value": 100,
+          "max": 100,
           "label": "Armor Points"
         },
         "rules": [],
@@ -323,14 +323,14 @@
       "sort": 300000,
       "flags": {
         "mass-effect-sf2e-conversion": {
-          "armorMax": 40,
-          "armorCurrent": 40
+          "armorMax": 100,
+          "armorCurrent": 100
         }
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!c5a097839c2f4d69.071ab5daf47bc0f8"
+      "_key": "!actors.items!c5a097839c2f4d69.365aad4133eb2e06"
     }
   ],
   "_id": "c5a097839c2f4d69",

@@ -1,7 +1,7 @@
 {
   "name": "UT-47A Kodiak Shuttle",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/9/99/ME2_Kodiak_Shuttle.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/vehicles/ME2_Cerberus_Kodiak_Shuttle.png",
   "folder": null,
   "flags": {},
   "ownership": {
@@ -14,7 +14,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/9/99/ME2_Kodiak_Shuttle.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/vehicles/ME2_Cerberus_Kodiak_Shuttle.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

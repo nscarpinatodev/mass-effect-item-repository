@@ -1,0 +1,56 @@
+{
+  "_key": "!items!meAmmoPhasicEff0",
+  "_id": "meAmmoPhasicEff0",
+  "folder": null,
+  "name": "Phasic Rounds",
+  "type": "effect",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/b5/Phasic_Rounds_MP.png",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "ammoType": "phasic"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-ammo-phasic",
+    "description": {
+      "gm": "",
+      "value": "<p>Rounds coated in a mass effect field that disrupts ablative plating. Your weapon attacks deal an additional <strong>1d4 force damage</strong>.</p><p>Phasic rounds bypass Combat Armor Frames entirely — damage goes directly to shields and HP. However, the phasing effect reduces total damage dealt to <strong>60%</strong>.</p><p>Remove this effect to return to standard ammunition.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "damageType": "force",
+        "label": "Phasic Rounds"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null
+    },
+    "badge": null
+  }
+}

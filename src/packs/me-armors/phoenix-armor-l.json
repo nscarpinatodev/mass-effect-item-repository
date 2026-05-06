@@ -3,7 +3,7 @@
   "name": "Phoenix Armor (L)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/5/51/Light-human-Phoenix.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Phoenix.png",
   "flags": {},
   "ownership": {
     "default": 0

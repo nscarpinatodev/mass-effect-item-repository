@@ -3,7 +3,7 @@
   "name": "Explorer Armor (M)",
   "type": "armor",
   "effects": [],
-  "img": "https://static.wikia.nocookie.net/masseffect/images/0/08/Medium-human-Explorer.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Medium-human-Explorer.png",
   "flags": {},
   "ownership": {
     "default": 0

@@ -1,0 +1,56 @@
+{
+  "_key": "!items!meAmmoCryoEff000",
+  "_id": "meAmmoCryoEff000",
+  "folder": null,
+  "name": "Cryo Rounds",
+  "type": "effect",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/9/94/ME3_Cryo_Ammo.png",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "ammoType": "cryo"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-ammo-cryo",
+    "description": {
+      "gm": "",
+      "value": "<p>Cryogenically-charged rounds that flash-freeze on impact. Your weapon attacks deal an additional <strong>1d4 cold damage</strong>.</p><p>When Cryo Rounds deal direct HP damage, the target becomes <strong>Chilled</strong> (off-guard until the end of their next turn).</p><p>Remove this effect to return to standard ammunition.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "damageType": "cold",
+        "label": "Cryo Rounds"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null
+    },
+    "badge": null
+  }
+}

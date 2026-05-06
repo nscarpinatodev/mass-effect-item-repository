@@ -1,0 +1,60 @@
+{
+  "_key": "!items!meAmmoAPierceFt0",
+  "_id": "meAmmoAPierceFt0",
+  "folder": null,
+  "name": "Armor-Piercing Rounds",
+  "type": "feat",
+  "img": "https://static.wikia.nocookie.net/masseffect/images/b/bc/ME3_Armor_Piercing_Ammo.png",
+  "effects": [],
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "ammoFeat": "armor-piercing"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-feat-armor-piercing",
+    "description": {
+      "gm": "",
+      "value": "<p>You have been trained in the use of armor-piercing rounds. This feat grants you the ability to load your weapon with this special ammunition as a single action.</p><p>Hard alloy sabot rounds designed to penetrate ablative armor plating. These rounds add no bonus damage type.</p><p>When striking a target with an active Combat Armor Frame, 50% of the incoming HP damage bypasses the armor entirely and is dealt directly to shields and HP.</p><p>Remove this effect to return to standard ammunition.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "ammo-power"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-ammo-powers.Item.meAmmoAPierceEff",
+      "name": "Armor-Piercing Rounds"
+    }
+  }
+}

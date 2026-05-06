@@ -3,7 +3,7 @@
   "_id": "MECRT00000000002",
   "name": "Abomination",
   "type": "npc",
-  "img": "https://static.wikia.nocookie.net/masseffect/images/7/72/Abomination.png",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Abomination.png",
   "system": {
     "attributes": {
       "hp": {
@@ -114,7 +114,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "https://static.wikia.nocookie.net/masseffect/images/7/72/Abomination.png",
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/Abomination.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
