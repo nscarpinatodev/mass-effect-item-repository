@@ -79,7 +79,10 @@
       "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('Beacon of Hope'\\); if \\($idx -ge 0\\) { $content.Substring\\([Math]::Max\\(0,$idx-50\\), [Math]::Min\\(5000, $content.Length-$idx\\)\\) } else { \"Not found\" })",
       "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('\"Beacon of Hope\"\\) {'\\); if \\($idx -ge 0\\) { $content.Substring\\([Math]::Max\\(0,$idx\\), [Math]::Min\\(6000, $content.Length-$idx\\)\\) } else { \"Not found\" })",
       "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('useTier'\\); $content.Substring\\([Math]::Max\\(0,$idx\\), [Math]::Min\\(6000, $content.Length-$idx\\)\\))",
-      "Bash(awk '{print length\\($0\\), $0}')"
+      "Bash(awk '{print length\\($0\\), $0}')",
+      "Bash(node --check \"c:/Users/djsco/OneDrive/Documents/GitHub/mass-effect-item-repository/scripts/paragon-renegade.js\")",
+      "WebFetch(domain:www.color-hex.com)",
+      "WebFetch(domain:www.gameuidatabase.com)"
     ],
     "additionalDirectories": [
       "C:\\Users\\djsco\\OneDrive\\Documents\\GitHub\\mass-effect-item-repository"

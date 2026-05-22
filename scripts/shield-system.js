@@ -23,6 +23,20 @@
 
 const MODULE_ID = 'mass-effect-sf2e-conversion';
 
+console.log(
+  '%cMASS EFFECT%c Compendium  |  Initializing module...',
+  [
+    'color:#4ab8ff',
+    'font-size:3em',
+    'font-weight:900',
+    'font-family:serif',
+    'letter-spacing:0.08em',
+    'text-shadow:0 0 8px #4ab8ff, 0 0 20px #1a6eff, 2px 2px 0 #003a8c, -2px -2px 0 #00e5ff',
+    'padding:0.2em 0.4em',
+  ].join(';'),
+  'color:#8ecfff;font-size:0.9em;font-weight:400;font-family:monospace;'
+);
+
 
 // ── AMMO DEFINITIONS ──────────────────────────────────────────────────────────
 
