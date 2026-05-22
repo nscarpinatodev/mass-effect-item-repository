@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meUpgradeIncinr0",
+  "_id": "meUpgradeIncinr0",
+  "folder": null,
+  "name": "Incinerate Upgrade",
+  "type": "feat",
+  "img": "icons/magic/fire/flame-burning-orange.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-upgrade-incinerate",
+    "description": {
+      "gm": "",
+      "value": "<p>You recalibrate your plasma projector for wide-pattern dispersion, turning Incinerate into an area attack.</p><p>Incinerate now targets a <strong>10-foot burst</strong> within 30 feet instead of a single creature. All creatures in the burst make the saving throw. Persistent fire damage applies only to those who critically fail.</p><p><em>Prerequisite: Incinerate. Classes: Engineer, Infiltrator.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Incinerate"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

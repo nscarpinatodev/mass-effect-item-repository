@@ -14,7 +14,7 @@
     "slug": "me-class-adept",
     "description": {
       "gm": "",
-      "value": "<p>The most powerful biotic class in the galaxy, Adepts use mass effect fields to dominate, suspend, and destroy enemies with devastating efficiency. Their biotic combos — particularly the Biotic Explosion chain — are the most powerful burst damage in the game.</p><p><strong>Bonus:</strong> +2 circumstance bonus to Fortitude saves (years of biotic conditioning hardens the body against physical trauma).</p><hr><p><strong>Signature Abilities:</strong> Singularity, Warp, Throw, Stasis, Pull, Dark Channel, Dominate</p><p><strong>Power Access:</strong> All biotic powers (<em>ME Biotic Powers</em> compendium). Adepts do not natively access tech power feats.</p><p><strong>Weapons:</strong> Pistols and submachine guns only. Adepts depend on powers, not guns.</p><p><strong>Armor:</strong> Light armor only. Biotic Barrier compensates for the lack of physical protection.</p><p><strong>Playstyle:</strong> Crowd control and combo detonation. An Adept's power is in setup — priming multiple enemies simultaneously with Singularity, then detonating with Throw or Warp for cascading Biotic Explosions. Fragile without their barrier up; devastating when they control positioning.</p>"
+      "value": "<p>The most powerful biotic class in the galaxy, Adepts use mass effect fields to dominate, suspend, and destroy enemies with devastating efficiency. Their biotic combos - particularly the Biotic Explosion chain - are the most powerful burst damage in the game.</p><p><strong>Bonus:</strong> +2 circumstance bonus to Fortitude saves (years of biotic conditioning hardens the body against physical trauma).</p><hr><p><strong>Signature Abilities:</strong> Singularity, Warp, Throw, Stasis, Pull, Dark Channel, Dominate</p><p><strong>Power Access:</strong> All biotic powers (<em>ME Biotic Powers</em> compendium). Adepts do not natively access tech power feats.</p><p><strong>Weapons:</strong> Pistols and submachine guns only. Adepts depend on powers, not guns.</p><p><strong>Armor:</strong> Light armor only. Biotic Barrier compensates for the lack of physical protection.</p><p><strong>Playstyle:</strong> Crowd control and combo detonation. An Adept's power is in setup - priming multiple enemies simultaneously with Singularity, then detonating with Throw or Warp for cascading Biotic Explosions. Fragile without their barrier up; devastating when they control positioning.</p>"
     },
     "rules": [
       {
@@ -53,6 +53,14 @@
     "actions": {
       "value": null
     },
-    "category": "classfeature"
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

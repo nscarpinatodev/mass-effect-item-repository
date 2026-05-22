@@ -1,0 +1,76 @@
+{
+  "_key": "!items!meSoldierLgndCbt",
+  "_id": "meSoldierLgndCbt",
+  "folder": null,
+  "name": "Legendary Combat",
+  "type": "feat",
+  "img": "icons/skills/melee/sword-shield-stylized-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-legendary-combat",
+    "description": {
+      "gm": "",
+      "value": "<p>You have reached the pinnacle of personal combat effectiveness. You deal an additional <strong>+2 damage</strong> on all Strikes (stacks with the Combat Training chain) and gain a <strong>+2 circumstance bonus to attack rolls</strong>. Critical hits you score ignore <strong>5 points</strong> of the target's damage resistance.</p><p><em>Prerequisite: Master Combat Training. Classes: Soldier.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 2,
+        "label": "Legendary Combat"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "circumstance",
+        "value": 2,
+        "label": "Legendary Combat"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Master Combat Training"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

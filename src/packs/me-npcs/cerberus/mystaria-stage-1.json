@@ -1,0 +1,460 @@
+﻿{
+  "name": "Mystaria — Stage I",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/mystaria.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Mystaria",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/mystaria.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "mystaria-stage-1",
+    "details": {
+      "level": {
+        "value": 3
+      },
+      "publicNotes": "<p>Mystaria is at the first stage of Cerberus augmentation — a promising operative whose natural agility and combat instincts made her a candidate for the Phantom program. Her cybernetics are minimal but effective: enhanced reflexes, hardened skeletal plating, and a prototype phase cloak implant that requires full regeneration between uses. She fights with a plasma sword and hold-out pistol, relying on ambush and precision over sustained firepower.</p><p><strong>Sneak Attack:</strong> Mystaria deals an extra 1d6 precision damage to Off-Guard creatures.</p><p><strong>Phantom Cloak (1 action, 1/encounter):</strong> Mystaria activates her prototype phase cloak, becoming Invisible until the end of her next turn or until she makes a Strike.</p><p><strong>Kinetic Barrier:</strong> 30 Shield HP. Recharges 10 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [
+          "asari",
+          "common",
+          "elcor",
+          "hanar",
+          "salarian",
+          "turian"
+        ],
+        "details": ""
+      },
+      "blurb": "Cerberus operative at the start of her augmentation program; agile infiltrator with prototype phase cloak."
+    },
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45,
+        "temp": 30,
+        "details": ""
+      },
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "evil",
+        "human",
+        "humanoid"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "unique"
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 7,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "stealth": {
+        "base": 12
+      },
+      "acrobatics": {
+        "base": 10
+      },
+      "piloting": {
+        "base": 8
+      },
+      "intimidation": {
+        "base": 6
+      },
+      "athletics": {
+        "base": 6
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 10,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "mys1sw0000000001",
+      "name": "Plasma Sword",
+      "type": "melee",
+      "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+      "system": {
+        "slug": "mystaria-plasma-sword",
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d8+3",
+            "damageType": "fire"
+          }
+        },
+        "traits": {
+          "value": [
+            "critical-plasma",
+            "powered",
+            "tech"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>A powered plasma blade that erupts with superheated fire on a critical hit.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1f2a3b4c5d60001.mys1sw0000000001"
+    },
+    {
+      "_id": "mys1ps0000000001",
+      "name": "Light Pistol",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "mystaria-pistol",
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d4+2",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 30
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "concealable"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1f2a3b4c5d60001.mys1ps0000000001"
+    },
+    {
+      "_id": "mys1cl0000000001",
+      "name": "Phantom Cloak",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "mystaria-phantom-cloak-1",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "description": {
+          "value": "<p>Mystaria activates her prototype phase cloak, becoming Invisible until the end of her next turn or until she makes a Strike. The prototype unit requires full recharge between encounters. 1/encounter.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "concentrate",
+            "tech"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1f2a3b4c5d60001.mys1cl0000000001"
+    },
+    {
+      "_id": "mys1sa0000000001",
+      "name": "Sneak Attack",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "system": {
+        "slug": "mystaria-sneak-attack",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p>Mystaria deals an extra <strong>1d6</strong> precision damage to Off-Guard creatures.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": []
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1f2a3b4c5d60001.mys1sa0000000001"
+    },
+    {
+      "_id": "mys1sh0000000001",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1f2a3b4c5d60001.mys1sh0000000001"
+    }
+  ],
+  "_id": "e1f2a3b4c5d60001",
+  "_key": "!actors!e1f2a3b4c5d60001",
+  "effects": []
+}

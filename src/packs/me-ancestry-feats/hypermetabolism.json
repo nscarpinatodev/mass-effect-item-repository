@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Salarian metabolic processes operate at several times the rate of most other species. Their hearts beat faster, their reflexes engage more quickly, and their minds process sensory information in bursts that would be overwhelming to a slower brain. This comes with real costs—salarians need to eat and drink more frequently and burn through their 40-year lifespan at a pace that leaves them looking middle-aged before they are 30—but the tactical advantages in reaction speed and mental throughput are undeniable.</p><p>You require only 1 hour of sleep per day (rather than 8) and are immune to the <em>sleep</em> condition. You gain a +2 circumstance bonus to initiative rolls.</p>"
+      "value": "<p>Salarian metabolic processes operate at several times the rate of most other species. Their hearts beat faster, their reflexes engage more quickly, and their minds process sensory information in bursts that would be overwhelming to a slower brain. This comes with real costs-salarians need to eat and drink more frequently and burn through their 40-year lifespan at a pace that leaves them looking middle-aged before they are 30-but the tactical advantages in reaction speed and mental throughput are undeniable.</p><p>You require only 1 hour of sleep per day (rather than 8) and are immune to the <em>sleep</em> condition. You gain a +2 circumstance bonus to initiative rolls.</p>"
     },
     "level": {
       "value": 0
@@ -48,7 +48,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

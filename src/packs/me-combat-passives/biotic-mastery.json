@@ -1,0 +1,60 @@
+{
+  "_key": "!items!meCPBioticMast00",
+  "_id": "meCPBioticMast00",
+  "folder": null,
+  "name": "Biotic Mastery",
+  "type": "feat",
+  "img": "icons/magic/light/orb-shining-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-biotic-mastery",
+    "description": {
+      "gm": "",
+      "value": "<p>Refined biotic focus reduces the effort required to shape mass effect fields. All biotic powers you use have their action cost <strong>reduced by 1</strong> (minimum 1 action).</p><p><em>Classes: Adept, Vanguard, Sentinel.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

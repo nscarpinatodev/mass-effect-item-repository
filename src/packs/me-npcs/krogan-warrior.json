@@ -40,7 +40,7 @@
         "value": 5
       },
       "blurb": "Elite krogan combat specialist",
-      "publicNotes": "<p>A krogan warrior who has survived long enough to be genuinely dangerous—which means they have survived things that killed most of their contemporaries. Krogan warriors become more effective as they take damage; their redundant biology and combat adrenaline response makes them progressively harder to stop the more hurt they are.</p><p><strong>Krogan Fortitude:</strong> Fast healing 2 while below half HP.</p><p><strong>Blood Rage:</strong> When reduced below half HP, gains 8 temporary HP and deals +1d6 damage on melee Strikes until end of next turn.</p><p><strong>Headbutt:</strong> On a critical hit, target must succeed DC 22 Fortitude or be stunned 1.</p><p><strong>Kinetic Barrier:</strong> 50 Shield HP. Recharges 15 HP per turn.</p>",
+      "publicNotes": "<p>A krogan warrior who has survived long enough to be genuinely dangerous-which means they have survived things that killed most of their contemporaries. Krogan warriors become more effective as they take damage; their redundant biology and combat adrenaline response makes them progressively harder to stop the more hurt they are.</p><p><strong>Krogan Fortitude:</strong> Fast healing 2 while below half HP.</p><p><strong>Blood Rage:</strong> When reduced below half HP, gains 8 temporary HP and deals +1d6 damage on melee Strikes until end of next turn.</p><p><strong>Headbutt:</strong> On a critical hit, target must succeed DC 22 Fortitude or be stunned 1.</p><p><strong>Kinetic Barrier:</strong> 50 Shield HP. Recharges 15 HP per turn.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Actor and Ancestry Compendium",
@@ -399,7 +399,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The M-300 Claymore is the most powerful shotgun available to ground troops in Cerberus's arsenal. A single-shot weapon of staggering lethality, it fires a dense kinetic slug capable of piercing vehicle-grade armor at point-blank range. The recoil is severe enough to require Krogan physiology or specialized shock-absorbing harnesses — for everyone else, it is a weapon of last resort and absolute commitment.</p>"
+          "value": "<p>The M-300 Claymore is the most powerful shotgun available to ground troops in Cerberus's arsenal. A single-shot weapon of staggering lethality, it fires a dense kinetic slug capable of piercing vehicle-grade armor at point-blank range. The recoil is severe enough to require Krogan physiology or specialized shock-absorbing harnesses - for everyone else, it is a weapon of last resort and absolute commitment.</p>"
         },
         "rules": [],
         "slug": "m-300-claymore",

@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A longer barrel with an extended kinetic acceleration chamber that increases the muzzle velocity of outgoing rounds. The additional distance allows the mass effect coils more time to impart momentum, resulting in harder-hitting impacts across all fire modes. Compatible with any ranged weapon. Grants a +1 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A longer barrel with an extended kinetic acceleration chamber that increases the muzzle velocity of outgoing rounds. The additional distance allows the mass effect coils more time to impart momentum, resulting in harder-hitting impacts across all fire modes. Compatible with any ranged weapon. Grants a +1 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "extended-barrel-1",

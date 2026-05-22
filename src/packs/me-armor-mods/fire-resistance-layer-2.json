@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A reinforced thermal protection system using active heat-sink channels that continuously wick thermal energy away from vulnerable suit components. Provides meaningful protection against even the heaviest incendiary ordnance and sustained flamethrower exposure. Provides resistance 10 to fire damage.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A reinforced thermal protection system using active heat-sink channels that continuously wick thermal energy away from vulnerable suit components. Provides meaningful protection against even the heaviest incendiary ordnance and sustained flamethrower exposure. Provides resistance 10 to fire damage.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "fire-resistance-layer-2",

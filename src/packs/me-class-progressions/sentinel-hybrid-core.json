@@ -1,0 +1,65 @@
+{
+  "_key": "!items!meSentinelHybrid",
+  "_id": "meSentinelHybrid",
+  "folder": null,
+  "name": "Hybrid Core",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sentinel-hybrid-core",
+    "description": {
+      "gm": "",
+      "value": "<p>Your dual biotic-tech training has fused at a deep level, letting your powers amplify each other when used in sequence.</p><p>When you use a biotic power and then a tech power (or vice versa) within the same turn, your second power deals <strong>+1d6 void damage</strong> in addition to its normal effects. This bonus applies once per turn.</p><p><em>Prerequisite: Sentinel Mastery. Classes: Sentinel.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Sentinel Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

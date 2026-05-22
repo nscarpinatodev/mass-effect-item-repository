@@ -1,0 +1,222 @@
+{
+  "name": "Liara T'Soni",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/liara.png",
+  "folder": null,
+  "flags": {},
+  "ownership": { "default": 0 },
+  "prototypeToken": {
+    "name": "Liara T'Soni",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1, "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/liara.png",
+      "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0,
+      "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0,
+      "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
+      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+  },
+  "system": {
+    "slug": "liara-tsoni",
+    "details": {
+      "level": { "value": 10 },
+      "publicNotes": "<p>Dr. Liara T'Soni is an asari archaeologist specializing in Prothean ruins and, later, the galaxy's foremost information broker as the Shadow Broker. She is a powerful biotic and a keen intellect, combining battlefield control with deep scientific knowledge. Her biotics can immobilize, hurl, and shred opponents with equal ease.</p><p><strong>Warp (2 actions):</strong> One target within 60 feet takes 3d10+6 force damage (DC 28 Will for half). On a critical failure, the target is Weakened 2 until the end of its next turn.</p><p><strong>Singularity (3 actions, 1/encounter):</strong> A 15-foot burst within 60 feet. All creatures in the area must succeed on a DC 28 Reflex save or be pulled to the center and Restrained for 1 round.</p><p><strong>Stasis (2 actions, 1/encounter):</strong> One target within 60 feet must succeed on a DC 28 Will save or be Stunned 2.</p><p><strong>Kinetic Barrier:</strong> 50 Shield HP. Recharges 15 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
+      "languages": { "value": [], "details": "" },
+      "blurb": "Asari archaeologist, biotic powerhouse, and galaxy-spanning information broker (Shadow Broker)."
+    },
+    "attributes": {
+      "hp": { "value": 160, "max": 160, "temp": 50, "details": "" },
+      "ac": { "value": 27, "details": "" },
+      "speed": { "value": 30, "details": "" }
+    },
+    "traits": {
+      "value": ["humanoid", "asari", "unique"],
+      "size": { "value": "med" },
+      "rarity": "unique"
+    },
+    "abilities": {
+      "str": { "mod": 1 }, "dex": { "mod": 4 }, "con": { "mod": 3 },
+      "int": { "mod": 6 }, "wis": { "mod": 5 }, "cha": { "mod": 6 }
+    },
+    "saves": {
+      "fortitude": { "value": 18, "saveDetail": "" },
+      "reflex": { "value": 19, "saveDetail": "" },
+      "will": { "value": 24, "saveDetail": "" }
+    },
+    "skills": {
+      "arcana": { "base": 26 },
+      "diplomacy": { "base": 22 },
+      "computers": { "base": 22 },
+      "medicine": { "base": 20 }
+    },
+    "_migration": { "version": null, "previous": null },
+    "perception": { "details": "", "mod": 22, "senses": [], "vision": true },
+    "resources": {},
+    "initiative": { "statistic": "perception" }
+  },
+  "items": [
+    {
+      "_id": "liaraw0000000001",
+      "name": "M-5 Phalanx",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": { "value": "ranged" },
+        "slug": "liara-phalanx",
+        "bonus": { "value": 20 },
+        "damageRolls": { "0": { "damage": "2d6+6", "damageType": "piercing" } },
+        "range": { "value": 40 },
+        "traits": { "value": ["fatal-d10"] },
+        "attackEffects": { "value": [] },
+        "description": { "value": "", "gm": "" },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 100000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60003.liaraw0000000001"
+    },
+    {
+      "_id": "liaraa0000000001",
+      "name": "Warp",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "liara-warp",
+        "actionType": { "value": "action" },
+        "actions": { "value": 2 },
+        "description": { "value": "<p>One target within 60 feet takes 3d10+6 force damage (DC 28 Will for half). On a critical failure the target is Weakened 2 until the end of its next turn.</p>", "gm": "" },
+        "traits": { "value": ["biotic", "force", "concentrate"] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 200000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60003.liaraa0000000001"
+    },
+    {
+      "_id": "liaraa0000000002",
+      "name": "Singularity",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "liara-singularity",
+        "actionType": { "value": "action" },
+        "actions": { "value": 3 },
+        "description": { "value": "<p>A 15-foot burst within 60 feet. Creatures in the area must succeed on a DC 28 Reflex save or be pulled to the center and Restrained for 1 round. On a success they are pulled but not Restrained. 1/encounter.</p>", "gm": "" },
+        "traits": { "value": ["biotic", "concentrate"] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 300000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60003.liaraa0000000002"
+    },
+    {
+      "_id": "liaraa0000000003",
+      "name": "Stasis",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "liara-stasis",
+        "actionType": { "value": "action" },
+        "actions": { "value": 2 },
+        "description": { "value": "<p>One target within 60 feet must succeed on a DC 28 Will save or be Stunned 2. 1/encounter.</p>", "gm": "" },
+        "traits": { "value": ["biotic", "concentrate"] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 400000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60003.liaraa0000000003"
+    },
+    {
+      "_id": "liaraph000000001",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": { "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>", "gm": "" },
+        "level": { "value": 1 }, "price": { "value": { "sp": 150 } }, "bulk": { "value": 1 },
+        "equipped": { "carryType": "worn", "inSlot": true },
+        "usage": { "value": "other" },
+        "traits": { "value": [], "rarity": "common" },
+        "rules": [], "_migration": { "version": null, "previous": null },
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 500000,
+      "flags": { "mass-effect-sf2e-conversion": { "shieldMax": 30, "shieldRegen": 10 } },
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60003.liaraph000000001"
+    },
+    {
+      "_id": "liarahm000000001",
+      "name": "Shield HP Mod - Tier 2",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t2",
+        "description": { "value": "<p>Increases kinetic shield capacity by <strong>+20 HP</strong> (base 30 → 50).</p>", "gm": "" },
+        "level": { "value": 6 }, "price": { "value": { "sp": 2500 } }, "bulk": { "value": 0 },
+        "equipped": { "carryType": "worn", "inSlot": true },
+        "usage": { "value": "other" },
+        "traits": { "value": [], "rarity": "common" },
+        "rules": [], "_migration": { "version": null, "previous": null },
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 600000,
+      "flags": { "mass-effect-sf2e-conversion": { "shieldHpBonus": 20 } },
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60003.liarahm000000001"
+    },
+    {
+      "_id": "liaraarm00000001",
+      "name": "Shield Regen Mod - Tier 1",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+      "system": {
+        "slug": "me-shield-regen-mod-t1",
+        "description": { "value": "<p>Boosts kinetic shield recharge rate by <strong>+50%</strong> (base 10 → 15 HP/turn).</p>", "gm": "" },
+        "level": { "value": 5 }, "price": { "value": { "sp": 1500 } }, "bulk": { "value": 0 },
+        "equipped": { "carryType": "worn", "inSlot": true },
+        "usage": { "value": "other" },
+        "traits": { "value": [], "rarity": "common" },
+        "rules": [], "_migration": { "version": null, "previous": null },
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 700000,
+      "flags": { "mass-effect-sf2e-conversion": { "regenMult": 1.5 } },
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60003.liaraarm00000001"
+    }
+  ],
+  "_id": "g1h2i3j4k5l60003",
+  "_key": "!actors!g1h2i3j4k5l60003",
+  "effects": []
+}

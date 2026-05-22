@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Elcor evolved with a rich pheromone-based communication system that still functions as a constant environmental sensor. They detect chemical emotional signals from creatures around them even when those creatures are making no sound and showing no visible body language—an awareness that extends to their own emotional regulation.</p><p>You gain a +1 circumstance bonus to Will saving throws against emotion and fear effects (those with the <em>emotion</em> or <em>fear</em> trait). Additionally, you cannot be deceived by effects that fabricate emotional states through pheromones or chemical means, as you can detect the artificiality of manufactured scent.</p>"
+      "value": "<p>Elcor evolved with a rich pheromone-based communication system that still functions as a constant environmental sensor. They detect chemical emotional signals from creatures around them even when those creatures are making no sound and showing no visible body language-an awareness that extends to their own emotional regulation.</p><p>You gain a +1 circumstance bonus to Will saving throws against emotion and fear effects (those with the <em>emotion</em> or <em>fear</em> trait). Additionally, you cannot be deceived by effects that fabricate emotional states through pheromones or chemical means, as you can detect the artificiality of manufactured scent.</p>"
     },
     "level": {
       "value": 0
@@ -56,7 +56,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

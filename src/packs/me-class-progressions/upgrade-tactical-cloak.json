@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meUpgradeTacClk0",
+  "_id": "meUpgradeTacClk0",
+  "folder": null,
+  "name": "Tactical Cloak Upgrade",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-upgrade-tactical-cloak",
+    "description": {
+      "gm": "",
+      "value": "<p>Advanced cloaking algorithms keep the field stable even through the shock of a weapon discharge.</p><p>Tactical Cloak <strong>does not end when you make your first Strike</strong>. The cloak ends after your <strong>second Strike</strong> while cloaked, or at the start of your next turn, whichever comes first. Both Strikes made while cloaked gain the precision damage bonus.</p><p><em>Prerequisite: Tactical Cloak. Classes: Infiltrator.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Tactical Cloak"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

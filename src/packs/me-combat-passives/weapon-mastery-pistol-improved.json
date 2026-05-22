@@ -1,0 +1,83 @@
+{
+  "_key": "!items!meCPWpnMstPstImp",
+  "_id": "meCPWpnMstPstImp",
+  "folder": null,
+  "name": "Improved Weapon Mastery (Pistols & SMGs)",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-black.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-weapon-mastery-pistol-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Expert pistols & smgs proficiency. You deal <strong>+4 damage</strong> and gain a <strong>+1 circumstance bonus to attack rolls</strong> with pistols & smgs (replaces the +2 damage). You may draw a pistol or SMG as part of the same action used to Strike with it.</p><p><em>Prerequisite: Weapon Mastery (Pistols & SMGs).</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": 4,
+        "predicate": [
+          "item:group:pistol"
+        ],
+        "label": "Weapon Mastery (Pistols & SMGs)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          "item:group:pistol"
+        ],
+        "label": "Weapon Mastery (Pistols & SMGs)"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Weapon Mastery (Pistols & SMGs)"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

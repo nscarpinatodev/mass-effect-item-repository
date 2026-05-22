@@ -1,0 +1,66 @@
+{
+  "_key": "!items!meCPCombatTrain0",
+  "_id": "meCPCombatTrain0",
+  "folder": null,
+  "name": "Combat Training",
+  "type": "feat",
+  "img": "icons/skills/melee/sword-shield-stylized-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-combat-training",
+    "description": {
+      "gm": "",
+      "value": "<p>Intensive combat drills sharpen your offensive fundamentals. You gain a <strong>+1 circumstance bonus to attack rolls</strong>.</p><p><em>Classes: Soldier, Vanguard, Infiltrator.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Combat Training"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

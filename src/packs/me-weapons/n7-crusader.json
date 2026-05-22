@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The N7 Crusader is a precision combat shotgun designed for N7 operatives who must engage heavily armored targets in confined environments where a sniper rifle is impractical. Its single large-bore round does not scatter — it penetrates. The kinetic payload is sufficient to punch through heavy armor, and at the ranges where a shotgun is fired, there is nowhere to dodge. Slow to cycle but absolutely decisive when it connects.</p>"
+      "value": "<p>The N7 Crusader is a precision combat shotgun designed for N7 operatives who must engage heavily armored targets in confined environments where a sniper rifle is impractical. Its single large-bore round does not scatter - it penetrates. The kinetic payload is sufficient to punch through heavy armor, and at the ranges where a shotgun is fired, there is nowhere to dodge. Slow to cycle but absolutely decisive when it connects.</p>"
     },
     "rules": [],
     "slug": "n7-crusader",

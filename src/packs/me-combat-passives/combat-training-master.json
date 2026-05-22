@@ -1,0 +1,76 @@
+{
+  "_key": "!items!meCPCombatTrnMst",
+  "_id": "meCPCombatTrnMst",
+  "folder": null,
+  "name": "Master Combat Training",
+  "type": "feat",
+  "img": "icons/skills/melee/sword-shield-stylized-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-combat-training-master",
+    "description": {
+      "gm": "",
+      "value": "<p>Elite combat discipline across all dimensions. You deal an additional <strong>+2 damage</strong> on all Strikes (total +4 with the chain) and gain a <strong>+1 circumstance bonus to all saving throws</strong> from battlefield awareness.</p><p><em>Prerequisite: Improved Combat Training.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 2,
+        "label": "Master Combat Training"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Master Combat Training"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Combat Training"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

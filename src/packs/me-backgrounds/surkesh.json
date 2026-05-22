@@ -7,7 +7,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The salarian homeworld is a humid jungle world of extraordinary biological complexity — ecosystems dense enough that new species are still being catalogued, and a culture sophisticated enough to be cataloguing them. Sur'Kesh produced the Special Tasks Group, the galaxy's most effective intelligence service, and the scientific methodologies that underpin much of modern research. Growing up here means an instinctive relationship with living systems — their structures, their vulnerabilities, and their potential applications.</p><p>You are trained in Nature and gain the Sur'Kesh Science Lore skill. You boost Intelligence or Dexterity, and gain a free boost.</p>"
+      "value": "<p>The salarian homeworld is a humid jungle world of extraordinary biological complexity - ecosystems dense enough that new species are still being catalogued, and a culture sophisticated enough to be cataloguing them. Sur'Kesh produced the Special Tasks Group, the galaxy's most effective intelligence service, and the scientific methodologies that underpin much of modern research. Growing up here means an instinctive relationship with living systems - their structures, their vulnerabilities, and their potential applications.</p><p>You are trained in Nature and gain the Sur'Kesh Science Lore skill. You boost Intelligence or Dexterity, and gain a free boost.</p>"
     },
     "rules": [],
     "slug": "surkesh",

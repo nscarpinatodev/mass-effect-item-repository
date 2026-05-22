@@ -1,0 +1,83 @@
+{
+  "_key": "!items!meCPWpnMstShgMst",
+  "_id": "meCPWpnMstShgMst",
+  "folder": null,
+  "name": "Master Weapon Mastery (Shotguns)",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-black.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-weapon-mastery-shotgun-master",
+    "description": {
+      "gm": "",
+      "value": "<p>Master-level shotguns proficiency. You deal <strong>+6 damage</strong> and gain a <strong>+2 circumstance bonus to attack rolls</strong> with shotguns (replaces previous bonuses). Critical hits with a shotgun push the target 10 feet and knock them Prone.</p><p><em>Prerequisite: Improved Weapon Mastery (Shotguns).</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": 6,
+        "predicate": [
+          "item:group:shotgun"
+        ],
+        "label": "Weapon Mastery (Shotguns)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "item:group:shotgun"
+        ],
+        "label": "Weapon Mastery (Shotguns)"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Weapon Mastery (Shotguns)"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

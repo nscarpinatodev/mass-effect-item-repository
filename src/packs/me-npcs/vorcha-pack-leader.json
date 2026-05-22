@@ -403,7 +403,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The M-23 Eviscerator fires razor-edged ceramic frags that shred organic matter with brutal efficiency. Produced by Hahne-Kedar for police and security markets, its jagged scatter pattern is specifically designed to maximize tissue damage in close-quarters engagements. Alliance command has expressed concerns about the weapon's use against prisoners of war — a complaint largely ignored by those carrying it.</p>"
+          "value": "<p>The M-23 Eviscerator fires razor-edged ceramic frags that shred organic matter with brutal efficiency. Produced by Hahne-Kedar for police and security markets, its jagged scatter pattern is specifically designed to maximize tissue damage in close-quarters engagements. Alliance command has expressed concerns about the weapon's use against prisoners of war - a complaint largely ignored by those carrying it.</p>"
         },
         "rules": [],
         "slug": "m-23-eviscerator",

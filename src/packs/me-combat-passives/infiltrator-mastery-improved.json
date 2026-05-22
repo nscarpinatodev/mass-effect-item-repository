@@ -1,0 +1,64 @@
+﻿{
+  "_key": "!items!meInfiltrMastIm0",
+  "_id": "meInfiltrMastIm0",
+  "folder": null,
+  "name": "Improved Infiltrator Mastery",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-violet.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-infiltrator-mastery-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Your tactical precision reaches a lethal edge. All tech powers have their action cost <strong>reduced by 1</strong> (minimum 1 action) and you retain the <strong>+2 bonus</strong> to Stealth while Tactical Cloak is active. Your first attack after emerging from Tactical Cloak deals <strong>+2d6 precision</strong> damage.</p><p><em>Prerequisite: Infiltrator Mastery.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Infiltrator Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

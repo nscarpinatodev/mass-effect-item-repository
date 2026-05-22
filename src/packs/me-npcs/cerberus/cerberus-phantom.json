@@ -1,0 +1,520 @@
+{
+  "name": "Cerberus Phantom",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-phantom.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Cerberus Phantom",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-phantom.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "cerberus-phantom",
+    "details": {
+      "level": {
+        "value": 8
+      },
+      "publicNotes": "<p>The Cerberus Phantom is an elite operative enhanced with cybernetics and trained for high-value assassination. She activates a personal phase cloak to approach targets, then strikes with a monomolecular blade and submachine gun. Phantoms are among the deadliest individual combatants in Cerberus's arsenal.</p><p><strong>Phase Cloak (1 action):</strong> The Phantom becomes Invisible until the end of her next turn or until she makes a Strike. While cloaked she gains a +2 circumstance bonus to AC.</p><p><strong>Kinetic Barrier:</strong> 70 Shield HP. Recharges 20 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Elite Cerberus assassin with phase cloaking, monomolecular blade, and heavy cybernetic augmentation."
+    },
+    "attributes": {
+      "hp": {
+        "value": 140,
+        "max": 140,
+        "temp": 70,
+        "details": ""
+      },
+      "ac": {
+        "value": 27,
+        "details": ""
+      },
+      "speed": {
+        "value": 35,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "cerberus"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "rare"
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 21,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 18,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "stealth": {
+        "base": 22
+      },
+      "acrobatics": {
+        "base": 21
+      },
+      "athletics": {
+        "base": 17
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 20,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "bc6e82fb0092a014",
+      "name": "Monomolecular Blade",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "cerberus-phantom-blade",
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d8+7",
+            "damageType": "slashing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "deadly-d10"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>The Phantom's omni-blade briefly phases through kinetic barriers, ignoring shield protection on a critical hit.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4a7dfd124a3c8f48.bc6e82fb0092a014"
+    },
+    {
+      "_id": "6a0b9b782c57749d",
+      "name": "Submachine Gun",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "cerberus-phantom-smg",
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+6",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 50
+        },
+        "traits": {
+          "value": [
+            "agile"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4a7dfd124a3c8f48.6a0b9b782c57749d"
+    },
+    {
+      "_id": "6c9150a4ae3de615",
+      "name": "Phase Cloak",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "cerberus-phantom-phase-cloak",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "description": {
+          "value": "<p>The Phantom activates her phase cloaking system, becoming Invisible until the end of her next turn or until she makes a Strike (whichever comes first). While cloaked she gains a +2 circumstance bonus to AC. This ability can be used once per round.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "concentrate",
+            "tech"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4a7dfd124a3c8f48.6c9150a4ae3de615"
+    },
+    {
+      "_id": "bdbb2460e65e1e47",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p><p>If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4a7dfd124a3c8f48.bdbb2460e65e1e47"
+    },
+    {
+      "_id": "510fb0c0d3534589",
+      "name": "Shield HP Mod - Tier 3",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t3",
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+40 HP</strong> (base 30 → 70).</p><p>Only one Shield HP Mod can be installed at a time.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 9
+        },
+        "price": {
+          "value": {
+            "sp": 7000
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 40
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4a7dfd124a3c8f48.510fb0c0d3534589"
+    },
+    {
+      "_id": "5466a2a502d895a2",
+      "name": "Shield Regen Mod - Tier 3",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+      "system": {
+        "slug": "me-shield-regen-mod-t3",
+        "description": {
+          "value": "<p>Boosts kinetic shield recharge rate by <strong>+100%</strong> (base 10 → 20 HP/turn).</p><p>Only one Shield Regen Mod can be installed at a time.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 9
+        },
+        "price": {
+          "value": {
+            "sp": 7000
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "regenMult": 2
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4a7dfd124a3c8f48.5466a2a502d895a2"
+    }
+  ],
+  "_id": "4a7dfd124a3c8f48",
+  "_key": "!actors!4a7dfd124a3c8f48",
+  "effects": []
+}

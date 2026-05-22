@@ -1,0 +1,64 @@
+﻿{
+  "_key": "!items!meVanguardMastI0",
+  "_id": "meVanguardMastI0",
+  "folder": null,
+  "name": "Improved Vanguard Mastery",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-vanguard-mastery-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Your combat biotic synergy reaches its peak efficiency. All biotic powers have their action cost <strong>reduced by 1</strong> (minimum 1 action) and Biotic Charge restores <strong>5 HP</strong> to your Biotic Barrier. After using Biotic Charge or Nova, your next Strike this turn deals <strong>+1d6 void</strong> damage.</p><p><em>Prerequisite: Vanguard Mastery.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Vanguard Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

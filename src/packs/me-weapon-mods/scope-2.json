@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A high-magnification combat scope with an advanced rangefinder VI, atmospheric correction algorithms, and integrated target tracking. Designed for engagements at distances where standard iron sights become unreliable. Widely used by scout and infiltrator units who operate ahead of the main line. Compatible with any ranged weapon. Increases the weapon's range increment by 40 feet.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A high-magnification combat scope with an advanced rangefinder VI, atmospheric correction algorithms, and integrated target tracking. Designed for engagements at distances where standard iron sights become unreliable. Widely used by scout and infiltrator units who operate ahead of the main line. Compatible with any ranged weapon. Increases the weapon's range increment by 40 feet.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "scope-2",

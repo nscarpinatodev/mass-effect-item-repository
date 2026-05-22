@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meSoldierBatCmdr",
+  "_id": "meSoldierBatCmdr",
+  "folder": null,
+  "name": "Battlefield Commander",
+  "type": "feat",
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-battlefield-commander",
+    "description": {
+      "gm": "",
+      "value": "<p>Your experience reading combat situations lets you coordinate allies with a few shouted commands and hand signals.</p><p>All allies within <strong>30 feet</strong> who can hear or see you gain a <strong>+1 status bonus to their next attack roll</strong> made before the start of your next turn.</p><p><em>Prerequisite: Master Combat Training. Classes: Soldier.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Master Combat Training"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

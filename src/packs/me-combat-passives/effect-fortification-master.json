@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meEffFortifictnM",
+  "_id": "meEffFortifictnM",
+  "folder": null,
+  "name": "Master Fortification",
+  "type": "effect",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-effect-fortification-master",
+    "description": {
+      "gm": "",
+      "value": "<p>Near-impenetrable combat shell. You have <strong>Resistance 12 to all damage</strong>, a <strong>+2 circumstance bonus to AC</strong>, and a <strong>+2 circumstance bonus to all saves</strong>. Dismiss as a free action to deactivate.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all",
+        "value": 12,
+        "label": "Master Fortification"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": 2,
+        "label": "Master Fortification"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 2,
+        "label": "Master Fortification"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null
+    },
+    "badge": null
+  }
+}

@@ -87,7 +87,7 @@
       "level": {
         "value": 12
       },
-      "publicNotes": "<p>The Cerberus Gunship is a heavily-armored, rapid-response combat aircraft used as a recurring antagonist against Shepard's team. It strafe-runs with rockets and a mass accelerator cannon. Its heavy shields and armor make it extremely difficult to bring down with small arms — heavy weapons and biotics are recommended. The pilot can be targeted through the cockpit windscreen.</p>",
+      "publicNotes": "<p>The Cerberus Gunship is a heavily-armored, rapid-response combat aircraft used as a recurring antagonist against Shepard's team. It strafe-runs with rockets and a mass accelerator cannon. Its heavy shields and armor make it extremely difficult to bring down with small arms - heavy weapons and biotics are recommended. The pilot can be targeted through the cockpit windscreen.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -347,7 +347,7 @@
     },
     {
       "_id": "f31685717b4680db",
-      "name": "Shield HP Mod — Tier 4",
+      "name": "Shield HP Mod - Tier 4",
       "type": "equipment",
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "system": {
@@ -405,7 +405,7 @@
     },
     {
       "_id": "a195b7885db5e55f",
-      "name": "Shield Regen Mod — Tier 4",
+      "name": "Shield Regen Mod - Tier 4",
       "type": "equipment",
       "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
       "system": {

@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meSoldierWarMach",
+  "_id": "meSoldierWarMach",
+  "folder": null,
+  "name": "War Machine",
+  "type": "feat",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-war-machine",
+    "description": {
+      "gm": "",
+      "value": "<p>You are a one-person army. Your weapons, your ammo, and your will are all operating at maximum capacity.</p><p>Your active ammo powers each deal <strong>+2 additional damage dice</strong> (replaces Devastating Rounds' +2 total). You can maintain <strong>two different ammo powers simultaneously</strong> - both effects apply to every Strike.</p><p><em>Prerequisite: Devastating Rounds. Classes: Soldier.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Devastating Rounds"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

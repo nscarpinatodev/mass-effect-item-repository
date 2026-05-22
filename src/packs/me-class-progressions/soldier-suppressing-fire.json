@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meSoldierSuppFir",
+  "_id": "meSoldierSuppFir",
+  "folder": null,
+  "name": "Suppressing Fire",
+  "type": "feat",
+  "img": "icons/skills/ranged/arrow-flying-gray.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-suppressing-fire",
+    "description": {
+      "gm": "",
+      "value": "<p>A sustained barrage of fire forces enemies to keep their heads down even when you miss.</p><p>Whenever you make <strong>3 or more Strikes</strong> in a single turn, all enemies you missed with any of those Strikes are <strong>Flat-Footed</strong> until the start of your next turn.</p><p><em>Prerequisite: Master Combat Training. Classes: Soldier.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Master Combat Training"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

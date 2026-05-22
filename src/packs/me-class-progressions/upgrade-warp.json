@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meUpgradeWarp000",
+  "_id": "meUpgradeWarp000",
+  "folder": null,
+  "name": "Warp Upgrade",
+  "type": "feat",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-upgrade-warp",
+    "description": {
+      "gm": "",
+      "value": "<p>You push your dark energy manipulation past its standard parameters, adding a disorienting fear component to the singularity field.</p><p>On a <strong>failure</strong>, the target also becomes <strong>Frightened 1</strong> in addition to normal effects. The persistent void damage increases to <strong>2d4 per round</strong> (up from 1d4).</p><p><em>Prerequisite: Warp. Classes: Adept, Sentinel.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warp"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

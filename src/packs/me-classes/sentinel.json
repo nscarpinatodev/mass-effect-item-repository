@@ -53,6 +53,14 @@
     "actions": {
       "value": null
     },
-    "category": "classfeature"
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

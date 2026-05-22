@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>Salarian neural processing runs at a clock speed that most species would consider medically inadvisable. The metabolic cost is significant—it is part of why salarians live shorter lives than most Council species—but the cognitive throughput is extraordinary. You process situational information faster than your opponents expect, which translates, in practical terms, to arriving first.</p><p>You gain a +2 circumstance bonus to initiative rolls. When you roll initiative using Perception, you can also attempt to identify one creature you can see as a free action; the result is as if you had used Recall Knowledge, and you do not need to spend an additional action for it. When you roll initiative using a skill other than Perception, you can choose to use Perception instead without any penalty.</p>"
+      "value": "<p>Salarian neural processing runs at a clock speed that most species would consider medically inadvisable. The metabolic cost is significant-it is part of why salarians live shorter lives than most Council species-but the cognitive throughput is extraordinary. You process situational information faster than your opponents expect, which translates, in practical terms, to arriving first.</p><p>You gain a +2 circumstance bonus to initiative rolls. When you roll initiative using Perception, you can also attempt to identify one creature you can see as a free action; the result is as if you had used Recall Knowledge, and you do not need to spend an additional action for it. When you roll initiative using a skill other than Perception, you can choose to use Perception instead without any penalty.</p>"
     },
     "level": {
       "value": 1
@@ -46,8 +46,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

@@ -1,0 +1,58 @@
+{
+  "_key": "!items!meCPConcussShot0",
+  "_id": "meCPConcussShot0",
+  "folder": null,
+  "name": "Concussive Shot",
+  "type": "feat",
+  "img": "icons/magic/air/wind-tornado-small-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-concussive-shot",
+    "description": {
+      "gm": "",
+      "value": "<p>You fire a concentrated kinetic burst that hammers your target to the ground.</p><p>Make a Strike with a ranged weapon. This Strike deals <strong>1d8</strong> additional bludgeoning damage. On a <strong>hit</strong>, the target is knocked <strong>Prone</strong>. On a <strong>critical hit</strong>, the target is also pushed back <strong>10 feet</strong>.</p><p><strong>Cooldown:</strong> 7 - your Strength modifier rounds (minimum 1).</p><p><em>Classes: Soldier.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

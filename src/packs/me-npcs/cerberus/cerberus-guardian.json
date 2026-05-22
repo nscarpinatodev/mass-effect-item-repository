@@ -1,0 +1,294 @@
+{
+  "name": "Cerberus Guardian",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-guardian.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Cerberus Guardian",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-guardian.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "cerberus-guardian",
+    "details": {
+      "level": {
+        "value": 5
+      },
+      "publicNotes": "<p>Cerberus Guardians are heavily armored infantry equipped with a large ballistic tower shield that makes them nearly invulnerable to frontal attacks. They advance slowly but relentlessly, providing a mobile barrier for allied forces behind them. Targeting the sliver of exposed visor or flanking around the shield are the primary methods to defeat them efficiently.</p><p><strong>Tower Shield:</strong> The Guardian has +4 AC vs. ranged attacks from their front arc and is immune to area effects from that direction. Melee attackers in the Guardian's front arc must succeed on a DC 22 Reflex save or be knocked back 5 feet.</p><p><strong>Shield Bash (reaction):</strong> When an adjacent creature attacks the Guardian in melee, the Guardian may make one Shield Bash attack as a reaction (+14 to hit, 2d4+4 bludgeoning, Push 10 ft).</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Heavily armored Cerberus trooper with a tower ballistic shield, nearly impervious to frontal attacks."
+    },
+    "attributes": {
+      "hp": {
+        "value": 80,
+        "max": 80,
+        "temp": 0,
+        "details": ""
+      },
+      "ac": {
+        "value": 24,
+        "details": "Includes tower shield bonus vs. ranged front arc"
+      },
+      "speed": {
+        "value": 20,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "cerberus"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "uncommon"
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 12,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 15
+      },
+      "intimidation": {
+        "base": 12
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 13,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "ce3b9u4rd14nw001",
+      "name": "Pistol",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "cerberus-guardian-pistol",
+        "bonus": {
+          "value": 12
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+4",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 40
+        },
+        "traits": {
+          "value": []
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Fired with one hand from behind the shield. The Guardian must lower the shield briefly to fire, temporarily losing the Tower Shield bonus AC until the start of its next turn.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a1b2c3d4e5f60003.ce3b9u4rd14nw001"
+    },
+    {
+      "_id": "ce3b9u4rd14na001",
+      "name": "Shield Bash",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "cerberus-guardian-shield-bash",
+        "bonus": {
+          "value": 15
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d4+5",
+            "damageType": "bludgeoning"
+          }
+        },
+        "traits": {
+          "value": [
+            "push"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Push 10 ft on hit.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a1b2c3d4e5f60003.ce3b9u4rd14na001"
+    }
+  ],
+  "_id": "a1b2c3d4e5f60003",
+  "_key": "!actors!a1b2c3d4e5f60003",
+  "effects": []
+}

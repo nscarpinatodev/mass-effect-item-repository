@@ -1,0 +1,65 @@
+{
+  "_key": "!items!meCPFitness00000",
+  "_id": "meCPFitness00000",
+  "folder": null,
+  "name": "Fitness",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-strong-flame-red.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-fitness",
+    "description": {
+      "gm": "",
+      "value": "<p>Rigorous physical conditioning increases your survivability. You gain <strong>+4 maximum HP</strong>.</p><p><em>Classes: All.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "hp",
+        "value": 4,
+        "label": "Fitness"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

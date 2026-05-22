@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meVanguardRmpge0",
+  "_id": "meVanguardRmpge0",
+  "folder": null,
+  "name": "Rampage",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-vanguard-rampage",
+    "description": {
+      "gm": "",
+      "value": "<p>Your Charge carries such momentum that you naturally transition into a devastating follow-up strike.</p><p>Immediately after a successful Charge, you may make <strong>one free shotgun Strike</strong> against the same target as a free action. This Strike doesn't count toward your multiple attack penalty for the round.</p><p><em>Prerequisite: Unstoppable Charge. Classes: Vanguard.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Unstoppable Charge"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

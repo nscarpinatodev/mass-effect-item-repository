@@ -16,14 +16,16 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "7.0"
+          "minimum": "7.0",
+          "verified": "8.1.1"
         }
       },
       {
         "id": "sf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "0.0.1"
+          "minimum": "1.0",
+          "verified": "1.1.1"
         }
       }
     ]
@@ -34,7 +36,7 @@
       "flags": {}
     }
   ],
-  "scripts": ["scripts/shield-system.js"],
+  "scripts": ["scripts/shield-system.js", "scripts/paragon-renegade.js"],
   "packs": [
     {
       "name": "me-ancestries",
@@ -359,6 +361,42 @@
       "system": "sf2e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
       "flags": {}
+    },
+    {
+      "name": "me-combat-passives",
+      "label": "ME Combat Passives",
+      "path": "packs/me-combat-passives",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "sf2e-me-combat-passives",
+      "label": "ME Combat Passives",
+      "path": "packs/sf2e-me-combat-passives",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "me-class-progressions",
+      "label": "ME Class Progressions",
+      "path": "packs/me-class-progressions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "sf2e-me-class-progressions",
+      "label": "ME Class Progressions",
+      "path": "packs/sf2e-me-class-progressions",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -374,6 +412,10 @@
           "packs": [
             "me-classes",
             "sf2e-me-classes",
+            "me-combat-passives",
+            "sf2e-me-combat-passives",
+            "me-class-progressions",
+            "sf2e-me-class-progressions",
             "me-ancestries",
             "me-heritages",
             "me-ancestry-feats",

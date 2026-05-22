@@ -1,0 +1,60 @@
+﻿{
+  "_key": "!items!meAdeptMastery00",
+  "_id": "meAdeptMastery00",
+  "folder": null,
+  "name": "Adept Mastery",
+  "type": "feat",
+  "img": "icons/magic/light/orb-shining-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-adept-mastery",
+    "description": {
+      "gm": "",
+      "value": "<p>Refined biotic focus reduces the effort required to shape mass effect fields. All biotic powers you use have their action cost <strong>reduced by 1</strong> (minimum 1 action). Your biotic power save DCs increase by <strong>+1</strong>.</p><p><em>Classes: Adept.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

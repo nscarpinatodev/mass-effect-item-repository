@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meSentinelResolv",
+  "_id": "meSentinelResolv",
+  "folder": null,
+  "name": "Sentinel's Resolve",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sentinel-sentinels-resolve",
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency:</strong> Once per day.</p><p>You activate every defensive system simultaneously, entering a near-invulnerable combat state.</p><p>For <strong>1 minute</strong>: Resistance to all damage <strong>20</strong>; <strong>+4 circumstance to AC</strong>; all biotic and tech power costs reduced by 1 (minimum 1). Dismiss as a free action.</p><p><em>Prerequisite: Battle Hardened. Classes: Sentinel.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Battle Hardened"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

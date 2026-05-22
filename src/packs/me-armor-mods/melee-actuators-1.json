@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Motorized exoskeletal actuators in the arm and shoulder sections of the suit that engage automatically during close-combat strikes, adding mechanical force multiplied through the suit's frame to the wearer's natural striking power. Originally developed for Krogan-operated hardsuits, scaled for human and humanoid physiology. Grants a +1 item bonus to melee damage rolls.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>Motorized exoskeletal actuators in the arm and shoulder sections of the suit that engage automatically during close-combat strikes, adding mechanical force multiplied through the suit's frame to the wearer's natural striking power. Originally developed for Krogan-operated hardsuits, scaled for human and humanoid physiology. Grants a +1 item bonus to melee damage rolls.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "melee-actuators-1",

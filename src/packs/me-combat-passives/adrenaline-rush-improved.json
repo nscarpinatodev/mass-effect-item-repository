@@ -1,0 +1,66 @@
+{
+  "_key": "!items!meCPAdrenalineIm",
+  "_id": "meCPAdrenalineIm",
+  "folder": null,
+  "name": "Improved Adrenaline Rush",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-adrenaline-rush-improved",
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger:</strong> You take damage from a Strike while not Flat-Footed.</p><p>Your body automatically triggers an adrenaline response when threatened. Until the end of your turn, you are <strong>Quickened 1</strong>, gain <strong>+20 feet of Speed</strong>, and gain <strong>+1 to attack rolls</strong>.</p><p><strong>Cooldown:</strong> After using this reaction, you can't use it again for 7 - your Constitution modifier rounds (minimum 1).</p><p><em>Prerequisite: Adrenaline Rush.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Adrenaline Rush"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "selfEffect": {
+      "uuid": "Compendium.mass-effect-sf2e-conversion.me-combat-passives.Item.meEffAdrenalinIm",
+      "name": "Improved Adrenaline Rush"
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

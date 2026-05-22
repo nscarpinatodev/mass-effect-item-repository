@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>Drell skin produces a mild hallucinogenic compound that was originally an environmental adaptation—a chemical signal that could affect the behavior of Rakhana's native predators. In most drell it is present at low concentrations and has no practical effect on most species. In some individuals, however, the compound is potent enough to affect beings that make direct skin contact.</p><p>You gain a Venomous Touch unarmed Strike. This attack is in the brawling group and deals 1d4 poison damage. On a hit, the target must succeed at a Fortitude save (DC = 10 + your level + your Constitution modifier) or become sickened 1 (sickened 2 on a critical failure). On a critical hit, the sickened condition applies regardless of the save, and on a critical failure the target is additionally confused for 1 round.</p>"
+      "value": "<p>Drell skin produces a mild hallucinogenic compound that was originally an environmental adaptation-a chemical signal that could affect the behavior of Rakhana's native predators. In most drell it is present at low concentrations and has no practical effect on most species. In some individuals, however, the compound is potent enough to affect beings that make direct skin contact.</p><p>You gain a Venomous Touch unarmed Strike. This attack is in the brawling group and deals 1d4 poison damage. On a hit, the target must succeed at a Fortitude save (DC = 10 + your level + your Constitution modifier) or become sickened 1 (sickened 2 on a critical failure). On a critical hit, the sickened condition applies regardless of the save, and on a critical failure the target is additionally confused for 1 round.</p>"
     },
     "level": {
       "value": 1
@@ -56,8 +56,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

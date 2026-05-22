@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>Every quarian who leaves the Migrant Fleet understands that their environmental suit is the primary barrier between them and an immune system that has never had to defend itself against a normal pathogen load. You have spent enough time maintaining, repairing, and improvising repairs on that suit that you know its failure modes as well as you know your own heartbeat—and you know how to keep it functional under conditions that would compromise a less experienced operator's equipment.</p><p>You gain a +2 circumstance bonus to Fortitude saves against disease and poison. When your suit is breached (such as by a critical hit from a piercing or slashing weapon), you can attempt a DC 15 Crafting or Survival check as a free action to improvise a temporary seal; on a success, you negate the breach effect for 10 minutes. You are automatically trained in Crafting if you would not otherwise be.</p>"
+      "value": "<p>Every quarian who leaves the Migrant Fleet understands that their environmental suit is the primary barrier between them and an immune system that has never had to defend itself against a normal pathogen load. You have spent enough time maintaining, repairing, and improvising repairs on that suit that you know its failure modes as well as you know your own heartbeat-and you know how to keep it functional under conditions that would compromise a less experienced operator's equipment.</p><p>You gain a +2 circumstance bonus to Fortitude saves against disease and poison. When your suit is breached (such as by a critical hit from a piercing or slashing weapon), you can attempt a DC 15 Crafting or Survival check as a free action to improvise a temporary seal; on a success, you negate the breach effect for 10 minutes. You are automatically trained in Crafting if you would not otherwise be.</p>"
     },
     "level": {
       "value": 1
@@ -59,8 +59,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

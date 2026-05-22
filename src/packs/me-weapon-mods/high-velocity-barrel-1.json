@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A specially rifled barrel with hardened interior lining that increases round velocity to levels sufficient to punch through light armor plating. Rounds traveling at these velocities carry enough kinetic force that conventional armor weaves cannot fully absorb the impact. Your weapon's attacks ignore 5 points of physical resistance.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A specially rifled barrel with hardened interior lining that increases round velocity to levels sufficient to punch through light armor plating. Rounds traveling at these velocities carry enough kinetic force that conventional armor weaves cannot fully absorb the impact. Your weapon's attacks ignore 5 points of physical resistance.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "high-velocity-barrel-1",

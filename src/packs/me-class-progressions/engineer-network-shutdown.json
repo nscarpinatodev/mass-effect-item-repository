@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meEngineerNetSdn",
+  "_id": "meEngineerNetSdn",
+  "folder": null,
+  "name": "Network Shutdown",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-engineer-network-shutdown",
+    "description": {
+      "gm": "",
+      "value": "<p>You broadcast a catastrophic shutdown signal across all synthetic systems in the area, freezing them mid-operation.</p><p>All <strong>synthetic</strong> enemies within <strong>30 feet</strong> must attempt a <strong>Will</strong> DC 22 save.</p><p><strong>Success:</strong> Stunned 1.</p><p><strong>Failure:</strong> Stunned 2 and take 4d6 electricity damage.</p><p><strong>Critical Failure:</strong> Stunned 3 and take 8d6 electricity damage; can't use tech abilities for 1 round.</p><p><em>Prerequisite: System Override. Classes: Engineer.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "System Override"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

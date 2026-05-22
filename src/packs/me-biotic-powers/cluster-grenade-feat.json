@@ -1,0 +1,61 @@
+{
+  "_key": "!items!meBioticCluster0",
+  "_id": "meBioticCluster0",
+  "folder": null,
+  "name": "Cluster Grenade",
+  "type": "feat",
+  "img": "icons/magic/fire/explosion-fireball-medium-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-biotic-cluster-grenade",
+    "description": {
+      "gm": "",
+      "value": "<p>You scatter a cluster of mass-effect kinetic charges across a wide area, creating a rapid chain of biotic detonations on impact.</p><p>Choose a point within <strong>60 feet</strong>. All creatures in a <strong>10-foot burst</strong> centered on that point must attempt a <strong>Reflex save</strong> against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 force</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d6 force</strong> damage and is pushed <strong>5 feet</strong> outward from the burst center.</p><p><strong>Critical Failure</strong> The target takes <strong>4d6 force</strong> damage, is pushed <strong>10 feet</strong> outward from the burst center, and is knocked <strong>prone</strong>.</p><p><strong>Cooldown:</strong> 7 - your Charisma modifier rounds (minimum 1).</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

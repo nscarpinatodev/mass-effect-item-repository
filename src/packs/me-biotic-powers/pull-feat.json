@@ -14,7 +14,7 @@
     "slug": "me-biotic-pull",
     "description": {
       "gm": "",
-      "value": "<p>You project a focused mass effect field that seizes a single target and yanks them toward you.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature is pulled 10 feet toward you.</p><p><strong>Failure</strong> The creature is pulled up to 20 feet toward you and becomes <strong>Grabbed</strong> until the start of your next turn. The creature is Off-Guard while grabbed this way.</p><p><strong>Critical Failure</strong> As failure, but the creature is pulled 30 feet. If pulled adjacent to you, it is also <strong>Knocked Prone</strong>.</p>"
+      "value": "<p>You project a focused mass effect field that seizes a single target and yanks them toward you.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature is pulled 10 feet toward you.</p><p><strong>Failure</strong> The creature is pulled up to 20 feet toward you and becomes <strong>Grabbed</strong> until the start of your next turn. The creature is Off-Guard while grabbed this way.</p><p><strong>Critical Failure</strong> As failure, but the creature is pulled 30 feet. If pulled adjacent to you, it is also <strong>Knocked Prone</strong>.</p><p><strong>Cooldown:</strong> 7 âˆ’ your Charisma modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -37,7 +37,7 @@
       "remaster": true
     },
     "level": {
-      "value": 2
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -48,6 +48,14 @@
     "actions": {
       "value": 1
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

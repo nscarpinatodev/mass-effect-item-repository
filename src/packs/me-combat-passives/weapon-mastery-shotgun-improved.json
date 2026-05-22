@@ -1,0 +1,83 @@
+{
+  "_key": "!items!meCPWpnMstShgImp",
+  "_id": "meCPWpnMstShgImp",
+  "folder": null,
+  "name": "Improved Weapon Mastery (Shotguns)",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-black.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-weapon-mastery-shotgun-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Expert shotguns proficiency. You deal <strong>+4 damage</strong> and gain a <strong>+1 circumstance bonus to attack rolls</strong> with shotguns (replaces the +2 damage). You do not take penalties for firing while adjacent to a prone or grabbed enemy.</p><p><em>Prerequisite: Weapon Mastery (Shotguns).</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": 4,
+        "predicate": [
+          "item:group:shotgun"
+        ],
+        "label": "Weapon Mastery (Shotguns)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          "item:group:shotgun"
+        ],
+        "label": "Weapon Mastery (Shotguns)"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Weapon Mastery (Shotguns)"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

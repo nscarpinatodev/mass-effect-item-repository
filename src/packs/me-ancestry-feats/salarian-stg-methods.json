@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>The Special Tasks Group is the Salarian Union's intelligence and covert operations arm—small-team operators who specialize in getting in, doing the thing no one is supposed to know happened, and getting out before anyone has assembled a coherent account of what occurred. You have trained in or been exposed to STG methods, and they have left a distinctive mark on how you approach problems that other people call obstacles.</p><p>You gain a +1 circumstance bonus to Stealth and Deception checks. When you attempt to Gather Information using Diplomacy, Society, or Deception, you can choose not to reveal your true identity or affiliation; success on this check also means you leave no verifiable trace that you were asking. Once per day, when you fail a Stealth check to Hide or Sneak, you can choose to have the check result treated as a success instead—this represents a prepared contingency, not luck.</p>"
+      "value": "<p>The Special Tasks Group is the Salarian Union's intelligence and covert operations arm-small-team operators who specialize in getting in, doing the thing no one is supposed to know happened, and getting out before anyone has assembled a coherent account of what occurred. You have trained in or been exposed to STG methods, and they have left a distinctive mark on how you approach problems that other people call obstacles.</p><p>You gain a +1 circumstance bonus to Stealth and Deception checks. When you attempt to Gather Information using Diplomacy, Society, or Deception, you can choose not to reveal your true identity or affiliation; success on this check also means you leave no verifiable trace that you were asking. Once per day, when you fail a Stealth check to Hide or Sneak, you can choose to have the check result treated as a success instead-this represents a prepared contingency, not luck.</p>"
     },
     "level": {
       "value": 5
@@ -53,8 +53,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

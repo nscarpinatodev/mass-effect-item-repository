@@ -1,0 +1,76 @@
+{
+  "_key": "!items!meCPFitnessImpvd",
+  "_id": "meCPFitnessImpvd",
+  "folder": null,
+  "name": "Improved Fitness",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-strong-flame-red.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-fitness-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Advanced conditioning deepens your physical resilience. You gain an additional <strong>+4 maximum HP</strong> (total +8 with Fitness) and a <strong>+1 circumstance bonus to Fortitude saves</strong>.</p><p><em>Prerequisite: Fitness.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "hp",
+        "value": 4,
+        "label": "Improved Fitness"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Improved Fitness"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fitness"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

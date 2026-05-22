@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Hanar communicate their true language through complex bioluminescent patterns that shift across their bodies—a language of color, pattern, and rhythm that carries meaning invisible to most other species without specialized equipment. While hanar also learn to produce sonic speech for interspecies communication, their bioluminescent capacity remains an always-available secondary channel.</p><p>You can communicate complex messages to any creature that can see you and understands Hanar, without making any sound. Any creature within 60 feet that can see you and understands Hanar receives your bioluminescent communication perfectly, regardless of ambient noise. Additionally, you can produce simple signals—a rapid flash to indicate danger, a specific color to convey approval or refusal—that any creature within 60 feet can see, though interpreting them without Hanar knowledge requires a DC 15 Society check.</p>"
+      "value": "<p>Hanar communicate their true language through complex bioluminescent patterns that shift across their bodies-a language of color, pattern, and rhythm that carries meaning invisible to most other species without specialized equipment. While hanar also learn to produce sonic speech for interspecies communication, their bioluminescent capacity remains an always-available secondary channel.</p><p>You can communicate complex messages to any creature that can see you and understands Hanar, without making any sound. Any creature within 60 feet that can see you and understands Hanar receives your bioluminescent communication perfectly, regardless of ambient noise. Additionally, you can produce simple signals-a rapid flash to indicate danger, a specific color to convey approval or refusal-that any creature within 60 feet can see, though interpreting them without Hanar knowledge requires a DC 15 Society check.</p>"
     },
     "level": {
       "value": 0
@@ -40,7 +40,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

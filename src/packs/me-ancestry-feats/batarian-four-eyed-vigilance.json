@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>Four eyes cover a wider arc than two, and the batarian visual system is adapted to process that wider field of view without the attentional bottleneck that limits most binocular species. You are considerably harder to catch off-guard than your opponents generally expect.</p><p>You gain a +2 circumstance bonus to Perception checks to avoid being surprised and to detect creatures using Stealth. Creatures do not gain the flanking bonus to attack rolls against you when flanking from your sides—only from directly behind you. Additionally, you can't be flat-footed to creatures you can see.</p>"
+      "value": "<p>Four eyes cover a wider arc than two, and the batarian visual system is adapted to process that wider field of view without the attentional bottleneck that limits most binocular species. You are considerably harder to catch off-guard than your opponents generally expect.</p><p>You gain a +2 circumstance bonus to Perception checks to avoid being surprised and to detect creatures using Stealth. Creatures do not gain the flanking bonus to attack rolls against you when flanking from your sides-only from directly behind you. Additionally, you can't be flat-footed to creatures you can see.</p>"
     },
     "level": {
       "value": 1
@@ -49,8 +49,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

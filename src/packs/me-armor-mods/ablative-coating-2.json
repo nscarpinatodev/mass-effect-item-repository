@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>An advanced multi-layer ablative coating using graded-density alloy composites that progressively absorb and redirect kinetic and thermal impact across the suit frame. A significant improvement over standard weave, substantially increasing the wearer's survivability in sustained firefights. Increases maximum Hit Points by 10.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>An advanced multi-layer ablative coating using graded-density alloy composites that progressively absorb and redirect kinetic and thermal impact across the suit frame. A significant improvement over standard weave, substantially increasing the wearer's survivability in sustained firefights. Increases maximum Hit Points by 10.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "ablative-coating-2",

@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Humanity's defining characteristic across galactic history has been an almost unreasonable drive to learn, improve, and exceed expectations—including their own. In the span of a single generation, humans went from their first steps into space to a seat on the Citadel Council. That same drive is present in every human, expressed as an insatiable hunger to be good at something that matters to them.</p><p>You become trained in one additional skill of your choice.</p>"
+      "value": "<p>Humanity's defining characteristic across galactic history has been an almost unreasonable drive to learn, improve, and exceed expectations-including their own. In the span of a single generation, humans went from their first steps into space to a seat on the Citadel Council. That same drive is present in every human, expressed as an insatiable hunger to be good at something that matters to them.</p><p>You become trained in one additional skill of your choice.</p>"
     },
     "level": {
       "value": 0
@@ -54,7 +54,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

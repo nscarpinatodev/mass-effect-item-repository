@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>Krogan redundant biology is not a metaphor. Multiple hearts, backup nervous system pathways, secondary organs for critical functions, and a bone structure that treats most projectiles as a delay rather than a conclusion—all of this culminates, in sufficiently seasoned krogan, in a capacity to continue fighting through damage that would have killed the organism twice over by any reasonable biological accounting. You are one of those krogan.</p><p>Your dying threshold is increased by 1 (you die at dying 5 rather than dying 4). You gain a +2 circumstance bonus to recovery checks. When you succeed at a recovery check, you also gain a number of temporary Hit Points equal to your Constitution modifier (minimum 1), which last until the start of your next turn. If you have the Fortitude Fortress ancestry feature, you gain an additional +1 to recovery checks (total +3).</p>"
+      "value": "<p>Krogan redundant biology is not a metaphor. Multiple hearts, backup nervous system pathways, secondary organs for critical functions, and a bone structure that treats most projectiles as a delay rather than a conclusion-all of this culminates, in sufficiently seasoned krogan, in a capacity to continue fighting through damage that would have killed the organism twice over by any reasonable biological accounting. You are one of those krogan.</p><p>Your dying threshold is increased by 1 (you die at dying 5 rather than dying 4). You gain a +2 circumstance bonus to recovery checks. When you succeed at a recovery check, you also gain a number of temporary Hit Points equal to your Constitution modifier (minimum 1), which last until the start of your next turn. If you have the Fortitude Fortress ancestry feature, you gain an additional +1 to recovery checks (total +3).</p>"
     },
     "level": {
       "value": 9
@@ -46,8 +46,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

@@ -1,0 +1,65 @@
+{
+  "_key": "!items!meUpgradeAmmoMst",
+  "_id": "meUpgradeAmmoMst",
+  "folder": null,
+  "name": "Ammo Master",
+  "type": "feat",
+  "img": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-upgrade-ammo-master",
+    "description": {
+      "gm": "",
+      "value": "<p>Years of field experience with specialized ammunition have sharpened your instinct for ammo efficiency. Each ammo power you have active deals <strong>+1 additional damage die</strong> of its type.</p><p><em>Prerequisite: Any two ammo powers. Classes: Soldier.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Incendiary Rounds"
+        },
+        {
+          "value": "Disruptor Rounds"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

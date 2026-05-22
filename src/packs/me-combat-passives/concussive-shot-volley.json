@@ -1,0 +1,62 @@
+﻿{
+  "_key": "!items!meCPConcusVlley0",
+  "_id": "meCPConcusVlley0",
+  "folder": null,
+  "name": "Concussive Volley",
+  "type": "feat",
+  "img": "icons/magic/air/wind-tornado-small-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-concussive-volley",
+    "description": {
+      "gm": "",
+      "value": "<p>Your concussive burst fans wide enough to catch two targets at once.</p><p>When you use <strong>Concussive Shot</strong>, you may target two creatures that are within <strong>10 feet</strong> of each other. Make a separate attack roll against each target, applying all of Concussive Shot's effects to each.</p><p><em>Prerequisite: Concussive Shot. Classes: Soldier.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Concussive Shot"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

@@ -87,7 +87,7 @@
       "level": {
         "value": 18
       },
-      "publicNotes": "<p>A Systems Alliance dreadnought — a kilometer-long spinal gun platform representing the apex of Alliance warship construction. Each race is permitted only a handful under the Citadel Conventions. The spinal mass accelerator can punch through any known ship's defenses in a single salvo.</p>",
+      "publicNotes": "<p>A Systems Alliance dreadnought - a kilometer-long spinal gun platform representing the apex of Alliance warship construction. Each race is permitted only a handful under the Citadel Conventions. The spinal mass accelerator can punch through any known ship's defenses in a single salvo.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Compendium",
@@ -99,7 +99,7 @@
         "value": [],
         "details": ""
       },
-      "blurb": "A Systems Alliance dreadnought — a kilometer-long spinal gun platform representing the apex of Alliance warship construction."
+      "blurb": "A Systems Alliance dreadnought - a kilometer-long spinal gun platform representing the apex of Alliance warship construction."
     },
     "attributes": {
       "hp": {

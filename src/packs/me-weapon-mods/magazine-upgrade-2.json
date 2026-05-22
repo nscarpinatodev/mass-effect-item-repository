@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A double-capacity heat sink assembly using high-density composite thermal materials that absorb nearly twice the heat of a standard clip before requiring replacement. Soldiers equipped with this modification can sustain fire through engagements that would exhaust standard-capacity weapons multiple times over. Compatible with any ranged weapon. Doubles the weapon's ammo capacity.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A double-capacity heat sink assembly using high-density composite thermal materials that absorb nearly twice the heat of a standard clip before requiring replacement. Soldiers equipped with this modification can sustain fire through engagements that would exhaust standard-capacity weapons multiple times over. Compatible with any ranged weapon. Doubles the weapon's ammo capacity.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "magazine-upgrade-2",

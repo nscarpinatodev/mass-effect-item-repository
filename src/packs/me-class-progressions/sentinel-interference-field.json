@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meSentinelIntrfr",
+  "_id": "meSentinelIntrfr",
+  "folder": null,
+  "name": "Interference Field",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sentinel-interference-field",
+    "description": {
+      "gm": "",
+      "value": "<p>You broadcast a broad-spectrum jamming field that disrupts incoming tech-based attacks against your allies.</p><p>You project a <strong>20-foot interference aura</strong> for <strong>1 minute</strong>. The first time each round that any tech power would affect a friendly creature within the aura, it automatically <strong>fails</strong> (the attacker's action is wasted). Non-tech attacks and biotic powers are unaffected. Dismiss as a free action.</p><p><em>Prerequisite: Superior Sentinel Mastery. Classes: Sentinel.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Superior Sentinel Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

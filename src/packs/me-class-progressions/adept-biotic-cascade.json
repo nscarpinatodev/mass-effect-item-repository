@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meAdeptBioCascd0",
+  "_id": "meAdeptBioCascd0",
+  "folder": null,
+  "name": "Biotic Cascade",
+  "type": "feat",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-adept-biotic-cascade",
+    "description": {
+      "gm": "",
+      "value": "<p>When you detonate a Biotic Explosion, the shockwave propagates to nearby enemies, punishing tight formations.</p><p>Whenever you trigger a Biotic Explosion, <strong>one adjacent enemy within 10 feet</strong> of the original target also takes the <strong>full explosion damage</strong> (no save). The adjacent enemy must be a different creature than the primary target.</p><p><em>Prerequisite: Biotic Resonance. Classes: Adept.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Biotic Resonance"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

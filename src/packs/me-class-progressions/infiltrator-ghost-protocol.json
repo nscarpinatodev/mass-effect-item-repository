@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meInfiltratGhost",
+  "_id": "meInfiltratGhost",
+  "folder": null,
+  "name": "Ghost Protocol",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-infiltrator-ghost-protocol",
+    "description": {
+      "gm": "",
+      "value": "<p>Advanced field harmonics keep your cloaking device stable through multiple weapon discharges.</p><p>Tactical Cloak does not end when you Strike. The cloak remains active until you make your <strong>second Strike</strong> or the start of your next turn (whichever comes first). You may Strike twice from concealment, both attacks gaining the precision damage bonus. The cloak ends automatically after the second Strike.</p><p><em>Prerequisite: Tactical Cloak Upgrade. Classes: Infiltrator.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Tactical Cloak Upgrade"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

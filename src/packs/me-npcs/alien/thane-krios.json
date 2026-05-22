@@ -1,0 +1,203 @@
+{
+  "name": "Thane Krios",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/thane.png",
+  "folder": null,
+  "flags": {},
+  "ownership": { "default": 0 },
+  "prototypeToken": {
+    "name": "Thane Krios",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1, "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/thane.png",
+      "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0,
+      "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0,
+      "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
+      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+  },
+  "system": {
+    "slug": "thane-krios",
+    "details": {
+      "level": { "value": 10 },
+      "publicNotes": "<p>Thane Krios is a drell assassin widely regarded as the most skilled in the galaxy. Terminally ill with Kepral's Syndrome, he has come to Shepard seeking a final purpose. He is a man of deep spirituality and profound regret. In combat he is a ghost — positioned before enemies know he is there, delivering devastating sniper shots before they can react. He is also a capable biotic.</p><p><strong>Drell Precision:</strong> Thane deals an additional 2d6 precision damage when striking a flat-footed target.</p><p><strong>Perfect Aim:</strong> Thane ignores the volley penalty on his sniper rifle.</p><p><strong>Biotic Throw (2 actions):</strong> One target within 60 feet must succeed on a DC 28 Fortitude save or be flung 20 feet in a direction of Thane's choice and knocked Prone (taking 2d6 bludgeoning fall damage).</p><p><strong>Serene Focus (free action, 1/encounter):</strong> Thane enters a meditative focus, gaining a +2 circumstance bonus to his next attack roll and ignoring the target's concealment.</p>",
+      "privateNotes": "",
+      "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
+      "languages": { "value": [], "details": "" },
+      "blurb": "Drell assassin without equal; a terminal illness and a spiritual reckoning don't slow his aim."
+    },
+    "attributes": {
+      "hp": { "value": 155, "max": 155, "temp": 0, "details": "" },
+      "ac": { "value": 28, "details": "" },
+      "speed": { "value": 30, "details": "" }
+    },
+    "traits": {
+      "value": ["humanoid", "drell", "unique"],
+      "size": { "value": "med" },
+      "rarity": "unique"
+    },
+    "abilities": {
+      "str": { "mod": 2 }, "dex": { "mod": 7 }, "con": { "mod": 2 },
+      "int": { "mod": 3 }, "wis": { "mod": 6 }, "cha": { "mod": 3 }
+    },
+    "saves": {
+      "fortitude": { "value": 16, "saveDetail": "" },
+      "reflex": { "value": 24, "saveDetail": "" },
+      "will": { "value": 22, "saveDetail": "" }
+    },
+    "skills": {
+      "stealth": { "base": 26 },
+      "acrobatics": { "base": 24 },
+      "deception": { "base": 20 },
+      "religion": { "base": 20 }
+    },
+    "_migration": { "version": null, "previous": null },
+    "perception": { "details": "", "mod": 24, "senses": [], "vision": true },
+    "resources": {},
+    "initiative": { "statistic": "perception" }
+  },
+  "items": [
+    {
+      "_id": "thanew0000000001",
+      "name": "M-92 Mantis",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": { "value": "ranged" },
+        "slug": "thane-mantis",
+        "bonus": { "value": 24 },
+        "damageRolls": { "0": { "damage": "3d8+8", "damageType": "piercing" } },
+        "range": { "value": 150 },
+        "traits": { "value": ["fatal-d12", "volley-30"] },
+        "attackEffects": { "value": [] },
+        "description": { "value": "<p>Thane's preferred sniper rifle — a precision instrument for a precision killer. His Perfect Aim ability ignores the volley penalty.</p>", "gm": "" },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 100000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60006.thanew0000000001"
+    },
+    {
+      "_id": "thanew0000000002",
+      "name": "M-4 Shuriken",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": { "value": "ranged" },
+        "slug": "thane-shuriken",
+        "bonus": { "value": 22 },
+        "damageRolls": { "0": { "damage": "2d6+6", "damageType": "piercing" } },
+        "range": { "value": 30 },
+        "traits": { "value": ["agile", "burst-fire"] },
+        "attackEffects": { "value": [] },
+        "description": { "value": "<p>A compact SMG kept as a close-quarters backup.</p>", "gm": "" },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 200000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60006.thanew0000000002"
+    },
+    {
+      "_id": "thanea0000000001",
+      "name": "Drell Precision",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "system": {
+        "slug": "thane-drell-precision",
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": { "value": "<p>Thane deals an additional <strong>2d6 precision damage</strong> when striking a flat-footed target.</p>", "gm": "" },
+        "traits": { "value": [] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 300000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60006.thanea0000000001"
+    },
+    {
+      "_id": "thanea0000000002",
+      "name": "Perfect Aim",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "system": {
+        "slug": "thane-perfect-aim",
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": { "value": "<p>Thane ignores the volley penalty on his sniper rifle.</p>", "gm": "" },
+        "traits": { "value": [] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 400000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60006.thanea0000000002"
+    },
+    {
+      "_id": "thanea0000000003",
+      "name": "Biotic Throw",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "thane-biotic-throw",
+        "actionType": { "value": "action" },
+        "actions": { "value": 2 },
+        "description": { "value": "<p>One target within 60 feet must succeed on a DC 28 Fortitude save or be flung 20 feet in a direction of Thane's choice and knocked Prone (taking 2d6 bludgeoning fall damage on a failure, double on a critical failure).</p>", "gm": "" },
+        "traits": { "value": ["biotic", "concentrate"] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 500000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60006.thanea0000000003"
+    },
+    {
+      "_id": "thanea0000000004",
+      "name": "Serene Focus",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "system": {
+        "slug": "thane-serene-focus",
+        "actionType": { "value": "free" },
+        "actions": { "value": null },
+        "description": { "value": "<p>Thane enters a meditative state. He gains a +2 circumstance bonus to his next attack roll this turn and ignores concealment for that attack. 1/encounter.</p>", "gm": "" },
+        "traits": { "value": ["concentrate"] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 600000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60006.thanea0000000004"
+    }
+  ],
+  "_id": "g1h2i3j4k5l60006",
+  "_key": "!actors!g1h2i3j4k5l60006",
+  "effects": []
+}

@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Javelin is a Cerberus electromagnetic sniper rifle that charges and fires a bolt of arc energy capable of penetrating solid cover before detonating against the target on the other side. Enemies hidden behind walls, crates, or wreckage offer no protection against it — the bolt passes through non-conductive barriers entirely. Against shielded and synthetic targets the electrical devastation is unparalleled, and at maximum range its arc expands to catch clustered enemies in the discharge.</p>"
+      "value": "<p>The Javelin is a Cerberus electromagnetic sniper rifle that charges and fires a bolt of arc energy capable of penetrating solid cover before detonating against the target on the other side. Enemies hidden behind walls, crates, or wreckage offer no protection against it - the bolt passes through non-conductive barriers entirely. Against shielded and synthetic targets the electrical devastation is unparalleled, and at maximum range its arc expands to catch clustered enemies in the discharge.</p>"
     },
     "rules": [],
     "slug": "javelin",

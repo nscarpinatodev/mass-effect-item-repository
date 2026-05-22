@@ -61,7 +61,28 @@
       "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\" -Recurse -Filter \"*.js\")",
       "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\\\\src\\\\packs\\\\me-npcs\" -Filter \"*.json\")",
       "Bash(Select-Object -ExpandProperty Name)",
-      "Bash(powershell -Command 'Get-ChildItem -Path src/packs/me-npcs -Filter \"*.json\" | ForEach-Object { @{ File = $_.Name; Path = $_.FullName } } | ConvertTo-Json -AsArray')"
+      "Bash(powershell -Command 'Get-ChildItem -Path src/packs/me-npcs -Filter \"*.json\" | ForEach-Object { @{ File = $_.Name; Path = $_.FullName } } | ConvertTo-Json -AsArray')",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\" -Directory -Force)",
+      "WebFetch(domain:gamewise.co)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\\\\src\\\\packs\\\\me-npcs\\\\human-cerberus-trooper.json\" -Force)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\\\\src\\\\packs\\\\me-creatures\\\\phantom.json\" -Force)",
+      "Bash(Write-Host \"Deleted both duplicates\")",
+      "Bash(curl -sL \"https://masseffect.fandom.com/wiki/Cerberus_Commando\")",
+      "Bash(curl -sL -A \"Mozilla/5.0\" \"https://masseffect.fandom.com/wiki/Cerberus_Commando\")",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" \"https://masseffect.fandom.com/wiki/Cerberus_Commando\")",
+      "Bash(cd \"c:/Users/djsco/OneDrive/Documents/GitHub/mass-effect-item-repository/src/packs/me-npcs\" && mkdir -p cerberus alliance alien && mv cerberus-*.json miranda-lawson.json kelly-chambers.json the-illusive-man.json kai-leng.json mystaria-stage-*.json cerberus/ && echo \"Moved Cerberus NPCs\" && ls cerberus/)",
+      "Bash(dir \"c:\\\\Users\\\\djsco\\\\OneDrive\\\\Documents\\\\GitHub\\\\mass-effect-item-repository\\\\assets\\\\img\\\\npcs\\\\illusive*\")",
+      "Bash(python3 -c 'import json,sys; d=json.load\\(open\\('\\\\''__TRACKED_VAR__'\\\\''\\)\\); print\\(d['\\\\''name'\\\\''], '\\\\''| armorMax:'\\\\'', d.get\\('\\\\''flags'\\\\'',{}\\).get\\('\\\\''mass-effect-sf2e-conversion'\\\\'',{}\\).get\\('\\\\''armorMax'\\\\''\\)\\)')",
+      "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; if \\(Test-Path $jsonlPath\\) { $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('PARAGON_ITEMS'\\); if \\($idx -ge 0\\) { $content.Substring\\([Math]::Max\\(0,$idx-100\\), [Math]::Min\\(4000, $content.Length-$idx\\)\\) } else { \"Not found\" } } else { \"File not found\" })",
+      "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('Renegade 80'\\); $content.Substring\\([Math]::Max\\(0,$idx-50\\), [Math]::Min\\(5000, $content.Length-$idx\\)\\))",
+      "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('Beacon of Hope\\\\\"\\) {'\\); $content.Substring\\([Math]::Max\\(0,$idx\\), [Math]::Min\\(6000, $content.Length-$idx\\)\\))",
+      "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('Beacon of Hope'\\); if \\($idx -ge 0\\) { $content.Substring\\([Math]::Max\\(0,$idx-50\\), [Math]::Min\\(5000, $content.Length-$idx\\)\\) } else { \"Not found\" })",
+      "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('\"Beacon of Hope\"\\) {'\\); if \\($idx -ge 0\\) { $content.Substring\\([Math]::Max\\(0,$idx\\), [Math]::Min\\(6000, $content.Length-$idx\\)\\) } else { \"Not found\" })",
+      "PowerShell($jsonlPath = \"C:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\b79c36d3-9dda-498b-aaac-05ca36aca5f6.jsonl\"; $content = Get-Content $jsonlPath -Raw; $idx = $content.IndexOf\\('useTier'\\); $content.Substring\\([Math]::Max\\(0,$idx\\), [Math]::Min\\(6000, $content.Length-$idx\\)\\))",
+      "Bash(awk '{print length\\($0\\), $0}')"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\djsco\\OneDrive\\Documents\\GitHub\\mass-effect-item-repository"
     ]
   }
 }

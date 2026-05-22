@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meUpgradeCharge0",
+  "_id": "meUpgradeCharge0",
+  "folder": null,
+  "name": "Charge Upgrade",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-upgrade-charge",
+    "description": {
+      "gm": "",
+      "value": "<p>Your biotic charge technique has evolved. You may choose one of the following options to improve your Biotic Charge ability:</p><ul><li>Your Biotic Charge distance increases by <strong>30 feet</strong>, and its damage increases by <strong>2d6</strong>.</li><li>Your Biotic Charge distance and damage remain the same, but your Biotic Barrier always recharges to <strong>full</strong>, regardless of whether your target succeeds their Reflex save against your Biotic Charge.</li></ul><p><em>Prerequisite: Biotic Charge. Classes: Vanguard.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Biotic Charge"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

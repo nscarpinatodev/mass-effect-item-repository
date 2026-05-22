@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>The same undifferentiated cell clusters that drive vorcha rapid healing also respond to sustained environmental stress by adapting the body for future exposure. A vorcha who survives a fire emerges with greater heat resistance. One who endures repeated acid burns becomes harder to damage with corrosives. This adaptation is not instantaneous—it requires sustained exposure over hours and will not save a vorcha from a killing blow—but over time, it makes vorcha increasingly difficult to kill with the same method twice.</p><p>After spending at least 24 hours exposed to a specific type of energy damage (fire, cold, acid, electricity, or sonic), you gain resistance 5 to that damage type. This resistance changes when you gain a new adaptation—you cannot maintain multiple resistances simultaneously. The adaptation fades if you go more than a week without relevant exposure.</p>"
+      "value": "<p>The same undifferentiated cell clusters that drive vorcha rapid healing also respond to sustained environmental stress by adapting the body for future exposure. A vorcha who survives a fire emerges with greater heat resistance. One who endures repeated acid burns becomes harder to damage with corrosives. This adaptation is not instantaneous-it requires sustained exposure over hours and will not save a vorcha from a killing blow-but over time, it makes vorcha increasingly difficult to kill with the same method twice.</p><p>After spending at least 24 hours exposed to a specific type of energy damage (fire, cold, acid, electricity, or sonic), you gain resistance 5 to that damage type. This resistance changes when you gain a new adaptation-you cannot maintain multiple resistances simultaneously. The adaptation fades if you go more than a week without relevant exposure.</p>"
     },
     "level": {
       "value": 0
@@ -40,7 +40,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

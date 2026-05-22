@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A partial frame replacement using carbon-ceramic composite materials that retain the weapon's structural integrity while substantially reducing its mass. The lighter weapon is easier to move with, transitions between targets faster, and contributes less fatigue to extended carry. Favored by operatives who spend long missions on foot. Reduces the weapon's Bulk by 1 (minimum 0).</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A partial frame replacement using carbon-ceramic composite materials that retain the weapon's structural integrity while substantially reducing its mass. The lighter weapon is easier to move with, transitions between targets faster, and contributes less fatigue to extended carry. Favored by operatives who spend long missions on foot. Reduces the weapon's Bulk by 1 (minimum 0).</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "ultralight-materials-1",

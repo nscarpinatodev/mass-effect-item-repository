@@ -39,7 +39,7 @@
       "level": {
         "value": 10
       },
-      "blurb": "Ancient krogan warrior of legendary endurance — boss encounter",
+      "blurb": "Ancient krogan warrior of legendary endurance - boss encounter",
       "publicNotes": "<p>A krogan battlemaster has survived long enough to accumulate the kind of battle experience that makes them a problem for anyone. They are living records of engagements that should have killed them, and the redundant biology that makes krogan so hard to put down has had centuries to develop in an individual who keeps putting themselves in situations that test it. Fighting a battlemaster is not a matter of outlasting them; they outlast everything. It is a matter of stopping them before they stop you.</p><p><strong>Krogan Fortitude:</strong> Fast healing 3 while below half HP.</p><p><strong>Undying Warrior:</strong> Dies at dying 5 (not dying 4). +2 to recovery checks.</p><p><strong>Blood Rage (Reaction):</strong> When reduced below half HP, gains 15 temporary HP and +1d6 to melee damage until end of next turn.</p><p><strong>Headbutt:</strong> On a hit, DC 28 Fortitude or stunned 1; stunned 2 on a critical failure.</p><p><strong>Kinetic Barrier:</strong> 130 Shield HP. Recharges 30 HP per turn.</p>",
       "privateNotes": "",
       "publication": {
@@ -402,7 +402,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The M-300 Claymore is the most powerful shotgun available to ground troops in Cerberus's arsenal. A single-shot weapon of staggering lethality, it fires a dense kinetic slug capable of piercing vehicle-grade armor at point-blank range. The recoil is severe enough to require Krogan physiology or specialized shock-absorbing harnesses — for everyone else, it is a weapon of last resort and absolute commitment.</p>"
+          "value": "<p>The M-300 Claymore is the most powerful shotgun available to ground troops in Cerberus's arsenal. A single-shot weapon of staggering lethality, it fires a dense kinetic slug capable of piercing vehicle-grade armor at point-blank range. The recoil is severe enough to require Krogan physiology or specialized shock-absorbing harnesses - for everyone else, it is a weapon of last resort and absolute commitment.</p>"
         },
         "rules": [],
         "slug": "m-300-claymore",

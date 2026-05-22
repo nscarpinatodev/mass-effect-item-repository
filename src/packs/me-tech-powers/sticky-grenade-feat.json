@@ -1,0 +1,61 @@
+﻿{
+  "_key": "!items!meInfiltrSticky0",
+  "_id": "meInfiltrSticky0",
+  "folder": null,
+  "name": "Sticky Grenade",
+  "type": "feat",
+  "img": "icons/weapons/thrown/bomb-timer.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sticky-grenade",
+    "description": {
+      "gm": "",
+      "value": "<p>You deploy a high-adhesive incendiary charge that clings to the first surface it contacts and burns steadily, denying the area.</p><p>Choose a point within <strong>30 feet</strong>. All creatures in a <strong>5-foot burst</strong> centered on that point must attempt a <strong>Reflex save</strong> against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>2d6 fire</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>4d6 fire</strong> damage and gains <strong>Persistent 1d6 fire</strong> damage (DC 12 flat check to end).</p><p><strong>Critical Failure</strong> The target takes <strong>6d6 fire</strong> damage and gains <strong>Persistent 2d6 fire</strong> damage (DC 15 flat check to end).</p><p><strong>Cooldown:</strong> 3 rounds.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

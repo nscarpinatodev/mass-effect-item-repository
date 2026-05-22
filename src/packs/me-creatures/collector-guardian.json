@@ -296,7 +296,7 @@
     },
     {
       "_id": "034bfc8d06cb7de0",
-      "name": "Shield HP Mod — Tier 3",
+      "name": "Shield HP Mod - Tier 3",
       "type": "equipment",
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "system": {
@@ -354,7 +354,7 @@
     },
     {
       "_id": "00667b7596e15387",
-      "name": "Shield Regen Mod — Tier 3",
+      "name": "Shield Regen Mod - Tier 3",
       "type": "equipment",
       "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
       "system": {

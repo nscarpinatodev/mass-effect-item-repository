@@ -1,0 +1,61 @@
+﻿{
+  "_key": "!items!meSentinelMast00",
+  "_id": "meSentinelMast00",
+  "folder": null,
+  "name": "Sentinel Mastery",
+  "type": "feat",
+  "img": "icons/magic/symbols/ring-circle-runes-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sentinel-mastery",
+    "description": {
+      "gm": "",
+      "value": "<p>Dual biotic and tech training allows you to deploy both disciplines with exceptional efficiency. Biotic and tech powers you use each have their action cost <strong>reduced by 1</strong> (minimum 1 action).</p><p><em>Classes: Sentinel.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

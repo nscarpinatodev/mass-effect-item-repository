@@ -1,0 +1,60 @@
+﻿{
+  "_key": "!items!meSoldierFragGr0",
+  "_id": "meSoldierFragGr0",
+  "folder": null,
+  "name": "Frag Grenade",
+  "type": "feat",
+  "img": "icons/weapons/thrown/bomb-fire.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-frag-grenade",
+    "description": {
+      "gm": "",
+      "value": "<p>You hurl a standard-issue fragmentation grenade that detonates on impact, shredding targets with lethal shrapnel.</p><p>Choose a point within <strong>60 feet</strong>. All creatures in a <strong>10-foot burst</strong> centered on that point must attempt a <strong>Reflex save</strong> against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>2d6 piercing</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>4d6 piercing</strong> damage and its Speed is reduced by <strong>10 feet</strong> until the end of your next turn.</p><p><strong>Critical Failure</strong> The target takes <strong>6d6 piercing</strong> damage, its Speed is reduced by 10 feet until the end of your next turn, and it is knocked <strong>prone</strong>.</p><p><strong>Cooldown:</strong> 3 rounds.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

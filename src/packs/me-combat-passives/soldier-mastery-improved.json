@@ -1,0 +1,70 @@
+﻿{
+  "_key": "!items!meSoldierMastIm0",
+  "_id": "meSoldierMastIm0",
+  "folder": null,
+  "name": "Improved Soldier Mastery",
+  "type": "feat",
+  "img": "icons/skills/ranged/target-bullseye-arrow-red-white.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-mastery-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Years of combat experience make you a force multiplier on the battlefield. Your weapon Strikes deal <strong>+2 additional damage</strong> (total +4 with Soldier Mastery) and you retain the <strong>+1 bonus</strong> to attack rolls against Flat-Footed enemies. Once per round when you use Adrenaline Rush, you may immediately make a Strike as a <strong>free action</strong>.</p><p><em>Prerequisite: Soldier Mastery.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "untyped",
+        "value": 2,
+        "label": "Improved Soldier Mastery"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Soldier Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

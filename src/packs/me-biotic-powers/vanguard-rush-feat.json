@@ -1,0 +1,69 @@
+{
+  "_key": "!items!meBioticCrash000",
+  "_id": "meBioticCrash000",
+  "folder": null,
+  "name": "Vanguard Rush",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-vanguard-rush",
+    "description": {
+      "gm": "",
+      "value": "<p>You combine your Biotic Charge and Nova into a single explosive sequence, crashing into your target and immediately detonating your barrier energy on impact.</p><p><strong>Requirements</strong> You have an active Biotic Barrier with at least 1 HP remaining.</p><p>Use <strong>Biotic Charge</strong>. If the target fails their save (Failure or Critical Failure result), immediately use <strong>Nova</strong> as a free action upon landing. The Nova uses your Biotic Barrier's current HP at the moment of detonation, including any HP recharged by the Biotic Charge. If the target critically succeeds on their save against Biotic Charge, Nova is not triggered.</p><p>Using Vanguard Rush places both Biotic Charge and Nova on their individual cooldowns.</p><p><strong>Cooldown:</strong> 7 - your Charisma modifier rounds (minimum 1).</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "manipulate",
+        "move"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Biotic Charge"
+        },
+        {
+          "value": "Nova"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

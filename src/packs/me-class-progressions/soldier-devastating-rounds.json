@@ -1,0 +1,62 @@
+{
+  "_key": "!items!meSoldierDevRnds",
+  "_id": "meSoldierDevRnds",
+  "folder": null,
+  "name": "Devastating Rounds",
+  "type": "feat",
+  "img": "icons/weapons/ammunition/bullets-cartridge-brass.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-devastating-rounds",
+    "description": {
+      "gm": "",
+      "value": "<p>Your deep familiarity with ammo types lets you push each round to its absolute limits.</p><p>Each ammo power you have active deals <strong>+1 additional damage die</strong> of its type (stacks with Ammo Master's bonus, for +2 total additional dice).</p><p><em>Prerequisite: Ammo Master. Classes: Soldier.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Ammo Master"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

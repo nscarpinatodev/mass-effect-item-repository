@@ -18,7 +18,7 @@
     "slug": "me-feat-shredder",
     "description": {
       "gm": "",
-      "value": "<p>You have been trained in the use of shredder rounds. This feat grants you the ability to load your weapon with this special ammunition as a single action.</p><p>Serrated flechette rounds designed to shred unprotected tissue. Your weapon attacks deal an additional <strong>1d6 slashing damage</strong>.</p><p>Most effective against targets with no active shields, barriers, or armor.</p><p>Remove this effect to return to standard ammunition.</p>"
+      "value": "<p>You have been trained in the use of shredder rounds. Using two actions, you can modify your ammunition to gain the following features:</p><p>Serrated flechette rounds designed to shred unprotected tissue. Your weapon attacks deal an additional <strong>1d6 slashing damage</strong>.</p><p>Most effective against targets with no active shields, barriers, or armor.</p><p>Remove this effect to return to standard ammunition.</p>"
     },
     "rules": [],
     "_migration": {
@@ -40,7 +40,7 @@
       "remaster": true
     },
     "level": {
-      "value": 2
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -49,12 +49,20 @@
       "value": "action"
     },
     "actions": {
-      "value": 1
+      "value": 2
     },
     "category": "class",
     "selfEffect": {
       "uuid": "Compendium.mass-effect-sf2e-conversion.me-ammo-powers.Item.meAmmoShredEff00",
       "name": "Shredder Rounds"
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

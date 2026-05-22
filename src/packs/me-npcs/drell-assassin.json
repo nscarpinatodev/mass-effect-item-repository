@@ -409,7 +409,7 @@
       "system": {
         "slug": "drell-vanish",
         "description": {
-          "value": "<p><strong>Vanish</strong> <span class=\"action-glyph\">1</span></p><hr /><p>The drell assassin uses their training and desert-stalker instincts to immediately Hide, even without cover or concealment, taking a –2 penalty to the check if nothing obscures them.</p>",
+          "value": "<p><strong>Vanish</strong> <span class=\"action-glyph\">1</span></p><hr /><p>The drell assassin uses their training and desert-stalker instincts to immediately Hide, even without cover or concealment, taking a -2 penalty to the check if nothing obscures them.</p>",
           "gm": ""
         },
         "rules": [],

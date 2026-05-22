@@ -1,0 +1,406 @@
+{
+  "name": "Cerberus Combat Engineer",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-engineer.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Cerberus Combat Engineer",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-engineer.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "cerberus-combat-engineer",
+    "details": {
+      "level": {
+        "value": 4
+      },
+      "publicNotes": "<p>The Cerberus Combat Engineer deploys automated turrets and provides technical support to allied forces. In combat it prioritizes setting up a turret before engaging directly with a submachine gun. Eliminating engineers quickly prevents them from establishing sustained fire positions.</p><p><strong>Kinetic Barrier:</strong> 40 Shield HP. Recharges 12 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Cerberus field technician who deploys combat turrets and provides technical support to allied forces."
+    },
+    "attributes": {
+      "hp": {
+        "value": 60,
+        "max": 60,
+        "temp": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "cerberus"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "common"
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 4
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 13,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 13,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "crafting": {
+        "base": 14
+      },
+      "computers": {
+        "base": 12
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 12,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "5d180aa5a1981e20",
+      "name": "Submachine Gun",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "cerberus-engineer-smg",
+        "bonus": {
+          "value": 11
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+3",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 50
+        },
+        "traits": {
+          "value": []
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a8be7d8a58219074.5d180aa5a1981e20"
+    },
+    {
+      "_id": "9807fddb5ba25858",
+      "name": "Deploy Turret",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "cerberus-engineer-deploy-turret",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>The Engineer deploys a combat turret in an adjacent square. The turret has AC 17, HP 30, and on each of the Engineer's turns makes one ranged attack (+11 to hit, 1d6+3 piercing, 60 ft range). The turret is destroyed if reduced to 0 HP. Only one turret can be active at a time.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "manipulate",
+            "tech"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a8be7d8a58219074.9807fddb5ba25858"
+    },
+    {
+      "_id": "4b1fedac97209131",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p><p>If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a8be7d8a58219074.4b1fedac97209131"
+    },
+    {
+      "_id": "1898c41bbdb46970",
+      "name": "Shield HP Mod - Tier 1",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t1",
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+10 HP</strong> (base 30 → 40).</p><p>Only one Shield HP Mod can be installed at a time.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "price": {
+          "value": {
+            "sp": 600
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a8be7d8a58219074.1898c41bbdb46970"
+    }
+  ],
+  "_id": "a8be7d8a58219074",
+  "_key": "!actors!a8be7d8a58219074",
+  "effects": []
+}

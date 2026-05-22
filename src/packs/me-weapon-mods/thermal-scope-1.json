@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A thermal imaging scope that overlays heat signatures onto the targeting display, allowing the sniper to identify biological targets behind light cover and track movement through smoke or debris. The heat signature mapping highlights organ-dense areas and joint gaps in armor, guiding rounds toward targets' most vulnerable points. Designed for sniper rifles. On a successful aimed shot, deal an additional 1d6 precision damage.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a sniper rifle.</p>"
+      "value": "<p>A thermal imaging scope that overlays heat signatures onto the targeting display, allowing the sniper to identify biological targets behind light cover and track movement through smoke or debris. The heat signature mapping highlights organ-dense areas and joint gaps in armor, guiding rounds toward targets' most vulnerable points. Designed for sniper rifles. On a successful aimed shot, deal an additional 1d6 precision damage.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a sniper rifle.</p>"
     },
     "rules": [],
     "slug": "thermal-scope-1",

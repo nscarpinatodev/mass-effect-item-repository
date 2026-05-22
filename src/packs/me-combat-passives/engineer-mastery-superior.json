@@ -1,0 +1,64 @@
+﻿{
+  "_key": "!items!meEngineerMastS0",
+  "_id": "meEngineerMastS0",
+  "folder": null,
+  "name": "Superior Engineer Mastery",
+  "type": "feat",
+  "img": "icons/equipment/wrist/bracer-runed-steel-orange.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-engineer-mastery-superior",
+    "description": {
+      "gm": "",
+      "value": "<p>Your mastery of omni-tool systems reaches the pinnacle of technical achievement. All tech powers have their action cost <strong>reduced by 1</strong> (minimum 1 action), their DCs gain <strong>+2</strong> (total), and you may reduce a cooldown once per round when dealing damage. Tech powers used against <strong>Flat-Footed</strong> targets deal <strong>+1d6 bonus damage</strong>. Your Combat Drone gains <strong>+2 HP per your level</strong>.</p><p><em>Prerequisite: Improved Engineer Mastery.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Engineer Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

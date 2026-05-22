@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meInfiltratHntMk",
+  "_id": "meInfiltratHntMk",
+  "folder": null,
+  "name": "Hunter's Mark",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-infiltrator-hunters-mark",
+    "description": {
+      "gm": "",
+      "value": "<p>You mark a target through your scope, feeding real-time biometric data to your weapon's targeting system.</p><p>Designate one creature you can see within 120 feet as your <strong>Marked target</strong>. You deal <strong>+2 damage</strong> against the Marked target with all weapon Strikes, and you always know the Marked target's exact location (even if Concealed). The Mark persists until the target is incapacitated or you Mark a new target.</p><p><em>Prerequisite: Master Weapon Mastery (Sniper Rifles). Classes: Infiltrator.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Master Weapon Mastery (Sniper Rifles)"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

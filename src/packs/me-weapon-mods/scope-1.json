@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A low-magnification targeting scope with an integrated rangefinder and windage compensation system. Allows the user to reliably engage targets at distances beyond the weapon's standard effective range. Compatible with any ranged weapon. Increases the weapon's range increment by 20 feet.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A low-magnification targeting scope with an integrated rangefinder and windage compensation system. Allows the user to reliably engage targets at distances beyond the weapon's standard effective range. Compatible with any ranged weapon. Increases the weapon's range increment by 20 feet.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "scope-1",

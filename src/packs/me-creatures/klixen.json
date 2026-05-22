@@ -37,7 +37,7 @@
         "value": 4
       },
       "blurb": "Armored crab-like predator that secretes corrosive acids",
-      "publicNotes": "<p>Klixen are heavily armored arthropod predators whose primary defensive and offensive mechanism is the production of highly corrosive biological acids. Their carapace is resistant to most small arms fire, and their acid spray makes approaching them in enclosed spaces particularly hazardous. They are not pack hunters but share territory with other klixen, which means encountering one frequently means there are more nearby.</p><p><strong>Acid Spray (2 actions):</strong> The klixen expels a stream of corrosive fluid in a 15-foot cone. Each creature in the area takes 3d6 acid damage (DC 20 Reflex save; half on success). The area remains coated in acid until the end of the klixen's next turn—creatures that enter or end their turn in the area take 1d6 acid damage.</p><p><strong>Carapace:</strong> Resistance 5 to piercing and slashing damage from non-area attacks.</p>",
+      "publicNotes": "<p>Klixen are heavily armored arthropod predators whose primary defensive and offensive mechanism is the production of highly corrosive biological acids. Their carapace is resistant to most small arms fire, and their acid spray makes approaching them in enclosed spaces particularly hazardous. They are not pack hunters but share territory with other klixen, which means encountering one frequently means there are more nearby.</p><p><strong>Acid Spray (2 actions):</strong> The klixen expels a stream of corrosive fluid in a 15-foot cone. Each creature in the area takes 3d6 acid damage (DC 20 Reflex save; half on success). The area remains coated in acid until the end of the klixen's next turn-creatures that enter or end their turn in the area take 1d6 acid damage.</p><p><strong>Carapace:</strong> Resistance 5 to piercing and slashing damage from non-area attacks.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Actor and Ancestry Compendium",
@@ -258,7 +258,7 @@
       "system": {
         "slug": "klixen-acid-spray",
         "description": {
-          "value": "<p><strong>Acid Spray</strong> <span class=\"action-glyph\">2</span></p><p><strong>Frequency</strong> Once per round</p><hr /><p>The klixen expels corrosive fluid in a 15-foot cone. Each creature in the area takes 3d6 acid damage (DC 20 Reflex save; half on a success). The area remains coated until the end of the klixen's next turn—creatures that enter or end their turn in the coated area take 1d6 acid damage.</p>",
+          "value": "<p><strong>Acid Spray</strong> <span class=\"action-glyph\">2</span></p><p><strong>Frequency</strong> Once per round</p><hr /><p>The klixen expels corrosive fluid in a 15-foot cone. Each creature in the area takes 3d6 acid damage (DC 20 Reflex save; half on a success). The area remains coated until the end of the klixen's next turn-creatures that enter or end their turn in the coated area take 1d6 acid damage.</p>",
           "gm": ""
         },
         "rules": [],

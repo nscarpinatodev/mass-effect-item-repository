@@ -1,0 +1,67 @@
+{
+  "_key": "!items!meSentinelAdapDf",
+  "_id": "meSentinelAdapDf",
+  "folder": null,
+  "name": "Adaptive Defense",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sentinel-adaptive-defense",
+    "description": {
+      "gm": "",
+      "value": "<p>Your hybrid conditioning allows your tech and biotic defenses to coexist without interfering with each other.</p><p>Tech Armor and Fortification can both be <strong>active simultaneously</strong>. The combined defensive bonuses apply: Resistance from Fortification reduces damage before Tech Armor's AC bonus applies. You may activate and dismiss each independently.</p><p><em>Prerequisite: Tech Armor, Fortification. Classes: Sentinel.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Tech Armor"
+        },
+        {
+          "value": "Fortification"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

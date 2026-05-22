@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A modified shot dispersal pattern that introduces irregular, tumbling pellets into the spread. The irregular projectiles tear rather than punch through tissue, leaving wounds that resist natural clotting. Particularly effective against organic targets that lack full-body armor coverage. Designed for shotguns. On a hit, the target takes 1d4 persistent bleed damage.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a shotgun.</p>"
+      "value": "<p>A modified shot dispersal pattern that introduces irregular, tumbling pellets into the spread. The irregular projectiles tear rather than punch through tissue, leaving wounds that resist natural clotting. Particularly effective against organic targets that lack full-body armor coverage. Designed for shotguns. On a hit, the target takes 1d4 persistent bleed damage.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a shotgun.</p>"
     },
     "rules": [],
     "slug": "shredder-mod-1",

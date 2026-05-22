@@ -1,0 +1,76 @@
+{
+  "_key": "!items!meSoldierHvyWep0",
+  "_id": "meSoldierHvyWep0",
+  "folder": null,
+  "name": "Heavy Weapon Training",
+  "type": "feat",
+  "img": "icons/weapons/artillery/cannon-barrel-black.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-heavy-weapon-training",
+    "description": {
+      "gm": "",
+      "value": "<p>You've mastered the art of carrying and operating the heaviest weapons in the Alliance's arsenal.</p><p>You gain proficiency with <strong>heavy weapons</strong> (bomb group). You deal <strong>+2 damage</strong> with heavy weapon attacks. Heavy weapons consume Power Cells (tracked as a separate consumable).</p><p><em>Prerequisite: Weapon Mastery (Assault Rifles) or Weapon Mastery (Shotguns). Classes: Soldier.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "item:group:bomb"
+        ],
+        "label": "Heavy Weapon Training"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Weapon Mastery (Assault Rifles)"
+        },
+        {
+          "value": "Weapon Mastery (Shotguns)"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meEngineerOvldNt",
+  "_id": "meEngineerOvldNt",
+  "folder": null,
+  "name": "Overload Network",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-engineer-overload-network",
+    "description": {
+      "gm": "",
+      "value": "<p>Your overload signal broadcasts across all EM-vulnerable systems simultaneously.</p><p>When Overload destroys a kinetic shield, it chains to <strong>all shielded targets within 15 feet</strong> (not just one), dealing half damage to each. Each additional target must also save or be Stunned 1.</p><p><em>Prerequisite: Overload Upgrade. Classes: Engineer.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Overload Upgrade"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

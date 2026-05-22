@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meAdeptWarpField",
+  "_id": "meAdeptWarpField",
+  "folder": null,
+  "name": "Warp Field",
+  "type": "feat",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-adept-warp-field",
+    "description": {
+      "gm": "",
+      "value": "<p>You generate a sustained dark energy aura that continuously destabilizes everything around you.</p><p>You project a <strong>15-foot warp aura</strong> for <strong>1 minute</strong>. At the start of each of your turns, all enemies within the aura take <strong>1d4 void damage</strong> and must succeed on a <strong>Fortitude</strong> save (DC = your class DC) or become Flat-Footed until the start of your next turn. Dismiss as a free action.</p><p><em>Prerequisite: Warp Upgrade. Classes: Adept.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warp Upgrade"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

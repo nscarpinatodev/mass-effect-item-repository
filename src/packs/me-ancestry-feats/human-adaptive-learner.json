@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>Humans do not have the longest lifespans, the most efficient minds, or the best physical equipment. What they have is an unusual capacity to learn across domains—to pick up skills that evolution never prepared them for and develop competence in areas that the species has only been exposed to for a generation. Where other species often excel within a defined area of specialization, humans accumulate breadth. This is, depending on your perspective, either their greatest strength or evidence that they cannot commit to anything.</p><p>You gain one additional skill in which you are trained (your choice). Additionally, when you receive a critical success on a check to learn a new skill or when you attempt a downtime activity to Earn Income using a skill, you gain a +1 circumstance bonus to your next check using that same skill within 24 hours.</p>"
+      "value": "<p>Humans do not have the longest lifespans, the most efficient minds, or the best physical equipment. What they have is an unusual capacity to learn across domains-to pick up skills that evolution never prepared them for and develop competence in areas that the species has only been exposed to for a generation. Where other species often excel within a defined area of specialization, humans accumulate breadth. This is, depending on your perspective, either their greatest strength or evidence that they cannot commit to anything.</p><p>You gain one additional skill in which you are trained (your choice). Additionally, when you receive a critical success on a check to learn a new skill or when you attempt a downtime activity to Earn Income using a skill, you gain a +1 circumstance bonus to your next check using that same skill within 24 hours.</p>"
     },
     "level": {
       "value": 1
@@ -46,8 +46,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

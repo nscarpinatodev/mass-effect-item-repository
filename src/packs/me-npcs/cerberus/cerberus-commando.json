@@ -1,0 +1,414 @@
+{
+  "name": "Cerberus Commando",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-commando.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Cerberus Commando",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-commando.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "cerberus-commando",
+    "details": {
+      "level": {
+        "value": 3
+      },
+      "publicNotes": "<p>Cerberus Commandos are veteran shock troops selected from military backgrounds and given extensive close-quarters training. They prefer to close distance rapidly and engage with shotguns and combat knives, overwhelming targets before they can react.</p><p><strong>Cerberus Conditioning:</strong> Immune to frightened 1; treats frightened 2+ as frightened 1.</p><p><strong>Kinetic Barrier:</strong> 40 Shield HP. Recharges 12 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Veteran Cerberus shock trooper specializing in close-quarters combat with shotgun and combat knife."
+    },
+    "attributes": {
+      "hp": {
+        "value": 48,
+        "max": 48,
+        "temp": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "cerberus"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "common"
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 8,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 12
+      },
+      "intimidation": {
+        "base": 9
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 10,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "c0mm4nd0we4p0001",
+      "name": "Shotgun",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "cerberus-commando-shotgun",
+        "bonus": {
+          "value": 12
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+4",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 30
+        },
+        "traits": {
+          "value": [
+            "scatter-5"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a1b2c3d4e5f60001.c0mm4nd0we4p0001"
+    },
+    {
+      "_id": "c0mm4nd0me1e0001",
+      "name": "Combat Knife",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": "cerberus-commando-knife",
+        "bonus": {
+          "value": 13
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+5",
+            "damageType": "slashing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a1b2c3d4e5f60001.c0mm4nd0me1e0001"
+    },
+    {
+      "_id": "c0mm4nd0sh1d0001",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p><p>If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a1b2c3d4e5f60001.c0mm4nd0sh1d0001"
+    },
+    {
+      "_id": "c0mm4nd0shm00001",
+      "name": "Shield HP Mod - Tier 1",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t1",
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+10 HP</strong> (base 30 → 40).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "price": {
+          "value": {
+            "sp": 600
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a1b2c3d4e5f60001.c0mm4nd0shm00001"
+    }
+  ],
+  "_id": "a1b2c3d4e5f60001",
+  "_key": "!actors!a1b2c3d4e5f60001",
+  "effects": []
+}

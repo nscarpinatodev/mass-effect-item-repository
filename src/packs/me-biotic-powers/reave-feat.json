@@ -14,7 +14,7 @@
     "slug": "me-biotic-reave",
     "description": {
       "gm": "",
-      "value": "<p>You drain the vital energy from a foe, siphoning their life force and preventing them from recovering while bolstering your own resilience.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d8 void</strong> damage and cannot regain HP until the start of your next turn.</p><p><strong>Failure</strong> The target takes <strong>2d8 void</strong> damage, cannot regain HP for 1 round, and you regain <strong>1d8 HP</strong>.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d8 void</strong> damage, you regain <strong>2d8 HP</strong>, and the target cannot regain HP for 1 minute (or until the end of combat).</p>"
+      "value": "<p>You drain the vital energy from a foe, siphoning their life force and preventing them from recovering while bolstering your own resilience.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d8 void</strong> damage and cannot regain HP until the start of your next turn.</p><p><strong>Failure</strong> The target takes <strong>2d8 void</strong> damage, cannot regain HP for 1 round, and you regain <strong>1d8 HP</strong>.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d8 void</strong> damage, you regain <strong>2d8 HP</strong>, and the target cannot regain HP for 1 minute (or until the end of combat).</p><p><strong>Cooldown:</strong> 7 âˆ’ your Charisma modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -38,7 +38,7 @@
       "remaster": true
     },
     "level": {
-      "value": 6
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -49,6 +49,14 @@
     "actions": {
       "value": 2
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

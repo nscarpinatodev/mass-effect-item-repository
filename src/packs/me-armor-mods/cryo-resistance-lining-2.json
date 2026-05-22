@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A full-suit cryogenic insulation system incorporating active thermal countermeasures — small resistance heating elements throughout the suit that engage automatically when temperature sensors detect hazardous cold. Originally developed for Alliance Marines operating in arctic and deep-space environments. Provides resistance 10 to cold damage.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A full-suit cryogenic insulation system incorporating active thermal countermeasures - small resistance heating elements throughout the suit that engage automatically when temperature sensors detect hazardous cold. Originally developed for Alliance Marines operating in arctic and deep-space environments. Provides resistance 10 to cold damage.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "cryo-resistance-lining-2",

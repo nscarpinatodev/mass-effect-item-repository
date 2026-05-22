@@ -1,0 +1,60 @@
+﻿{
+  "_key": "!items!meInfiltrMast000",
+  "_id": "meInfiltrMast000",
+  "folder": null,
+  "name": "Infiltrator Mastery",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-violet.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-infiltrator-mastery",
+    "description": {
+      "gm": "",
+      "value": "<p>Tactical training integrates tech powers seamlessly into your combat routine. All tech powers have their action cost <strong>reduced by 1</strong> (minimum 1 action). While Tactical Cloak is active, you gain a <strong>+2 bonus</strong> to Stealth checks.</p><p><em>Classes: Infiltrator.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

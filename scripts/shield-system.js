@@ -188,8 +188,8 @@ Hooks.once('init', () => {
   });
   game.settings.register(MODULE_ID, 'autoDeleteBarrier', {
     name: 'Auto-Delete Depleted Barriers',
-    hint: 'Automatically remove the Biotic Barrier effect when its HP reaches zero at turn start.',
-    scope: 'world', config: true, type: Boolean, default: true,
+    hint: 'Automatically remove the Biotic Barrier effect when its HP reaches zero. When disabled, the barrier persists as an empty field and can be refilled by spending actions or by using Charge.',
+    scope: 'world', config: true, type: Boolean, default: false,
   });
 
   // ── Token bars ──
@@ -211,7 +211,10 @@ Hooks.once('init', () => {
 Hooks.once('ready', async () => {
   const version = game.modules.get(MODULE_ID)?.version ?? '?';
   console.log(`ME Shields | Mass Effect Shield System v${version} loaded.`);
-  if (game.user.isGM) await syncEffects(version);
+  if (game.user.isGM) {
+    await syncEffects(version);
+    await migrateActorItems();
+  }
 });
 
 // ── EFFECT LIFECYCLE ──────────────────────────────────────────────────────────
@@ -391,7 +394,14 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
     } else {
       barrierDepleted = true;
       warpDetonated   = isWarp;
-      barrier.delete();
+      if (game.settings.get(MODULE_ID, 'autoDeleteBarrier')) {
+        barrier.delete();
+      } else {
+        barrier.update({
+          [`flags.${MODULE_ID}.barrierCurrent`]: 0,
+          'system.badge': { type: 'counter', value: 0, max: barrierMax },
+        });
+      }
     }
   }
 
@@ -540,7 +550,11 @@ Hooks.on('pf2e.startTurn', async (first, second) => {
     const barrierMax     = barrier.getFlag(MODULE_ID, 'barrierMax')     ?? 0;
     const barrierCurrent = barrier.getFlag(MODULE_ID, 'barrierCurrent') ?? 0;
     if (barrierCurrent <= 0) {
-      if (game.settings.get(MODULE_ID, 'autoDeleteBarrier')) await barrier.delete();
+      if (game.settings.get(MODULE_ID, 'autoDeleteBarrier')) {
+        await barrier.delete();
+      } else {
+        parts.push(barrierDepletedHtml());
+      }
     } else {
       parts.push(barrierStatusHtml(barrierCurrent, barrierMax));
     }
@@ -922,6 +936,155 @@ function phasicBypassHtml(armorCurrent, armorMax) {
     + shieldBar(armorCurrent, armorMax, C.phasic));
 }
 
+// ── WORLD ACTOR ITEM MIGRATION ────────────────────────────────────────────────
+// Ensures all ME shield/barrier/armor/mod items embedded in world actors have
+// the correct flags. Handles items imported from old compendium versions that
+// may have missing or renamed flags. Runs automatically at ready (GM only).
+
+// Maps equipment item name → required flags with their correct values.
+// Matched by name only — no flag pre-condition, so items with no ME flags are found.
+const EQUIPMENT_FLAG_DEFAULTS = {
+  'Kinetic Shield':            { shieldMax: 30, shieldRegen: 10 },
+  'Shield HP Mod - Tier 1':    { shieldHpBonus: 10 },
+  'Shield HP Mod - Tier 2':    { shieldHpBonus: 20 },
+  'Shield HP Mod - Tier 3':    { shieldHpBonus: 40 },
+  'Shield HP Mod - Tier 4':    { shieldHpBonus: 70 },
+  'Shield Regen Mod - Tier 1': { regenMult: 1.5 },
+  'Shield Regen Mod - Tier 2': { regenMult: 2.0 },
+  'Shield Regen Mod - Tier 3': { regenMult: 2.5 },
+  'Shield Regen Mod - Tier 4': { regenMult: 3.0 },
+};
+
+// Maps armor frame effect item name → correct armorMax value.
+const ARMOR_FRAME_DEFAULTS = {
+  'Light Combat Frame':    20,
+  'Standard Combat Frame': 50,
+  'Heavy Combat Frame':    100,
+  'Titan Combat Frame':    200,
+};
+
+async function migrateActorItems() {
+  if (!game.user.isGM) return;
+
+  // actorLog: { actorName → string[] of what was fixed }
+  const actorLog = new Map();
+  const note = (actor, msg) => {
+    if (!actorLog.has(actor.name)) actorLog.set(actor.name, []);
+    actorLog.get(actor.name).push(msg);
+  };
+
+  for (const actor of game.actors.contents) {
+    let shieldFixed = false;
+
+    // ── Equipment items (shields, mods) ──
+    for (const item of (actor.itemTypes?.equipment ?? [])) {
+      const defaults = EQUIPMENT_FLAG_DEFAULTS[item.name];
+      if (!defaults) continue;
+
+      const existing = item.flags?.[MODULE_ID] ?? {};
+      const updates = {};
+      for (const [key, val] of Object.entries(defaults)) {
+        if (existing[key] == null) updates[`flags.${MODULE_ID}.${key}`] = val;
+      }
+
+      if (Object.keys(updates).length > 0) {
+        await item.update(updates);
+        note(actor, `${item.name}: set ${Object.keys(updates).map(k => k.split('.').pop()).join(', ')}`);
+        if (item.name === 'Kinetic Shield' || item.name.startsWith('Shield HP Mod')) shieldFixed = true;
+      }
+    }
+
+    // ── Sync hp.temp if shield base or HP mod was repaired ──
+    if (shieldFixed) {
+      const shield  = getShieldEffect(actor);
+      const hpMod   = getShieldHpMod(actor);
+      const baseMax = shield?.getFlag(MODULE_ID, 'shieldMax') ?? 0;
+      const bonus   = hpMod?.getFlag(MODULE_ID, 'shieldHpBonus') ?? 0;
+      const correct = baseMax + bonus;
+      if (correct > 0 && actor.system.attributes.hp.temp !== correct) {
+        await actor.update({ 'system.attributes.hp.temp': correct });
+        note(actor, `Shield HP reset to ${correct}`);
+      }
+    }
+
+    // ── Effect items (armor frames, biotic barriers) ──
+    for (const item of (actor.itemTypes?.effect ?? [])) {
+      const flags = item.flags?.[MODULE_ID] ?? {};
+
+      // Armor frames: ensure armorMax, armorCurrent, and badge are set
+      const expectedArmorMax = ARMOR_FRAME_DEFAULTS[item.name];
+      if (expectedArmorMax != null) {
+        const updates = {};
+        if (flags.armorMax == null)     updates[`flags.${MODULE_ID}.armorMax`]     = expectedArmorMax;
+        if (flags.armorCurrent == null) updates[`flags.${MODULE_ID}.armorCurrent`] = expectedArmorMax;
+        const needsBadge = item.system?.badge?.type !== 'counter' || item.system?.badge?.max == null;
+        if (Object.keys(updates).length > 0 || needsBadge) {
+          const max = flags.armorMax ?? expectedArmorMax;
+          const cur = flags.armorCurrent ?? expectedArmorMax;
+          await item.update({
+            ...updates,
+            'system.badge': { type: 'counter', value: cur, max, label: 'Armor Points' },
+          });
+          note(actor, `${item.name}: repaired armor frame (${cur}/${max} AP)`);
+        }
+        continue;
+      }
+
+      // Biotic barriers: ensure barrierMax and barrierCurrent are set
+      if (flags.barrier === true || flags.barrierMax != null) {
+        const updates = {};
+        if (flags.barrierMax == null) {
+          const level = actor.system?.details?.level?.value ?? 1;
+          const max = Math.max(5, 5 * Math.floor(level / 2));
+          updates[`flags.${MODULE_ID}.barrierMax`]     = max;
+          updates[`flags.${MODULE_ID}.barrierCurrent`] = max;
+          updates['system.badge'] = { type: 'counter', value: max, max };
+          note(actor, `${item.name}: initialized barrier (${max} HP)`);
+        } else if (flags.barrierCurrent == null) {
+          const max = flags.barrierMax;
+          updates[`flags.${MODULE_ID}.barrierCurrent`] = max;
+          updates['system.badge'] = { type: 'counter', value: max, max };
+          note(actor, `${item.name}: restored barrierCurrent to ${max}`);
+        }
+        if (Object.keys(updates).length > 0) await item.update(updates);
+      }
+    }
+  }
+
+  // ── Report ──
+  const totalActors = actorLog.size;
+  if (totalActors === 0) {
+    console.log('ME Shields | Migration complete — nothing to fix.');
+    ui.notifications.info('ME Shields | All actors are up to date.');
+    return;
+  }
+
+  console.log(`ME Shields | Migration complete — updated ${totalActors} actor(s).`);
+  for (const [name, fixes] of actorLog) {
+    console.log(`  ${name}: ${fixes.join(' | ')}`);
+  }
+
+  const rows = [...actorLog.entries()]
+    .map(([name, fixes]) => `<li><strong>${name}</strong><ul>${fixes.map(f => `<li>${f}</li>`).join('')}</ul></li>`)
+    .join('');
+
+  const DialogClass = foundry.applications?.api?.DialogV2 ?? Dialog;
+
+  if (foundry.applications?.api?.DialogV2) {
+    DialogClass.alert({
+      window: { title: 'ME Shields — Migration Complete' },
+      content: `<p>Updated <strong>${totalActors}</strong> actor(s):</p><ul>${rows}</ul>`,
+    });
+  } else {
+    new Dialog({
+      title: 'ME Shields — Migration Complete',
+      content: `<p>Updated <strong>${totalActors}</strong> actor(s):</p><ul>${rows}</ul>`,
+      buttons: { ok: { label: 'OK' } },
+      default: 'ok',
+    }).render(true);
+  }
+}
+
 // ── LEGACY CLEANUP ────────────────────────────────────────────────────────────
 // All module items (shields, barriers, armor frames, ammo) now live in the
 // me-shields and me-ammo-powers compendiums. If old world items from a previous
@@ -1015,6 +1178,7 @@ async function cleanAmmoFeats() {
 
 globalThis.MassEffectShields = {
   sync:             () => syncEffects(game.modules.get(MODULE_ID)?.version ?? '?'),
+  migrate:          migrateActorItems,
   debug:            debugShields,
   refreshTokenBars: refreshMETokenBars,
   cleanAmmoFeats,

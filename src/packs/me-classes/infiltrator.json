@@ -14,7 +14,7 @@
     "slug": "me-class-infiltrator",
     "description": {
       "gm": "",
-      "value": "<p>Elite marksmen who combine precision weapon skills with just enough tech to gain and exploit an edge. Infiltrators rely on Tactical Cloak to set up devastating precision strikes, then use tech powers to strip defenses and neutralize specific threats.</p><p><strong>Bonus:</strong> +2 circumstance bonus to Stealth checks (trained in concealment and operational silence).</p><hr><p><strong>Signature Abilities:</strong> Tactical Cloak, Incinerate, AI Hacking (or Sabotage), Energy Drain</p><p><strong>Power Access:</strong> Tactical Cloak (core, always available), plus a limited selection of tech powers from the <em>ME Tech Powers</em> compendium — typically one offensive power (Incinerate or Cryo Blast) and one utility/crowd control power (AI Hacking, Sabotage, or Energy Drain). No biotic power access.</p><p><strong>Weapons:</strong> Sniper rifles (primary), pistols and submachine guns (secondary). The Tactical Cloak precision bonus is designed for sniper follow-through.</p><p><strong>Armor:</strong> Light and medium armor. Infiltrators rely on positioning and cloak rather than taking hits.</p><p><strong>Playstyle:</strong> Precision control from range. Cloak to reposition, uncloak for a precision sniper shot (+2d6 from Tactical Cloak), strip one enemy's defenses with Incinerate or Energy Drain, and use AI Hacking to remove a synthetic threat from the fight entirely. High single-target damage; low survivability in open combat.</p>"
+      "value": "<p>Elite marksmen who combine precision weapon skills with just enough tech to gain and exploit an edge. Infiltrators rely on Tactical Cloak to set up devastating precision strikes, then use tech powers to strip defenses and neutralize specific threats.</p><p><strong>Bonus:</strong> +2 circumstance bonus to Stealth checks (trained in concealment and operational silence).</p><hr><p><strong>Signature Abilities:</strong> Tactical Cloak, Incinerate, AI Hacking (or Sabotage), Energy Drain</p><p><strong>Power Access:</strong> Tactical Cloak (core, always available), plus a limited selection of tech powers from the <em>ME Tech Powers</em> compendium - typically one offensive power (Incinerate or Cryo Blast) and one utility/crowd control power (AI Hacking, Sabotage, or Energy Drain). No biotic power access.</p><p><strong>Weapons:</strong> Sniper rifles (primary), pistols and submachine guns (secondary). The Tactical Cloak precision bonus is designed for sniper follow-through.</p><p><strong>Armor:</strong> Light and medium armor. Infiltrators rely on positioning and cloak rather than taking hits.</p><p><strong>Playstyle:</strong> Precision control from range. Cloak to reposition, uncloak for a precision sniper shot (+2d6 from Tactical Cloak), strip one enemy's defenses with Incinerate or Energy Drain, and use AI Hacking to remove a synthetic threat from the fight entirely. High single-target damage; low survivability in open combat.</p>"
     },
     "rules": [
       {
@@ -53,6 +53,14 @@
     "actions": {
       "value": null
     },
-    "category": "classfeature"
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

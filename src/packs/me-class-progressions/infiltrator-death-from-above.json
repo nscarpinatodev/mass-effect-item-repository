@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meInfiltratDthAb",
+  "_id": "meInfiltratDthAb",
+  "folder": null,
+  "name": "Death From Above",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-infiltrator-death-from-above",
+    "description": {
+      "gm": "",
+      "value": "<p>A critical strike made from the shadows carries terrifying force multipliers that push damage beyond the edge of comprehension.</p><p>When you score a <strong>critical hit</strong> with a Strike made while Tactical Cloak is active, you deal an additional <strong>2d6 precision damage</strong> (stacks with Assassination Protocol's +3d6 for a total of +5d6 on a crit). Enemies that witness this must succeed on a <strong>Will</strong> DC 20 save or become <strong>Frightened 2</strong>.</p><p><em>Prerequisite: Assassination Protocol. Classes: Infiltrator.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Assassination Protocol"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

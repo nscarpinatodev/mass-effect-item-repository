@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Arc Projector fires a bolt of concentrated electromagnetic energy that ionizes the air between weapon and target, creating a conductive channel through which subsequent lightning arcs jump from enemy to enemy. A single shot can incapacitate an entire cluster of targets in rapid succession, bypassing their kinetic barriers entirely. Cerberus developed it for anti-Geth operations, where its chain lightning effect is most visible — and most lethal.</p>"
+      "value": "<p>The Arc Projector fires a bolt of concentrated electromagnetic energy that ionizes the air between weapon and target, creating a conductive channel through which subsequent lightning arcs jump from enemy to enemy. A single shot can incapacitate an entire cluster of targets in rapid succession, bypassing their kinetic barriers entirely. Cerberus developed it for anti-Geth operations, where its chain lightning effect is most visible - and most lethal.</p>"
     },
     "rules": [],
     "slug": "arc-projector",

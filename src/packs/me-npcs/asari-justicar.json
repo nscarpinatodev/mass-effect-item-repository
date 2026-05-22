@@ -40,7 +40,7 @@
         "value": 9
       },
       "blurb": "Ancient asari law enforcer bound by an absolute code",
-      "publicNotes": "<p>Justicars are among the most feared individuals in asari society—not because they are cruel, but because they are absolutely committed. A justicar who has taken a case does not stop. She does not negotiate. She does not accept bribes or threats. The Code of Siari grants her legal authority to use lethal force anywhere in asari space, and cultural authority that extends significantly further. Most encounters with a justicar end in one of two ways: the guilty party is brought to justice, or the justicar is dead. The latter outcome is statistically uncommon.</p><p><strong>Code of Siari:</strong> Immune to the charmed and controlled conditions. Cannot be magically compelled.</p><p><strong>Phase Disruptor (2 actions):</strong> Releases a wave of biotic force in a 30-ft cone. Each creature in the area takes 6d6 force damage (DC 26 Fortitude save; half on success, no damage on critical success).</p><p><strong>Biotic Sphere (3 actions, 1/encounter):</strong> Creates a 20-ft radius field of warped spacetime centered on the justicar for 1 minute. Ranged attacks through the field take a −2 circ. penalty; movement through costs double. The justicar can dismiss it as a free action.</p><p><strong>Kinetic Barrier:</strong> 110 Shield HP. Recharges 26 HP per turn.</p>",
+      "publicNotes": "<p>Justicars are among the most feared individuals in asari society-not because they are cruel, but because they are absolutely committed. A justicar who has taken a case does not stop. She does not negotiate. She does not accept bribes or threats. The Code of Siari grants her legal authority to use lethal force anywhere in asari space, and cultural authority that extends significantly further. Most encounters with a justicar end in one of two ways: the guilty party is brought to justice, or the justicar is dead. The latter outcome is statistically uncommon.</p><p><strong>Code of Siari:</strong> Immune to the charmed and controlled conditions. Cannot be magically compelled.</p><p><strong>Phase Disruptor (2 actions):</strong> Releases a wave of biotic force in a 30-ft cone. Each creature in the area takes 6d6 force damage (DC 26 Fortitude save; half on success, no damage on critical success).</p><p><strong>Biotic Sphere (3 actions, 1/encounter):</strong> Creates a 20-ft radius field of warped spacetime centered on the justicar for 1 minute. Ranged attacks through the field take a -2 circ. penalty; movement through costs double. The justicar can dismiss it as a free action.</p><p><strong>Kinetic Barrier:</strong> 110 Shield HP. Recharges 26 HP per turn.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Mass Effect Actor and Ancestry Compendium",
@@ -451,7 +451,7 @@
       "system": {
         "slug": "justicar-biotic-sphere",
         "description": {
-          "value": "<p><strong>Biotic Sphere</strong> <span class=\"action-glyph\">3</span></p><p><strong>Frequency</strong> Once per encounter</p><hr /><p>The justicar creates a 20-foot radius field of warped spacetime centered on herself for 1 minute. While the sphere persists, ranged attacks passing through the field take a −2 circumstance penalty to attack rolls, and movement through the field costs double the normal movement. The justicar can dismiss the sphere as a free action.</p>",
+          "value": "<p><strong>Biotic Sphere</strong> <span class=\"action-glyph\">3</span></p><p><strong>Frequency</strong> Once per encounter</p><hr /><p>The justicar creates a 20-foot radius field of warped spacetime centered on herself for 1 minute. While the sphere persists, ranged attacks passing through the field take a -2 circumstance penalty to attack rolls, and movement through the field costs double the normal movement. The justicar can dismiss the sphere as a free action.</p>",
           "gm": ""
         },
         "rules": [],
@@ -605,7 +605,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Elanus Risk Control produces the Duelist series using kinetic plastite weave — a cheaper alternative to armalite. Barrier output and damage absorption are both below Hahne-Kedar standards at equivalent levels, making these suits a budget option for less well-funded operators.</p>"
+          "value": "<p>Elanus Risk Control produces the Duelist series using kinetic plastite weave - a cheaper alternative to armalite. Barrier output and damage absorption are both below Hahne-Kedar standards at equivalent levels, making these suits a budget option for less well-funded operators.</p>"
         },
         "rules": [],
         "slug": "duelist-armor-l",

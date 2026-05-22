@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>An adjustable choke collar that narrows the shot spread at the muzzle, tightening pellet groupings at range. The choke's internal geometry is tuned to maintain lethality at the tighter spread angle rather than just redirecting the pellets. Useful when a shotgun needs to reach targets beyond its standard effective envelope. Designed for shotguns. Increases the weapon's range increment by 10 feet.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a shotgun.</p>"
+      "value": "<p>An adjustable choke collar that narrows the shot spread at the muzzle, tightening pellet groupings at range. The choke's internal geometry is tuned to maintain lethality at the tighter spread angle rather than just redirecting the pellets. Useful when a shotgun needs to reach targets beyond its standard effective envelope. Designed for shotguns. Increases the weapon's range increment by 10 feet.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a shotgun.</p>"
     },
     "rules": [],
     "slug": "smart-choke-1",

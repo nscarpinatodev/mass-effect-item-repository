@@ -1,0 +1,65 @@
+{
+  "_key": "!items!meSentinelApexSt",
+  "_id": "meSentinelApexSt",
+  "folder": null,
+  "name": "Apex Sentinel",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sentinel-apex-sentinel",
+    "description": {
+      "gm": "",
+      "value": "<p>You are the ultimate expression of the hybrid warrior - a near-perfect fusion of biotic and tech capability wrapped in impenetrable armor.</p><p>Adrenaline Rush and Fortification can both be activated <strong>simultaneously as free actions</strong> (once per round each). The action cost reductions from Sentinel Mastery apply to every power. Sentinel's Resolve can be used <strong>twice per day</strong>.</p><p><em>Prerequisite: Sentinel's Resolve. Classes: Sentinel.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Sentinel's Resolve"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

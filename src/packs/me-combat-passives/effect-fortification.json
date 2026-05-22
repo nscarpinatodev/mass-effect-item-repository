@@ -1,0 +1,50 @@
+{
+  "_key": "!items!meEffFortifictn0",
+  "_id": "meEffFortifictn0",
+  "folder": null,
+  "name": "Fortification",
+  "type": "effect",
+  "img": "icons/magic/defensive/shield-barrier-deflect.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-effect-fortification",
+    "description": {
+      "gm": "",
+      "value": "<p>Your armor is hardened with protective current. You have <strong>Resistance 5 to all damage</strong>. Dismiss as a free action to deactivate.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all",
+        "value": 5,
+        "label": "Fortification"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null
+    },
+    "badge": null
+  }
+}

@@ -14,7 +14,7 @@
     "slug": "me-class-soldier",
     "description": {
       "gm": "",
-      "value": "<p>Masters of combat in every environment, Soldiers rely on weapon proficiency, tactical awareness, and a suite of ammo powers to dominate the battlefield. They eschew biotic and tech powers in favor of being the best shot in any engagement.</p><p><strong>Bonus:</strong> +4 HP from combat conditioning.</p><hr><p><strong>Signature Abilities:</strong> Adrenaline Rush, Concussive Shot, Fortification</p><p><strong>Power Access:</strong> All ammo powers (<em>ME Ammo Powers</em> compendium). Soldiers do not natively access biotic or tech power feats.</p><p><strong>Weapons:</strong> Proficient with all weapon groups — assault rifles, shotguns, sniper rifles, pistols, submachine guns, heavy weapons.</p><p><strong>Armor:</strong> Heavy, medium, and light armor. Heavy armor preferred.</p><p><strong>Playstyle:</strong> Front-line combatant. Soldiers are the most resilient class and the most weapon-versatile. Their ammo powers let them adapt to any enemy type without investing in biotic or tech abilities. In a squad, the Soldier is the one who goes through the front door.</p>"
+      "value": "<p>Masters of combat in every environment, Soldiers rely on weapon proficiency, tactical awareness, and a suite of ammo powers to dominate the battlefield. They eschew biotic and tech powers in favor of being the best shot in any engagement.</p><p><strong>Bonus:</strong> +4 HP from combat conditioning.</p><hr><p><strong>Signature Abilities:</strong> Adrenaline Rush, Concussive Shot, Fortification</p><p><strong>Power Access:</strong> All ammo powers (<em>ME Ammo Powers</em> compendium). Soldiers do not natively access biotic or tech power feats.</p><p><strong>Weapons:</strong> Proficient with all weapon groups - assault rifles, shotguns, sniper rifles, pistols, submachine guns, heavy weapons.</p><p><strong>Armor:</strong> Heavy, medium, and light armor. Heavy armor preferred.</p><p><strong>Playstyle:</strong> Front-line combatant. Soldiers are the most resilient class and the most weapon-versatile. Their ammo powers let them adapt to any enemy type without investing in biotic or tech abilities. In a squad, the Soldier is the one who goes through the front door.</p>"
     },
     "rules": [
       {
@@ -52,6 +52,14 @@
     "actions": {
       "value": null
     },
-    "category": "classfeature"
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

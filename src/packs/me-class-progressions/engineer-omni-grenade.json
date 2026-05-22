@@ -1,0 +1,66 @@
+{
+  "_key": "!items!meEngineerOmniGr",
+  "_id": "meEngineerOmniGr",
+  "folder": null,
+  "name": "Omni-Grenade",
+  "type": "feat",
+  "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-engineer-omni-grenade",
+    "description": {
+      "gm": "",
+      "value": "<p>You synthesize a custom explosive payload on the fly, combining incendiary and electromagnetic charges in a single devastating burst.</p><p>Target a point within <strong>30 feet</strong>. All creatures in a <strong>15-foot burst</strong> must attempt a <strong>Reflex</strong> DC 22 save.</p><p><strong>Critical Success:</strong> Unaffected.</p><p><strong>Success:</strong> Half damage.</p><p><strong>Failure:</strong> <strong>4d6 fire + 4d6 electricity</strong> damage. Electricity damage is doubled against shields.</p><p><strong>Critical Failure:</strong> <strong>8d6 fire + 8d6 electricity</strong> damage; Stunned 1.</p><p><em>Prerequisite: Superior Engineer Mastery. Classes: Engineer.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech",
+        "fire",
+        "electricity"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Superior Engineer Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

@@ -14,7 +14,7 @@
     "slug": "me-tech-cryo-blast",
     "description": {
       "gm": "",
-      "value": "<p>You fire a cryogenic burst from your omni-tool that flash-freezes targets in a wide area, slowing their movements.</p><p>All creatures in a <strong>10-foot radius</strong> burst within <strong>30 feet</strong> must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 cold</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d6 cold</strong> damage and is <strong>Slowed 1</strong> until the end of its next turn.</p><p><strong>Critical Failure</strong> The target takes <strong>4d6 cold</strong> damage and is <strong>Immobilized</strong> until the end of its next turn. If the target is already Slowed, it is Immobilized instead.</p>"
+      "value": "<p>You fire a cryogenic burst from your omni-tool that flash-freezes targets in a wide area, slowing their movements.</p><p>All creatures in a <strong>10-foot radius</strong> burst within <strong>30 feet</strong> must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 cold</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d6 cold</strong> damage and is <strong>Slowed 1</strong> until the end of its next turn.</p><p><strong>Critical Failure</strong> The target takes <strong>4d6 cold</strong> damage and is <strong>Immobilized</strong> until the end of its next turn. If the target is already Slowed, it is Immobilized instead.</p><p><strong>Cooldown:</strong> 7 âˆ’ your Intelligence modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -38,7 +38,7 @@
       "remaster": true
     },
     "level": {
-      "value": 4
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -49,6 +49,14 @@
     "actions": {
       "value": 2
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

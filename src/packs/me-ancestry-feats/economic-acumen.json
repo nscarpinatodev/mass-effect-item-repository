@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>The Elkoss Combine and the Vol Protectorate's banking networks have made volus the galactic economy's most important invisible hand. Volus instinctively think in terms of value, exchange, leverage, and long-term obligation—not because they are taught to, but because their culture treats economic understanding the way other cultures treat literacy: as a basic competency every adult should possess.</p><p>You become trained in Society. If you would already be trained in Society through your class or background, you instead become trained in Mercantile Lore or another trade-related Lore of your choice. You gain a +1 circumstance bonus to Diplomacy checks made in the context of negotiating contracts, brokering deals, or setting prices.</p>"
+      "value": "<p>The Elkoss Combine and the Vol Protectorate's banking networks have made volus the galactic economy's most important invisible hand. Volus instinctively think in terms of value, exchange, leverage, and long-term obligation-not because they are taught to, but because their culture treats economic understanding the way other cultures treat literacy: as a basic competency every adult should possess.</p><p>You become trained in Society. If you would already be trained in Society through your class or background, you instead become trained in Mercantile Lore or another trade-related Lore of your choice. You gain a +1 circumstance bonus to Diplomacy checks made in the context of negotiating contracts, brokering deals, or setting prices.</p>"
     },
     "level": {
       "value": 0
@@ -58,7 +58,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

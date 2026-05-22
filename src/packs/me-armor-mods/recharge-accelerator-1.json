@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>An auxiliary power routing module that prioritizes barrier recharge current when the kinetic field drops below threshold. By bypassing standard load-balancing protocols, it shaves one full recharge cycle from the downtime between shield collapse and restoration. Reduces kinetic barrier recharge delay by 1 round.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>An auxiliary power routing module that prioritizes barrier recharge current when the kinetic field drops below threshold. By bypassing standard load-balancing protocols, it shaves one full recharge cycle from the downtime between shield collapse and restoration. Reduces kinetic barrier recharge delay by 1 round.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "recharge-accelerator-1",

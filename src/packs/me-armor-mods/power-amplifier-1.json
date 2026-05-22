@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A neural interface booster and omni-tool amplification module that increases the output power of both tech and biotic abilities. For tech users, it improves omni-tool field generation efficiency; for biotics, it enhances the dark energy focusing resonators built into the suit. Grants a +1 item bonus to ability/spell damage rolls (tech and biotic powers).</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A neural interface booster and omni-tool amplification module that increases the output power of both tech and biotic abilities. For tech users, it improves omni-tool field generation efficiency; for biotics, it enhances the dark energy focusing resonators built into the suit. Grants a +1 item bonus to ability/spell damage rolls (tech and biotic powers).</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "power-amplifier-1",

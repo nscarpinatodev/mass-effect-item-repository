@@ -14,7 +14,7 @@
     "slug": "me-biotic-lash",
     "description": {
       "gm": "",
-      "value": "<p>You extend a whip-like biotic tendril that snares an enemy and violently yanks them toward you, dealing damage on impact.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 bludgeoning</strong> damage.</p><p><strong>Failure</strong> The target is pulled up to <strong>30 feet</strong> toward you and takes <strong>2d6 bludgeoning</strong> damage. If pulled adjacent to you, it is Off-Guard until the start of your next turn.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d6 bludgeoning</strong> and the target is also <strong>Grabbed</strong> until the start of your next turn.</p>"
+      "value": "<p>You extend a whip-like biotic tendril that snares an enemy and violently yanks them toward you, dealing damage on impact.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 bludgeoning</strong> damage.</p><p><strong>Failure</strong> The target is pulled up to <strong>30 feet</strong> toward you and takes <strong>2d6 bludgeoning</strong> damage. If pulled adjacent to you, it is Off-Guard until the start of your next turn.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d6 bludgeoning</strong> and the target is also <strong>Grabbed</strong> until the start of your next turn.</p><p><strong>Cooldown:</strong> 7 âˆ’ your Charisma modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -37,7 +37,7 @@
       "remaster": true
     },
     "level": {
-      "value": 4
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -48,6 +48,14 @@
     "actions": {
       "value": 2
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

@@ -1,0 +1,182 @@
+{
+  "name": "Mordin Solus",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/mordin.png",
+  "folder": null,
+  "flags": {},
+  "ownership": { "default": 0 },
+  "prototypeToken": {
+    "name": "Mordin Solus",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1, "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/mordin.png",
+      "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0,
+      "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0,
+      "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
+      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+  },
+  "system": {
+    "slug": "mordin-solus",
+    "details": {
+      "level": { "value": 7 },
+      "publicNotes": "<p>Professor Mordin Solus is a salarian scientist, former STG operative, and one of the most brilliant minds in the galaxy. He is a man of many talents: geneticist, physician, soldier, and Gilbert-and-Sullivan enthusiast. He speaks very fast. He once helped modify the genophage. He has complicated feelings about this. In combat he is surprisingly lethal, combining tech powers with a rapid-fire SMG.</p><p><strong>Salarian Metabolism:</strong> Mordin gains a +2 circumstance bonus to initiative rolls and is never caught flat-footed in a surprise round.</p><p><strong>Incinerate (2 actions):</strong> One target within 60 feet takes 3d8+8 fire damage and is Clumsy 1 until the end of its next turn (DC 25 Reflex for half, no Clumsy on success).</p><p><strong>Neural Shock (2 actions, 1/encounter):</strong> One target within 30 feet must succeed on a DC 25 Fortitude save or be Stunned 1 (Stunned 2 on a critical failure).</p>",
+      "privateNotes": "",
+      "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
+      "languages": { "value": [], "details": "" },
+      "blurb": "Salarian scientist and former STG operative; the galaxy's foremost geneticist and a surprisingly dangerous combatant."
+    },
+    "attributes": {
+      "hp": { "value": 110, "max": 110, "temp": 30, "details": "" },
+      "ac": { "value": 22, "details": "" },
+      "speed": { "value": 35, "details": "" }
+    },
+    "traits": {
+      "value": ["humanoid", "salarian", "unique"],
+      "size": { "value": "med" },
+      "rarity": "unique"
+    },
+    "abilities": {
+      "str": { "mod": 1 }, "dex": { "mod": 4 }, "con": { "mod": 2 },
+      "int": { "mod": 8 }, "wis": { "mod": 4 }, "cha": { "mod": 2 }
+    },
+    "saves": {
+      "fortitude": { "value": 12, "saveDetail": "" },
+      "reflex": { "value": 16, "saveDetail": "" },
+      "will": { "value": 16, "saveDetail": "" }
+    },
+    "skills": {
+      "medicine": { "base": 22 },
+      "science": { "base": 24 },
+      "computers": { "base": 22 },
+      "survival": { "base": 18 }
+    },
+    "_migration": { "version": null, "previous": null },
+    "perception": { "details": "", "mod": 18, "senses": [], "vision": true },
+    "resources": {},
+    "initiative": { "statistic": "perception" }
+  },
+  "items": [
+    {
+      "_id": "mordiw0000000001",
+      "name": "M-9 Tempest",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": { "value": "ranged" },
+        "slug": "mordin-tempest",
+        "bonus": { "value": 17 },
+        "damageRolls": { "0": { "damage": "2d6+5", "damageType": "piercing" } },
+        "range": { "value": 50 },
+        "traits": { "value": ["agile", "burst-fire"] },
+        "attackEffects": { "value": [] },
+        "description": { "value": "<p>Mordin's preferred SMG — lightweight and fast, well-suited to his rapid movement style.</p>", "gm": "" },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 100000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60005.mordiw0000000001"
+    },
+    {
+      "_id": "mordia0000000001",
+      "name": "Incinerate",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "mordin-incinerate",
+        "actionType": { "value": "action" },
+        "actions": { "value": 2 },
+        "description": { "value": "<p>One target within 60 feet takes 3d8+8 fire damage and is Clumsy 1 until the end of its next turn (DC 25 Reflex for half, no Clumsy on success).</p>", "gm": "" },
+        "traits": { "value": ["tech", "fire", "concentrate"] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 200000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60005.mordia0000000001"
+    },
+    {
+      "_id": "mordia0000000002",
+      "name": "Neural Shock",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "mordin-neural-shock",
+        "actionType": { "value": "action" },
+        "actions": { "value": 2 },
+        "description": { "value": "<p>One target within 30 feet must succeed on a DC 25 Fortitude save or be Stunned 1 (Stunned 2 on a critical failure). 1/encounter.</p>", "gm": "" },
+        "traits": { "value": ["tech", "incapacitation", "concentrate"] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 300000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60005.mordia0000000002"
+    },
+    {
+      "_id": "mordia0000000003",
+      "name": "Salarian Metabolism",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "system": {
+        "slug": "mordin-salarian-metabolism",
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": { "value": "<p>Mordin gains a +2 circumstance bonus to initiative rolls and is never caught flat-footed during a surprise round.</p>", "gm": "" },
+        "traits": { "value": [] },
+        "_migration": { "version": null, "previous": null },
+        "rules": [],
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 400000, "flags": {},
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60005.mordia0000000003"
+    },
+    {
+      "_id": "mordish000000001",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": { "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>", "gm": "" },
+        "level": { "value": 1 }, "price": { "value": { "sp": 150 } }, "bulk": { "value": 1 },
+        "equipped": { "carryType": "worn", "inSlot": true },
+        "usage": { "value": "other" },
+        "traits": { "value": [], "rarity": "common" },
+        "rules": [], "_migration": { "version": null, "previous": null },
+        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+      },
+      "effects": [], "folder": null, "sort": 500000,
+      "flags": { "mass-effect-sf2e-conversion": { "shieldMax": 30, "shieldRegen": 10 } },
+      "ownership": { "default": 0 },
+      "_key": "!actors.items!g1h2i3j4k5l60005.mordish000000001"
+    }
+  ],
+  "_id": "g1h2i3j4k5l60005",
+  "_key": "!actors!g1h2i3j4k5l60005",
+  "effects": []
+}

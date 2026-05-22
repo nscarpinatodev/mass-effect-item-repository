@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The M-98 Widow is an anti-materiel rifle designed to destroy vehicles, not people — its use against personnel is technically prohibited by several Citadel treaties. Its single-round heat sink fires a kinetic slug at velocities sufficient to punch through the lightest starship hull plating at close range. The recoil is violent enough to shatter bones in unaugmented users. Those capable of wielding it treat it as a statement as much as a weapon.</p>"
+      "value": "<p>The M-98 Widow is an anti-materiel rifle designed to destroy vehicles, not people - its use against personnel is technically prohibited by several Citadel treaties. Its single-round heat sink fires a kinetic slug at velocities sufficient to punch through the lightest starship hull plating at close range. The recoil is violent enough to shatter bones in unaugmented users. Those capable of wielding it treat it as a statement as much as a weapon.</p>"
     },
     "rules": [],
     "slug": "m-98-widow",

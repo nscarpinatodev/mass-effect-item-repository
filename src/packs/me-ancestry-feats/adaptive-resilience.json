@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Humanity's rapid rise across the stars was built as much on the ability to absorb setbacks and adapt as on any special talent. Humans survive disasters that should have ended their ambitions and emerge recalibrating rather than broken. This resilience is both cultural and deeply personal—a stubbornness at the core of the species that refuses to accept permanent defeat.</p><p>Once per day, when you would critically fail a saving throw, you can reduce the result to a regular failure instead.</p>"
+      "value": "<p>Humanity's rapid rise across the stars was built as much on the ability to absorb setbacks and adapt as on any special talent. Humans survive disasters that should have ended their ambitions and emerge recalibrating rather than broken. This resilience is both cultural and deeply personal-a stubbornness at the core of the species that refuses to accept permanent defeat.</p><p>Once per day, when you would critically fail a saving throw, you can reduce the result to a regular failure instead.</p>"
     },
     "level": {
       "value": 0
@@ -40,7 +40,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

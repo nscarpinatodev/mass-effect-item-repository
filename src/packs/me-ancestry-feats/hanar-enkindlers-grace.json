@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>The hanar relationship with the Enkindlers—the Protheans, who uplifted the hanar—carries a weight that most religious traditions cannot match. The Enkindlers were real. Their works are real. The blessings the hanar invoke in their name carry genuine conviction, and that conviction has a way of transmitting itself to those nearby. Whether the grace is divine, psychological, or simply the effect of absolute certainty delivered by something genuinely alien is a question you have stopped asking.</p><p>You extend a blessing to one ally within 30 feet who can perceive you. Until the end of your ally's next turn, they gain a +1 circumstance bonus to attack rolls and saving throws. If the ally is at fewer than half their maximum Hit Points, they also gain temporary Hit Points equal to your Charisma modifier (minimum 1). You can use this ability a number of times per day equal to your Charisma modifier (minimum 1).</p>"
+      "value": "<p>The hanar relationship with the Enkindlers-the Protheans, who uplifted the hanar-carries a weight that most religious traditions cannot match. The Enkindlers were real. Their works are real. The blessings the hanar invoke in their name carry genuine conviction, and that conviction has a way of transmitting itself to those nearby. Whether the grace is divine, psychological, or simply the effect of absolute certainty delivered by something genuinely alien is a question you have stopped asking.</p><p>You extend a blessing to one ally within 30 feet who can perceive you. Until the end of your ally's next turn, they gain a +1 circumstance bonus to attack rolls and saving throws. If the ally is at fewer than half their maximum Hit Points, they also gain temporary Hit Points equal to your Charisma modifier (minimum 1). You can use this ability a number of times per day equal to your Charisma modifier (minimum 1).</p>"
     },
     "level": {
       "value": 1
@@ -40,8 +40,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

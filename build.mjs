@@ -19,7 +19,9 @@ const PACKS = [
   { src: "src/packs/me-biotic-powers",  dest: "packs/me-biotic-powers" },
   { src: "src/packs/me-tech-powers",    dest: "packs/me-tech-powers" },
   { src: "src/packs/me-grenades",       dest: "packs/me-grenades" },
-  { src: "src/packs/me-classes",        dest: "packs/me-classes" },
+  { src: "src/packs/me-classes",          dest: "packs/me-classes" },
+  { src: "src/packs/me-combat-passives",      dest: "packs/me-combat-passives" },
+  { src: "src/packs/me-class-progressions",  dest: "packs/me-class-progressions" },
 ];
 
 const SF2E_PACKS = PACKS.map(({ src, dest }) => ({

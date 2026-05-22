@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meAdeptDarkMattr",
+  "_id": "meAdeptDarkMattr",
+  "folder": null,
+  "name": "Dark Matter",
+  "type": "feat",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-adept-dark-matter",
+    "description": {
+      "gm": "",
+      "value": "<p>You have unlocked a deeper understanding of dark energy manipulation, pushing your biotic abilities beyond any recorded limit.</p><p>All biotic power save DCs you use increase by <strong>2</strong>. Your biotic damage ignores up to <strong>5 points</strong> of void damage resistance. Enemies that critically fail saves against your biotic powers become <strong>Frightened 2</strong> in addition to normal effects.</p><p><em>Prerequisite: Superior Adept Mastery. Classes: Adept.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Superior Adept Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

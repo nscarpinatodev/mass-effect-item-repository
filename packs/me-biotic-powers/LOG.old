@@ -1,5 +1,15 @@
-2026/05/06-15:35:00.574 a18c Delete type=3 #1
-2026/05/06-15:35:00.576 7310 Level-0 table #5: started
-2026/05/06-15:35:00.578 7310 Level-0 table #5: 9965 bytes OK
-2026/05/06-15:35:00.579 7310 Delete type=0 #3
-2026/05/06-15:35:00.579 7310 Manual compaction at level-0 from '!items!meBioticCharge00' @ 72057594037927935 : 1 .. '!items!meBioticWarp0000' @ 0 : 0; will stop at (end)
+2026/05/21-17:08:03.562 559c Recovering log #43
+2026/05/21-17:08:03.568 559c Delete type=0 #43
+2026/05/21-17:08:03.568 559c Delete type=3 #41
+2026/05/21-17:08:03.571 a394 Level-0 table #49: started
+2026/05/21-17:08:03.573 a394 Level-0 table #49: 13270 bytes OK
+2026/05/21-17:08:03.574 a394 Delete type=0 #47
+2026/05/21-17:08:03.574 a394 Manual compaction at level-0 from '!items!meBioticCharge00' @ 72057594037927935 : 1 .. '!items!meSentLiftGren0' @ 0 : 0; will stop at (end)
+2026/05/21-17:08:03.574 a394 Manual compaction at level-1 from '!items!meBioticCharge00' @ 72057594037927935 : 1 .. '!items!meSentLiftGren0' @ 0 : 0; will stop at '!items!meSentLiftGren0' @ 158 : 1
+2026/05/21-17:08:03.575 a394 Compacting 1@1 + 1@2 files
+2026/05/21-17:08:03.578 a394 Generated table #50@1: 18 keys, 13270 bytes
+2026/05/21-17:08:03.578 a394 Compacted 1@1 + 1@2 files => 13270 bytes
+2026/05/21-17:08:03.579 a394 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/21-17:08:03.579 a394 Delete type=2 #45
+2026/05/21-17:08:03.579 a394 Delete type=2 #49
+2026/05/21-17:08:03.580 a394 Manual compaction at level-1 from '!items!meSentLiftGren0' @ 158 : 1 .. '!items!meSentLiftGren0' @ 0 : 0; will stop at (end)

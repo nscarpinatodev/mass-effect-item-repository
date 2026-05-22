@@ -1,0 +1,65 @@
+﻿{
+  "_key": "!items!meSentinelMastS0",
+  "_id": "meSentinelMastS0",
+  "folder": null,
+  "name": "Superior Sentinel Mastery",
+  "type": "feat",
+  "img": "icons/magic/symbols/ring-circle-runes-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sentinel-mastery-superior",
+    "description": {
+      "gm": "",
+      "value": "<p>Your hybrid discipline reaches its apex, blending biotic and tech into a seamless defensive and offensive system. Biotic and tech powers each have their action cost <strong>reduced by 1</strong> (minimum 1 action) and you retain the AC bonus from using both in the same turn. Tech Armor's damage reduction increases by <strong>2</strong>. Your biotic and tech powers deal <strong>+1d4 bonus damage</strong>.</p><p><em>Prerequisite: Improved Sentinel Mastery.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Sentinel Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

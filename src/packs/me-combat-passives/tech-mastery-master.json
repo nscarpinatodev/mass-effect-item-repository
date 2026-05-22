@@ -1,0 +1,72 @@
+{
+  "_key": "!items!meCPTechMastryMs",
+  "_id": "meCPTechMastryMs",
+  "folder": null,
+  "name": "Master Tech Mastery",
+  "type": "feat",
+  "img": "icons/equipment/wrist/bracer-runed-steel-orange.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-tech-mastery-master",
+    "description": {
+      "gm": "",
+      "value": "<p>Your omni-tool is an extension of your nervous system. All tech powers have their action cost <strong>reduced by 1</strong> (minimum 1 action). Once per round a tech power may be used as a <strong>free action</strong>. Your deep system knowledge also grants a <strong>+1 circumstance bonus to Will saves</strong>.</p><p><em>Prerequisite: Improved Tech Mastery.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "will",
+        "type": "circumstance",
+        "value": 1,
+        "label": "Tech Mastery"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Tech Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

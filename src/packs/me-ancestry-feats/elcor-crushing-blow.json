@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>An elcor in motion is a significant mass traveling at meaningful velocity. Most elcor are too measured in their movements to use this casually, but you have learned—or perhaps simply remembered from instinct—how to put the full weight of your body into a strike. The results are difficult to argue with.</p><p>You gain a Crushing Blow unarmed Strike. This attack is in the brawling group, uses your Strength modifier to hit, and deals 2d6 bludgeoning damage. On a hit, the target must succeed at a Fortitude save (DC = 10 + your level + your Strength modifier) or be pushed 5 feet (10 feet on a critical failure). This attack has the forceful trait.</p>"
+      "value": "<p>An elcor in motion is a significant mass traveling at meaningful velocity. Most elcor are too measured in their movements to use this casually, but you have learned-or perhaps simply remembered from instinct-how to put the full weight of your body into a strike. The results are difficult to argue with.</p><p>You gain a Crushing Blow unarmed Strike. This attack is in the brawling group, uses your Strength modifier to hit, and deals 2d6 bludgeoning damage. On a hit, the target must succeed at a Fortitude save (DC = 10 + your level + your Strength modifier) or be pushed 5 feet (10 feet on a critical failure). This attack has the forceful trait.</p>"
     },
     "level": {
       "value": 1
@@ -55,8 +55,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

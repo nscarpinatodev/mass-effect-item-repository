@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A full-frame reconstruction using aerospace-grade ultralight alloys and hollow-core carbon fiber components. The weapon retains full combat reliability at a fraction of its original mass, to the point where carrying it feels negligible even during extended operations. Developed originally for Salarian STG agents who carry multiple weapons simultaneously. Reduces the weapon's Bulk by 1 (minimum 0) and grants +5 feet to your Speed while this weapon is your primary drawn weapon.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A full-frame reconstruction using aerospace-grade ultralight alloys and hollow-core carbon fiber components. The weapon retains full combat reliability at a fraction of its original mass, to the point where carrying it feels negligible even during extended operations. Developed originally for Salarian STG agents who carry multiple weapons simultaneously. Reduces the weapon's Bulk by 1 (minimum 0) and grants +5 feet to your Speed while this weapon is your primary drawn weapon.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "ultralight-materials-2",

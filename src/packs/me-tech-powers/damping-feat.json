@@ -14,7 +14,7 @@
     "slug": "me-tech-damping",
     "description": {
       "gm": "",
-      "value": "<p>You deploy a proximity mine that emits a dampening pulse, scrambling the neural implants and omni-tool interfaces of all nearby enemies.</p><p>You place a Damping Mine at a point within <strong>30 feet</strong>. All creatures in a <strong>10-foot radius</strong> burst must attempt a <strong>Will</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature is <strong>Stupefied 1</strong> until the start of your next turn (it can use Tech and Biotic powers, but at a –1 penalty to DCs and attack rolls with them).</p><p><strong>Failure</strong> The creature cannot use Tech or Biotic powers until the start of your next turn and is <strong>Stupefied 2</strong>.</p><p><strong>Critical Failure</strong> As failure, but the effect lasts until the end of the affected creature's next turn.</p>"
+      "value": "<p>You deploy a proximity mine that emits a dampening pulse, scrambling the neural implants and omni-tool interfaces of all nearby enemies.</p><p>You place a Damping Mine at a point within <strong>30 feet</strong>. All creatures in a <strong>10-foot radius</strong> burst must attempt a <strong>Will</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The creature is <strong>Stupefied 1</strong> until the start of your next turn (it can use Tech and Biotic powers, but at a â€“1 penalty to DCs and attack rolls with them).</p><p><strong>Failure</strong> The creature cannot use Tech or Biotic powers until the start of your next turn and is <strong>Stupefied 2</strong>.</p><p><strong>Critical Failure</strong> As failure, but the effect lasts until the end of the affected creature's next turn.</p><p><strong>Cooldown:</strong> 7 âˆ’ your Intelligence modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -37,7 +37,7 @@
       "remaster": true
     },
     "level": {
-      "value": 2
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -48,6 +48,14 @@
     "actions": {
       "value": 2
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

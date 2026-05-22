@@ -1,0 +1,311 @@
+{
+  "name": "Kelly Chambers",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/kelly-chambers.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Kelly Chambers",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/kelly-chambers.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "kelly-chambers",
+    "details": {
+      "level": {
+        "value": 5
+      },
+      "publicNotes": "<p>Yeoman Kelly Chambers served aboard the Normandy SR-2 as the Commanding Officer's personal assistant and crew morale specialist, though she was also a Cerberus operative providing psychological evaluations of the crew. She is warm, empathetic, and genuinely caring — her Cerberus loyalties were never fully resolved, and she may be encountered in a variety of contexts.</p><p><strong>Empathic Insight:</strong> Kelly has a +4 circumstance bonus to Sense Motive and Diplomacy checks. Once per encounter, she can attempt to de-escalate a conflict with a DC 20 Diplomacy check, causing a non-hostile creature who fails to pause combat for 1 round.</p><p><strong>Psychological Profile:</strong> Having observed the PCs previously, Kelly has a profile on each one. She gains a +2 circumstance bonus to Deception checks against any creature she has spoken with for more than 10 minutes.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Cerberus yeoman and psychological operative; warm exterior conceals intelligence role."
+    },
+    "attributes": {
+      "hp": {
+        "value": 55,
+        "max": 55,
+        "temp": 30,
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "cerberus",
+        "unique"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "unique"
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 5
+      },
+      "cha": {
+        "mod": 6
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 16,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "diplomacy": {
+        "base": 20
+      },
+      "deception": {
+        "base": 18
+      },
+      "society": {
+        "base": 14
+      },
+      "medicine": {
+        "base": 15
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 16,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "ke11ychmbrsw0001",
+      "name": "Light Pistol",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "kelly-chambers-pistol",
+        "bonus": {
+          "value": 11
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d4+2",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 30
+        },
+        "traits": {
+          "value": []
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60002.ke11ychmbrsw0001"
+    },
+    {
+      "_id": "ke11ychmbrss0001",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60002.ke11ychmbrss0001"
+    }
+  ],
+  "_id": "d1e2f3a4b5c60002",
+  "_key": "!actors!d1e2f3a4b5c60002",
+  "effects": []
+}

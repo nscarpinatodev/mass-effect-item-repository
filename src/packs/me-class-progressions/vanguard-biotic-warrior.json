@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meVanguardBioWar",
+  "_id": "meVanguardBioWar",
+  "folder": null,
+  "name": "Biotic Warrior",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-vanguard-biotic-warrior",
+    "description": {
+      "gm": "",
+      "value": "<p>You have learned to channel your biotic field directly through your fists, making you deadly even when unarmed.</p><p>Your unarmed Strikes deal <strong>1d8 bludgeoning + 1d6 void</strong> damage and gain the <em>agile</em> and <em>finesse</em> traits. On a critical hit with an unarmed Strike, the target is pushed 5 feet and knocked Prone.</p><p><em>Prerequisite: Biotic Charge. Classes: Vanguard.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Biotic Charge"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

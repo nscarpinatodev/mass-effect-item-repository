@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meAdeptGravWell0",
+  "_id": "meAdeptGravWell0",
+  "folder": null,
+  "name": "Gravity Well",
+  "type": "feat",
+  "img": "icons/magic/control/debuff-chains-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-adept-gravity-well",
+    "description": {
+      "gm": "",
+      "value": "<p>The singularity fields you generate have grown powerful enough to distort space itself on a larger scale.</p><p>Singularity's radius increases to <strong>30 feet</strong> (up from 25 feet with Singularity Upgrade). Any creature entering the field for the first time must succeed on a Reflex save against your class DC or be <strong>Grabbed</strong> immediately. Creatures already inside the field are <strong>Slowed 1</strong> for as long as they remain within it.</p><p><em>Prerequisite: Singularity Upgrade. Classes: Adept.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Singularity Upgrade"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

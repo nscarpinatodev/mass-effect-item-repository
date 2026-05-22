@@ -1,0 +1,58 @@
+{
+  "_key": "!items!meEffAdrenalinIm",
+  "_id": "meEffAdrenalinIm",
+  "folder": null,
+  "name": "Improved Adrenaline Rush",
+  "type": "effect",
+  "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-effect-adrenaline-rush-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Your combat reflexes hit overdrive. You are <strong>Quickened 1</strong> this round (Stride, Strike, or Draw). Your movement speed increases by <strong>20 feet</strong> and you gain a <strong>+1 status bonus to attack rolls</strong>.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "speed",
+        "type": "status",
+        "value": 20,
+        "label": "Improved Adrenaline Rush"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "status",
+        "value": 1,
+        "label": "Improved Adrenaline Rush"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end"
+    },
+    "badge": null
+  }
+}

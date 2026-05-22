@@ -7,7 +7,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Terminus Systems exist outside Council space and outside Council law. You grew up in a region where medical care was whatever you could provide yourself, law enforcement was whoever had the bigger weapon, and trust was the most dangerous luxury available. That environment taught you to assess injuries fast and treat them faster — survival in the Terminus often depends on being able to get back up before your enemies notice you went down.</p><p>You are trained in Medicine and gain the Terminus Systems Lore skill. You boost Wisdom or Constitution, and gain a free boost.</p>"
+      "value": "<p>The Terminus Systems exist outside Council space and outside Council law. You grew up in a region where medical care was whatever you could provide yourself, law enforcement was whoever had the bigger weapon, and trust was the most dangerous luxury available. That environment taught you to assess injuries fast and treat them faster - survival in the Terminus often depends on being able to get back up before your enemies notice you went down.</p><p>You are trained in Medicine and gain the Terminus Systems Lore skill. You boost Wisdom or Constitution, and gain a free boost.</p>"
     },
     "rules": [],
     "slug": "terminus-survivor",

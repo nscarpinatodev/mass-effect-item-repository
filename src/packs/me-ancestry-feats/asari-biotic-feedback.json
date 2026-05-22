@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> A creature hits you with a melee Strike.</p><p>Your nervous system responds to physical impact with an involuntary biotic discharge—an uncontrolled surge of mass effect field energy that radiates outward from the point of contact. You didn't choose to do this. It happens faster than conscious thought.</p><p>The creature that hit you takes 1d4 force damage (no save). At 9th level this increases to 2d4 force damage. At 17th level this increases to 3d4 force damage.</p>"
+      "value": "<p><strong>Trigger</strong> A creature hits you with a melee Strike.</p><p>Your nervous system responds to physical impact with an involuntary biotic discharge-an uncontrolled surge of mass effect field energy that radiates outward from the point of contact. You didn't choose to do this. It happens faster than conscious thought.</p><p>The creature that hit you takes 1d4 force damage (no save). At 9th level this increases to 2d4 force damage. At 17th level this increases to 3d4 force damage.</p>"
     },
     "level": {
       "value": 5
@@ -39,8 +39,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

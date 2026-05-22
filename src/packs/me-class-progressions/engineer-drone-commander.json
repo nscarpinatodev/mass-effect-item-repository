@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meEngineerDrnCmd",
+  "_id": "meEngineerDrnCmd",
+  "folder": null,
+  "name": "Drone Commander",
+  "type": "feat",
+  "img": "icons/magic/lightning/orb-lightning-bolt-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-engineer-drone-commander",
+    "description": {
+      "gm": "",
+      "value": "<p>Your command protocols can run two drone instances simultaneously without interference.</p><p>You may have <strong>two Combat Drones active at the same time</strong>. Deploying a second drone doesn't end the first. Each drone acts independently on your turn.</p><p><em>Prerequisite: Combat Drone Upgrade. Classes: Engineer.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Drone Upgrade"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

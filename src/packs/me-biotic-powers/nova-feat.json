@@ -14,7 +14,7 @@
     "slug": "me-biotic-nova",
     "description": {
       "gm": "",
-      "value": "<p>You discharge all of your biotic barrier energy in a devastating point-blank explosion, obliterating everything around you at the cost of your defenses.</p><p><strong>Requirements</strong> You have an active Biotic Barrier with at least 1 HP remaining.</p><p>You expend your entire Biotic Barrier in a <strong>20-foot emanation</strong>. The damage equals the barrier's current HP at the time of detonation. All creatures in the area must attempt a <strong>Reflex</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> Half damage.</p><p><strong>Failure</strong> Full damage and pushed <strong>15 feet</strong> away from you.</p><p><strong>Critical Failure</strong> Double damage, pushed 15 feet, and knocked prone.</p><p>Remove your Biotic Barrier effect after using this power regardless of outcome.</p>"
+      "value": "<p>You discharge all of your biotic barrier energy in a devastating point-blank explosion, obliterating everything around you at the cost of your defenses.</p><p><strong>Requirements</strong> You have an active Biotic Barrier with at least 1 HP remaining.</p><p>You expend your entire Biotic Barrier in a <strong>10-foot emanation</strong>. The damage equals the barrier's current HP at the time of detonation. All creatures in the area must attempt a <strong>Fortitude save</strong> against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> Half damage.</p><p><strong>Failure</strong> Full damage and pushed <strong>5 feet</strong> away from you.</p><p><strong>Critical Failure</strong> Double damage, pushed <strong>10 feet</strong> away, and knocked <strong>prone</strong>.</p><p>Your Biotic Barrier is immediately depleted after using this power.</p><p><strong>Cooldown:</strong> 7 - your Charisma modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -37,7 +37,7 @@
       "remaster": true
     },
     "level": {
-      "value": 8
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -48,6 +48,14 @@
     "actions": {
       "value": 1
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

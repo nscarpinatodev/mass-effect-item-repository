@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>An extended heat sink and thermal clip assembly that increases the number of rounds a weapon can fire before requiring a heat sink swap. The larger thermal mass absorbs more heat per cycle, allowing the weapon to sustain fire well past the point a standard configuration would demand a reload. Compatible with any ranged weapon. Increases the weapon's ammo capacity by 50% (round up).</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>An extended heat sink and thermal clip assembly that increases the number of rounds a weapon can fire before requiring a heat sink swap. The larger thermal mass absorbs more heat per cycle, allowing the weapon to sustain fire well past the point a standard configuration would demand a reload. Compatible with any ranged weapon. Increases the weapon's ammo capacity by 50% (round up).</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "magazine-upgrade-1",

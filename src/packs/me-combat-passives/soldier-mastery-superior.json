@@ -1,0 +1,70 @@
+﻿{
+  "_key": "!items!meSoldierMastSu0",
+  "_id": "meSoldierMastSu0",
+  "folder": null,
+  "name": "Superior Soldier Mastery",
+  "type": "feat",
+  "img": "icons/skills/ranged/target-bullseye-arrow-red-white.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-mastery-superior",
+    "description": {
+      "gm": "",
+      "value": "<p>You are a living weapon, honed to perfection through countless battles. Your weapon Strikes deal <strong>+2 additional damage</strong> (total +6 with all mastery tiers) and you retain all prior mastery bonuses. Once per turn when you critically hit with a weapon attack, the target is <strong>Stunned 1</strong>.</p><p><em>Prerequisite: Improved Soldier Mastery.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "untyped",
+        "value": 2,
+        "label": "Superior Soldier Mastery"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Soldier Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

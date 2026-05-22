@@ -1,0 +1,69 @@
+{
+  "_key": "!items!meCPWpnMstPistol",
+  "_id": "meCPWpnMstPistol",
+  "folder": null,
+  "name": "Weapon Mastery (Pistols & SMGs)",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-black.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-weapon-mastery-pistol",
+    "description": {
+      "gm": "",
+      "value": "<p>Extensive training with pistols & smgs improves your firing discipline. You deal <strong>+2 damage</strong> with pistols & smgs attacks.</p><p><em>Classes: Adept, Engineer, Infiltrator.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "item:group:pistol"
+        ],
+        "label": "Weapon Mastery (Pistols & SMGs)"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

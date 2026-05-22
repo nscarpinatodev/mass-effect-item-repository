@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meInfiltratApxIn",
+  "_id": "meInfiltratApxIn",
+  "folder": null,
+  "name": "Apex Infiltrator",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-infiltrator-apex-infiltrator",
+    "description": {
+      "gm": "",
+      "value": "<p>You have become something beyond human - a ghost, a myth, a phantom that enemies never see coming twice.</p><p>The <strong>first Strike you make each turn</strong> while Tactical Cloak is active is treated as a <strong>critical hit</strong> regardless of the attack roll result (if it would hit). Your Hunter's Mark bonus increases to <strong>+4 damage</strong>. Phantom Protocol now triggers on any kill, not just once per encounter.</p><p><em>Prerequisite: Death From Above. Classes: Infiltrator.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Death From Above"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

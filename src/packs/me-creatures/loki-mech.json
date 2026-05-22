@@ -1,0 +1,239 @@
+{
+  "name": "LOKI Mech",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/creatures/loki-mech.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "LOKI Mech",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/creatures/loki-mech.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "loki-mech",
+    "details": {
+      "level": {
+        "value": 1
+      },
+      "publicNotes": "<p>LOKI Mechs are standard-issue bipedal security robots deployed throughout Cerberus facilities and ships. They follow simple attack protocols, moving toward threats and engaging with integrated weapons. They are easy to destroy individually but are typically deployed in large numbers.</p><p><strong>Construct Immunities:</strong> Immune to disease, mental effects, poison, sleep, and paralysis.</p><p><strong>No Kinetic Shield:</strong> LOKI Mechs have armored chassis instead of personal barriers. They do not need to Take Cover to recover — their armor is always active.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Standard Cerberus security bipedal robot deployed in large numbers throughout facilities."
+    },
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "max": 20,
+        "temp": 0,
+        "details": ""
+      },
+      "ac": {
+        "value": 15,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "construct",
+        "cerberus",
+        "mindless"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "common"
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": -3
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -5
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 7,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "l0k1mechw000001a",
+      "name": "Integrated Pistol",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "loki-mech-pistol",
+        "bonus": {
+          "value": 7
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+2",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 40
+        },
+        "traits": {
+          "value": []
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b1c2d3e4f5a60001.l0k1mechw000001a"
+    }
+  ],
+  "_id": "b1c2d3e4f5a60001",
+  "_key": "!actors!b1c2d3e4f5a60001",
+  "effects": []
+}

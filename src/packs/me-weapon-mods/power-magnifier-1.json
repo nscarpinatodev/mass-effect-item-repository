@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A reinforced barrel and enhanced coil assembly designed specifically for pistol frames, increasing kinetic output without requiring the larger receiver of a rifle-class weapon. The upgrade effectively turns a standard combat pistol into a weapon capable of punching through armor grades it was not rated for. Designed for pistols. Grants a +1 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a pistol.</p>"
+      "value": "<p>A reinforced barrel and enhanced coil assembly designed specifically for pistol frames, increasing kinetic output without requiring the larger receiver of a rifle-class weapon. The upgrade effectively turns a standard combat pistol into a weapon capable of punching through armor grades it was not rated for. Designed for pistols. Grants a +1 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a pistol.</p>"
     },
     "rules": [],
     "slug": "power-magnifier-1",

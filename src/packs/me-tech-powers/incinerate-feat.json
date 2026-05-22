@@ -14,7 +14,7 @@
     "slug": "me-tech-incinerate",
     "description": {
       "gm": "",
-      "value": "<p>You launch a superheated plasma projectile from your omni-tool that burns through armor and sets targets ablaze.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC. Incinerate ignores up to 5 points of fire resistance.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 fire</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d6 fire</strong> damage and <strong>1d4 persistent fire</strong> damage. The target cannot regain HP until the start of your next turn. Armor Frames hit by Incinerate take 1.5× damage.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d6 fire</strong> damage and <strong>2d4 persistent fire</strong>.</p>"
+      "value": "<p>You launch a superheated plasma projectile from your omni-tool that burns through armor and sets targets ablaze.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC. Incinerate ignores up to 5 points of fire resistance.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 fire</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d6 fire</strong> damage and <strong>1d4 persistent fire</strong> damage. The target cannot regain HP until the start of your next turn. Armor Frames hit by Incinerate take 1.5× damage.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d6 fire</strong> damage and <strong>2d4 persistent fire</strong>.</p><p><strong>Cooldown:</strong> 7 - your Intelligence modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -38,7 +38,7 @@
       "remaster": true
     },
     "level": {
-      "value": 4
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -49,6 +49,14 @@
     "actions": {
       "value": 2
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

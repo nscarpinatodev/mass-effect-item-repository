@@ -1,0 +1,83 @@
+{
+  "_key": "!items!meCPWpnMstRifMst",
+  "_id": "meCPWpnMstRifMst",
+  "folder": null,
+  "name": "Master Weapon Mastery (Assault Rifles)",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-black.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-weapon-mastery-rifle-master",
+    "description": {
+      "gm": "",
+      "value": "<p>Master-level assault rifles proficiency. You deal <strong>+6 damage</strong> and gain a <strong>+2 circumstance bonus to attack rolls</strong> with assault rifles (replaces previous bonuses). Critical hits with assault rifles ignore 5 points of the target's damage resistance.</p><p><em>Prerequisite: Improved Weapon Mastery (Assault Rifles).</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": 6,
+        "predicate": [
+          "item:group:rifle"
+        ],
+        "label": "Weapon Mastery (Assault Rifles)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "item:group:rifle"
+        ],
+        "label": "Weapon Mastery (Assault Rifles)"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Weapon Mastery (Assault Rifles)"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

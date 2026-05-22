@@ -1,0 +1,519 @@
+{
+  "name": "Miranda Lawson",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/miranda-lawson.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Miranda Lawson",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/miranda-lawson.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "miranda-lawson",
+    "details": {
+      "level": {
+        "value": 10
+      },
+      "publicNotes": "<p>Miranda Lawson is a Cerberus operative and the daughter of Henry Lawson, genetically engineered to physical and intellectual perfection. She served as Cerberus's liaison for the Lazarus Project and is one of the most capable operatives in the organization. Miranda is a powerful biotic and a deadly combatant who can dominate enemies with Warp and Throw while also serving as a capable tactician.</p><p><strong>Genetic Perfection:</strong> Miranda has a +1 circumstance bonus to all saves and a +2 circumstance bonus to Deception and Diplomacy checks due to her engineered charisma.</p><p><strong>Warp (2 actions):</strong> Miranda targets a creature within 60 feet. The target takes 3d10+6 force damage (DC 28 Will for half). On a critical failure, the target is also Weakened 2 (takes +2 damage from all sources) until the end of their next turn.</p><p><strong>Throw (2 actions):</strong> Miranda unleashes a biotic throw at a target within 60 feet. Target must succeed on DC 28 Reflex or be flung 20 feet in a direction Miranda chooses and take 2d10 bludgeoning damage (half on success, no effect on critical success).</p><p><strong>Kinetic Barrier:</strong> 80 Shield HP. Recharges 20 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Genetically perfected Cerberus operative and powerful biotic. Liaison for the Lazarus Project."
+    },
+    "attributes": {
+      "hp": {
+        "value": 165,
+        "max": 165,
+        "temp": 80,
+        "details": ""
+      },
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "cerberus",
+        "unique"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "unique"
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 6
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 19,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 21,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 23,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "deception": {
+        "base": 26
+      },
+      "diplomacy": {
+        "base": 26
+      },
+      "athletics": {
+        "base": 18
+      },
+      "stealth": {
+        "base": 21
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 22,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "m1r4nd4l4wsw0001",
+      "name": "Submachine Gun",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "miranda-smg",
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+8",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 50
+        },
+        "traits": {
+          "value": [
+            "agile"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60001.m1r4nd4l4wsw0001"
+    },
+    {
+      "_id": "m1r4nd4l4wsa0001",
+      "name": "Warp",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "miranda-warp",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>Miranda targets a creature within 60 feet. The target takes 3d10+6 force damage (DC 28 Will for half). On a critical failure, the target is also Weakened 2 until the end of its next turn.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "biotic",
+            "force",
+            "concentrate"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60001.m1r4nd4l4wsa0001"
+    },
+    {
+      "_id": "m1r4nd4l4wsa0002",
+      "name": "Throw",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "miranda-throw",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>Miranda launches a biotic throw at a target within 60 feet. The target must succeed on a DC 28 Reflex save or be flung 20 feet in a direction Miranda chooses and take 2d10 bludgeoning damage. On a success: half damage, not flung. On a critical success: no effect.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "biotic",
+            "concentrate",
+            "force"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60001.m1r4nd4l4wsa0002"
+    },
+    {
+      "_id": "m1r4nd4l4wss0001",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60001.m1r4nd4l4wss0001"
+    },
+    {
+      "_id": "m1r4nd4l4wsm0001",
+      "name": "Shield HP Mod - Tier 3",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t3",
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+40 HP</strong> (base 30 → 70).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 9
+        },
+        "price": {
+          "value": {
+            "sp": 7000
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 40
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60001.m1r4nd4l4wsm0001"
+    },
+    {
+      "_id": "m1r4nd4l4wsr0001",
+      "name": "Shield Regen Mod - Tier 3",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+      "system": {
+        "slug": "me-shield-regen-mod-t3",
+        "description": {
+          "value": "<p>Boosts kinetic shield recharge rate by <strong>+100%</strong> (base 10 → 20 HP/turn).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 9
+        },
+        "price": {
+          "value": {
+            "sp": 7000
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "regenMult": 2
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60001.m1r4nd4l4wsr0001"
+    }
+  ],
+  "_id": "d1e2f3a4b5c60001",
+  "_key": "!actors!d1e2f3a4b5c60001",
+  "effects": []
+}

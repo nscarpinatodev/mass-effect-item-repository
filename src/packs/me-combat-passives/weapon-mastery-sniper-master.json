@@ -1,0 +1,83 @@
+{
+  "_key": "!items!meCPWpnMstSniMst",
+  "_id": "meCPWpnMstSniMst",
+  "folder": null,
+  "name": "Master Weapon Mastery (Sniper Rifles)",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-black.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-weapon-mastery-sniper-master",
+    "description": {
+      "gm": "",
+      "value": "<p>Master-level sniper rifles proficiency. You deal <strong>+6 damage</strong> and gain a <strong>+2 circumstance bonus to attack rolls</strong> with sniper rifles (replaces previous bonuses). You ignore the Prone condition's penalty to ranged attacks when using a sniper rifle.</p><p><em>Prerequisite: Improved Weapon Mastery (Sniper Rifles).</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": 6,
+        "predicate": [
+          "item:group:sniper"
+        ],
+        "label": "Weapon Mastery (Sniper Rifles)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "item:group:sniper"
+        ],
+        "label": "Weapon Mastery (Sniper Rifles)"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Weapon Mastery (Sniper Rifles)"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

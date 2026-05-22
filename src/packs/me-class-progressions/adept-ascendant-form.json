@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meAdeptAscenForm",
+  "_id": "meAdeptAscenForm",
+  "folder": null,
+  "name": "Ascendant Form",
+  "type": "feat",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-adept-ascendant-form",
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency:</strong> Once per day.</p><p>You shed the limitations of normal biotic operation and enter a state of pure mass-effect resonance for <strong>1 minute</strong>.</p><p>While in Ascendant Form: all biotic powers you use are <strong>free actions</strong>; all biotic powers deal <strong>+1 damage die</strong>; you float 5 feet off the ground (ignore ground-based difficult terrain); you are immune to the Grabbed, Prone, and Immobilized conditions. Dismiss as a free action.</p><p><em>Prerequisite: Dark Matter. Classes: Adept.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Dark Matter"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

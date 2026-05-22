@@ -1,0 +1,60 @@
+﻿{
+  "_key": "!items!meEngineerMast00",
+  "_id": "meEngineerMast00",
+  "folder": null,
+  "name": "Engineer Mastery",
+  "type": "feat",
+  "img": "icons/equipment/wrist/bracer-runed-steel-orange.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-engineer-mastery",
+    "description": {
+      "gm": "",
+      "value": "<p>Optimized omni-tool firmware and systematic power deployment reduces the overhead of all tech abilities. All tech powers have their action cost <strong>reduced by 1</strong> (minimum 1 action) and their save DCs gain <strong>+1</strong>.</p><p><em>Classes: Engineer.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

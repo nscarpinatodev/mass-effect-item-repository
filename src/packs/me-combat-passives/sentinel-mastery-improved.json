@@ -1,0 +1,65 @@
+﻿{
+  "_key": "!items!meSentinelMastI0",
+  "_id": "meSentinelMastI0",
+  "folder": null,
+  "name": "Improved Sentinel Mastery",
+  "type": "feat",
+  "img": "icons/magic/symbols/ring-circle-runes-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-sentinel-mastery-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>You have refined your dual-discipline approach into a seamless defense. Biotic and tech powers each have their action cost <strong>reduced by 1</strong> (minimum 1 action). Once per round, when you use both a biotic power and a tech power in the same turn, you gain a <strong>+2 circumstance bonus to AC</strong> until the start of your next turn.</p><p><em>Prerequisite: Sentinel Mastery.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Sentinel Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

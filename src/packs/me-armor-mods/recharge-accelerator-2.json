@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A redundant field generator system that maintains a secondary charge reservoir specifically for emergency barrier restoration. When the primary kinetic field collapses, the reserve dumps its stored charge directly into the projectors, dramatically cutting recovery time. The fastest shield recharge enhancement available without a full hardsuit overhaul. Reduces kinetic barrier recharge delay by 2 rounds.</p><p><strong>Activate</strong> — Install in armor during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>A redundant field generator system that maintains a secondary charge reservoir specifically for emergency barrier restoration. When the primary kinetic field collapses, the reserve dumps its stored charge directly into the projectors, dramatically cutting recovery time. The fastest shield recharge enhancement available without a full hardsuit overhaul. Reduces kinetic barrier recharge delay by 2 rounds.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "recharge-accelerator-2",

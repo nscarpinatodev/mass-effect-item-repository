@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A targeting VI and barrel assembly optimized for precision shots against the head and upper cervical spine. The system calculates the minimum kinetic energy required to defeat helmet plating at specific trajectories and adjusts round velocity accordingly, ensuring penetration without sacrificing accuracy at range. Designed for pistols. When you hit a target with a pistol against their flat-footed or off-guard AC, deal an additional 1d6 precision damage.</p><p><strong>Activate</strong> — Install on weapon during a 10-minute field maintenance procedure. Requires a pistol.</p>"
+      "value": "<p>A targeting VI and barrel assembly optimized for precision shots against the head and upper cervical spine. The system calculates the minimum kinetic energy required to defeat helmet plating at specific trajectories and adjusts round velocity accordingly, ensuring penetration without sacrificing accuracy at range. Designed for pistols. When you hit a target with a pistol against their flat-footed or off-guard AC, deal an additional 1d6 precision damage.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a pistol.</p>"
     },
     "rules": [],
     "slug": "cranial-trauma-system",

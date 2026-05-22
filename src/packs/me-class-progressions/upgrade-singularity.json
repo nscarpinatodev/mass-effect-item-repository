@@ -1,0 +1,62 @@
+﻿{
+  "_key": "!items!meUpgradeSingulr",
+  "_id": "meUpgradeSingulr",
+  "folder": null,
+  "name": "Singularity Upgrade",
+  "type": "feat",
+  "img": "icons/magic/control/debuff-chains-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-upgrade-singularity",
+    "description": {
+      "gm": "",
+      "value": "<p>You have learned to sustain the singularity field far beyond its normal duration, and expanded its gravitational reach.</p><p>Singularity's radius increases to <strong>25 feet</strong> (up from 20 feet). The singularity persists for <strong>2 rounds</strong> instead of 1, affecting creatures at the start of each round. Creatures remain Grabbed until they succeed on an Escape check against your class DC.</p><p><em>Prerequisite: Singularity. Classes: Adept.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Singularity"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

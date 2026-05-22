@@ -1,0 +1,64 @@
+﻿{
+  "_key": "!items!meInfiltrMastSu0",
+  "_id": "meInfiltrMastSu0",
+  "folder": null,
+  "name": "Superior Infiltrator Mastery",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-violet.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-infiltrator-mastery-superior",
+    "description": {
+      "gm": "",
+      "value": "<p>You are the perfect predator — invisible, precise, and lethal. All tech powers have their action cost <strong>reduced by 1</strong> (minimum 1 action) and you retain all prior mastery bonuses. While Tactical Cloak is active, you gain <strong>Resistance 5</strong> to all damage. Tech powers used against <strong>Flat-Footed</strong> targets have their DC increased by <strong>2</strong>.</p><p><em>Prerequisite: Improved Infiltrator Mastery.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Infiltrator Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

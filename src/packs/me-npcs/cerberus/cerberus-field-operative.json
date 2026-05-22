@@ -1,0 +1,368 @@
+{
+  "name": "Cerberus Field Operative",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-field-operative.png",
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Cerberus Field Operative",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-field-operative.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "cerberus-field-operative",
+    "details": {
+      "level": {
+        "value": 5
+      },
+      "publicNotes": "<p>Cerberus Field Operatives are intelligence agents who operate under civilian cover in Council Space and human colonies. They conduct surveillance, asset recruitment, black site operations, and targeted assassinations. They are skilled at blending in, and when their cover is blown they are capable combatants who fight to extract themselves rather than hold ground.</p><p><strong>Cover Identity:</strong> The Operative's true Cerberus affiliation is not obvious. A Recall Knowledge (Society or Underworld Lore) check of DC 22 is required to identify them as Cerberus without a document check.</p><p><strong>Disappear (reaction):</strong> When targeted by an attack, if the Operative has not yet acted this round, they may attempt a Stealth check (DC 20) to Hide as a reaction. On success, the triggering attack must be rerolled against the Concealed condition.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Cerberus intelligence agent operating under civilian cover, skilled in espionage and extraction."
+    },
+    "attributes": {
+      "hp": {
+        "value": 65,
+        "max": 65,
+        "temp": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "cerberus"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "uncommon"
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 4
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 14,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "deception": {
+        "base": 17
+      },
+      "stealth": {
+        "base": 15
+      },
+      "society": {
+        "base": 14
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "ce3bop3rvw000001",
+      "name": "Holdout Pistol",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "cerberus-operative-pistol",
+        "bonus": {
+          "value": 14
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+4",
+            "damageType": "piercing"
+          }
+        },
+        "range": {
+          "value": 30
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "concealable"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Easily concealable hold-out pistol. +2 circumstance bonus to hide this weapon in a pat-down or search.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c1d2e3f4a5b60004.ce3bop3rvw000001"
+    },
+    {
+      "_id": "ce3bop3rvs000001",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c1d2e3f4a5b60004.ce3bop3rvs000001"
+    },
+    {
+      "_id": "ce3bop3rvm000001",
+      "name": "Shield HP Mod - Tier 1",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t1",
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+10 HP</strong> (base 30 → 40).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "price": {
+          "value": {
+            "sp": 600
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c1d2e3f4a5b60004.ce3bop3rvm000001"
+    }
+  ],
+  "_id": "c1d2e3f4a5b60004",
+  "_key": "!actors!c1d2e3f4a5b60004",
+  "effects": []
+}

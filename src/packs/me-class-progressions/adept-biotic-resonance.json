@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meAdeptBioticRes",
+  "_id": "meAdeptBioticRes",
+  "folder": null,
+  "name": "Biotic Resonance",
+  "type": "feat",
+  "img": "icons/magic/light/orb-shining-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-adept-biotic-resonance",
+    "description": {
+      "gm": "",
+      "value": "<p>Your constant biotic activity creates a persistent resonance field that amplifies the damage output of your powers.</p><p>All biotic powers you use that deal damage deal an additional <strong>+1d6 void damage</strong>.</p><p><em>Prerequisite: Improved Adept Mastery. Classes: Adept.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Improved Adept Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

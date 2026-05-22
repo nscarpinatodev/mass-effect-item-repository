@@ -1,0 +1,66 @@
+﻿{
+  "_key": "!items!meSoldierMast000",
+  "_id": "meSoldierMast000",
+  "folder": null,
+  "name": "Soldier Mastery",
+  "type": "feat",
+  "img": "icons/skills/ranged/target-bullseye-arrow-red-white.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-soldier-mastery",
+    "description": {
+      "gm": "",
+      "value": "<p>Intensive combat training sharpens your instincts and weapon handling. Your weapon Strikes deal <strong>+2 damage</strong>. You gain a <strong>+1 bonus</strong> to attack rolls against enemies who are Flat-Footed.</p><p><em>Classes: Soldier.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "untyped",
+        "value": 2,
+        "label": "Soldier Mastery"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

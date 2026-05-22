@@ -1,0 +1,15 @@
+2026/05/21-17:09:30.192 107c Recovering log #33
+2026/05/21-17:09:30.197 107c Delete type=0 #33
+2026/05/21-17:09:30.197 107c Delete type=3 #31
+2026/05/21-17:09:30.199 3954 Level-0 table #39: started
+2026/05/21-17:09:30.202 3954 Level-0 table #39: 27953 bytes OK
+2026/05/21-17:09:30.204 3954 Delete type=0 #37
+2026/05/21-17:09:30.204 3954 Manual compaction at level-0 from '!items!meAdeptAscenForm' @ 72057594037927935 : 1 .. '!items!meVanguardVngStr' @ 0 : 0; will stop at (end)
+2026/05/21-17:09:30.205 3954 Manual compaction at level-1 from '!items!meAdeptAscenForm' @ 72057594037927935 : 1 .. '!items!meVanguardVngStr' @ 0 : 0; will stop at '!items!meVanguardVngStr' @ 376 : 1
+2026/05/21-17:09:30.205 3954 Compacting 1@1 + 1@2 files
+2026/05/21-17:09:30.208 3954 Generated table #40@1: 47 keys, 27953 bytes
+2026/05/21-17:09:30.208 3954 Compacted 1@1 + 1@2 files => 27953 bytes
+2026/05/21-17:09:30.209 3954 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/21-17:09:30.209 3954 Delete type=2 #35
+2026/05/21-17:09:30.209 3954 Delete type=2 #39
+2026/05/21-17:09:30.209 3954 Manual compaction at level-1 from '!items!meVanguardVngStr' @ 376 : 1 .. '!items!meVanguardVngStr' @ 0 : 0; will stop at (end)

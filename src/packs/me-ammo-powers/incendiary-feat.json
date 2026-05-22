@@ -18,7 +18,7 @@
     "slug": "me-feat-incendiary",
     "description": {
       "gm": "",
-      "value": "<p>You have been trained in the use of incendiary rounds. This feat grants you the ability to load your weapon with this special ammunition as a single action.</p><p>Thermite-tipped rounds that ignite on impact. Your weapon attacks deal <strong>fire damage</strong> instead of their normal damage type.</p><p>Incendiary rounds burn through armor faster: each point of incoming damage depletes 1.5× points of armor.</p><p>On a <strong>critical hit</strong>, the target ignites and suffers <strong>persistent fire damage</strong> (DC 15 flat check to extinguish).</p><p>Remove this effect to return to standard ammunition.</p>"
+      "value": "<p>You have been trained in the use of incendiary rounds. Using two actions, you can modify your ammunition to gain the following features:</p><p>Thermite-tipped rounds that ignite on impact. Your weapon attacks deal <strong>fire damage</strong> instead of their normal damage type.</p><p>Incendiary rounds burn through armor faster: each point of incoming damage depletes 1.5× points of armor.</p><p>On a <strong>critical hit</strong>, the target ignites and suffers <strong>persistent fire damage</strong> (DC 15 flat check to extinguish).</p><p>Remove this effect to return to standard ammunition.</p>"
     },
     "rules": [],
     "_migration": {
@@ -40,7 +40,7 @@
       "remaster": true
     },
     "level": {
-      "value": 2
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -49,12 +49,20 @@
       "value": "action"
     },
     "actions": {
-      "value": 1
+      "value": 2
     },
     "category": "class",
     "selfEffect": {
       "uuid": "Compendium.mass-effect-sf2e-conversion.me-ammo-powers.Item.meAmmoIncendiary",
       "name": "Incendiary Rounds"
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

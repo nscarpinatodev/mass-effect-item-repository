@@ -14,7 +14,7 @@
     "slug": "me-tech-overload",
     "description": {
       "gm": "",
-      "value": "<p>You fire a concentrated electromagnetic pulse that shreds kinetic shields and fries synthetic circuitry.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC. Electricity damage dealt to kinetic shields is doubled by the shield system.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d8 electricity</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d8 electricity</strong> damage. Synthetic or mech creatures take an additional <strong>1d8 electricity</strong> damage.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d8 electricity</strong> damage (plus the synthetic bonus). The target is also <strong>Stunned 1</strong>.</p>"
+      "value": "<p>You fire a concentrated electromagnetic pulse that shreds kinetic shields and fries synthetic circuitry.</p><p>Choose a creature within <strong>30 feet</strong>. The target must attempt a <strong>Reflex</strong> save against your class DC. Electricity damage dealt to kinetic shields is doubled by the shield system.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d8 electricity</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d8 electricity</strong> damage. Synthetic or mech creatures take an additional <strong>1d8 electricity</strong> damage.</p><p><strong>Critical Failure</strong> As failure, but <strong>4d8 electricity</strong> damage (plus the synthetic bonus). The target is also <strong>Stunned 1</strong>.</p><p><strong>Cooldown:</strong> 7 âˆ’ your Intelligence modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -38,7 +38,7 @@
       "remaster": true
     },
     "level": {
-      "value": 2
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -49,6 +49,14 @@
     "actions": {
       "value": 2
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

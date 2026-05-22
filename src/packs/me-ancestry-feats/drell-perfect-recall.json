@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p>The drell eidetic memory is not a metaphor. You do not remember things the way most species do—as reconstructions assembled from fragments and inferences. You remember them as they were: complete, exact, and available on demand. A conversation from twenty years ago is as accessible as one from this morning. You have never misremembered anything in your life, which is both a gift and, occasionally, a burden you carry alone.</p><p>You gain a +2 circumstance bonus to all Recall Knowledge checks. Additionally, you automatically succeed at Recall Knowledge checks to remember events, conversations, or details that you personally witnessed, regardless of how long ago they occurred—your GM may still call for a check if the information has been deliberately obscured or if you were distracted at the time.</p>"
+      "value": "<p>The drell eidetic memory is not a metaphor. You do not remember things the way most species do-as reconstructions assembled from fragments and inferences. You remember them as they were: complete, exact, and available on demand. A conversation from twenty years ago is as accessible as one from this morning. You have never misremembered anything in your life, which is both a gift and, occasionally, a burden you carry alone.</p><p>You gain a +2 circumstance bonus to all Recall Knowledge checks. Additionally, you automatically succeed at Recall Knowledge checks to remember events, conversations, or details that you personally witnessed, regardless of how long ago they occurred-your GM may still call for a check if the information has been deliberately obscured or if you were distracted at the time.</p>"
     },
     "level": {
       "value": 1
@@ -46,8 +46,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

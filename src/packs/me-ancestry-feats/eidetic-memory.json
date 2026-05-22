@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Drell do not merely remember past experiences—they relive them. A drell's memory is a perfect, multi-sensory recording that can be accessed at will with complete fidelity. This extends to learned information, witnessed events, overheard conversations, and any experience significant enough to register. The gift is not without burden: in times of stress, vivid memory episodes called Harrowing can intrude unbidden.</p><p>Once per hour, when you attempt a Recall Knowledge check, you may roll twice and use the better result. Additionally, you automatically succeed at checks to recall information you directly witnessed or experienced within the last year, with a GM-determined DC based on how obscure or significant the detail is to your character.</p>"
+      "value": "<p>Drell do not merely remember past experiences-they relive them. A drell's memory is a perfect, multi-sensory recording that can be accessed at will with complete fidelity. This extends to learned information, witnessed events, overheard conversations, and any experience significant enough to register. The gift is not without burden: in times of stress, vivid memory episodes called Harrowing can intrude unbidden.</p><p>Once per hour, when you attempt a Recall Knowledge check, you may roll twice and use the better result. Additionally, you automatically succeed at checks to recall information you directly witnessed or experienced within the last year, with a GM-determined DC based on how obscure or significant the detail is to your character.</p>"
     },
     "level": {
       "value": 0
@@ -40,7 +40,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

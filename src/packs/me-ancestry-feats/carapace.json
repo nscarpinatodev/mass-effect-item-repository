@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Turian bodies are encased in a natural exoskeleton of hard, overlapping plates that protect their vital organs and absorb glancing strikes that would cut or bruise softer species. This carapace is not rigid armor in the traditional sense—it flexes with movement and does not restrict agility—but it provides constant passive protection that turian warriors learn to rely on as a baseline before they strap on actual kit.</p><p>While you are unarmored or wearing light armor, your carapace provides a +1 circumstance bonus to AC.</p>"
+      "value": "<p>Turian bodies are encased in a natural exoskeleton of hard, overlapping plates that protect their vital organs and absorb glancing strikes that would cut or bruise softer species. This carapace is not rigid armor in the traditional sense-it flexes with movement and does not restrict agility-but it provides constant passive protection that turian warriors learn to rely on as a baseline before they strap on actual kit.</p><p>While you are unarmored or wearing light armor, your carapace provides a +1 circumstance bonus to AC.</p>"
     },
     "level": {
       "value": 0
@@ -56,7 +56,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

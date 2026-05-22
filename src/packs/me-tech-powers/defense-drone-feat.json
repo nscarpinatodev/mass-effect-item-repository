@@ -14,7 +14,7 @@
     "slug": "me-tech-defense-drone",
     "description": {
       "gm": "",
-      "value": "<p>You deploy a hovering electrocution drone that follows you and automatically zaps any enemy that ventures too close.</p><p>You deploy a Defense Drone that orbits you. The drone has <strong>10 HP</strong>, is immune to electricity, and cannot move independently (it follows you). It persists for up to <strong>1 minute</strong> or until destroyed.</p><p>At the start of each of your turns, the drone automatically zaps all enemies within <strong>10 feet</strong> of you: each must attempt a <strong>Reflex</strong> DC 18 save or take <strong>1d6 electricity</strong> damage (half on a success).</p><p>Additionally, any enemy that hits you with a melee attack while the drone is active takes <strong>1d4 electricity</strong> damage (no save) as the drone retaliates.</p>"
+      "value": "<p>You deploy a hovering electrocution drone that follows you and automatically zaps any enemy that ventures too close.</p><p>You deploy a Defense Drone that orbits you. The drone has <strong>10 HP</strong>, is immune to electricity, and cannot move independently (it follows you). It persists for up to <strong>1 minute</strong> or until destroyed.</p><p>At the start of each of your turns, the drone automatically zaps all enemies within <strong>10 feet</strong> of you: each must attempt a <strong>Reflex</strong> DC 18 save or take <strong>1d6 electricity</strong> damage (half on a success).</p><p>Additionally, any enemy that hits you with a melee attack while the drone is active takes <strong>1d4 electricity</strong> damage (no save) as the drone retaliates.</p><p><strong>Cooldown:</strong> 7 âˆ’ your Intelligence modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -39,7 +39,7 @@
       "remaster": true
     },
     "level": {
-      "value": 6
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -50,6 +50,14 @@
     "actions": {
       "value": 3
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

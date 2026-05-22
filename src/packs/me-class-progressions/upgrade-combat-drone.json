@@ -1,0 +1,62 @@
+﻿{
+  "_key": "!items!meUpgradeDrone00",
+  "_id": "meUpgradeDrone00",
+  "folder": null,
+  "name": "Combat Drone Upgrade",
+  "type": "feat",
+  "img": "icons/magic/lightning/orb-lightning-bolt-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-upgrade-combat-drone",
+    "description": {
+      "gm": "",
+      "value": "<p>You push your drone's processing routines to the limit, dramatically increasing its combat efficiency.</p><p>Your Combat Drone gains <strong>one additional attack per round</strong> (total two attacks on its turn) and its maximum HP increases by <strong>your level</strong>.</p><p><em>Prerequisite: Combat Drone. Classes: Engineer.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Drone"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

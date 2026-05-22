@@ -1,0 +1,64 @@
+﻿{
+  "_key": "!items!meAdeptMastImpr0",
+  "_id": "meAdeptMastImpr0",
+  "folder": null,
+  "name": "Improved Adept Mastery",
+  "type": "feat",
+  "img": "icons/magic/light/orb-shining-teal.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-adept-mastery-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Your biotic efficiency reaches exceptional levels. All biotic powers have their action cost <strong>reduced by 1</strong> (minimum 1 action) and your biotic power DCs gain <strong>+1</strong>. Once per round, after triggering a Biotic Explosion, you may use a biotic power as a <strong>free action</strong>.</p><p><em>Prerequisite: Adept Mastery.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Adept Mastery"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

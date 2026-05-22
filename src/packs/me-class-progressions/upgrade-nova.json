@@ -1,0 +1,62 @@
+﻿{
+  "_key": "!items!meUpgradeNova000",
+  "_id": "meUpgradeNova000",
+  "folder": null,
+  "name": "Nova Upgrade",
+  "type": "feat",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-upgrade-nova",
+    "description": {
+      "gm": "",
+      "value": "<p>You channel every ounce of your biotic reserves into a catastrophic release of mass effect energy.</p><p>Nova's burst radius increases to <strong>20 feet</strong> (up from 10 feet). The damage increases to <strong>twice the barrier's current HP</strong> at the moment of detonation (up from the barrier's current HP). On a <strong>Failure</strong>, targets are also <strong>Stunned 1</strong>. On a <strong>Critical Failure</strong>, targets are <strong>Stunned 3</strong> instead.</p><p><em>Prerequisite: Nova. Classes: Vanguard.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Nova"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

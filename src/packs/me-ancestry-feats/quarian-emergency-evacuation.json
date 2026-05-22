@@ -13,7 +13,7 @@
     "category": "ancestry",
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> You are reduced to fewer than one-quarter your maximum Hit Points.</p><p>Centuries of living aboard ships where an emergency can mean a hull breach, an engine failure, or enemy boarders in three corridors simultaneously has produced a quarian cultural reflex: when the situation becomes genuinely critical, you get out. Not in panic—in protocol. You know where the exits are because you always know where the exits are, and when the trigger fires, your body moves before your conscious mind has finished processing the situation.</p><p>You immediately Stride up to your full Speed. This movement does not provoke reactions. If you end this movement in cover or out of line of sight of all creatures that could be threatening you, you can attempt to Hide as a free action.</p>"
+      "value": "<p><strong>Trigger</strong> You are reduced to fewer than one-quarter your maximum Hit Points.</p><p>Centuries of living aboard ships where an emergency can mean a hull breach, an engine failure, or enemy boarders in three corridors simultaneously has produced a quarian cultural reflex: when the situation becomes genuinely critical, you get out. Not in panic-in protocol. You know where the exits are because you always know where the exits are, and when the trigger fires, your body moves before your conscious mind has finished processing the situation.</p><p>You immediately Stride up to your full Speed. This movement does not provoke reactions. If you end this movement in cover or out of line of sight of all creatures that could be threatening you, you can attempt to Hide as a free action.</p>"
     },
     "level": {
       "value": 5
@@ -39,8 +39,17 @@
     },
     "_migration": {
       "version": 0.955,
+      "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

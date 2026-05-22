@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Life under the Batarian Hegemony—whether as enforcer, slave, or dissident—hardens batarians against psychological pressure in ways other species rarely experience. Batarian culture's pervasive authoritarian control, propaganda, and systematic fear conditioning paradoxically builds exceptional mental resistance to external manipulation. You have been conditioned either to apply fear or to endure it, and likely both.</p><p>You gain a +1 circumstance bonus to saving throws against fear effects and mental effects (effects with the <em>fear</em> or <em>mental</em> trait).</p>"
+      "value": "<p>Life under the Batarian Hegemony-whether as enforcer, slave, or dissident-hardens batarians against psychological pressure in ways other species rarely experience. Batarian culture's pervasive authoritarian control, propaganda, and systematic fear conditioning paradoxically builds exceptional mental resistance to external manipulation. You have been conditioned either to apply fear or to endure it, and likely both.</p><p>You gain a +1 circumstance bonus to saving throws against fear effects and mental effects (effects with the <em>fear</em> or <em>mental</em> trait).</p>"
     },
     "level": {
       "value": 0
@@ -56,7 +56,15 @@
       "version": 0.955,
       "lastMigration": null,
       "previous": null
-    }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   },
   "type": "feat",
   "effects": [],

@@ -1,0 +1,64 @@
+{
+  "_key": "!items!meVanguardUnstCg",
+  "_id": "meVanguardUnstCg",
+  "folder": null,
+  "name": "Unstoppable Charge",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-blue-purple.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-vanguard-unstoppable-charge",
+    "description": {
+      "gm": "",
+      "value": "<p>Your Biotic Charge has become an unstoppable force of nature. Nothing stands between you and your target.</p><p>When you use Biotic Charge, you may now move through <strong>total cover</strong> as though it were open terrain - walls, barriers, and obstacles are no obstacle to your biotic field. In addition, regardless of the save result, Biotic Charge always restores <strong>25% of your maximum Biotic Barrier HP</strong>.</p><p>On a Critical Failure, the target is not merely knocked prone - they are <strong>thrown half the distance</strong> of your Biotic Charge, landing prone and taking falling damage as normal for the distance thrown.</p><p><em>Prerequisite: Charge Upgrade. Classes: Vanguard.</em></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Charge Upgrade"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_key": "!items!meCPCombatTrnImp",
+  "_id": "meCPCombatTrnImp",
+  "folder": null,
+  "name": "Improved Combat Training",
+  "type": "feat",
+  "img": "icons/skills/melee/sword-shield-stylized-blue.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-combat-training-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Your combat mastery extends to follow-through. You deal <strong>+2 damage</strong> on all Strikes (stacks with Combat Training's attack bonus).</p><p><em>Prerequisite: Combat Training.</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 2,
+        "label": "Improved Combat Training"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Training"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}

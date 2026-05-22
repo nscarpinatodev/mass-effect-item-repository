@@ -8,6 +8,7 @@
     "clean": "node --input-type=module -e \"import { rmSync } from 'fs'; rmSync('packs', { recursive: true, force: true });\""
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^3.0.0"
+    "@foundryvtt/foundryvtt-cli": "^3.0.0",
+    "puppeteer-core": "^24.43.0"
   }
 }

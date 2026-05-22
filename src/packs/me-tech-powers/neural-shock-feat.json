@@ -14,7 +14,7 @@
     "slug": "me-tech-neural-shock",
     "description": {
       "gm": "",
-      "value": "<p>You fire a targeted bio-electric pulse through a specialized omni-tool attachment that overloads an organic creature's nervous system.</p><p><strong>Requirements</strong> The target must be an organic creature.</p><p>Choose a qualifying creature within <strong>30 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 electricity</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d6 electricity</strong> damage and is <strong>Stunned 1</strong>.</p><p><strong>Critical Failure</strong> The target takes <strong>4d6 electricity</strong> damage and is <strong>Stunned 3</strong>. Additionally, the target is <strong>Off-Guard</strong> until the end of its next turn even after the Stunned condition expires.</p>"
+      "value": "<p>You fire a targeted bio-electric pulse through a specialized omni-tool attachment that overloads an organic creature's nervous system.</p><p><strong>Requirements</strong> The target must be an organic creature.</p><p>Choose a qualifying creature within <strong>30 feet</strong>. The target must attempt a <strong>Fortitude</strong> save against your class DC.</p><p><strong>Critical Success</strong> Unaffected.</p><p><strong>Success</strong> The target takes <strong>1d6 electricity</strong> damage.</p><p><strong>Failure</strong> The target takes <strong>2d6 electricity</strong> damage and is <strong>Stunned 1</strong>.</p><p><strong>Critical Failure</strong> The target takes <strong>4d6 electricity</strong> damage and is <strong>Stunned 3</strong>. Additionally, the target is <strong>Off-Guard</strong> until the end of its next turn even after the Stunned condition expires.</p><p><strong>Cooldown:</strong> 7 âˆ’ your Intelligence modifier rounds (minimum 1).</p>"
     },
     "rules": [],
     "_migration": {
@@ -38,7 +38,7 @@
       "remaster": true
     },
     "level": {
-      "value": 2
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -49,6 +49,14 @@
     "actions": {
       "value": 2
     },
-    "category": "class"
+    "category": "class",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

@@ -14,7 +14,7 @@
     "slug": "me-class-engineer",
     "description": {
       "gm": "",
-      "value": "<p>Specialists in technical warfare, Engineers control the battlefield through drone deployment, electronic warfare, and the ability to strip enemy shields and set enemies on fire. They are the definitive tech class, capable of solving almost any tactical problem with the right tool.</p><p><strong>Bonus:</strong> +2 circumstance bonus to Will saves (trained mind, resistant to hacking and mental subversion).</p><hr><p><strong>Signature Abilities:</strong> Combat Drone, Sentry Turret, Incinerate, Overload, AI Hacking, Cryo Blast</p><p><strong>Power Access:</strong> All tech powers (<em>ME Tech Powers</em> compendium). Engineers do not natively access biotic power feats.</p><p><strong>Weapons:</strong> Pistols, submachine guns. Light weapons preferred; heavy weapons and sniper rifles are not standard.</p><p><strong>Armor:</strong> Light and medium armor only. Combat Drone provides area denial that compensates for lighter armor.</p><p><strong>Playstyle:</strong> Force multiplier and control specialist. Engineers rarely trade shots directly — they strip defenses, deploy drones and turrets, and create conditions that the rest of the squad exploits. Best when given time to set up.</p>"
+      "value": "<p>Specialists in technical warfare, Engineers control the battlefield through drone deployment, electronic warfare, and the ability to strip enemy shields and set enemies on fire. They are the definitive tech class, capable of solving almost any tactical problem with the right tool.</p><p><strong>Bonus:</strong> +2 circumstance bonus to Will saves (trained mind, resistant to hacking and mental subversion).</p><hr><p><strong>Signature Abilities:</strong> Combat Drone, Sentry Turret, Incinerate, Overload, AI Hacking, Cryo Blast</p><p><strong>Power Access:</strong> All tech powers (<em>ME Tech Powers</em> compendium). Engineers do not natively access biotic power feats.</p><p><strong>Weapons:</strong> Pistols, submachine guns. Light weapons preferred; heavy weapons and sniper rifles are not standard.</p><p><strong>Armor:</strong> Light and medium armor only. Combat Drone provides area denial that compensates for lighter armor.</p><p><strong>Playstyle:</strong> Force multiplier and control specialist. Engineers rarely trade shots directly - they strip defenses, deploy drones and turrets, and create conditions that the rest of the squad exploits. Best when given time to set up.</p>"
     },
     "rules": [
       {
@@ -53,6 +53,14 @@
     "actions": {
       "value": null
     },
-    "category": "classfeature"
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
   }
 }

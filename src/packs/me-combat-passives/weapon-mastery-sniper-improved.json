@@ -1,0 +1,83 @@
+{
+  "_key": "!items!meCPWpnMstSniImp",
+  "_id": "meCPWpnMstSniImp",
+  "folder": null,
+  "name": "Improved Weapon Mastery (Sniper Rifles)",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-black.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "slug": "me-cp-weapon-mastery-sniper-improved",
+    "description": {
+      "gm": "",
+      "value": "<p>Expert sniper rifles proficiency. You deal <strong>+4 damage</strong> and gain a <strong>+1 circumstance bonus to attack rolls</strong> with sniper rifles (replaces the +2 damage). Your range increment penalty with sniper rifles is reduced by 1.</p><p><em>Prerequisite: Weapon Mastery (Sniper Rifles).</em></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": 4,
+        "predicate": [
+          "item:group:sniper"
+        ],
+        "label": "Weapon Mastery (Sniper Rifles)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          "item:group:sniper"
+        ],
+        "label": "Weapon Mastery (Sniper Rifles)"
+      }
+    ],
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Weapon Mastery (Sniper Rifles)"
+        }
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  }
+}
