@@ -13,7 +13,7 @@
     "category": "ancestryfeature",
     "description": {
       "gm": "",
-      "value": "<p>Asari are born with the potential for biotic ability, arising from the unique interaction between their nervous system and element zero nodules accumulated before birth. Your biotic talent manifests as an innate command of mass effect fields.</p><p>You gain the ability to cast <em>telekinetic projectile</em> as an occult innate cantrip. Your spellcasting ability for this innate spell is Charisma. Unlike biotic powers developed later through training, this instinctual ability requires no focus and no formal schooling-it is simply part of what you are.</p><p><strong>Note:</strong> Add the <em>Telekinetic Projectile</em> innate spell rule element (occult, at-will, cantrip, Charisma-based DC) via the Rules tab.</p>"
+      "value": "<p>Asari are born with the potential for biotic ability, arising from the unique interaction between their nervous system and element zero nodules accumulated before birth. Your biotic talent manifests as an innate command of mass effect fields.</p><p>You gain a <strong>Telekinetic Projectile</strong> biotic Strike with a range increment of 30 feet (maximum 60 feet) that deals 1d6 force damage. This Strike uses your Charisma modifier for the attack roll and is treated as an occult cantrip for the purpose of biotic power interactions.</p>"
     },
     "level": {
       "value": 0
@@ -27,7 +27,22 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Strike",
+        "label": "Telekinetic Projectile",
+        "damage": {
+          "base": {
+            "damageType": "force",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "range": { "increment": 30, "max": 60 },
+        "category": "unarmed",
+        "traits": ["biotic", "occult", "nonlethal"]
+      }
+    ],
     "slug": "biotic-affinity",
     "traits": {
       "otherTags": [],

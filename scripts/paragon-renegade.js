@@ -10,6 +10,7 @@ const S_EXTRA   = 'prExtraActors';
 
 const N = v => Number(v) || 0;
 const clamp = (v, lo, hi) => Math.min(Math.max(N(v), lo), hi);
+const stripHtml = s => s.replace(/<[^>]+>/g, '').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"');
 
 function mkAction({ name, img, atype, category, perDay, descHTML, rules = [] }) {
   return {
@@ -129,8 +130,18 @@ function namesFor(val, table) {
 // ── ENGINE ─────────────────────────────────────────────────────────────────────
 
 async function syncTrack(actor, track, newVal) {
+  const oldVal = N(actor.getFlag('world', track));
   const val = clamp(newVal, 0, 100);
   await actor.setFlag('world', track, val);
+  if (val !== oldVal) {
+    const delta = val - oldVal;
+    const label = track === 'paragon' ? 'Paragon' : 'Renegade';
+    const color = track === 'paragon' ? '#4ab8ff' : '#D60C0C';
+    ChatMessage.create({
+      content: `<p style="margin:0;font-size:0.9em"><span style="color:${color};font-weight:700">${label}</span> — <b>${actor.name}</b>: ${delta > 0 ? '+' : ''}${delta} (now <b>${val}</b>)</p>`,
+      whisper: ChatMessage.getWhisperRecipients('GM'),
+    });
+  }
   const isParagon = track === 'paragon';
   const table = isParagon ? PARAGON_THRESH : RENEGADE_THRESH;
   const defs  = isParagon ? PARAGON_ITEMS  : RENEGADE_ITEMS;
@@ -253,6 +264,15 @@ function injectStyles() {
     }
     .me-pr-sidebar-item:hover { background: rgba(255,255,255,0.05); }
     .me-pr-sidebar-item.active { border-left-color: #4a9eff; background: rgba(74,158,255,0.1); }
+
+    .me-pr-sidebar-remove {
+      flex-shrink: 0; margin-left: auto;
+      background: transparent; border: none;
+      color: transparent; cursor: pointer;
+      font-size: 0.82rem; padding: 0 0.15rem; line-height: 1;
+    }
+    .me-pr-sidebar-item:hover .me-pr-sidebar-remove { color: var(--color-text-secondary, #6a7a9a); }
+    .me-pr-sidebar-remove:hover { color: #D60C0C !important; }
 
     .me-pr-sidebar-portrait {
       width: 32px; height: 32px; border-radius: 3px; object-fit: cover;
@@ -449,6 +469,11 @@ Hooks.once('init', () => {
     _addSearch   = '';
 
     static open() {
+      for (const key of [S_IGNORED, S_EXTRA]) {
+        const ids = game.settings.get(PR_MODULE, key) ?? [];
+        const clean = ids.filter(id => !!game.actors.get(id));
+        if (clean.length !== ids.length) game.settings.set(PR_MODULE, key, clean);
+      }
       ParagonRenegadeDashboard._instance?.close();
       ParagonRenegadeDashboard._instance = new ParagonRenegadeDashboard();
       ParagonRenegadeDashboard._instance.render(true);
@@ -489,6 +514,7 @@ Hooks.once('init', () => {
       if (!this._selectedId || !list.find(a => a.id === this._selectedId))
         this._selectedId = list[0]?.id ?? null;
 
+      const extraIds = new Set(game.settings.get(PR_MODULE, S_EXTRA) ?? []);
       const mapActor = actor => {
         const pVal  = N(actor.getFlag('world', 'paragon'));
         const rVal  = N(actor.getFlag('world', 'renegade'));
@@ -496,6 +522,7 @@ Hooks.once('init', () => {
         return {
           id: actor.id, name: actor.name, img: actor.img,
           selected: actor.id === this._selectedId,
+          isExtra: isGM && extraIds.has(actor.id),
           paragon: pVal, renegade: rVal,
           paragonPerks:  items.filter(i => (i.type==='effect'||i.type==='action') && i.name.startsWith('Paragon ')).map(i=>i.name),
           renegadePerks: items.filter(i => (i.type==='effect'||i.type==='action') && i.name.startsWith('Renegade ')).map(i=>i.name),
@@ -524,6 +551,7 @@ Hooks.once('init', () => {
             <div class="me-pr-sidebar-item${m.selected?' active':''}" data-action="select" data-actor-id="${m.id}">
               <img class="me-pr-sidebar-portrait" src="${m.img}" alt="${m.name}">
               <span class="me-pr-sidebar-name">${m.name}</span>
+              ${m.isExtra && !context.showIgnored ? `<button class="me-pr-sidebar-remove" data-action="remove-actor" data-actor-id="${m.id}" title="Remove from tracker">×</button>` : ''}
             </div>`).join('') || '<p class="me-pr-empty-small">None.</p>'}
         </div>`;
 
@@ -573,10 +601,16 @@ Hooks.once('init', () => {
         ? `<button class="me-pr-ignore-btn" data-action="${actionKey}" data-actor-id="${m.id}">${actionLabel}</button>`
         : '';
       const pChips = m.paragonPerks.length
-        ? m.paragonPerks.map(p => `<span class="me-pr-perk paragon">${p.replace(/^Paragon \d+ — /,'')}</span>`).join('')
+        ? m.paragonPerks.map(p => {
+            const tip = stripHtml(PARAGON_ITEMS[p]?.system?.description?.value ?? '');
+            return `<span class="me-pr-perk paragon" title="${tip}">${p.replace(/^Paragon \d+ — /,'')}</span>`;
+          }).join('')
         : '<span class="me-pr-perk-none">—</span>';
       const rChips = m.renegadePerks.length
-        ? m.renegadePerks.map(p => `<span class="me-pr-perk renegade">${p.replace(/^Renegade \d+ — /,'')}</span>`).join('')
+        ? m.renegadePerks.map(p => {
+            const tip = stripHtml(RENEGADE_ITEMS[p]?.system?.description?.value ?? '');
+            return `<span class="me-pr-perk renegade" title="${tip}">${p.replace(/^Renegade \d+ — /,'')}</span>`;
+          }).join('')
         : '<span class="me-pr-perk-none">—</span>';
       const curVal = context.activeTrack === 'paragon' ? m.paragon : m.renegade;
       const bottomControls = context.isGM ? `
@@ -679,6 +713,13 @@ Hooks.once('init', () => {
       if (action === 'add-cancel')   { this._addingActor = false; this._addSearch = ''; await this.render(); return; }
       if (action === 'set-track')    { this._activeTrack = btn.dataset.track; await this.render(); return; }
 
+      if (action === 'remove-actor') {
+        const extra = (game.settings.get(PR_MODULE, S_EXTRA) ?? []).filter(id => id !== btn.dataset.actorId);
+        await game.settings.set(PR_MODULE, S_EXTRA, extra);
+        if (this._selectedId === btn.dataset.actorId) this._selectedId = null;
+        await this.render(); return;
+      }
+
       if (action === 'add-confirm') {
         const extra = [...(game.settings.get(PR_MODULE, S_EXTRA) ?? [])];
         if (!extra.includes(btn.dataset.actorId)) extra.push(btn.dataset.actorId);
@@ -749,6 +790,19 @@ Hooks.once('init', () => {
   });
 
   globalThis.MassEffectPR = { open: () => ParagonRenegadeDashboard.open() };
+
+  Hooks.on('updateActor', (actor) => {
+    const inst = ParagonRenegadeDashboard._instance;
+    if (!inst || inst._state < 1) return;
+    if ([...inst._getTracked(), ...inst._getIgnored()].some(a => a.id === actor.id))
+      inst.render();
+  });
+
+  // PF2e resets per-day frequencies automatically on rest; we just refresh the display
+  Hooks.on('pf2e.restForTheNight', () => {
+    const inst = ParagonRenegadeDashboard._instance;
+    if (inst?._state >= 1) inst.render();
+  });
 
 }); // end Hooks.once('init')
 
