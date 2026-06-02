@@ -82,7 +82,8 @@
       "Bash(awk '{print length\\($0\\), $0}')",
       "Bash(node --check \"c:/Users/djsco/OneDrive/Documents/GitHub/mass-effect-item-repository/scripts/paragon-renegade.js\")",
       "WebFetch(domain:www.color-hex.com)",
-      "WebFetch(domain:www.gameuidatabase.com)"
+      "WebFetch(domain:www.gameuidatabase.com)",
+      "Bash(jq -r '[.name, .system.group, .system.level.value, .system.bulk.value, .system.price.value.gp, .system.damage.dice, .system.damage.die, .system.damage.damageType, .system.range, \\(.system.traits.value | join\\(\", \"\\)\\)] | @csv' *.json)"
     ],
     "additionalDirectories": [
       "C:\\Users\\djsco\\OneDrive\\Documents\\GitHub\\mass-effect-item-repository"
