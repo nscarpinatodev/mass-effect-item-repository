@@ -1462,3 +1462,652 @@ Until the start of your next turn, you gain **Resistance 12** to all damage, a *
 *Prerequisite: Improved Fortification.*
 
 ---
+
+## ANCESTRIES
+
+---
+
+### ASARI
+
+**Hit Points** 8 · **Size** Medium · **Speed** 25 feet
+**Ability Boosts** Charisma, Wisdom · **Ability Flaw** Strength
+
+Among the most ancient species in the galaxy, Asari are renowned for potent biotic ability, diplomatic wisdom, and lifespans exceeding a millennium. Their nervous systems interact naturally with element zero nodules absorbed before birth, giving most Asari some degree of innate biotic potential without formal training.
+
+*Ancestry Feats:* Biotic Affinity, Millennial Lifespan, Millennia of Memory, Biotic Feedback, Melded Understanding
+
+---
+
+### BATARIAN
+
+**Hit Points** 10 · **Size** Medium · **Speed** 25 feet
+**Ability Boosts** Strength, Wisdom · **Ability Flaw** Charisma
+
+Marked by four eyes and a reputation shaped by their brutal government's history, Batarians are resilient and perceptive humanoids who carry the weight of their species' crimes even when they personally reject them. Their four eyes give them exceptional peripheral awareness and resistance to flanking.
+
+*Ancestry Feats:* Four Eyes, Hegemony-Bred, Four-Eyed Vigilance, Castes and Leverage
+
+---
+
+### DRELL
+
+**Hit Points** 8 · **Size** Medium · **Speed** 30 feet
+**Ability Boosts** Dexterity, Wisdom · **Ability Flaw** Constitution
+
+Agile reptilian humanoids from a dying world, Drell carry their species' history in perfect photographic memories and adhesive skin adapted for cliff-face climbing. Many serve the Hanar out of a cultural debt that shapes their entire identity.
+
+*Ancestry Feats:* Eidetic Memory, Adhesive Skin, Toxic Touch, Perfect Recall, Ghost of the Desert
+
+---
+
+### ELCOR
+
+**Hit Points** 12 · **Size** Large · **Speed** 20 feet
+**Ability Boosts** Strength, Constitution · **Ability Flaw** Dexterity
+
+Massive patient quadrupeds from a high-gravity world, Elcor communicate through subvocalizations and pheromone cues that other species cannot easily parse. Their bulk makes them slow but nearly unmovable in melee, and their dorsal harnesses can be loaded with weapons most species would need two hands to carry.
+
+*Ancestry Feats:* Quadruped Stability, Pheromone Awareness, Crushing Blow, Subvocal Network
+
+---
+
+### HANAR
+
+**Hit Points** 6 · **Size** Medium · **Speed** 20 feet
+**Ability Boosts** Intelligence, Charisma · **Ability Flaw** Strength
+
+Luminous multi-tentacled beings of extraordinary politeness and deep spiritual devotion, Hanar refer to themselves only in the third person and consider it rude to use their "face name" except with close friends. Their multiple limbs let them hold more objects than most species and provide surprising grappling ability.
+
+*Ancestry Feats:* Bioluminescent Speech, Multitentacled, Enkindler's Grace, Bioluminescent Display
+
+---
+
+### HUMAN
+
+**Hit Points** 8 · **Size** Medium · **Speed** 25 feet
+**Ability Boosts** Any two · **Ability Flaw** None
+
+Ambitious, adaptable, and driven by an almost unreasonable hunger to expand and excel, Humans went from their first contact with alien life to a seat on the Citadel Council in a single generation. They have no natural biotics or unusual senses — just an extraordinary capacity to learn, adapt, and accumulate breadth.
+
+*Ancestry Feats:* Ambitious Striving, Adaptive Resilience, Adaptive Learner, Battle-Hardened, Tenacious Survivor
+
+---
+
+### KROGAN
+
+**Hit Points** 12 · **Size** Medium · **Speed** 25 feet
+**Ability Boosts** Strength, Constitution · **Ability Flaw** Intelligence
+
+Massive warriors built for a world that wanted them dead, Krogan have two hearts and a distributed nervous system that lets them survive wounds that would kill most species outright. The genophage has shaped their culture as much as their biology — a people fighting extinction through sheer stubbornness.
+
+*Ancestry Feats:* Krogan Fortitude, Redundant Biology, Headbutt, Blood Rage, Undying Warrior
+
+---
+
+### QUARIAN
+
+**Hit Points** 6 · **Size** Medium · **Speed** 25 feet
+**Ability Boosts** Intelligence, Dexterity · **Ability Flaw** Constitution
+
+Exiled from their homeworld for creating the Geth, Quarians live aboard the Migrant Fleet in environmental suits that protect their weakened immune systems. They are exceptional engineers who can coax function from failing systems, but their suit dependency is a constant tactical and social constraint.
+
+*Ancestry Feats:* Environmental Suit, Tech Expertise, Omni-Tool Mastery, Suit Integrity, Emergency Evacuation Protocol
+
+---
+
+### SALARIAN
+
+**Hit Points** 6 · **Size** Medium · **Speed** 35 feet
+**Ability Boosts** Intelligence, Dexterity · **Ability Flaw** Constitution
+
+Sharp-minded amphibians with hyperactive metabolisms and 40-year lifespans, Salarians process information faster than almost any other species. They sleep only one hour per day, think in multiple streams simultaneously, and have mastered the art of planning three scenarios ahead of everyone else in the room.
+
+*Ancestry Feats:* Hypermetabolism, Analytical Mind, Accelerated Mind, Chemical Analysis, STG Methods
+
+---
+
+### TURIAN
+
+**Hit Points** 10 · **Size** Medium · **Speed** 25 feet
+**Ability Boosts** Strength, Constitution · **Ability Flaw** Charisma
+
+Disciplined duty-driven warriors with a natural metallic carapace and reflective cellular structures that provide partial protection against radiation, Turians are the galaxy's premier military species. Fifteen years of mandatory service is not tradition — it is the foundation of their entire civilization.
+
+*Ancestry Feats:* Carapace, Military Discipline, Formation Fighter, Hierarchy Command, Carapace Resilience
+
+---
+
+### VOLUS
+
+**Hit Points** 6 · **Size** Small · **Speed** 20 feet
+**Ability Boosts** Intelligence, Constitution · **Ability Flaw** Strength
+
+Short ammonia-breathers from a high-gravity world, Volus built a galactic economic empire while entirely dependent on pressure suits to survive off their homeworld. They are the galaxy's bankers, brokers, and traders — underestimated by everyone and indispensable to all.
+
+*Ancestry Feats:* Pressure Suit, Economic Acumen, Market Instinct, Ammonia Reserve
+
+---
+
+### VORCHA
+
+**Hit Points** 10 · **Size** Medium · **Speed** 30 feet
+**Ability Boosts** Strength, Constitution · **Ability Flaw** Intelligence
+
+Short-lived biologically remarkable beings, Vorcha survive through rapid cellular adaptation that lets them heal wounds in minutes and develop resistances to hazards that would kill other species. Regarded as vermin across the galaxy, Vorcha are far more capable than they are given credit for.
+
+*Ancestry Feats:* Rapid Cell Regeneration, Adaptive Physiology, Feral Bite, Adaptive Immunity
+
+---
+
+## HERITAGES
+
+*Choose one heritage when you select your ancestry. Heritages represent your background within your species — cultural upbringing, training, or rare biological variation.*
+
+---
+
+### Asari Heritages
+
+**Ardat-Yakshi** *(rare)* A rare neurological condition causes your neural meld to fatally overwhelm partners. You deal +1 damage per die with biotic powers but cannot safely perform neural melds.
+
+**Colonist** Cross-cultural upbringing gives you +1 to Society checks, one bonus language, and the Additional Lore feat.
+
+**Commando** Elite Asari commando training. You are trained in light and medium armor and deal +1 damage with biotic powers against targets within 30 feet.
+
+**Matriarch's Lineage** Descended from a great Matriarch line. You gain +1 to Diplomacy and Intimidation checks, and once per day can Aid an ally as a free action.
+
+---
+
+### Batarian Heritages
+
+**Escaped Slave** Survival instincts from escaping Hegemony captivity. You gain training in Stealth and Survival, and cannot become lost in terrain you have previously traversed.
+
+**Hegemony Soldier** Paramilitary training. You are trained in medium armor and all martial weapons, and gain +1 to Athletics for Shove and Grapple.
+
+**Mercenary** Career in the Terminus systems. You are trained in Intimidation and Mercenary Lore, and gain +1 to Perception for Sense Motive checks.
+
+**Terminus Pirate** Raiding in lawless space. You are trained in Thievery and gain +1 to Deception.
+
+---
+
+### Drell Heritages
+
+**Desert Drell** Connected to Rakhana's arid traditions. You have fire resistance 5, disease onset is halved, and you gain +2 to Fortitude saves against inhaled hazards.
+
+**Hanar-Raised** Raised among Hanar communities. You learn Hanar, gain +1 to Diplomacy and Religion when interacting with Hanar, and can communicate through bioluminescent signals.
+
+**Shadow** Trained in infiltration and assassination. You become an expert in Stealth, gain +1 to Athletics for climbing, and +1 to attack rolls while hidden.
+
+---
+
+### Elcor Heritages
+
+**Diplomat** Lifelong bridge-builder. You gain training in Diplomacy and one additional language, with +1 to Diplomacy for Make an Impression.
+
+**Rugged** From harsh highland communities. You gain +2 HP per level and resistance 2 to bludgeoning and piercing damage.
+
+**Warrior Caste** Trained to carry dorsal-mounted heavy weapons. You gain a 1d8 bludgeoning unarmed attack, can wield heavy weapons without a mount, and gain +2 to your Bulk limit.
+
+---
+
+### Hanar Heritages
+
+**Deep-Sea** From Kahje's deep ocean communities. You gain a 40-foot swim speed, immunity to water pressure up to 3 miles depth, and darkvision underwater.
+
+**Emissary** Formal training interfacing with other species. You gain training in Diplomacy and one additional language, with +2 to Diplomacy for impressions made to non-Hanar.
+
+**Enkindler-Devoted** The most devout Prothean reverence. You gain training in Religion and Prothean Lore, and can identify Prothean technology with a DC 15 check.
+
+---
+
+### Human Heritages
+
+**Alliance Biotic** Exposed to element zero in utero. You can cast *telekinetic projectile* as an innate occult cantrip (Charisma-based) and gain access to biotic ancestry feats.
+
+**Colonist** Grew up on a remote colony world. You are trained in Survival and Nature, and gain +1 to Fortitude saves against environmental hazards and disease.
+
+**Systems Alliance** Embedded with the Alliance military. You are trained in Athletics, Systems Alliance Lore, light armor, and simple weapons. Once per day you can Shrug It Off as a free action.
+
+---
+
+### Krogan Heritages
+
+**Exiled** Clanless and hardened by isolation. You gain training in Survival and Stealth, and +2 to saving throws against control effects.
+
+**Tank-Bred** Grown from a genetic sequence in a breeding tank. You gain +2 HP and your Redundant Biology ability triggers on a DC 13 Fortitude save.
+
+**Urdnot Warrior** Clan Urdnot discipline. You gain +1 to attack rolls when below half HP, and once per encounter after a successful melee hit you can attempt a free Shove.
+
+---
+
+### Quarian Heritages
+
+**Pilgrim** Completed your coming-of-age Pilgrimage. You gain +1 to Diplomacy with non-Quarians and begin play with one Contact from another species.
+
+**Rannoch Settler** Returned to Rannoch after the Geth War. Your suit requires reduced maintenance, you gain +1 to Survival, training in Nature, and natural poison resistance.
+
+---
+
+### Salarian Heritages
+
+**Dalatrass Lineage** From a matriarchal political family. You are trained in Diplomacy, Society, and Salarian Political Lore, and can Lie as a free action once per day.
+
+**Sur'Kesh Scholar** Academic training. You are trained in Arcana, Occultism, and Nature, gain two additional Lore skills, and can reroll a failed Recall Knowledge check once per day.
+
+**STG Operative** Intelligence service training. You become an expert in Stealth, trained in Deception, and gain the Lie to Me feat.
+
+**Uplift Scientist** Cross-species development work. You gain training in Medicine, two Lore skills, Assurance for Medicine, and can Treat Wounds on two creatures simultaneously.
+
+---
+
+### Turian Heritages
+
+**Colony Turian** Grew up on colonial worlds. You gain training in Diplomacy and one additional language, with +1 to Diplomacy with non-Turians.
+
+**Turian Mercenary** Military-to-mercenary career. You are trained in Intimidation, Mercenary Lore, all martial weapons, and gain +1 to Deception for contract negotiations.
+
+**Spectre-Trained** Covert operations training. You gain training in Deception and Stealth, +1 to Perception for Sense Motive, and can pass as a different species with a DC 15 Deception check.
+
+---
+
+### Volus Heritages
+
+**Engineer** Technical trade focus. You are trained in Crafting, Engineering Lore, and Starship Systems Lore, and halve your repair time.
+
+**Protectorate Diplomat** Diplomatic operations in Turian protectorate space. You are trained in Diplomacy, Society, and Politics Lore, with +1 to Diplomacy and Deception with officials.
+
+**Trade Baron** Commercial apex. You become an expert in Society, gain Mercantile Lore and Guild Lore, and gain +2 to Earn Income and Diplomacy for financial agreements.
+
+**Void Trader** Edge-of-space trading career. You are trained in Stealth, Thievery, and Underworld Lore, and can use Thievery for Subsist checks.
+
+---
+
+### Vorcha Heritages
+
+**Blood Pack** Mercenary service with the Blood Pack. You are trained in Intimidation and Athletics, and the duration of Frightened conditions you inflict increases by 1 round.
+
+**Evolved** Exceptional cellular adaptation. Your fast healing increases by 1 and you gain +1 to Fortitude saves against disease and poison.
+
+**Scavenger** Urban survival as a scavenger. You are trained in Survival and Thievery, can use Survival for urban Subsist checks, and can craft improvised items at one rank higher.
+
+**Void Vorcha** Space-adapted. You are trained in Acrobatics, Starship Systems Lore, and Vacuum Environments Lore, and ignore the first 2 points of penalty from low gravity.
+
+---
+
+## BACKGROUNDS
+
+*Choose one background during character creation. Backgrounds grant two ability boosts, skill training, a Lore skill, and a 1st-level skill feat.*
+
+| Background | Ability Boosts | Skill | Lore | Description |
+|---|---|---|---|---|
+| Alliance Soldier | Con or Str | Athletics | Alliance Military | Served in the Systems Alliance military through various deployments. |
+| Biotic Prodigy | Con or Cha | Occultism | Biotic Theory | Element zero exposure or a neurological event gifted you exceptional biotic potential. |
+| Cerberus Agent | Int or Str | Intimidation | Cerberus Operations | Recruited and trained by Cerberus to deal with acknowledged threats. |
+| Citadel Bureaucrat | Int or Cha | Society | Citadel Politics | Navigated Presidium jurisdictions and institutional power structures. |
+| Citadel Wards | Cha or Wis | Society | Citadel Wards | Grew up in the Wards among a diverse multicultural population. |
+| Colonist | Con or Wis | Survival | Frontier Survival | Grew up on an isolated colony world at the edge of settled space. |
+| Corporate Operative | Int or Cha | Diplomacy | Corporate Affairs | Worked for a major corporation as a security, intelligence, or negotiation asset. |
+| Earth Native | Cha or Wis | Performance | Human History | Grew up on humanity's homeworld, shaped by its history and cultures. |
+| Illium | Int or Cha | Deception | Illium Trade Law | Navigated Illium's free market economy with its diplomatic immunity systems. |
+| Infiltrator | Dex or Int | Deception | Intelligence Operations | Gathered information from unauthorized locations for various employers. |
+| Mercenary | Str or Con | Athletics | Mercenary Operations | Served with mercenary outfits such as Blue Suns, Eclipse, or Blood Pack. |
+| Noble | Cha or Int | Diplomacy | Aristocracy | Born into wealth and influence with access to education and political power. |
+| Omega | Dex or Cha | Stealth | Omega Underworld | Grew up on the Terminus systems' largest and most lawless station. |
+| Omni-Tool Engineer | Int or Dex | Crafting | Engineering | Learned to understand and modify omni-tool hardware and firmware. |
+| Palaven | Dex or Wis | Acrobatics | Turian Military Doctrine | Completed mandatory turian military service under brutal systematic doctrine. |
+| Quarian Pilgrim | Wis or Dex | Crafting | Migrant Fleet | Completed your solo Pilgrimage and returned to the Fleet with proof of worth. |
+| Scientist | Int or Wis | Arcana | Scientific Research | Drawn into research by fundamental questions about the universe and the Protheans. |
+| Spectre Candidate | Str or Dex | Stealth | Spectre Operations | Identified, screened, and evaluated for the Council's black ops program. |
+| Smuggler | Dex or Cha | Thievery | Underworld | Moved undeclared cargo and navigated the gray market economy. |
+| Sur'Kesh | Int or Dex | Nature | Sur'Kesh Science | Grew up on the salarian homeworld of biological complexity and academic excellence. |
+| Terminus Survivor | Wis or Con | Medicine | Terminus Systems | Grew up in a lawless region where survival depended entirely on self-sufficiency. |
+| Thessia | Int or Wis | Occultism | Thessian Culture | Grew up on the asari homeworld absorbing biotic theory and diplomatic sophistication. |
+| Tuchanka | Str or Con | Intimidation | Tuchanka Warlords | Grew up on the radiation-scarred krogan homeworld where toughness is everything. |
+
+---
+
+## EQUIPMENT
+
+### Weapons
+
+*All Mass Effect weapons carry the **tech** trait. Action cost to Strike is ◆ unless noted.*
+
+**Trait Key**
+- **automatic** — Can fire a burst; all targets in a 10-ft cone make Reflex saves instead of individual attack rolls.
+- **burst-fire** — Makes 3 attacks as a 2-action activity; all share the same roll, each deals half damage.
+- **fatal-dX** — On a critical hit, the damage die increases to dX and you roll one additional die.
+- **kickback** — −2 to attack rolls unless you have both hands on the weapon or brace against a surface.
+- **scatter-X** — All creatures within X feet of the primary target also take splash damage equal to the damage dice result.
+- **unwieldy** — Cannot be used for more than one Strike per turn.
+- **volley-X** — −2 to attack rolls against targets within X feet of you.
+
+#### Pistols & SMGs
+
+| Name | Level | Bulk | Price | Damage | Type | Range | Traits |
+|---|---|---|---|---|---|---|---|
+| M-3 Predator | 1 | 1 | 20 gp | 1d6 | P | 40 ft | — |
+| M-4 Shuriken | 1 | 1 | 20 gp | 3d4 | P | 20 ft | automatic |
+| M-9 Tempest | 3 | 1 | 100 gp | 3d4 | P | 25 ft | agile, automatic |
+| M-25 Hornet | 3 | 1 | 100 gp | 3d4 | P | 25 ft | automatic |
+| M-12 Locust | 5 | 1 | 250 gp | 3d6 | P | 30 ft | automatic |
+| M-5 Phalanx | 5 | 1 | 250 gp | 2d6 | P | 50 ft | — |
+| M-11 Suppressor | 5 | 1 | 250 gp | 2d6 | P | 50 ft | — |
+| Arc Pistol | 5 | 1 | 250 gp | 2d6 | E | 45 ft | — |
+| Blood Pack Punisher | 5 | 1 | 250 gp | 4d4 | P | 25 ft | automatic |
+| M-358 Talon | 5 | 1 | 250 gp | 3d6 | P | 15 ft | scatter-5 |
+| M-6 Carnifex | 7 | 1 | 700 gp | 3d6 | P | 45 ft | kickback |
+| Scorpion | 7 | 1 | 700 gp | 2d6 | B | 25 ft | scatter-5 |
+| M-77 Paladin | 9 | 1 | 2,000 gp | 3d8 | P | 55 ft | kickback |
+| N7 Hurricane | 9 | 2 | 2,000 gp | 4d4 | P | 30 ft | automatic |
+| N7 Eagle | 11 | 1 | 5,000 gp | 3d8 | P | 40 ft | automatic |
+
+#### Assault Rifles
+
+| Name | Level | Bulk | Price | Damage | Type | Range | Traits |
+|---|---|---|---|---|---|---|---|
+| M-8 Avenger | 1 | 2 | 30 gp | 1d8 | P | 60 ft | automatic |
+| M-15 Vindicator | 3 | 2 | 100 gp | 2d8 | P | 70 ft | burst-fire |
+| Phaeston | 3 | 2 | 100 gp | 1d8 | P | 65 ft | automatic |
+| M-55 Argus | 5 | 2 | 250 gp | 2d6 | P | 70 ft | burst-fire |
+| M-96 Mattock | 5 | 2 | 250 gp | 2d10 | P | 80 ft | kickback |
+| Collector Assault Rifle | 7 | 2 | 1,000 gp | 3d8 | P | 70 ft | automatic |
+| M-7 Lancer | 7 | 2 | 700 gp | 2d8 | E | 70 ft | automatic |
+| M-76 Revenant | 7 | 3 | 700 gp | 3d6 | P | 60 ft | automatic, unwieldy |
+| M-99 Saber | 9 | 2 | 2,000 gp | 3d10 | P | 80 ft | — |
+| Geth Spitfire | 9 | 3 | 2,000 gp | 3d8 | P | 70 ft | automatic, unwieldy |
+| N7 Typhoon | 11 | 3 | 5,000 gp | 8d4 | P | 120 ft | automatic, unwieldy |
+
+#### Shotguns
+
+| Name | Level | Bulk | Price | Damage | Type | Range | Traits |
+|---|---|---|---|---|---|---|---|
+| M-27 Scimitar | 1 | 2 | 30 gp | 3d6 | P | 15 ft | scatter-5 |
+| AT-12 Raider | 3 | 2 | 100 gp | 3d6 | P | 15 ft | scatter-5 |
+| Disciple | 3 | 1 | 100 gp | 3d6 | P | 15 ft | scatter-5 |
+| M-23 Eviscerator | 3 | 2 | 100 gp | 3d8 | P | 15 ft | scatter-5 |
+| Geth Plasma Shotgun | 5 | 2 | 300 gp | 3d6 | Fire | 40 ft | scatter-5 |
+| M-11 Wraith | 5 | 2 | 250 gp | 3d8 | P | 15 ft | fatal-d10, kickback, scatter-5 |
+| Venom Shotgun | 7 | 2 | 700 gp | 4d6 | B | 20 ft | scatter-5 |
+| N7 Crusader | 9 | 2 | 2,000 gp | 4d8 | P | 25 ft | fatal-d12, kickback |
+| M-300 Claymore | 9 | 3 | 2,000 gp | 5d8 | P | 10 ft | fatal-d12, kickback, scatter-5 |
+
+#### Sniper Rifles
+
+| Name | Level | Bulk | Price | Damage | Type | Range | Traits |
+|---|---|---|---|---|---|---|---|
+| M-92 Mantis | 1 | 2 | 30 gp | 2d8 | P | 120 ft | fatal-d10, kickback, volley-30 |
+| M-97 Viper | 3 | 2 | 100 gp | 2d8 | P | 120 ft | volley-30 |
+| M-90 Indra | 5 | 2 | 250 gp | 2d6 | P | 120 ft | automatic, volley-30 |
+| Kishock Harpoon Gun | 7 | 2 | 700 gp | 3d10 | P | 150 ft | fatal-d12, volley-30 |
+| M-29 Incisor | 7 | 2 | 700 gp | 3d6 | P | 150 ft | burst-fire, volley-30 |
+| Collector Sniper Rifle | 7 | 2 | 1,000 gp | 3d8 | Fire | 150 ft | volley-30 |
+| Javelin | 9 | 2 | 2,000 gp | 3d10 | E | 200 ft | fatal-d12, volley-30 |
+| M-98 Widow | 9 | 3 | 2,000 gp | 5d12 | P | 200 ft | fatal-d12, kickback, unwieldy, volley-30 |
+| N7 Valiant | 9 | 2 | 2,000 gp | 3d10 | P | 180 ft | volley-30 |
+| Black Widow | 11 | 3 | 5,000 gp | 4d12 | P | 200 ft | fatal-d12, kickback, volley-30 |
+
+#### Heavy Weapons
+
+| Name | Level | Bulk | Price | Damage | Type | Range | Traits |
+|---|---|---|---|---|---|---|---|
+| M-100 Grenade Launcher | 5 | 3 | 250 gp | 3d8 | B | 40 ft | scatter-5 |
+| M-451 Firestorm | 5 | 3 | 250 gp | 3d8 | Fire | 20 ft | — |
+| M-622 Avalanche | 7 | 3 | 700 gp | 3d8 | Cold | 30 ft | — |
+| Arc Projector | 7 | 3 | 700 gp | 3d8 | E | 30 ft | — |
+| Collector Particle Beam | 9 | 3 | 3,000 gp | 4d8 | Fire | 80 ft | — |
+| M-490 Blackstorm | 9 | 3 | 2,500 gp | 4d8 | Force | 20 ft | unwieldy |
+| M-920 Cain | 11 | 3 | 5,000 gp | 8d8 | Fire | 50 ft | kickback, unwieldy |
+
+---
+
+### Armor
+
+*All Mass Effect armors carry the **tech** trait. Heavy armors also carry **bulwark**. Str column is the Strength score required to avoid the Speed penalty.*
+
+#### Light Armor
+
+| Name | Level | Bulk | Price | AC | Dex Cap | Check | Speed | Str |
+|---|---|---|---|---|---|---|---|---|
+| Assassin Armor (L) | 0 | 1 | 30 gp | +2 | 4 | 0 | 0 | 1 |
+| Duelist Armor (L) | 0 | 1 | 25 gp | +2 | 4 | −1 | 0 | 1 |
+| Explorer Armor (L) | 0 | 1 | 20 gp | +2 | 3 | −1 | 0 | 1 |
+| Gladiator Armor (L) | 0 | 1 | 15 gp | +2 | 2 | −1 | 0 | 1 |
+| Guardian Armor (L) | 0 | 1 | 25 gp | +2 | 3 | 0 | 0 | 1 |
+| Hydra Armor (L) | 0 | 1 | 25 gp | +2 | 3 | 0 | 0 | 1 |
+| Liberator Armor (L) | 0 | 1 | 25 gp | +2 | 4 | −1 | 0 | 1 |
+| Mantis Armor (L) | 0 | 1 | 30 gp | +2 | 4 | 0 | 0 | 1 |
+| Mercenary Armor (L) | 0 | 1 | 20 gp | +2 | 3 | −1 | 0 | 1 |
+| Onyx Armor (L) | 0 | 1 | 15 gp | +2 | 2 | −2 | 0 | 1 |
+| Phoenix Armor (L) | 0 | 1 | 20 gp | +2 | 3 | −1 | 0 | 1 |
+| Predator Armor (L) | 0 | 1 | 140 gp | +2 | 4 | −1 | 0 | 1 |
+| Scorpion Armor (L) | 0 | 1 | 25 gp | +2 | 4 | −1 | 0 | 1 |
+| Survivor Armor (L) | 0 | 1 | 20 gp | +2 | 3 | −1 | 0 | 1 |
+| Titan Armor (L) | 0 | 1 | 15 gp | +2 | 2 | −2 | 0 | 1 |
+| Ursa Armor (L) | 0 | 1 | 20 gp | +2 | 3 | −1 | 0 | 1 |
+| Colossus Armor (L) | 2 | 1 | 120 gp | +4 | 3 | −1 | 0 | 1 |
+| Predator L Armor | 2 | 1 | 140 gp | +4 | 4 | −1 | 0 | 1 |
+
+#### Medium Armor
+
+| Name | Level | Bulk | Price | AC | Dex Cap | Check | Speed | Str |
+|---|---|---|---|---|---|---|---|---|
+| Assassin Armor (M) | 0 | 2 | 65 gp | +3 | 3 | −2 | −5 | 2 |
+| Duelist Armor (M) | 0 | 2 | 50 gp | +3 | 2 | −2 | −5 | 2 |
+| Explorer Armor (M) | 0 | 2 | 60 gp | +3 | 2 | −1 | −5 | 2 |
+| Gladiator Armor (M) | 0 | 2 | 50 gp | +3 | 2 | −2 | −5 | 2 |
+| Guardian Armor (M) | 0 | 2 | 60 gp | +3 | 2 | −2 | 0 | 2 |
+| Hydra Armor (M) | 0 | 2 | 65 gp | +3 | 3 | −2 | −5 | 2 |
+| Liberator Armor (M) | 0 | 2 | 60 gp | +3 | 2 | −1 | −5 | 2 |
+| Mantis Armor (M) | 0 | 2 | 65 gp | +3 | 3 | −2 | −5 | 2 |
+| Onyx Armor (M) | 0 | 2 | 40 gp | +3 | 1 | −2 | −5 | 2 |
+| Phoenix Armor (M) | 0 | 2 | 50 gp | +3 | 2 | −2 | −5 | 2 |
+| Predator Armor (M) | 0 | 2 | 280 gp | +3 | 3 | −2 | −5 | 2 |
+| Scorpion Armor (M) | 0 | 2 | 65 gp | +3 | 3 | −2 | −5 | 2 |
+| Survivor Armor (M) | 0 | 2 | 70 gp | +3 | 2 | −1 | 0 | 2 |
+| Titan Armor (M) | 0 | 2 | 40 gp | +3 | 1 | −3 | −5 | 2 |
+| Ursa Armor (M) | 0 | 2 | 50 gp | +3 | 2 | −2 | −5 | 2 |
+| Mercenary Armor (M) | 2 | 2 | 120 gp | +5 | 2 | −2 | −5 | 2 |
+| Colossus Armor (M) | 3 | 2 | 250 gp | +6 | 2 | −2 | −5 | 3 |
+| Predator M Armor | 3 | 2 | 280 gp | +6 | 3 | −2 | −5 | 3 |
+
+#### Heavy Armor
+
+| Name | Level | Bulk | Price | AC | Dex Cap | Check | Speed | Str |
+|---|---|---|---|---|---|---|---|---|
+| Assassin Armor (H) | 0 | 2 | 50 gp | +3 | 2 | −3 | −10 | 3 |
+| Duelist Armor (H) | 0 | 2 | 40 gp | +3 | 1 | −3 | −10 | 3 |
+| Explorer Armor (H) | 0 | 2 | 48 gp | +3 | 1 | −2 | −10 | 3 |
+| Gladiator Armor (H) | 0 | 2 | 40 gp | +3 | 1 | −3 | −10 | 3 |
+| Guardian Armor (H) | 0 | 2 | 48 gp | +3 | 1 | −3 | −5 | 3 |
+| Hydra Armor (H) | 0 | 2 | 40 gp | +3 | 1 | −3 | −10 | 3 |
+| Liberator Armor (H) | 0 | 2 | 50 gp | +3 | 2 | −3 | −10 | 3 |
+| Onyx Armor (H) | 0 | 2 | 32 gp | +3 | 0 | −3 | −10 | 3 |
+| Phoenix Armor (H) | 0 | 2 | 40 gp | +3 | 1 | −3 | −10 | 3 |
+| Survivor Armor (H) | 0 | 2 | 32 gp | +3 | 1 | −4 | −10 | 3 |
+| Predator Armor (H) | 2 | 2 | 650 gp | +5 | 2 | −2 | −5 | 3 |
+| Mantis Armor (H) | 2 | 2 | 150 gp | +5 | 1 | −3 | −10 | 3 |
+| Scorpion Armor (H) | 2 | 2 | 165 gp | +5 | 2 | −3 | −10 | 3 |
+| Titan Armor (H) | 2 | 2 | 135 gp | +5 | 1 | −4 | −10 | 3 |
+| Ursa Armor (H) | 2 | 2 | 165 gp | +5 | 1 | −2 | −10 | 3 |
+| Kestrel Armor | 3 | 3 | 325 gp | +6 | 2 | −3 | −10 | 4 |
+| Mercenary Armor (H) | 3 | 3 | 325 gp | +6 | 1 | −2 | −10 | 4 |
+| Colossus Armor (H) | 5 | 3 | 600 gp | +6 | 1 | −2 | −5 | 4 |
+| Predator H Armor | 5 | 3 | 650 gp | +6 | 2 | −2 | −5 | 4 |
+
+---
+
+### Kinetic Shields & Combat Frames
+
+Kinetic shields are worn equipment that provide Shield HP — temporary protection that regenerates at the start of each turn. Combat frames absorb damage after shields, before actual HP.
+
+#### Kinetic Shield
+
+**Kinetic Shield** *(Level 1, 15 sp)* Provides **30 Shield HP**. Recharges **10 HP per turn**. Install Shield HP Mods to increase maximum capacity and Shield Regen Mods to increase recharge rate.
+
+#### Shield Upgrades
+
+| Upgrade | Level | Price | Effect |
+|---|---|---|---|
+| Shield HP Mod — Tier 1 | 3 | 60 sp | +10 max Shield HP (30 → 40) |
+| Shield HP Mod — Tier 2 | 6 | 250 sp | +20 max Shield HP (30 → 50) |
+| Shield HP Mod — Tier 3 | 9 | 700 sp | +40 max Shield HP (30 → 70) |
+| Shield HP Mod — Tier 4 | 12 | 1,600 sp | +70 max Shield HP (30 → 100) |
+| Shield Regen Mod — Tier 1 | 3 | 60 sp | Recharge rate 10 → 15 HP/turn |
+| Shield Regen Mod — Tier 2 | 6 | 250 sp | Recharge rate 10 → 20 HP/turn |
+| Shield Regen Mod — Tier 3 | 9 | 700 sp | Recharge rate 10 → 25 HP/turn |
+| Shield Regen Mod — Tier 4 | 12 | 1,600 sp | Recharge rate 10 → 30 HP/turn |
+
+*Only one HP Mod and one Regen Mod can be installed at a time.*
+
+#### Combat Frames
+
+Combat frames absorb damage after shields but before HP. Armor Points do not regenerate automatically.
+
+| Frame | Armor Points |
+|---|---|
+| Light Combat Frame | 20 |
+| Standard Combat Frame | 50 |
+| Heavy Combat Frame | 100 |
+| Titan Combat Frame | 200 |
+
+#### Biotic Barrier
+
+Biotics can activate a personal mass effect barrier. **HP = 5 × ⌊level ÷ 2⌋**, calculated at activation. Absorbs damage before shields and HP. Does not recharge passively — must be reactivated.
+
+---
+
+### Weapon Modifications
+
+Weapon mods install into a single weapon and provide passive or triggered bonuses. Most weapons accept one mod.
+
+| Mod | Level | Price | Effect |
+|---|---|---|---|
+| Extended Barrel I | 3 | 100 gp | +5 ft to range increment |
+| Extended Barrel II | 7 | 700 gp | +15 ft to range increment |
+| High-Velocity Barrel I | 3 | 100 gp | Ignore 2 points of hardness/resistance |
+| High-Velocity Barrel II | 7 | 700 gp | Ignore 5 points of hardness/resistance |
+| Magazine Upgrade I | 3 | 100 gp | +50% shots available before reload required |
+| Magazine Upgrade II | 7 | 700 gp | Double shots available before reload required |
+| Melee Stunner I | 3 | 100 gp | Melee hits from this weapon impose Stunned 1 (Fort DC 15) |
+| Melee Stunner II | 7 | 700 gp | Melee hits impose Stunned 2 (Fort DC 20) |
+| Omni-Blade | 5 | 250 gp | Add 1d6 slashing damage to melee Strikes with this weapon |
+| Power Magnifier I | 3 | 100 gp | +1 damage die to pistol Strikes |
+| Power Magnifier II | 7 | 700 gp | +2 damage dice to pistol Strikes |
+| Scope I | 3 | 100 gp | Ignore 1 range increment penalty |
+| Scope II | 7 | 700 gp | Ignore 2 range increment penalties; +1 attack at long range |
+| Shredder Mod I | 3 | 100 gp | +1d4 slashing vs targets with no active shields or armor frame |
+| Shredder Mod II | 7 | 700 gp | +1d6 slashing vs targets with no active shields or armor frame |
+| Smart Choke I | 3 | 100 gp | Reduce scatter value by 1 |
+| Smart Choke II | 7 | 700 gp | Reduce scatter value by 2 |
+| Stability Damper I | 3 | 100 gp | Reduce automatic fire attack penalty by 1 |
+| Stability Damper II | 7 | 700 gp | Reduce automatic fire attack penalty by 2 |
+| Thermal Scope I | 5 | 250 gp | See heat signatures through smoke; ignore concealment from heat-based sources |
+| Thermal Scope II | 9 | 2,000 gp | +2 attack rolls vs concealed or hidden targets |
+| Ultralight Materials I | 3 | 100 gp | Reduce weapon Bulk by 1 (minimum 1) |
+| Ultralight Materials II | 5 | 250 gp | Reduce weapon Bulk by 1 (minimum L) |
+| Cranial Trauma System | 7 | 700 gp | +1d6 precision damage on critical hits |
+
+---
+
+### Armor Modifications
+
+Armor mods install into a suit and provide passive benefits. Most armors accept one mod.
+
+| Mod | Level | Price | Effect |
+|---|---|---|---|
+| Ablative Coating I | 1 | 20 gp | Resistance 1 to all physical (B/P/S) damage |
+| Ablative Coating II | 5 | 250 gp | Resistance 3 to all physical damage |
+| Ablative Coating III | 9 | 2,000 gp | Resistance 5 to all physical damage |
+| Arc Resistance Grid I | 3 | 100 gp | Resistance 5 electricity |
+| Arc Resistance Grid II | 7 | 700 gp | Resistance 10 electricity |
+| Biotic Feedback Generator | 7 | 700 gp | Deal 1d4 force damage to any creature that hits you with a melee Strike |
+| Cryo Resistance Lining I | 3 | 100 gp | Resistance 5 cold |
+| Cryo Resistance Lining II | 7 | 700 gp | Resistance 10 cold |
+| Damage Amplifier I | 3 | 100 gp | +1 damage on all weapon Strikes |
+| Damage Amplifier II | 7 | 700 gp | +2 damage on all weapon Strikes |
+| Fire Resistance Layer I | 3 | 100 gp | Resistance 5 fire |
+| Fire Resistance Layer II | 7 | 700 gp | Resistance 10 fire |
+| Kinetic Dampeners | 3 | 100 gp | +5 feet to Speed |
+| Melee Actuators I | 3 | 100 gp | +1d4 damage on melee Strikes |
+| Melee Actuators II | 7 | 700 gp | +1d6 damage on melee Strikes |
+| Power Amplifier I | 3 | 100 gp | +1 to tech and biotic power save DCs |
+| Power Amplifier II | 7 | 700 gp | +2 to tech and biotic power save DCs |
+| Precision Targeting | 5 | 250 gp | +1 damage die on precision strike damage |
+| Recharge Accelerator I | 3 | 100 gp | Shields recharge 1 additional HP/turn when below half capacity |
+| Recharge Accelerator II | 7 | 700 gp | Shields recharge 2 additional HP/turn when depleted |
+| Recharge Module I | 5 | 250 gp | Power cooldown times reduced by 1 round (minimum 1) |
+| Recharge Module II | 9 | 2,000 gp | Power cooldown times reduced by 2 rounds (minimum 1) |
+| Servo Actuators I | 3 | 100 gp | Increase Bulk limit by 2 |
+| Servo Actuators II | 7 | 700 gp | Increase Bulk limit by 4; +5 feet to Speed |
+| Shield Capacitor I | 3 | 100 gp | +10 maximum kinetic shield HP |
+| Shield Capacitor II | 7 | 700 gp | +20 maximum kinetic shield HP |
+| Tech Integrator | 7 | 700 gp | +1 to all tech power attack rolls and save DCs |
+| Trauma Module I | 3 | 100 gp | Gain fast healing 2 when your HP drops below half maximum |
+| Trauma Module II | 7 | 700 gp | Gain fast healing 4 when your HP drops below half maximum |
+
+---
+
+### Grenades
+
+Grenades are consumable items sold in packs of 3. All grenades require ◆◆ to use unless noted.
+
+---
+
+#### Proximity Mine ◆◆ — Level 1 · L Bulk · 80 gp
+
+Place the mine at a point within **15 feet**. It arms at the start of your next turn. When any creature enters a **5-foot burst** around it, the mine detonates. Reflex DC 15.
+**Critical Success** Unaffected.
+**Success** Half damage.
+**Failure** **2d6 piercing** damage and **1d4 persistent piercing** damage.
+**Critical Failure** **4d6 piercing** damage, **2d4 persistent piercing**, and the target is **Stunned 1**.
+
+---
+
+#### Arc Grenade ◆◆ — Level 2 · L Bulk · 120 gp
+
+Throw at a point within **30 feet**. All creatures in a **10-foot burst** attempt a Reflex DC 17 save.
+**Critical Success** Unaffected.
+**Success** Half damage.
+**Failure** **2d8 electricity** damage.
+**Critical Failure** **4d8 electricity** damage and **Stunned 1**.
+*Electricity damage from Arc Grenades is doubled against kinetic shields.*
+
+---
+
+#### Cryo Grenade ◆◆ — Level 2 · L Bulk · 100 gp
+
+Throw at a point within **30 feet**. All creatures in a **10-foot burst** attempt a Fortitude DC 17 save.
+**Critical Success** Unaffected.
+**Success** Half damage.
+**Failure** **2d6 cold** damage and **Slowed 1** until the end of the target's next turn.
+**Critical Failure** **4d6 cold** damage and **Immobilized** until the end of the target's next turn.
+
+---
+
+#### Incendiary Grenade ◆◆ — Level 2 · L Bulk · 100 gp
+
+Throw at a point within **30 feet**. All creatures in a **10-foot burst** attempt a Reflex DC 17 save.
+**Critical Success** Unaffected.
+**Success** Half damage.
+**Failure** **2d6 fire** damage and **1d4 persistent fire** damage.
+**Critical Failure** **4d6 fire** damage and **2d4 persistent fire** damage.
+*Deals 1.5× damage to Combat Armor Frames.*
+
+---
+
+#### Cluster Grenade ◆◆ — Level 3 · L Bulk · 150 gp
+
+Throw at a point within **30 feet**. The grenade splits mid-flight, saturating a **20-foot burst** with submunition detonations. All creatures in the area attempt a Reflex DC 18 save.
+**Critical Success** Unaffected.
+**Success** Half damage.
+**Failure** **2d6 force** damage and pushed **5 feet** outward from center.
+**Critical Failure** **4d6 force** damage, pushed **10 feet**, and **Knocked Prone**.
+
+---
+
+#### Lift Grenade ◆◆ — Level 4 · L Bulk · 200 gp
+
+Throw at a point within **30 feet**. A mass effect anti-gravity field suspends all creatures in a **15-foot burst**. All creatures attempt a Reflex DC 19 save.
+**Critical Success** Unaffected.
+**Success** Target lifted **5 feet** and becomes **Flat-Footed** until the end of your next turn.
+**Failure** Target lifted **10 feet**, **Grabbed** and **Flat-Footed** until the end of your next turn. Falls and takes fall damage when the effect ends.
+**Critical Failure** As failure, plus **2d6 void** damage and **Stunned 1**.

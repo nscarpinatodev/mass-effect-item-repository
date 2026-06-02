@@ -1,7 +1,7 @@
 // Generates docs/class-compendium.html from source pack JSON files.
 // Usage: node scripts/generate-class-html.mjs
 
-import { readFile, writeFile, mkdir } from 'fs/promises';
+import { readFile, writeFile, mkdir, readdir } from 'fs/promises';
 import { join } from 'path';
 
 const SRC = 'src/packs';
@@ -1098,6 +1098,41 @@ body{
   a{color:inherit;text-decoration:none}
   .feats-columns{column-gap:0}
 }
+
+/* ── Ancestries ───────────────────────────────────────── */
+.ancestry-section,.backgrounds-section,.equipment-section{margin-bottom:2.5rem;page-break-before:always;overflow:hidden}
+.ancestry-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;padding:0.75rem}
+.ancestry-card{border:1px solid #e2e8f0;border-radius:4px;background:#fff;break-inside:avoid;page-break-inside:avoid;overflow:hidden}
+.ancestry-card-header{background:#0f2034;color:#fff;padding:0.4rem 0.75rem}
+.ancestry-name{font-family:'Korataki',sans-serif;font-size:1rem;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.1rem}
+.ancestry-stats-bar{font-family:'GoodOT-Cond',sans-serif;font-size:0.67rem;color:rgba(255,255,255,.75);letter-spacing:0.03em}
+.ancestry-body{padding:0.5rem 0.75rem;font-size:0.7rem;line-height:1.4}
+.ancestry-flavor{color:#2d3748;font-style:italic;margin-bottom:0.3rem}
+.ancestry-heritages-label{font-family:'Slider',sans-serif;font-weight:700;font-size:0.66rem;text-transform:uppercase;letter-spacing:0.07em;color:#4a5568;margin:0.3rem 0 0.15rem}
+.heritage-entry{margin-bottom:0.18rem;color:#1a1a2e;font-size:0.69rem;line-height:1.35}
+.heritage-name{font-family:'GoodOT-Cond',sans-serif;font-weight:700;font-size:0.71rem;color:#0f2034}
+.ancestry-feat-refs{margin-top:0.3rem;font-size:0.66rem;color:#718096;font-style:italic}
+
+/* ── Backgrounds ──────────────────────────────────────── */
+.section-intro{font-size:0.76rem;color:#4a5568;font-style:italic;padding:0.4rem 1rem;background:#f7fafc;border-bottom:1px solid #e2e8f0}
+.backgrounds-table-wrap,.equipment-table-wrap{padding:0.5rem 0.75rem}
+.data-table{width:100%;border-collapse:collapse;font-size:0.69rem}
+.data-table thead{background:#2d3748;color:#fff;font-family:'Korataki',sans-serif;font-size:0.7rem;letter-spacing:0.07em;text-transform:uppercase}
+.data-table th{padding:0.28rem 0.45rem;text-align:left}
+.data-table td{padding:0.2rem 0.45rem;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#1a1a2e}
+.data-table tr:nth-child(even) td{background:#f7fafc}
+.data-table td strong{color:#0f2034;font-weight:600}
+
+/* ── Equipment ────────────────────────────────────────── */
+.equipment-subsection{margin-bottom:0.6rem}
+.equip-table-title{font-family:'Korataki',sans-serif;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.07em;color:#0f2034;padding:0.28rem 0.75rem;background:#e2e8f0;margin:0}
+.trait-key{font-size:0.65rem;color:#718096;font-style:italic;padding:0.2rem 0.75rem;line-height:1.5}
+.trait-key strong{color:#4a5568;font-style:normal}
+@media print{
+  .ancestry-section,.backgrounds-section,.equipment-section{page-break-before:always}
+  .ancestry-card{break-inside:avoid;page-break-inside:avoid}
+  .data-table{break-inside:auto}
+}
 `;
 
 // ── Class-to-feat mapping ──────────────────────────────────────────────────────
@@ -1327,6 +1362,220 @@ const GENERAL_FEATS = [
   ['me-combat-passives', 'fortification-master.json'],
 ];
 
+// ── New-section helpers ────────────────────────────────────────────────────────
+
+async function loadDir(packDir) {
+  const dir = join(SRC, packDir);
+  try { await readdir(dir); } catch { return []; }
+  const files = (await readdir(dir)).filter(f => f.endsWith('.json'));
+  const items = [];
+  for (const file of files) {
+    try { items.push(JSON.parse(await readFile(join(dir, file), 'utf8'))); } catch { /* skip */ }
+  }
+  return items.sort((a, b) => a.name.localeCompare(b.name));
+}
+
+const ABILITY_LABELS = { cha:'Charisma', con:'Constitution', dex:'Dexterity', int:'Intelligence', str:'Strength', wis:'Wisdom' };
+const SKILL_LABELS   = { acr:'Acrobatics', arc:'Arcana', ath:'Athletics', cra:'Crafting', dec:'Deception', dip:'Diplomacy', itm:'Intimidation', med:'Medicine', nat:'Nature', occ:'Occultism', prf:'Performance', rel:'Religion', soc:'Society', ste:'Stealth', sur:'Survival', thi:'Thievery' };
+const SIZE_LABELS    = { sm:'Small', med:'Medium', lg:'Large', huge:'Huge' };
+
+function abilityLabel(c) { return ABILITY_LABELS[c] ?? c.toUpperCase(); }
+function skillLabel(c)   { return SKILL_LABELS[c] ?? c; }
+
+function extractBoosts(obj) {
+  const ALL_COUNT = 6;
+  const fixed = []; let hasFree = false;
+  for (const key of Object.keys(obj ?? {})) {
+    const vals = obj[key].value ?? [];
+    if (vals.length >= ALL_COUNT) { hasFree = true; }
+    else if (vals.length === 1) fixed.push(abilityLabel(vals[0]));
+    else if (vals.length > 1) fixed.push(vals.map(abilityLabel).join(' or '));
+  }
+  return hasFree ? [...fixed, 'free'] : fixed;
+}
+function extractFlaws(obj) {
+  const out = [];
+  for (const key of Object.keys(obj ?? {})) out.push(...(obj[key].value ?? []).map(abilityLabel));
+  return out;
+}
+function firstPara(html) {
+  const m = html?.match(/<p[^>]*>(?:<em>)?([\s\S]*?)(?:<\/em>)?<\/p>/);
+  return m ? m[1].replace(/<[^>]+>/g, '').trim() : '';
+}
+
+function renderAncestriesSection(ancestries, heritages, ancestryFeats) {
+  const heritageMap = new Map();
+  for (const h of heritages) {
+    const slug = h.system.ancestry?.slug ?? '';
+    if (!heritageMap.has(slug)) heritageMap.set(slug, []);
+    heritageMap.get(slug).push(h);
+  }
+  const featMap = new Map();
+  for (const f of ancestryFeats) {
+    const traits = (f.system.traits?.value ?? []).filter(t => !['common','uncommon','rare','humanoid','construct'].includes(t));
+    for (const t of traits) {
+      if (!featMap.has(t)) featMap.set(t, []);
+      featMap.get(t).push(f.name);
+    }
+  }
+
+  const cards = ancestries.map(anc => {
+    const s = anc.system;
+    const slug = s.slug ?? anc.name.toLowerCase();
+    const boosts = extractBoosts(s.boosts);
+    const flaws  = extractFlaws(s.flaws);
+    const size   = SIZE_LABELS[s.size] ?? s.size;
+    const flavor = firstPara(s.description.value);
+    const hs     = (heritageMap.get(slug) ?? []).sort((a,b) => a.name.localeCompare(b.name));
+    const fs     = (featMap.get(slug) ?? []).sort();
+    const statsBar = [`HP ${s.hp}`, size, `${s.speed} ft`, `+${boosts.join(', ')}`, flaws.length ? `−${flaws.join(', ')}` : ''].filter(Boolean).join(' · ');
+    const heritagesHtml = hs.map(h => {
+      const hdesc = firstPara(h.system.description.value) || h.system.description.value.replace(/<[^>]+>/g,'').trim().slice(0,110);
+      return `<div class="heritage-entry"><span class="heritage-name">${h.name}</span> — ${hdesc}</div>`;
+    }).join('');
+    const featRefs = fs.length ? `<div class="ancestry-feat-refs"><strong>Feats:</strong> ${fs.join(', ')}</div>` : '';
+    return `<div class="ancestry-card">
+  <div class="ancestry-card-header"><div class="ancestry-name">${anc.name.toUpperCase()}</div><div class="ancestry-stats-bar">${statsBar}</div></div>
+  <div class="ancestry-body">
+    <p class="ancestry-flavor">${flavor}</p>
+    ${hs.length ? `<div class="ancestry-heritages-label">Heritages</div>${heritagesHtml}` : ''}
+    ${featRefs}
+  </div>
+</div>`;
+  }).join('\n');
+
+  return `<section class="ancestry-section" id="ancestries">
+<div class="class-main">
+  <div class="class-name-bar"><div class="header-accent-lines"></div><div class="header-content"><div>
+    <h2 class="class-name">Ancestries</h2>
+    <p class="class-tagline">Playable Species</p>
+  </div></div></div>
+  <p class="section-intro">Each ancestry grants listed ability boosts, a flaw (if any), starting HP, speed, and vision. Choose one heritage at character creation. Available ancestry feats are listed per ancestry.</p>
+  <div class="ancestry-grid">${cards}</div>
+</div></section>`;
+}
+
+function renderBackgroundsSection(backgrounds) {
+  const rows = [...backgrounds].sort((a,b) => a.name.localeCompare(b.name)).map(bg => {
+    const s = bg.system;
+    const boosts = extractBoosts(s.boosts).join(', ');
+    const skills = (s.trainedSkills?.value ?? []).map(skillLabel).join(', ') || '—';
+    const lore   = s.trainedLore ?? '—';
+    const desc   = firstPara(s.description.value) || s.description.value.replace(/<[^>]+>/g,'').trim().slice(0,110);
+    return `<tr><td><strong>${bg.name}</strong></td><td>${boosts}</td><td>${skills}</td><td>${lore}</td><td>${desc}</td></tr>`;
+  }).join('\n');
+  return `<section class="backgrounds-section" id="backgrounds">
+<div class="class-main">
+  <div class="class-name-bar"><div class="header-accent-lines"></div><div class="header-content"><div>
+    <h2 class="class-name">Backgrounds</h2>
+    <p class="class-tagline">Your history before the fight</p>
+  </div></div></div>
+  <p class="section-intro">Each background grants two ability boosts, skill training, a Lore skill, and one 1st-level skill feat.</p>
+  <div class="backgrounds-table-wrap">
+    <table class="data-table">
+      <thead><tr><th>Background</th><th>Boosts</th><th>Skill</th><th>Lore</th><th>Description</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>
+</div></section>`;
+}
+
+function weaponTable(weapons, heading) {
+  const DTYPE = { piercing:'P', bludgeoning:'B', slashing:'S', electricity:'E', fire:'Fire', cold:'Cold', force:'Force', void:'Void' };
+  const rows = [...weapons].sort((a,b) => (a.system.level?.value??0)-(b.system.level?.value??0) || a.name.localeCompare(b.name)).map(w => {
+    const s = w.system;
+    const dmg   = `${s.damage?.dice??'?'}${s.damage?.die??''}`;
+    const dtype = DTYPE[s.damage?.damageType] ?? (s.damage?.damageType ?? '?');
+    const range = s.range ?? '—';
+    const traits= (s.traits?.value??[]).filter(t=>!['tech','common'].includes(t)).join(', ');
+    const price = s.price?.value?.gp != null ? `${s.price.value.gp}gp` : s.price?.value?.sp != null ? `${s.price.value.sp}sp` : '—';
+    return `<tr><td><strong>${w.name}</strong></td><td>${s.level?.value??'?'}</td><td>${s.bulk?.value??'?'}</td><td>${price}</td><td>${dmg} ${dtype}</td><td>${range}ft</td><td>${traits||'—'}</td></tr>`;
+  }).join('\n');
+  return `<div class="equipment-subsection"><h4 class="equip-table-title">${heading}</h4><div class="equipment-table-wrap">
+    <table class="data-table"><thead><tr><th>Name</th><th>Lvl</th><th>Bulk</th><th>Price</th><th>Damage</th><th>Range</th><th>Traits</th></tr></thead><tbody>${rows}</tbody></table>
+  </div></div>`;
+}
+
+function armorTable(armors, heading) {
+  const rows = [...armors].sort((a,b) => (a.system.level?.value??0)-(b.system.level?.value??0) || a.name.localeCompare(b.name)).map(a => {
+    const s = a.system;
+    const price = s.price?.value?.gp != null ? `${s.price.value.gp}gp` : s.price?.value?.sp != null ? `${s.price.value.sp}sp` : '—';
+    return `<tr><td><strong>${a.name}</strong></td><td>${s.level?.value??0}</td><td>${s.bulk?.value??'?'}</td><td>${price}</td><td>+${s.acBonus??'?'}</td><td>${s.dexCap??'?'}</td><td>${s.checkPenalty??0}</td><td>${s.speedPenalty??0}</td><td>${s.strength??'?'}</td></tr>`;
+  }).join('\n');
+  return `<div class="equipment-subsection"><h4 class="equip-table-title">${heading}</h4><div class="equipment-table-wrap">
+    <table class="data-table"><thead><tr><th>Name</th><th>Lvl</th><th>Bulk</th><th>Price</th><th>AC</th><th>Dex Cap</th><th>Check</th><th>Speed</th><th>Str</th></tr></thead><tbody>${rows}</tbody></table>
+  </div></div>`;
+}
+
+function modTable(mods, heading) {
+  const rows = [...mods].sort((a,b) => (a.system.level?.value??0)-(b.system.level?.value??0) || a.name.localeCompare(b.name)).map(m => {
+    const s = m.system;
+    const price = s.price?.value?.gp != null ? `${s.price.value.gp}gp` : s.price?.value?.sp != null ? `${s.price.value.sp}sp` : '—';
+    const desc  = (s.description?.value??'').replace(/<[^>]+>/g,'').trim().slice(0,100);
+    return `<tr><td><strong>${m.name}</strong></td><td>${s.level?.value??'?'}</td><td>${price}</td><td>${desc}</td></tr>`;
+  }).join('\n');
+  return `<div class="equipment-subsection"><h4 class="equip-table-title">${heading}</h4><div class="equipment-table-wrap">
+    <table class="data-table"><thead><tr><th>Mod</th><th>Lvl</th><th>Price</th><th>Effect</th></tr></thead><tbody>${rows}</tbody></table>
+  </div></div>`;
+}
+
+function renderEquipmentSection(weapons, armors, weaponMods, armorMods, grenades) {
+  const byGroup = { pistol:[], rifle:[], shotgun:[], sniper:[], bomb:[] };
+  for (const w of weapons) { const g = w.system.group ?? 'pistol'; (byGroup[g] ?? byGroup.pistol).push(w); }
+
+  const traitKey = `<p class="trait-key"><strong>automatic</strong> Burst: cone Reflex save &nbsp;·&nbsp; <strong>burst-fire</strong> 3 attacks ◆◆, half damage each &nbsp;·&nbsp; <strong>fatal-dX</strong> Crit: die→dX +1 &nbsp;·&nbsp; <strong>kickback</strong> −2 attack unless braced &nbsp;·&nbsp; <strong>scatter-X</strong> Splash within X ft &nbsp;·&nbsp; <strong>unwieldy</strong> 1 Strike/turn &nbsp;·&nbsp; <strong>volley-X</strong> −2 within X ft</p>`;
+
+  const shieldRows = [
+    ['Kinetic Shield','1','15sp','30 Shield HP; recharges 10 HP/turn'],
+    ['Shield HP Mod — Tier 1','3','60sp','+10 max HP (→ 40)'],
+    ['Shield HP Mod — Tier 2','6','250sp','+20 max HP (→ 50)'],
+    ['Shield HP Mod — Tier 3','9','700sp','+40 max HP (→ 70)'],
+    ['Shield HP Mod — Tier 4','12','1,600sp','+70 max HP (→ 100)'],
+    ['Shield Regen Mod — Tier 1','3','60sp','Recharge 15 HP/turn'],
+    ['Shield Regen Mod — Tier 2','6','250sp','Recharge 20 HP/turn'],
+    ['Shield Regen Mod — Tier 3','9','700sp','Recharge 25 HP/turn'],
+    ['Shield Regen Mod — Tier 4','12','1,600sp','Recharge 30 HP/turn'],
+  ].map(([n,l,p,e]) => `<tr><td><strong>${n}</strong></td><td>${l}</td><td>${p}</td><td>${e}</td></tr>`).join('\n');
+
+  const grenadeEntries = [...grenades].sort((a,b) => (a.system.level?.value??0)-(b.system.level?.value??0)).map(g => {
+    const s = g.system;
+    const price = s.price?.value?.gp != null ? `${s.price.value.gp} gp` : '—';
+    return `<div class="feat-entry"><div class="feat-header"><div class="feat-name-line"><span class="feat-name">${g.name}</span></div><div class="feat-level-badge">LVL ${s.level?.value??'?'} · ${price} · 3 uses</div></div><div class="feat-description">${s.description?.value??''}</div></div>`;
+  }).join('\n');
+
+  return `<section class="equipment-section" id="equipment">
+<div class="class-main">
+  <div class="class-name-bar"><div class="header-accent-lines"></div><div class="header-content"><div>
+    <h2 class="class-name">Equipment</h2>
+    <p class="class-tagline">Weapons · Armor · Shields · Modifications · Grenades</p>
+  </div></div></div>
+  <h3 class="section-bar" style="background:#0f2034">Weapons</h3>
+  <p class="section-intro">All weapons carry the <strong>tech</strong> trait. Damage type abbreviations: P = piercing, E = electricity, B = bludgeoning, Fire, Cold, Force.</p>
+  ${traitKey}
+  ${weaponTable(byGroup.pistol,'Pistols &amp; SMGs')}
+  ${weaponTable(byGroup.rifle,'Assault Rifles')}
+  ${weaponTable(byGroup.shotgun,'Shotguns')}
+  ${weaponTable(byGroup.sniper,'Sniper Rifles')}
+  ${weaponTable(byGroup.bomb,'Heavy Weapons')}
+  <h3 class="section-bar" style="background:#0f2034">Armor</h3>
+  <p class="section-intro">All armors carry the <strong>tech</strong> trait. Heavy armors also carry <strong>bulwark</strong>. Str = Strength score required to avoid Speed penalty.</p>
+  ${armorTable(armors.filter(a=>a.system.category==='light'),'Light Armor')}
+  ${armorTable(armors.filter(a=>a.system.category==='medium'),'Medium Armor')}
+  ${armorTable(armors.filter(a=>a.system.category==='heavy'),'Heavy Armor')}
+  <h3 class="section-bar" style="background:#0f2034">Weapon Modifications</h3>
+  ${modTable(weaponMods,'Weapon Mods')}
+  <h3 class="section-bar" style="background:#0f2034">Armor Modifications</h3>
+  ${modTable(armorMods,'Armor Mods')}
+  <h3 class="section-bar" style="background:#0f2034">Kinetic Shields &amp; Upgrades</h3>
+  <div class="equipment-subsection"><div class="equipment-table-wrap">
+    <table class="data-table"><thead><tr><th>Item</th><th>Lvl</th><th>Price</th><th>Effect</th></tr></thead><tbody>${shieldRows}</tbody></table>
+  </div></div>
+  <h3 class="section-bar" style="background:#0f2034">Grenades</h3>
+  <p class="section-intro">Grenades are consumables sold in packs of 3. All require ◆◆ to use unless noted.</p>
+  <div class="equipment-table-wrap"><div class="feats-columns">${grenadeEntries}</div></div>
+</div></section>`;
+}
+
 // ── Main ───────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -1393,6 +1642,23 @@ async function main() {
 
   const generalSection = renderGeneralSection(sortedGeneralPacks);
 
+  // ── Load new packs ─────────────────────────────────────────────────────────
+  const [ancestries, heritages, ancestryFeats, backgrounds, weapons, armors, weaponMods, armorMods, grenades] = await Promise.all([
+    loadDir('me-ancestries'),
+    loadDir('me-heritages'),
+    loadDir('me-ancestry-feats'),
+    loadDir('me-backgrounds'),
+    loadDir('me-weapons'),
+    loadDir('me-armors'),
+    loadDir('me-weapon-mods'),
+    loadDir('me-armor-mods'),
+    loadDir('me-grenades'),
+  ]);
+
+  const ancestriesSection  = renderAncestriesSection(ancestries, heritages, ancestryFeats);
+  const backgroundsSection = renderBackgroundsSection(backgrounds);
+  const equipmentSection   = renderEquipmentSection(weapons, armors, weaponMods, armorMods, grenades);
+
   const tocEntries = [
     ...CLASSES.map(c => {
       const col = CLASS_COLORS[c.name];
@@ -1400,6 +1666,9 @@ async function main() {
       return `<div class="toc-entry"><a href="#${id}" style="color:${col.accent}">${c.name}</a><span class="toc-dot"></span><span class="toc-pg" id="toc-pg-${id}" style="color:${col.accent}">—</span></div>`;
     }),
     `<div class="toc-entry"><a href="#general-feats" style="color:#4a9ed6">General Feats</a><span class="toc-dot"></span><span class="toc-pg" id="toc-pg-general-feats">—</span></div>`,
+    `<div class="toc-entry"><a href="#ancestries" style="color:#4a9ed6">Ancestries &amp; Heritages</a><span class="toc-dot"></span><span class="toc-pg" id="toc-pg-ancestries">—</span></div>`,
+    `<div class="toc-entry"><a href="#backgrounds" style="color:#4a9ed6">Backgrounds</a><span class="toc-dot"></span><span class="toc-pg" id="toc-pg-backgrounds">—</span></div>`,
+    `<div class="toc-entry"><a href="#equipment" style="color:#4a9ed6">Equipment</a><span class="toc-dot"></span><span class="toc-pg" id="toc-pg-equipment">—</span></div>`,
   ].join('\n');
 
   const html = `<!DOCTYPE html>
@@ -1437,6 +1706,12 @@ async function main() {
 ${classSections.join('\n\n')}
 
 ${generalSection}
+
+${ancestriesSection}
+
+${backgroundsSection}
+
+${equipmentSection}
 
 </div>
 </body>

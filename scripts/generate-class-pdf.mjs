@@ -108,7 +108,7 @@ await page.evaluateHandle('document.fonts.ready');
 // then measure each section's offsetTop and convert to a page number.
 await page.emulateMediaType('print');
 
-const SECTION_IDS = ['soldier', 'engineer', 'adept', 'vanguard', 'infiltrator', 'sentinel', 'general-feats'];
+const SECTION_IDS = ['soldier', 'engineer', 'adept', 'vanguard', 'infiltrator', 'sentinel', 'general-feats', 'ancestries', 'backgrounds', 'equipment'];
 // Letter at 96 dpi = 1056 px per page; 48 px bottom margin = 1008 px content height.
 const PAGE_H = 1008;
 
