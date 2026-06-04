@@ -1,0 +1,55 @@
+{
+  "_id": "meItemMediGel001",
+  "_key": "!items!meItemMediGel001",
+  "name": "Medi-Gel",
+  "type": "consumable",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/items/medi-gel.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": { "default": 0 },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A synthetic tissue-regeneration compound delivered via dermally-absorbed nanites. Standard issue across the galaxy for both military and civilian use, medi-gel is fast, effective, and requires no medical training to apply.</p><p><strong>Activate ◆ (manipulate):</strong> Apply medi-gel to yourself or an adjacent willing or unconscious creature. The target regains [[/r 25[healing]]] Hit Points. This healing cannot exceed the target's maximum HP — any excess is lost. Medi-gel does not grant temporary HP.</p><p>If applied to a dying creature, the creature is immediately stabilized (their dying value becomes 0) before the healing is applied.</p><hr/><p><em>If the applying character owns a <strong>Medi-Gel Upgrade</strong>, use its higher healing value instead: Upgrade I = [[/r 40[healing]]], II = [[/r 55[healing]]], III = [[/r 70[healing]]], IV = [[/r 85[healing]]].</em></p>"
+    },
+    "rules": [],
+    "slug": "medi-gel",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": {
+      "otherTags": [],
+      "value": ["consumable", "healing", "manipulate"],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": { "value": 1 },
+    "quantity": 1,
+    "baseItem": "medi-gel",
+    "bulk": { "value": "L" },
+    "price": { "value": { "sp": 80 }, "per": 1 },
+    "equipped": { "carryType": "stowed", "handsHeld": 0 },
+    "containerId": null,
+    "size": "tiny",
+    "material": { "type": null, "grade": null },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Consumable",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "category": "potion",
+    "consumableType": { "value": "potion" },
+    "uses": { "value": 1, "max": 1, "autoDestroy": true },
+    "damage": null,
+    "usage": { "value": "held-in-one-hand" },
+    "spell": null,
+    "activation": { "cost": 1, "type": "action", "condition": "" }
+  }
+}

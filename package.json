@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.0",
-    "puppeteer-core": "^24.43.0"
+    "puppeteer-core": "^24.43.0",
+    "sharp": "^0.34.5"
   }
 }

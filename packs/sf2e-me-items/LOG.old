@@ -1,0 +1,15 @@
+2026/06/04-02:09:20.396 5310 Recovering log #8
+2026/06/04-02:09:20.403 5310 Delete type=0 #8
+2026/06/04-02:09:20.403 5310 Delete type=3 #6
+2026/06/04-02:09:20.406 b664 Level-0 table #14: started
+2026/06/04-02:09:20.409 b664 Level-0 table #14: 5143 bytes OK
+2026/06/04-02:09:20.410 b664 Delete type=0 #12
+2026/06/04-02:09:20.411 b664 Manual compaction at level-0 from '!items!meItemMediGel001' @ 72057594037927935 : 1 .. '!items!meItemOmniGel001' @ 0 : 0; will stop at (end)
+2026/06/04-02:09:20.411 b664 Manual compaction at level-1 from '!items!meItemMediGel001' @ 72057594037927935 : 1 .. '!items!meItemOmniGel001' @ 0 : 0; will stop at '!items!meItemOmniGel001' @ 10 : 1
+2026/06/04-02:09:20.411 b664 Compacting 1@1 + 1@2 files
+2026/06/04-02:09:20.414 b664 Generated table #15@1: 6 keys, 5143 bytes
+2026/06/04-02:09:20.414 b664 Compacted 1@1 + 1@2 files => 5143 bytes
+2026/06/04-02:09:20.416 b664 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/04-02:09:20.416 b664 Delete type=2 #10
+2026/06/04-02:09:20.416 b664 Delete type=2 #14
+2026/06/04-02:09:20.416 b664 Manual compaction at level-1 from '!items!meItemOmniGel001' @ 10 : 1 .. '!items!meItemOmniGel001' @ 0 : 0; will stop at (end)

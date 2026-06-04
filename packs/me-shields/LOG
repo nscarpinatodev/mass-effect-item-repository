@@ -1,15 +1,15 @@
-2026/05/21-17:09:30.023 31e0 Recovering log #58
-2026/05/21-17:09:30.027 31e0 Delete type=0 #58
-2026/05/21-17:09:30.027 31e0 Delete type=3 #56
-2026/05/21-17:09:30.029 3954 Level-0 table #64: started
-2026/05/21-17:09:30.032 3954 Level-0 table #64: 7949 bytes OK
-2026/05/21-17:09:30.034 3954 Delete type=0 #62
-2026/05/21-17:09:30.034 3954 Manual compaction at level-0 from '!items!meActivateBbarFt' @ 72057594037927935 : 1 .. '!items!meTitanCombatFrm' @ 0 : 0; will stop at (end)
-2026/05/21-17:09:30.034 3954 Manual compaction at level-1 from '!items!meActivateBbarFt' @ 72057594037927935 : 1 .. '!items!meTitanCombatFrm' @ 0 : 0; will stop at '!items!meTitanCombatFrm' @ 198 : 1
-2026/05/21-17:09:30.034 3954 Compacting 1@1 + 1@2 files
-2026/05/21-17:09:30.037 3954 Generated table #65@1: 16 keys, 7949 bytes
-2026/05/21-17:09:30.038 3954 Compacted 1@1 + 1@2 files => 7949 bytes
-2026/05/21-17:09:30.039 3954 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/21-17:09:30.039 3954 Delete type=2 #60
-2026/05/21-17:09:30.039 3954 Delete type=2 #64
-2026/05/21-17:09:30.039 3954 Manual compaction at level-1 from '!items!meTitanCombatFrm' @ 198 : 1 .. '!items!meTitanCombatFrm' @ 0 : 0; will stop at (end)
+2026/06/04-02:44:13.740 91fc Recovering log #78
+2026/06/04-02:44:13.746 91fc Delete type=0 #78
+2026/06/04-02:44:13.746 91fc Delete type=3 #76
+2026/06/04-02:44:13.749 8640 Level-0 table #84: started
+2026/06/04-02:44:13.751 8640 Level-0 table #84: 7946 bytes OK
+2026/06/04-02:44:13.753 8640 Delete type=0 #82
+2026/06/04-02:44:13.753 8640 Manual compaction at level-0 from '!items!meActivateBbarFt' @ 72057594037927935 : 1 .. '!items!meTitanCombatFrm' @ 0 : 0; will stop at (end)
+2026/06/04-02:44:13.753 8640 Manual compaction at level-1 from '!items!meActivateBbarFt' @ 72057594037927935 : 1 .. '!items!meTitanCombatFrm' @ 0 : 0; will stop at '!items!meTitanCombatFrm' @ 262 : 1
+2026/06/04-02:44:13.753 8640 Compacting 1@1 + 1@2 files
+2026/06/04-02:44:13.756 8640 Generated table #85@1: 16 keys, 7946 bytes
+2026/06/04-02:44:13.756 8640 Compacted 1@1 + 1@2 files => 7946 bytes
+2026/06/04-02:44:13.758 8640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/04-02:44:13.758 8640 Delete type=2 #80
+2026/06/04-02:44:13.758 8640 Delete type=2 #84
+2026/06/04-02:44:13.758 8640 Manual compaction at level-1 from '!items!meTitanCombatFrm' @ 262 : 1 .. '!items!meTitanCombatFrm' @ 0 : 0; will stop at (end)

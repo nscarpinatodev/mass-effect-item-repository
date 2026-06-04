@@ -85,7 +85,8 @@
       "WebFetch(domain:www.gameuidatabase.com)",
       "Bash(jq -r '[.name, .system.group, .system.level.value, .system.bulk.value, .system.price.value.gp, .system.damage.dice, .system.damage.die, .system.damage.damageType, .system.range, \\(.system.traits.value | join\\(\", \"\\)\\)] | @csv' *.json)",
       "Bash(del \"docs\\\\_additions.md\")",
-      "PowerShell(Get-Content \"docs\\\\_additions.md\" | Add-Content \"docs\\\\class-compendium.md\"; Remove-Item \"docs\\\\_additions.md\"; Write-Output \"Done - line count: $\\(\\(Get-Content 'docs\\\\class-compendium.md'\\).Count\\)\")"
+      "PowerShell(Get-Content \"docs\\\\_additions.md\" | Add-Content \"docs\\\\class-compendium.md\"; Remove-Item \"docs\\\\_additions.md\"; Write-Output \"Done - line count: $\\(\\(Get-Content 'docs\\\\class-compendium.md'\\).Count\\)\")",
+      "Bash(node -e \"require\\('sharp'\\)\")"
     ],
     "additionalDirectories": [
       "C:\\Users\\djsco\\OneDrive\\Documents\\GitHub\\mass-effect-item-repository"

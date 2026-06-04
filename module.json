@@ -192,6 +192,15 @@
       "flags": {}
     },
     {
+      "name": "me-items",
+      "label": "ME Items",
+      "path": "packs/me-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
       "name": "me-ammo-powers",
       "label": "ME Ammo Powers",
       "path": "packs/me-ammo-powers",
@@ -452,6 +461,7 @@
             "me-weapon-mods",
             "me-shields",
             "me-grenades",
+            "me-items",
             "sf2e-me-armors",
             "sf2e-me-armor-mods",
             "sf2e-me-weapons",

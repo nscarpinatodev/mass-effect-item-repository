@@ -1,0 +1,40 @@
+{
+  "_id": "meItemMediUpg003",
+  "_key": "!items!meItemMediUpg003",
+  "folder": null,
+  "name": "Medi-Gel Upgrade III",
+  "type": "equipment",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/items/medi-gel.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": { "default": 0 },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A military-grade medi-gel formula incorporating advanced cellular scaffolding agents, capable of repairing severe trauma in seconds.</p><p>Whenever <strong>you</strong> apply Medi-Gel to a creature (including yourself), it restores [[/r 70[healing]]] Hit Points instead of the base 25. This bonus is determined by the character <em>applying</em> the medi-gel, not the recipient. As normal, healing cannot exceed the target's maximum HP, and excess is lost.</p><hr/><p><em>This is a tiered upgrade. It replaces Medi-Gel Upgrade II — a character benefits only from their single highest Medi-Gel Upgrade.</em></p>"
+    },
+    "rules": [],
+    "slug": "medi-gel-upgrade-3",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": { "otherTags": [], "value": ["tech", "healing"], "rarity": "uncommon" },
+    "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
+    "level": { "value": 11 },
+    "quantity": 1,
+    "baseItem": "medi-gel-upgrade",
+    "bulk": { "value": 0 },
+    "price": { "value": { "sp": 2500 } },
+    "equipped": { "carryType": "worn", "invested": null },
+    "usage": { "value": "worn" },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Upgrade",
+        "img": "systems/pf2e/icons/unidentified_item_icons/worn-item.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "subitems": [],
+    "specific": null
+  }
+}

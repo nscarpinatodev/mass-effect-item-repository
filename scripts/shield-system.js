@@ -229,6 +229,45 @@ Hooks.once('ready', async () => {
     await syncEffects(version);
     await migrateActorItems();
   }
+
+  // ── SF2e: Replace UPB currency with Omni-Gel ─────────────────────────────
+  if (game.system.id === 'sf2e') {
+    const OMNI_GEL_ICON = `modules/${MODULE_ID}/assets/img/items/omni-gel.webp`;
+
+    // CSS: swap the UPB icon everywhere it appears as an <img>
+    const style = document.createElement('style');
+    style.id = 'me-upb-omni-gel';
+    style.textContent = `
+      img[src*="upb" i], img[src*="UPB"],
+      .currency-item[data-denomination="upb"] img,
+      [data-denomination="upb"] img {
+        content: url('${OMNI_GEL_ICON}') !important;
+      }
+    `;
+    document.head.appendChild(style);
+
+    // Text walker: replace "UPB" / "UPBs" text nodes with "Omni-Gel"
+    function patchUPBText(root) {
+      const el = root instanceof HTMLElement ? root : root[0];
+      if (!el) return;
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      for (const node of nodes) {
+        if (/\bUPBs?\b/.test(node.textContent))
+          node.textContent = node.textContent.replace(/\bUPBs\b/g, 'Omni-Gel').replace(/\bUPB\b/g, 'Omni-Gel');
+      }
+      el.querySelectorAll('[title*="UPB"],[placeholder*="UPB"],[aria-label*="UPB"]').forEach(node => {
+        if (node.title)      node.title      = node.title.replace(/\bUPBs?\b/g, 'Omni-Gel');
+        if (node.placeholder) node.placeholder = node.placeholder.replace(/\bUPBs?\b/g, 'Omni-Gel');
+        if (node.ariaLabel)  node.ariaLabel  = node.ariaLabel.replace(/\bUPBs?\b/g, 'Omni-Gel');
+      });
+    }
+
+    for (const hookName of ['renderActorSheet', 'renderItemSheet', 'renderSFRPGActorSheetV2', 'renderApplication']) {
+      Hooks.on(hookName, (_app, html) => patchUPBText(html));
+    }
+  }
 });
 
 // ── EFFECT LIFECYCLE ──────────────────────────────────────────────────────────

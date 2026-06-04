@@ -1,0 +1,55 @@
+{
+  "_id": "meItemOmniGel001",
+  "_key": "!items!meItemOmniGel001",
+  "name": "Omni-Gel",
+  "type": "consumable",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/items/omni-gel.webp",
+  "effects": [],
+  "flags": {},
+  "ownership": { "default": 0 },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A technological compound composed of reusable industrial plastics, ceramics, and light alloys kept in a semi-molten state. Omni-gel has a wide variety of field applications — emergency repairs, electronic bypassing, fabrication, and as a trade commodity. Synthesized by breaking down obsolete or non-essential equipment, it converts dead weight into a universally useful resource.</p><p>One microunit of omni-gel is valued at one standard galactic credit (1 sp).</p><p><strong>Activate ◆ (manipulate):</strong> Spend one unit of omni-gel to do one of the following:</p><ul><li>Reduce the DC of a Crafting check to <em>Repair</em> a piece of equipment by 2.</li><li>Attempt to bypass a simple electronic lock (Thievery DC 15, or DC 20 for a military-grade lock).</li><li>Improvise a structural patch, seal a breach, or perform a related field fabrication task at the GM's discretion.</li></ul>"
+    },
+    "rules": [],
+    "slug": "omni-gel",
+    "_migration": { "version": 0.955, "lastMigration": null, "previous": null },
+    "traits": {
+      "otherTags": [],
+      "value": ["consumable"],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Mass Effect Compendium",
+      "authors": "nscarpinatodev",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": { "value": 0 },
+    "quantity": 1,
+    "baseItem": "omni-gel",
+    "bulk": { "value": 0 },
+    "price": { "value": { "sp": 1 }, "per": 1 },
+    "equipped": { "carryType": "stowed", "handsHeld": 0 },
+    "containerId": null,
+    "size": "tiny",
+    "material": { "type": null, "grade": null },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Consumable",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": { "description": { "value": "" } }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "consumableType": { "value": "other" },
+    "uses": { "value": 1, "max": 1, "autoDestroy": true },
+    "damage": null,
+    "usage": { "value": "other" },
+    "spell": null,
+    "activation": { "cost": 1, "type": "action", "condition": "" }
+  }
+}
