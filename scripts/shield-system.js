@@ -205,6 +205,12 @@ Hooks.once('init', () => {
     hint: 'Automatically remove the Biotic Barrier effect when its HP reaches zero. When disabled, the barrier persists as an empty field and can be refilled by spending actions or by using Charge.',
     scope: 'world', config: true, type: Boolean, default: false,
   });
+  game.settings.register(MODULE_ID, 'shieldRechargeDelay', {
+    name: 'Shield Recharge Delay (rounds)',
+    hint: 'Rounds a kinetic barrier must go without taking damage before it resumes recharging. Recharge Accelerator mods reduce this.',
+    scope: 'world', config: true, type: Number, default: 1,
+    range: { min: 0, max: 5, step: 1 },
+  });
 
   // ── Token bars ──
   game.settings.register(MODULE_ID, 'showArmorBars', {
@@ -513,6 +519,11 @@ Hooks.on('preUpdateActor', (actor, changes, options, _userId) => {
   // ── Step 4: Rewrite changes ────────────────────────────────────────────────
   foundry.utils.setProperty(changes, 'system.attributes.hp.temp',  finalShieldHP);
   foundry.utils.setProperty(changes, 'system.attributes.hp.value', Math.max(0, currentHP - finalHpDamage));
+  // Stamp the round shields last took damage (drives recharge delay). Combat-only.
+  if (shield && totalDamage > 0 && game.combat) {
+    foundry.utils.setProperty(changes, `flags.${MODULE_ID}.shieldDamageRound`,  game.combat.round);
+    foundry.utils.setProperty(changes, `flags.${MODULE_ID}.shieldDamageCombat`, game.combat.id);
+  }
   console.groupEnd();
 
   // ── Step 5: Post messages ──────────────────────────────────────────────────
@@ -578,9 +589,24 @@ Hooks.on('pf2e.startTurn', async (first, second) => {
     const regen     = Math.round(baseRegen * mult);
     const current   = actor.system.attributes.hp.temp ?? 0;
 
+    // Recharge delay: shields must go `effectiveDelay` rounds without damage.
+    const delayMod      = getRechargeDelayMod(actor);
+    const reduction     = delayMod ? (delayMod.getFlag(MODULE_ID, 'rechargeDelayReduction') ?? 0) : 0;
+    const noCover       = delayMod ? (delayMod.getFlag(MODULE_ID, 'noCoverRecharge') === true) : false;
+    const baseDelay     = game.settings.get(MODULE_ID, 'shieldRechargeDelay') ?? 1;
+    const effectiveDelay = Math.max(0, baseDelay - reduction);
+    const dmgRound      = shield && actor.getFlag(MODULE_ID, 'shieldDamageRound');
+    const dmgCombat     = actor.getFlag(MODULE_ID, 'shieldDamageCombat');
+    const round         = game.combat?.round ?? 0;
+    const sameCombat    = dmgCombat && game.combat && dmgCombat === game.combat.id;
+    const lastDmg       = sameCombat ? dmgRound : null;
+    const delayActive   = lastDmg != null && (round - lastDmg) <= effectiveDelay;
+
     if (current > 0) {
       if (current >= max) {
         parts.push(fullHtml(max));
+      } else if (delayActive) {
+        parts.push(delayedHtml(current, max));
       } else {
         const newTemp  = Math.min(current + regen, max);
         const restored = newTemp - current;
@@ -588,8 +614,10 @@ Hooks.on('pf2e.startTurn', async (first, second) => {
         parts.push(rechargeHtml(newTemp, max, restored));
       }
     } else {
-      const inCover = hasTakeCover(actor);
-      if (inCover) {
+      const canRecharge = noCover || hasTakeCover(actor);
+      if (delayActive) {
+        if (game.settings.get(MODULE_ID, 'shieldOfflineMessage')) parts.push(delayedHtml(0, max));
+      } else if (canRecharge) {
         const newTemp = Math.min(regen, max);
         await actor.update({ 'system.attributes.hp.temp': newTemp });
         parts.push(restoringHtml(newTemp, max));
@@ -693,6 +721,23 @@ Hooks.on('updateItem', (item) => {
   if (!item.parent || (!isBioticBarrier(item) && !isArmorFrame(item))) return;
   for (const t of _tokensForActor(item.parent)) refreshMETokenBars(t);
 });
+
+// Toggling investiture on a shield-HP mod (e.g. Shield Capacitor) changes the
+// effective shield max — clamp current shield HP if it now exceeds the cap.
+Hooks.on('updateItem', async (item, changes) => {
+  if (!game.user.isGM) return;
+  if (foundry.utils.getProperty(changes, 'system.equipped.invested') === undefined) return;
+  if (item.flags?.[MODULE_ID]?.shieldHpBonus == null) return;
+  const actor = item.parent;
+  const shield = actor ? getShieldEffect(actor) : null;
+  if (!shield) return;
+  const baseMax = shield.getFlag(MODULE_ID, 'shieldMax') ?? 0;
+  const hpMod   = getShieldHpMod(actor);
+  const bonus   = hpMod ? (hpMod.getFlag(MODULE_ID, 'shieldHpBonus') ?? 0) : 0;
+  const max     = baseMax + bonus;
+  const cur     = actor.system.attributes.hp.temp ?? 0;
+  if (cur > max) await actor.update({ 'system.attributes.hp.temp': max });
+});
 Hooks.on('createItem', (item) => {
   if (!item.parent || (!isBioticBarrier(item) && !isArmorFrame(item))) return;
   for (const t of _tokensForActor(item.parent)) refreshMETokenBars(t);
@@ -741,9 +786,17 @@ function isAmmoEffect(item) {
     && item.flags?.[MODULE_ID]?.ammoType != null;
 }
 
+// A mod with the `invested` trait only applies while actually invested.
+// Items without the trait (legacy shield/regen mods) keep working on presence.
+function modInvestedOK(item) {
+  const needsInvest = item.system?.traits?.value?.includes('invested');
+  return !needsInvest || item.system?.equipped?.invested === true;
+}
+
 function isRegenMod(item) {
   return item.flags?.[MODULE_ID]?.regenMult != null
-    && (item.type === 'equipment' || item.type === 'effect');
+    && (item.type === 'equipment' || item.type === 'effect')
+    && modInvestedOK(item);
 }
 
 function getRegenMod(actor) {
@@ -752,9 +805,22 @@ function getRegenMod(actor) {
     ?? null;
 }
 
+function isRechargeDelayMod(item) {
+  return item.flags?.[MODULE_ID]?.rechargeDelayReduction != null
+    && (item.type === 'equipment' || item.type === 'effect')
+    && modInvestedOK(item);
+}
+
+function getRechargeDelayMod(actor) {
+  return actor?.itemTypes?.equipment?.find(isRechargeDelayMod)
+    ?? actor?.itemTypes?.effect?.find(isRechargeDelayMod)
+    ?? null;
+}
+
 function isShieldHpMod(item) {
   return item.flags?.[MODULE_ID]?.shieldHpBonus != null
-    && (item.type === 'equipment' || item.type === 'effect');
+    && (item.type === 'equipment' || item.type === 'effect')
+    && modInvestedOK(item);
 }
 
 function getShieldHpMod(actor) {
@@ -922,6 +988,13 @@ function offlineHtml(max) {
     `<strong>🛡️ Shields Offline</strong><br>`
     + `Kinetic barrier is depleted. <em>Take Cover to begin recharging.</em>`
     + shieldBar(0, max, C.broken));
+}
+
+function delayedHtml(current, max) {
+  return card(C.lightning,
+    `<strong>⏳ Recharge Delayed</strong><br>`
+    + `Barrier took fire recently — recharge suspended this round.`
+    + shieldBar(current, max, C.lightning));
 }
 
 function lightningShieldHtml(shieldDamage, _prevTemp, finalShieldHP, shieldMax) {

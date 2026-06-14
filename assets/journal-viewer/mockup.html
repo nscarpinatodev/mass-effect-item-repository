@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>ME2 Journal Viewer — Mockup</title>
+<style>
+  /* ───────────────────────────────────────────────────────────────────
+     TWEAKABLE GEOMETRY
+     All values are % of the datapad image (1086 x 1448), so the whole
+     thing scales cleanly. Nudge these four to align the text viewport
+     over the orange screen, and the two button vars to move the button.
+     Viewable area target: 865 x 565 px  →  79.65% x 39.02%
+     ─────────────────────────────────────────────────────────────────── */
+  :root {
+    --pad-w: 1086;
+    --pad-h: 1448;
+
+    --vp-left:   10.22%;  /* 111 / 1086 */
+    --vp-top:    10.50%;  /* 152 / 1448 */
+    --vp-width:  80.02%;  /* 869 / 1086 (right edge shrunk 4px) */
+    --vp-height: 39.0%;   /* 565 / 1448 */
+
+    --vp-pad: 1.6%;       /* inner text padding */
+
+    /* close button anchor (in the lower portion of the orange screen) */
+    --btn-right:  21.0%;  /* sits right-of-centre, like "Main Menu"     */
+    --btn-top:    52.0%;
+    --btn-width:  30.0%;  /* button png native is 25.5%; bumped up a touch */
+
+    --amber:        #f9c08a;
+    --amber-bright: #ffd9a8;
+    --amber-edge:   #c8761e;
+    --amber-glow:   rgba(255, 150, 40, 0.55);
+  }
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #05080d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Titillium Web", "Segoe UI", system-ui, sans-serif;
+    overflow: hidden;
+  }
+
+  /* The datapad scales to the available height */
+  .datapad {
+    position: relative;
+    height: 96vh;
+    aspect-ratio: var(--pad-w) / var(--pad-h);
+    background: url("me2-journal-viewer.png") no-repeat center / contain;
+    user-select: none;
+  }
+
+  /* The reading viewport sitting over the orange screen */
+  .viewport {
+    position: absolute;
+    left:   var(--vp-left);
+    top:    var(--vp-top);
+    width:  var(--vp-width);
+    height: var(--vp-height);
+    box-sizing: border-box;
+    padding: var(--vp-pad) var(--vp-pad) var(--vp-pad) var(--vp-pad);
+    background: transparent;
+    color: var(--amber);
+    overflow-y: auto;
+    overflow-x: hidden;
+    line-height: 1.5;
+    text-shadow: 0 0 6px var(--amber-glow);
+    /* let users select/read; scrollbar styled below */
+    scrollbar-width: thin;
+    scrollbar-color: var(--amber-edge) transparent;
+  }
+  .viewport::-webkit-scrollbar { width: 8px; }
+  .viewport::-webkit-scrollbar-track { background: transparent; }
+  .viewport::-webkit-scrollbar-thumb {
+    background: var(--amber-edge);
+    border-radius: 4px;
+  }
+
+  .viewport .entry-title {
+    font-size: clamp(14px, 2.0vh, 26px);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--amber-bright);
+    margin: 0 0 0.6em 0;
+    text-shadow: 0 0 10px var(--amber-glow);
+  }
+  .viewport .entry-body {
+    font-size: clamp(11px, 1.55vh, 19px);
+  }
+  .viewport .entry-body p { margin: 0 0 0.85em 0; }
+  .viewport .entry-body em { color: var(--amber-bright); font-style: italic; }
+  .viewport .entry-body hr {
+    border: none;
+    border-top: 1px solid var(--amber-edge);
+    opacity: 0.5;
+    margin: 1em 0;
+  }
+
+  /* Close button — uses the datapad's own button artwork as the background,
+     with the label text overlaid. button-left.png has its angled tip on the
+     left; button-right.png on the right. */
+  .me-btn {
+    position: absolute;
+    top:   var(--btn-top);
+    right: var(--btn-right);
+    width: var(--btn-width);
+    aspect-ratio: 277 / 54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: inherit;
+    font-size: clamp(10px, 1.6vh, 19px);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #ffe9cf;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: filter 0.12s ease;
+  }
+  /* nudge the label off the angled tip so it stays centred on the flat area */
+  .me-btn-left  { background-image: url("button-left.png");  padding-left:  8%; }
+  .me-btn-right { background-image: url("button-right.png"); padding-right: 8%; }
+  .me-btn:hover  { filter: brightness(1.15); }
+  .me-btn:active { filter: brightness(0.95); transform: translateY(1px); }
+
+  /* small dev helper: toggle a red outline on the viewport with the `O` key */
+  .viewport.debug { outline: 1px solid rgba(255,0,0,0.6); }
+</style>
+</head>
+<body>
+  <div class="datapad">
+    <div class="viewport" id="viewport">
+      <h1 class="entry-title">Cerberus Daily Message: Surplus</h1>
+      <div class="entry-body">
+        <p>"Eria, let's consider this extra stock surplus. Ship the rest to
+        Thax at his normal destination. He'll never miss a few lost pieces."</p>
+        <p>Intercepted transmission, origin masked. Recovered from a derelict
+        comm buoy in the Hourglass Nebula. Decryption partial — the remainder
+        of the log appears to detail rerouted shipments of Element Zero through
+        unregistered freighter lanes.</p>
+        <hr/>
+        <p><em>Codex cross-reference:</em> Thax — known Blue Suns logistics
+        broker operating out of Omega. Last confirmed sighting two cycles ago.
+        Eria's identity remains unverified; voiceprint analysis inconclusive.</p>
+        <p>Recommend flagging this buoy's traffic for continued monitoring.
+        Surplus "lost pieces" of this volume suggest a supply chain large
+        enough to outfit a mercenary battalion.</p>
+        <p>— Automated analysis appended by EMTX field unit CT-4552.</p>
+      </div>
+    </div>
+
+    <button type="button" class="me-btn me-btn-right" id="closeBtn">Close</button>
+  </div>
+
+  <script>
+    // mockup-only behaviour
+    document.getElementById('closeBtn').addEventListener('click', () => {
+      alert('Close — in the module this dismisses the viewer.');
+    });
+    // press O to outline the viewport while aligning
+    addEventListener('keydown', e => {
+      if (e.key.toLowerCase() === 'o')
+        document.getElementById('viewport').classList.toggle('debug');
+    });
+  </script>
+</body>
+</html>

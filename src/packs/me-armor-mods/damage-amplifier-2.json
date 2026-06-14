@@ -13,7 +13,15 @@
       "gm": "",
       "value": "<p>An advanced ballistic VI suite integrating real-time target modeling, predictive movement algorithms, and kinetic coil feedback that optimizes round velocity for each trigger pull. The system substantially improves effective damage output across all weapon platforms by ensuring rounds strike optimal impact angles against barrier fields, armor weaves, and organic tissue. Grants a +2 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "status",
+        "value": 2,
+        "label": "Damage Amplifier II"
+      }
+    ],
     "slug": "damage-amplifier-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +31,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "uncommon"
     },

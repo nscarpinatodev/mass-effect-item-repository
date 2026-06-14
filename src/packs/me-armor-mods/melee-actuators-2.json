@@ -13,7 +13,18 @@
       "gm": "",
       "value": "<p>Heavy-duty combat actuators that replace the standard elbow and shoulder servo assemblies with hydraulic force amplifiers, dramatically increasing the kinetic energy delivered in each close-combat strike. The system is tuned for combat applications rather than general movement, meaning strikes hit with a force well beyond what the wearer's musculature alone could generate. Grants a +2 item bonus to melee damage rolls.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "item",
+        "value": 2,
+        "predicate": [
+          "item:melee"
+        ],
+        "label": "Melee Actuators II"
+      }
+    ],
     "slug": "melee-actuators-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +34,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "uncommon"
     },

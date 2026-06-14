@@ -13,7 +13,15 @@
       "gm": "",
       "value": "<p>High-output military-grade leg actuators with full-body kinetic assist, including hip, knee, and ankle joints that work in concert to multiply the wearer's natural stride length and frequency. The system includes a combat movement VI that anticipates directional changes and pre-loads actuator tension, making the suit feel almost weightless during sprints and direction changes. Increases your Speed by 10 feet.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "type": "status",
+        "value": 10,
+        "label": "Servo Actuators II"
+      }
+    ],
     "slug": "servo-actuators-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +31,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "uncommon"
     },

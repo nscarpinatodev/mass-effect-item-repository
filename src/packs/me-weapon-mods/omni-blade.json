@@ -13,7 +13,28 @@
       "gm": "",
       "value": "<p>A micro-fabricated crystalline blade generated from the weapon's omni-tool interface and bonded to the barrel or foregrip. Unlike standalone omni-blades, the weapon-mounted version is structurally reinforced against the recoil forces of sustained fire and can be deployed without removing the hand from the grip. The blade glows orange with thermal energy from the weapon's heat dissipation system. Your weapon gains the versatile (slashing) trait and deals 1d6 slashing damage on melee Strikes.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Strike",
+        "slug": "omni-blade",
+        "label": "Omni-Blade",
+        "category": "martial",
+        "group": "knife",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "range": null,
+        "traits": [
+          "tech",
+          "versatile-b"
+        ],
+        "ability": "str"
+      }
+    ],
     "slug": "omni-blade",
     "_migration": {
       "version": 0.955,
@@ -23,7 +44,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "uncommon"
     },

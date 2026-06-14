@@ -13,7 +13,15 @@
       "gm": "",
       "value": "<p>Leg and hip servo motors that actively assist the wearer's walking and running gait, effectively carrying a portion of the suit's weight and adding mechanical thrust to each stride. Originally developed for heavy-labor hardsuit use in low-gravity environments, the combat adaptation provides a meaningful increase in ground speed during tactical movement. Increases your Speed by 5 feet.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "type": "status",
+        "value": 5,
+        "label": "Servo Actuators I"
+      }
+    ],
     "slug": "servo-actuators-1",
     "_migration": {
       "version": 0.955,
@@ -23,7 +31,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "common"
     },

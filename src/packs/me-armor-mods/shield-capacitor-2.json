@@ -4,7 +4,11 @@
   "type": "equipment",
   "effects": [],
   "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_Barrier.png",
-  "flags": {},
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "shieldHpBonus": 10
+    }
+  },
   "ownership": {
     "default": 0
   },
@@ -23,7 +27,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "common"
     },

@@ -13,7 +13,14 @@
       "gm": "",
       "value": "<p>A high-conductance superconducting mesh integrated throughout the suit structure, capable of safely shunting even sustained high-voltage arc discharge into the ground without harm to the wearer. Originally developed for Alliance engineers working around mass effect drive cores. Provides resistance 10 to electricity damage.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "electricity",
+        "value": 10,
+        "label": "Arc Resistance Grid II"
+      }
+    ],
     "slug": "arc-resistance-grid-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +30,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "common"
     },

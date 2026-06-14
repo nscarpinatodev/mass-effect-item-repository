@@ -13,7 +13,14 @@
       "gm": "",
       "value": "<p>An internal suit lining using phase-change thermal regulation materials that resist extreme cold by absorbing thermal energy from the environment before it can reach the wearer. Effective against cryo weapons, cryogenic grenade blasts, and the vacuum of space exposure. Provides resistance 5 to cold damage.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "cold",
+        "value": 5,
+        "label": "Cryo Resistance Lining I"
+      }
+    ],
     "slug": "cryo-resistance-lining-1",
     "_migration": {
       "version": 0.955,
@@ -23,7 +30,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "common"
     },

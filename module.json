@@ -36,7 +36,7 @@
       "flags": {}
     }
   ],
-  "scripts": ["scripts/shield-system.js", "scripts/paragon-renegade.js"],
+  "scripts": ["scripts/shield-system.js", "scripts/paragon-renegade.js", "scripts/journal-viewer.js", "scripts/me-powers.js"],
   "packs": [
     {
       "name": "me-ancestries",

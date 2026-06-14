@@ -11,9 +11,17 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A high-output barrel assembly with a heavy-duty kinetic coil stack that maximizes the velocity of each round fired from a pistol platform. The upgrade draws additional power from the weapon's thermal cell to sustain the enhanced field output, but the result is a pistol that hits with the force of a weapon two classes above it. Preferred by infiltrators and agents who need stopping power without the bulk of a rifle. Designed for pistols. Grants a +2 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a pistol.</p>"
+      "value": "<p>A military-grade resonance amplifier with a dedicated power-conditioning circuit feeding cleaner energy to the user's implants and omni-tool emitters. Offensive powers bite deeper, overwhelming enemy defenses with markedly greater force.</p><p>Grants a +2 item bonus to your <strong>class DC</strong> — the DC enemies must beat when they attempt a save against your biotic and tech powers.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "class-dc",
+        "type": "item",
+        "value": 2,
+        "label": "Power Magnifier II"
+      }
+    ],
     "slug": "power-magnifier-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +31,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "uncommon"
     },

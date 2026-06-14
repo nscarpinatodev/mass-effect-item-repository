@@ -86,10 +86,22 @@
       "Bash(jq -r '[.name, .system.group, .system.level.value, .system.bulk.value, .system.price.value.gp, .system.damage.dice, .system.damage.die, .system.damage.damageType, .system.range, \\(.system.traits.value | join\\(\", \"\\)\\)] | @csv' *.json)",
       "Bash(del \"docs\\\\_additions.md\")",
       "PowerShell(Get-Content \"docs\\\\_additions.md\" | Add-Content \"docs\\\\class-compendium.md\"; Remove-Item \"docs\\\\_additions.md\"; Write-Output \"Done - line count: $\\(\\(Get-Content 'docs\\\\class-compendium.md'\\).Count\\)\")",
-      "Bash(node -e \"require\\('sharp'\\)\")"
+      "Bash(node -e \"require\\('sharp'\\)\")",
+      "Bash(node assets/journal-viewer/_render.mjs)",
+      "Bash(rm -f assets/journal-viewer/_bl.png assets/journal-viewer/_br.png)",
+      "Bash(node --check scripts/journal-viewer.js)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('module.json','utf8'\\)\\); console.log\\('module.json OK'\\)\")",
+      "Bash(node _apply-mod-rules.mjs)",
+      "Bash(node _mod-edits.mjs)",
+      "Bash(node --check scripts/shield-system.js)",
+      "Bash(node --check scripts/me-powers.js)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('module.json','utf8'\\)\\);JSON.parse\\(require\\('fs'\\).readFileSync\\('src/packs/me-tech-powers/incinerate-feat.json','utf8'\\)\\);console.log\\('JSON OK'\\)\")",
+      "Bash(cd \"c:\\\\Users\\\\djsco\\\\.claude\\\\projects\\\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\\\memory\")",
+      "Bash(cat MEMORY.md)"
     ],
     "additionalDirectories": [
-      "C:\\Users\\djsco\\OneDrive\\Documents\\GitHub\\mass-effect-item-repository"
+      "C:\\Users\\djsco\\OneDrive\\Documents\\GitHub\\mass-effect-item-repository",
+      "c:\\Users\\djsco\\.claude\\projects\\c--Users-djsco-OneDrive-Documents-GitHub-mass-effect-item-repository\\memory"
     ]
   }
 }

@@ -4,14 +4,18 @@
   "type": "equipment",
   "effects": [],
   "img": "modules/mass-effect-sf2e-conversion/assets/img/armor-mods/ME3_Defense_Matrix.png",
-  "flags": {},
+  "flags": {
+    "mass-effect-sf2e-conversion": {
+      "rechargeDelayReduction": 1
+    }
+  },
   "ownership": {
     "default": 0
   },
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>An auxiliary power routing module that prioritizes barrier recharge current when the kinetic field drops below threshold. By bypassing standard load-balancing protocols, it shaves one full recharge cycle from the downtime between shield collapse and restoration. Reduces kinetic barrier recharge delay by 1 round.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
+      "value": "<p>An auxiliary power-routing module that primes the kinetic barrier emitters the instant fire slackens, eliminating the lag between a hit and the start of the recharge cycle.</p><p>Your kinetic barrier normally waits <strong>one full round</strong> after taking damage before it begins recharging. This module removes that delay — your barrier resumes recharging on your next turn, even if it was hit on the previous round.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
     "rules": [],
     "slug": "recharge-accelerator-1",
@@ -23,7 +27,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "common"
     },

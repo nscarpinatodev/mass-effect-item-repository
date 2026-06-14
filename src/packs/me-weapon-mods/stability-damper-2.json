@@ -13,7 +13,18 @@
       "gm": "",
       "value": "<p>An advanced gyroscopic stabilization system integrated into the weapon's frame that actively counteracts recoil forces during automatic fire. The internal gyros detect barrel deviation in real time and correct before the next round fires, keeping the weapon on-target regardless of fire rate. Originally developed for Cerberus heavy infantry operating automatic weapons at extreme sustained rates. Grants a +2 item bonus to attack rolls made with automatic fire.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a weapon with the automatic trait.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "type": "item",
+        "value": 2,
+        "predicate": [
+          "item:trait:automatic"
+        ],
+        "label": "Stability Damper II"
+      }
+    ],
     "slug": "stability-damper-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +34,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "uncommon"
     },

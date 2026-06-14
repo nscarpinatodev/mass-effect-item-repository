@@ -13,7 +13,26 @@
       "gm": "",
       "value": "<p>An advanced multi-spectrum thermal scope combining infrared imaging with a predictive targeting VI that calculates optimal impact points in real time. The system cross-references enemy species anatomy databases to identify the most lethal aiming solutions, accounting for environmental interference and barrier field distortion. Used exclusively by N7 infiltrators and Shadow Broker wetwork specialists. Designed for sniper rifles. On a successful aimed shot, deal an additional 2d6 precision damage.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a sniper rifle.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "aimed-shot",
+        "toggleable": true,
+        "label": "Aimed Shot"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "category": "precision",
+        "predicate": [
+          "item:group:sniper",
+          "aimed-shot"
+        ],
+        "label": "Thermal Scope II"
+      }
+    ],
     "slug": "thermal-scope-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +42,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "rare"
     },

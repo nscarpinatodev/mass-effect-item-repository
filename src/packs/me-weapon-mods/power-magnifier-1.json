@@ -11,9 +11,17 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A reinforced barrel and enhanced coil assembly designed specifically for pistol frames, increasing kinetic output without requiring the larger receiver of a rifle-class weapon. The upgrade effectively turns a standard combat pistol into a weapon capable of punching through armor grades it was not rated for. Designed for pistols. Grants a +1 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a pistol.</p>"
+      "value": "<p>A focusing-resonance amplifier wired into the weapon's omni-tool interface. It sharpens the user's offensive biotic and tech powers, forcing enemies to fight harder to resist them.</p><p>Grants a +1 item bonus to your <strong>class DC</strong> — the DC enemies must beat when they attempt a save against your biotic and tech powers.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "class-dc",
+        "type": "item",
+        "value": 1,
+        "label": "Power Magnifier I"
+      }
+    ],
     "slug": "power-magnifier-1",
     "_migration": {
       "version": 0.955,
@@ -23,7 +31,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "common"
     },

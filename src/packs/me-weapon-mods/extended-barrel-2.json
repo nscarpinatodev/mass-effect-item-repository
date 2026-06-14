@@ -13,7 +13,18 @@
       "gm": "",
       "value": "<p>A military-specification extended barrel with a reinforced acceleration chamber and precision-tuned coil spacing. Rounds exit with significantly greater force than a standard barrel configuration allows, and the added length improves accuracy over the weapon's effective range as a secondary benefit. Compatible with any ranged weapon. Grants a +2 item bonus to weapon damage rolls.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "item",
+        "value": 2,
+        "predicate": [
+          "item:ranged"
+        ],
+        "label": "Extended Barrel II"
+      }
+    ],
     "slug": "extended-barrel-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +34,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "uncommon"
     },

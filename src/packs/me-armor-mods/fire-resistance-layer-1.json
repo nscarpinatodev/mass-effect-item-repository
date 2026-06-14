@@ -13,7 +13,14 @@
       "gm": "",
       "value": "<p>A ceramic-composite thermal insulation layer bonded between the outer shell and the suit's inner padding. Designed to mitigate incendiary weapons, flamethrowers, and pyrotechnic explosives encountered in Terminus Systems operations. Provides resistance 5 to fire damage.</p><p><strong>Activate</strong> - Install in armor during a 10-minute field maintenance procedure.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": 5,
+        "label": "Fire Resistance Layer I"
+      }
+    ],
     "slug": "fire-resistance-layer-1",
     "_migration": {
       "version": 0.955,
@@ -23,7 +30,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "common"
     },

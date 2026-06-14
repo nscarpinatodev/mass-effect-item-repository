@@ -13,7 +13,20 @@
       "gm": "",
       "value": "<p>An advanced shredder configuration using serrated flechette sub-projectiles that deploy on impact and embed in tissue before the main pellet mass follows through. The flechettes tear open wounds that are difficult to seal even with medi-gel, and the sheer volume of penetrating fragments makes clean wounds nearly impossible. Originally developed by mercenary groups for anti-personnel operations in close quarters. Designed for shotguns. On a hit, the target takes 1d6 persistent bleed damage.</p><p><strong>Activate</strong> - Install on weapon during a 10-minute field maintenance procedure. Requires a shotgun.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "damageType": "bleed",
+        "category": "persistent",
+        "predicate": [
+          "item:group:shotgun"
+        ],
+        "label": "Shredder Mod II"
+      }
+    ],
     "slug": "shredder-mod-2",
     "_migration": {
       "version": 0.955,
@@ -23,7 +36,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "tech"
+        "tech",
+        "invested"
       ],
       "rarity": "uncommon"
     },
