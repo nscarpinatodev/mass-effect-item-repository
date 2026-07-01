@@ -20,7 +20,9 @@ const TEMPLATE = {
   img: 'me2-journal-viewer.png',
   aspect: 1086 / 1448,
   vp:  { left: 10.22, top: 10.50, width: 80.02, height: 39.0, pad: 1.6 },
-  btn: { right: 21.0, top: 52.0, width: 30.0, img: 'button-right.png' },
+  // width 30 buttons. Solo Close is centred; with Back present the pair is
+  // centred symmetrically about the datapad mid-line (Back 18–48, Close 52–82).
+  btn: { top: 52.0, width: 30.0, soloRight: 35.0, pairRight: 18.0, backRight: 52.0 },
 };
 
 const padStyle = t => [
@@ -28,7 +30,9 @@ const padStyle = t => [
   `--vp-left:${t.vp.left}%`,   `--vp-top:${t.vp.top}%`,
   `--vp-width:${t.vp.width}%`, `--vp-height:${t.vp.height}%`,
   `--vp-pad:${t.vp.pad}%`,
-  `--btn-right:${t.btn.right}%`, `--btn-top:${t.btn.top}%`, `--btn-width:${t.btn.width}%`,
+  `--btn-top:${t.btn.top}%`, `--btn-width:${t.btn.width}%`,
+  `--btn-solo-right:${t.btn.soloRight}%`, `--btn-pair-right:${t.btn.pairRight}%`,
+  `--btn-back-right:${t.btn.backRight}%`,
 ].join(';');
 
 // ── HELPERS ─────────────────────────────────────────────────────────────────
@@ -112,12 +116,6 @@ function injectStyles() {
       letter-spacing: 0.08em; text-transform: uppercase; color: #ffd9a8;
       margin: 0 0 0.6em 0; text-shadow: 0 0 10px rgba(255,150,40,0.55);
     }
-    .me-jv-index-link {
-      background: none; border: none; color: #f9c08a; cursor: pointer;
-      font: inherit; font-size: 0.9em; padding: 0 0 0.5em 0; opacity: 0.85;
-    }
-    .me-jv-index-link:hover { color: #ffd9a8; opacity: 1; }
-
     .me-jv-body, .me-jv-page { font-size: clamp(11px, 1.55vh, 19px); }
     .me-jv-page-title { font-size: 1.05em; color: #ffd9a8; margin: 0.8em 0 0.3em; }
     .me-jv-viewport p { margin: 0 0 0.85em 0; }
@@ -142,7 +140,7 @@ function injectStyles() {
 
     /* Close button — uses the datapad's own button artwork with text overlaid */
     .me-jv-btn {
-      position: absolute; top: var(--btn-top); right: var(--btn-right);
+      position: absolute; top: var(--btn-top);
       width: var(--btn-width); aspect-ratio: 277 / 54;
       display: flex; align-items: center; justify-content: center; box-sizing: border-box;
       border: none; background-color: transparent;
@@ -151,8 +149,10 @@ function injectStyles() {
       letter-spacing: 0.04em; color: #ffe9cf; text-shadow: 0 1px 2px rgba(0,0,0,0.75);
       cursor: pointer; transition: filter 0.12s ease;
     }
-    .me-jv-btn-left  { background-image: url('${ASSET('button-left.png')}');  padding-left:  8%; }
-    .me-jv-btn-right { background-image: url('${ASSET('button-right.png')}'); padding-right: 8%; }
+    /* Close is centred when alone; shifts right to balance Back when present. */
+    .me-jv-btn-right { right: var(--btn-solo-right); background-image: url('${ASSET('button-right.png')}'); padding-right: 8%; }
+    .me-jv-pad.me-jv-entry .me-jv-btn-right { right: var(--btn-pair-right); }
+    .me-jv-btn-left  { right: var(--btn-back-right); background-image: url('${ASSET('button-left.png')}');  padding-left:  8%; }
     .me-jv-btn:hover  { filter: brightness(1.15); }
     .me-jv-btn:active { filter: brightness(0.95); transform: translateY(1px); }
   `;
@@ -207,14 +207,16 @@ Hooks.once('init', () => {
       pad.className = 'me-jv-pad';
       pad.setAttribute('style', padStyle(context.tpl));
 
-      let inner;
+      if (context.mode === 'entry') pad.classList.add('me-jv-entry');
+
+      let inner, backBtn = '';
       if (context.mode === 'entry') {
         inner = `
           <div class="me-jv-viewport">
-            <button type="button" class="me-jv-index-link" data-action="index">‹ Index</button>
             <h1 class="me-jv-title">${context.entryName}</h1>
             <div class="me-jv-body">${context.pagesHTML}</div>
           </div>`;
+        backBtn = `<button type="button" class="me-jv-btn me-jv-btn-left" data-action="index">Back</button>`;
       } else {
         const items = context.entries.length
           ? context.entries.map(e => `<li class="me-jv-list-item" data-action="open-entry" data-entry-id="${e.id}">${e.name}</li>`).join('')
@@ -229,6 +231,7 @@ Hooks.once('init', () => {
       pad.innerHTML = `
         <div class="me-jv-drag"></div>
         ${inner}
+        ${backBtn}
         <button type="button" class="me-jv-btn me-jv-btn-right" data-action="close">Close</button>`;
       return pad;
     }

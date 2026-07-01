@@ -211,12 +211,10 @@
             "damageType": "fire"
           }
         },
-        "range": {
-          "value": 100
-        },
         "traits": {
           "value": [
-            "line-60"
+            "line-60",
+            "range-increment-100"
           ]
         },
         "attackEffects": {

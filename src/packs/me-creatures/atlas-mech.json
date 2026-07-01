@@ -198,12 +198,10 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 100
-        },
         "traits": {
           "value": [
-            "fatal-d12"
+            "fatal-d12",
+            "range-increment-100"
           ]
         },
         "attackEffects": {
@@ -248,7 +246,7 @@
           "value": 2
         },
         "description": {
-          "value": "<p>The Atlas fires missiles at up to 2 targets within 120 feet. Each target takes 3d10+8 piercing damage (DC 27 Reflex for half). Recharge 1d4 rounds.</p>",
+          "value": "<p>The Atlas fires missiles at up to 2 targets within 120 feet. Each target takes @Damage[3d10+8[piercing]] (@Check[reflex|dc:27|basic] for half). Recharge [[/br 1d4 #rounds]] rounds.</p>",
           "gm": ""
         },
         "traits": {

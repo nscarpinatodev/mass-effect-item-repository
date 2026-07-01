@@ -198,12 +198,10 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 60
-        },
         "traits": {
           "value": [
-            "automatic"
+            "automatic",
+            "range-increment-60"
           ]
         },
         "attackEffects": {
@@ -248,7 +246,7 @@
           "value": 2
         },
         "description": {
-          "value": "<p>The YMIR fires a rocket at a target point within 120 feet. Each creature within 20 feet of the impact takes 4d10 fire damage (DC 24 Reflex for half). Recharge 1d3 rounds.</p>",
+          "value": "<p>The YMIR fires a rocket at a target point within 120 feet. Each creature within 20 feet of the impact takes @Damage[4d10[fire]] (@Check[reflex|dc:24|basic] for half). Recharge [[/br 1d3 #rounds]] rounds.</p>",
           "gm": ""
         },
         "traits": {

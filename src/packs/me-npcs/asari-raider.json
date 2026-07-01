@@ -385,7 +385,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!MENPC00000000001.NPCShield000001A"
+      "_key": "!actors.items!MENPC00000000001.NPCShield000001A",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "NPCAction000001A",
@@ -540,6 +543,9 @@
       "flags": {},
       "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-weapons.Item.73b9302ac8c5ef66"
       }
     },
     {
@@ -636,6 +642,9 @@
       "flags": {},
       "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-armors.Item.a16d0fadf17e567e"
       }
     }
   ],

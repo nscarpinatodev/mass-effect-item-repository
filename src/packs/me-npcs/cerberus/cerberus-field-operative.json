@@ -207,13 +207,11 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 30
-        },
         "traits": {
           "value": [
             "agile",
-            "concealable"
+            "concealable",
+            "range-increment-30"
           ]
         },
         "attackEffects": {
@@ -301,7 +299,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!c1d2e3f4a5b60004.ce3bop3rvs000001"
+      "_key": "!actors.items!c1d2e3f4a5b60004.ce3bop3rvs000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "ce3bop3rvm000001",
@@ -359,7 +360,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!c1d2e3f4a5b60004.ce3bop3rvm000001"
+      "_key": "!actors.items!c1d2e3f4a5b60004.ce3bop3rvm000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod001"
+      }
     }
   ],
   "_id": "c1d2e3f4a5b60004",

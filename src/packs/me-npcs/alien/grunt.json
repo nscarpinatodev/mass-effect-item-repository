@@ -4,75 +4,189 @@
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/grunt.png",
   "folder": null,
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "name": "Grunt",
     "displayName": 20,
     "actorLink": false,
-    "width": 1, "height": 1,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/grunt.png",
-      "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0,
-      "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0,
-      "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
     "disposition": 1,
     "displayBars": 20,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
-      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": [],
-    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
   },
   "system": {
     "slug": "grunt",
     "details": {
-      "level": { "value": 9 },
+      "level": {
+        "value": 9
+      },
       "publicNotes": "<p>Grunt is a tank-bred krogan — genetically perfected for war from the moment of his creation by the Warlord Okeer. He was born knowing how to fight, carrying the genetic memories of a thousand krogan warriors. He is everything a krogan is supposed to be: massive, unstoppable, enthusiastic about violence, and loyal to Shepard in his own way.</p><p><strong>Krogan Regeneration:</strong> Grunt recovers 15 HP at the start of each of his turns.</p><p><strong>Berserker Charge (2 actions, 1/encounter):</strong> Grunt charges up to 40 feet in a straight line and makes a melee Strike (+26, 2d8+11 bludgeoning) at the end. On a hit, the target is knocked Prone and pushed 10 feet.</p>",
       "privateNotes": "",
-      "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
-      "languages": { "value": [], "details": "" },
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
       "blurb": "Tank-bred krogan warrior; perfected for combat from birth, carrying the genetic memories of a thousand battles."
     },
     "attributes": {
-      "hp": { "value": 200, "max": 200, "temp": 50, "details": "" },
-      "ac": { "value": 28, "details": "" },
-      "speed": { "value": 30, "details": "" }
+      "hp": {
+        "value": 200,
+        "max": 200,
+        "temp": 50,
+        "details": ""
+      },
+      "ac": {
+        "value": 28,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
     },
     "traits": {
-      "value": ["humanoid", "krogan", "unique"],
-      "size": { "value": "med" },
+      "value": [
+        "humanoid",
+        "krogan",
+        "unique"
+      ],
+      "size": {
+        "value": "med"
+      },
       "rarity": "unique"
     },
     "abilities": {
-      "str": { "mod": 7 }, "dex": { "mod": 2 }, "con": { "mod": 7 },
-      "int": { "mod": 1 }, "wis": { "mod": 2 }, "cha": { "mod": 1 }
+      "str": {
+        "mod": 7
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 7
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 1
+      }
     },
     "saves": {
-      "fortitude": { "value": 25, "saveDetail": "" },
-      "reflex": { "value": 18, "saveDetail": "" },
-      "will": { "value": 18, "saveDetail": "" }
+      "fortitude": {
+        "value": 25,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 18,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 18,
+        "saveDetail": ""
+      }
     },
     "skills": {
-      "athletics": { "base": 24 },
-      "intimidation": { "base": 18 },
-      "survival": { "base": 18 }
+      "athletics": {
+        "base": 24
+      },
+      "intimidation": {
+        "base": 18
+      },
+      "survival": {
+        "base": 18
+      }
     },
-    "_migration": { "version": null, "previous": null },
-    "perception": { "details": "", "mod": 20, "senses": [], "vision": true },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 20,
+      "senses": [],
+      "vision": true
+    },
     "resources": {},
-    "initiative": { "statistic": "perception" }
+    "initiative": {
+      "statistic": "perception"
+    }
   },
   "items": [
     {
@@ -81,20 +195,51 @@
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
-        "weaponType": { "value": "ranged" },
+        "weaponType": {
+          "value": "ranged"
+        },
         "slug": "grunt-claymore",
-        "bonus": { "value": 24 },
-        "damageRolls": { "0": { "damage": "4d6+9", "damageType": "piercing" } },
-        "range": { "value": 20 },
-        "traits": { "value": ["scatter-5"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "<p>The heaviest shotgun in production. Grunt fires it one-handed.</p>", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "4d6+9",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "scatter-5",
+            "range-increment-20"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>The heaviest shotgun in production. Grunt fires it one-handed.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 100000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60007.gruntw0000000001"
     },
     {
@@ -103,19 +248,50 @@
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
-        "weaponType": { "value": "melee" },
+        "weaponType": {
+          "value": "melee"
+        },
         "slug": "grunt-headbutt",
-        "bonus": { "value": 26 },
-        "damageRolls": { "0": { "damage": "2d8+11", "damageType": "bludgeoning" } },
-        "traits": { "value": ["shove"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "<p>Standard krogan greeting. On a hit, Grunt may attempt a free Shove.</p>", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d8+11",
+            "damageType": "bludgeoning"
+          }
+        },
+        "traits": {
+          "value": [
+            "shove"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Standard krogan greeting. On a hit, Grunt may attempt a free Shove.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 200000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60007.gruntw0000000002"
     },
     {
@@ -125,16 +301,38 @@
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "system": {
         "slug": "grunt-krogan-regeneration",
-        "actionType": { "value": "passive" },
-        "actions": { "value": null },
-        "description": { "value": "<p>Grunt recovers <strong>15 HP</strong> at the start of each of his turns.</p>", "gm": "" },
-        "traits": { "value": [] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p>Grunt recovers <strong>15 HP</strong> at the start of each of his turns.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": []
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 300000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60007.grunta0000000001"
     },
     {
@@ -144,16 +342,40 @@
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "system": {
         "slug": "grunt-berserker-charge",
-        "actionType": { "value": "action" },
-        "actions": { "value": 2 },
-        "description": { "value": "<p>Grunt charges up to 40 feet in a straight line and makes a melee Strike (+26, 2d8+11 bludgeoning) at the end. On a hit the target is knocked Prone and pushed 10 feet. 1/encounter.</p>", "gm": "" },
-        "traits": { "value": ["move"] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>Grunt charges up to 40 feet in a straight line and makes a melee Strike (+26, 2d8+11 bludgeoning) at the end. On a hit the target is knocked Prone and pushed 10 feet. 1/encounter.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "move"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 400000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60007.grunta0000000002"
     },
     {
@@ -163,18 +385,60 @@
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
         "slug": "me-kinetic-shield",
-        "description": { "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>", "gm": "" },
-        "level": { "value": 1 }, "price": { "value": { "sp": 150 } }, "bulk": { "value": 1 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
-        "rules": [], "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 500000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldMax": 30, "shieldRegen": 10 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!g1h2i3j4k5l60007.gruntsh000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60007.gruntsh000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "grunthmm00000001",
@@ -183,18 +447,59 @@
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "system": {
         "slug": "me-shield-hp-mod-t2",
-        "description": { "value": "<p>Increases kinetic shield capacity by <strong>+20 HP</strong> (base 30 → 50).</p>", "gm": "" },
-        "level": { "value": 6 }, "price": { "value": { "sp": 2500 } }, "bulk": { "value": 0 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
-        "rules": [], "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+20 HP</strong> (base 30 → 50).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 6
+        },
+        "price": {
+          "value": {
+            "sp": 2500
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 600000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldHpBonus": 20 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!g1h2i3j4k5l60007.grunthmm00000001"
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 20
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60007.grunthmm00000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod002"
+      }
     }
   ],
   "_id": "g1h2i3j4k5l60007",

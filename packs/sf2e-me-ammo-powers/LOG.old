@@ -1,15 +1,15 @@
-2026/06/05-11:51:31.916 f040 Recovering log #98
-2026/06/05-11:51:31.921 f040 Delete type=0 #98
-2026/06/05-11:51:31.921 f040 Delete type=3 #96
-2026/06/05-11:51:31.924 8af0 Level-0 table #104: started
-2026/06/05-11:51:31.926 8af0 Level-0 table #104: 7516 bytes OK
-2026/06/05-11:51:31.929 8af0 Delete type=0 #102
-2026/06/05-11:51:31.929 8af0 Manual compaction at level-0 from '!items!meAmmoAPierceEff' @ 72057594037927935 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at (end)
-2026/06/05-11:51:31.929 8af0 Manual compaction at level-1 from '!items!meAmmoAPierceEff' @ 72057594037927935 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at '!items!meAmmoWarpFeat00' @ 315 : 1
-2026/06/05-11:51:31.929 8af0 Compacting 1@1 + 1@2 files
-2026/06/05-11:51:31.932 8af0 Generated table #105@1: 14 keys, 7516 bytes
-2026/06/05-11:51:31.932 8af0 Compacted 1@1 + 1@2 files => 7516 bytes
-2026/06/05-11:51:31.933 8af0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/06/05-11:51:31.933 8af0 Delete type=2 #100
-2026/06/05-11:51:31.933 8af0 Delete type=2 #104
-2026/06/05-11:51:31.934 8af0 Manual compaction at level-1 from '!items!meAmmoWarpFeat00' @ 315 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at (end)
+2026/06/19-05:19:36.600 a320 Recovering log #113
+2026/06/19-05:19:36.605 a320 Delete type=0 #113
+2026/06/19-05:19:36.605 a320 Delete type=3 #111
+2026/06/19-05:19:36.607 ae4 Level-0 table #119: started
+2026/06/19-05:19:36.610 ae4 Level-0 table #119: 7526 bytes OK
+2026/06/19-05:19:36.611 ae4 Delete type=0 #117
+2026/06/19-05:19:36.612 ae4 Manual compaction at level-0 from '!items!meAmmoAPierceEff' @ 72057594037927935 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at (end)
+2026/06/19-05:19:36.612 ae4 Manual compaction at level-1 from '!items!meAmmoAPierceEff' @ 72057594037927935 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at '!items!meAmmoWarpFeat00' @ 357 : 1
+2026/06/19-05:19:36.612 ae4 Compacting 1@1 + 1@2 files
+2026/06/19-05:19:36.614 ae4 Generated table #120@1: 14 keys, 7526 bytes
+2026/06/19-05:19:36.614 ae4 Compacted 1@1 + 1@2 files => 7526 bytes
+2026/06/19-05:19:36.616 ae4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/19-05:19:36.616 ae4 Delete type=2 #115
+2026/06/19-05:19:36.616 ae4 Delete type=2 #119
+2026/06/19-05:19:36.616 ae4 Manual compaction at level-1 from '!items!meAmmoWarpFeat00' @ 357 : 1 .. '!items!meAmmoWarpFeat00' @ 0 : 0; will stop at (end)

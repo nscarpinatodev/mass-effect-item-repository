@@ -272,13 +272,11 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 30
-        },
         "traits": {
           "value": [
             "agile",
-            "burst-fire"
+            "burst-fire",
+            "range-increment-30"
           ]
         },
         "attackEffects": {
@@ -328,13 +326,11 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 150
-        },
         "traits": {
           "value": [
             "fatal-d12",
-            "volley-30"
+            "volley-30",
+            "range-increment-150"
           ]
         },
         "attackEffects": {
@@ -507,7 +503,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!e1f2a3b4c5d60002.mys2sh0000000001"
+      "_key": "!actors.items!e1f2a3b4c5d60002.mys2sh0000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     }
   ],
   "_id": "e1f2a3b4c5d60002",

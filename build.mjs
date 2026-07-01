@@ -28,9 +28,30 @@ const PACKS = [
 const SF2E_PACKS = PACKS.map(({ src, dest }) => ({
   src,
   dest: dest.replace("packs/", "packs/sf2e-"),
+  sf2e: true,
 }));
 
-for (const { src, dest } of [...PACKS, ...SF2E_PACKS]) {
+// The same src compiles into both the PF2e (me-*) and SF2e (sf2e-me-*) pack
+// families. Source references (compendiumSource / sourceId) are authored
+// pointing at the me-* packs; when building the SF2e variants we rewrite them
+// to the matching sf2e-me-* pack so each system self-references correctly.
+const SF2E_SOURCE_RX = /(Compendium\.mass-effect-sf2e-conversion\.)(me-)/g;
+function rewriteSf2eSources(value) {
+  if (typeof value === "string") {
+    return value.replace(SF2E_SOURCE_RX, "$1sf2e-me-");
+  }
+  if (Array.isArray(value)) {
+    value.forEach((v, i) => { value[i] = rewriteSf2eSources(v); });
+    return value;
+  }
+  if (value && typeof value === "object") {
+    for (const k of Object.keys(value)) value[k] = rewriteSf2eSources(value[k]);
+    return value;
+  }
+  return value;
+}
+
+for (const { src, dest, sf2e } of [...PACKS, ...SF2E_PACKS]) {
   try {
     await fs.access(src);
   } catch {
@@ -38,7 +59,10 @@ for (const { src, dest } of [...PACKS, ...SF2E_PACKS]) {
     continue;
   }
   console.log(`Compiling ${src} → ${dest}`);
-  await compilePack(src, dest, { recursive: true });
+  await compilePack(src, dest, {
+    recursive: true,
+    transformEntry: sf2e ? (entry => { rewriteSf2eSources(entry); }) : undefined,
+  });
 }
 
 console.log("\n✓ Build complete.");

@@ -198,11 +198,10 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 50
-        },
         "traits": {
-          "value": []
+          "value": [
+            "range-increment-50"
+          ]
         },
         "attackEffects": {
           "value": []
@@ -246,7 +245,7 @@
           "value": 2
         },
         "description": {
-          "value": "<p>The Rampart Mech discharges its shield energy in a 15-foot burst. Each creature in the area takes 3d6 bludgeoning damage (DC 22 Reflex for half). The Mech's kinetic shield is reduced to 0 HP after use. This ability cannot be used again until the shield recharges to full.</p>",
+          "value": "<p>The Rampart Mech discharges its shield energy in a 15-foot burst. Each creature in the area takes @Damage[3d6[bludgeoning]] (@Check[reflex|dc:22|basic] for half). The Mech's kinetic shield is reduced to 0 HP after use. This ability cannot be used again until the shield recharges to full.</p>",
           "gm": ""
         },
         "traits": {

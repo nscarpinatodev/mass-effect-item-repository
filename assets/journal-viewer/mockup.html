@@ -22,8 +22,10 @@
 
     --vp-pad: 1.6%;       /* inner text padding */
 
-    /* close button anchor (in the lower portion of the orange screen) */
-    --btn-right:  21.0%;  /* sits right-of-centre, like "Main Menu"     */
+    /* button anchors (lower portion of the orange screen). Back + Close are
+       centred symmetrically about the datapad mid-line: Back 18–48, Close 52–82. */
+    --btn-pair-right: 18.0%;  /* Close, when Back is present */
+    --btn-back-right: 52.0%;  /* Back */
     --btn-top:    52.0%;
     --btn-width:  30.0%;  /* button png native is 25.5%; bumped up a touch */
 
@@ -106,7 +108,6 @@
   .me-btn {
     position: absolute;
     top:   var(--btn-top);
-    right: var(--btn-right);
     width: var(--btn-width);
     aspect-ratio: 277 / 54;
     display: flex;
@@ -128,8 +129,8 @@
     transition: filter 0.12s ease;
   }
   /* nudge the label off the angled tip so it stays centred on the flat area */
-  .me-btn-left  { background-image: url("button-left.png");  padding-left:  8%; }
-  .me-btn-right { background-image: url("button-right.png"); padding-right: 8%; }
+  .me-btn-left  { right: var(--btn-back-right); background-image: url("button-left.png");  padding-left:  8%; }
+  .me-btn-right { right: var(--btn-pair-right); background-image: url("button-right.png"); padding-right: 8%; }
   .me-btn:hover  { filter: brightness(1.15); }
   .me-btn:active { filter: brightness(0.95); transform: translateY(1px); }
 
@@ -159,6 +160,7 @@
       </div>
     </div>
 
+    <button type="button" class="me-btn me-btn-left" id="backBtn">Back</button>
     <button type="button" class="me-btn me-btn-right" id="closeBtn">Close</button>
   </div>
 
@@ -166,6 +168,9 @@
     // mockup-only behaviour
     document.getElementById('closeBtn').addEventListener('click', () => {
       alert('Close — in the module this dismisses the viewer.');
+    });
+    document.getElementById('backBtn').addEventListener('click', () => {
+      alert('Back — in the module this returns to the journal index.');
     });
     // press O to outline the viewport while aligning
     addEventListener('keydown', e => {

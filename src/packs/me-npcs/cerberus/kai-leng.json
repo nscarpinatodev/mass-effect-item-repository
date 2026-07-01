@@ -260,13 +260,11 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 200
-        },
         "traits": {
           "value": [
             "fatal-d12",
-            "volley-50"
+            "volley-50",
+            "range-increment-200"
           ]
         },
         "attackEffects": {
@@ -398,7 +396,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d1e2f3a4b5c60004.k4il3ngs00000001"
+      "_key": "!actors.items!d1e2f3a4b5c60004.k4il3ngs00000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "k4il3ngm00000001",
@@ -456,7 +457,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d1e2f3a4b5c60004.k4il3ngm00000001"
+      "_key": "!actors.items!d1e2f3a4b5c60004.k4il3ngm00000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod003"
+      }
     },
     {
       "_id": "k4il3ngr00000002",
@@ -514,7 +518,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d1e2f3a4b5c60004.k4il3ngr00000002"
+      "_key": "!actors.items!d1e2f3a4b5c60004.k4il3ngr00000002",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldRegen003"
+      }
     }
   ],
   "_id": "d1e2f3a4b5c60004",

@@ -204,11 +204,10 @@
             "damageType": "electricity"
           }
         },
-        "range": {
-          "value": 120
-        },
         "traits": {
-          "value": []
+          "value": [
+            "range-increment-120"
+          ]
         },
         "attackEffects": {
           "value": []
@@ -257,12 +256,10 @@
             "damageType": "fire"
           }
         },
-        "range": {
-          "value": 80
-        },
         "traits": {
           "value": [
-            "splash-10"
+            "splash-10",
+            "range-increment-80"
           ]
         },
         "attackEffects": {

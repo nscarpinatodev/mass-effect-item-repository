@@ -334,7 +334,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!MENPC00000000025.NPCShield000001A"
+      "_key": "!actors.items!MENPC00000000025.NPCShield000001A",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "NPCAction000001A",

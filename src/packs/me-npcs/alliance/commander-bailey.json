@@ -4,76 +4,192 @@
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/bailey.png",
   "folder": null,
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "name": "Commander Bailey",
     "displayName": 20,
     "actorLink": false,
-    "width": 1, "height": 1,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/bailey.png",
-      "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0,
-      "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0,
-      "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
     "disposition": 0,
     "displayBars": 20,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
-      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": [],
-    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
   },
   "system": {
     "slug": "commander-bailey",
     "details": {
-      "level": { "value": 6 },
+      "level": {
+        "value": 6
+      },
       "publicNotes": "<p>Commander Armando-Owen Bailey is the gruff, pragmatic head of C-Sec on the Citadel's wards. He keeps the peace with a combination of street-level authority and a willingness to bend rules when the situation demands it. He is not hostile to outside operators — he will deal straight and expects the same in return. When he is forced to fight, he fights dirty and efficiently.</p><p><strong>C-Sec Authority:</strong> In areas under Citadel jurisdiction, Bailey has a +4 circumstance bonus to Intimidation checks and may attempt to Demoralize as a free action once per round.</p>",
       "privateNotes": "",
-      "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
-      "languages": { "value": [], "details": "" },
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
       "blurb": "Head of C-Sec on the Citadel wards; pragmatic lawman who deals straight and fights dirty."
     },
     "attributes": {
-      "hp": { "value": 95, "max": 95, "temp": 40, "details": "" },
-      "ac": { "value": 23, "details": "" },
-      "speed": { "value": 30, "details": "" }
+      "hp": {
+        "value": 95,
+        "max": 95,
+        "temp": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
     },
     "traits": {
-      "value": ["human", "humanoid", "unique"],
-      "size": { "value": "med" },
+      "value": [
+        "human",
+        "humanoid",
+        "unique"
+      ],
+      "size": {
+        "value": "med"
+      },
       "rarity": "unique"
     },
     "abilities": {
-      "str": { "mod": 2 }, "dex": { "mod": 3 }, "con": { "mod": 2 },
-      "int": { "mod": 3 }, "wis": { "mod": 3 }, "cha": { "mod": 3 }
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 3
+      }
     },
     "saves": {
-      "fortitude": { "value": 14, "saveDetail": "" },
-      "reflex": { "value": 14, "saveDetail": "" },
-      "will": { "value": 16, "saveDetail": "" }
+      "fortitude": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 16,
+        "saveDetail": ""
+      }
     },
     "skills": {
-      "intimidation": { "base": 17 },
-      "athletics": { "base": 13 },
-      "society": { "base": 14 },
-      "diplomacy": { "base": 14 }
+      "intimidation": {
+        "base": 17
+      },
+      "athletics": {
+        "base": 13
+      },
+      "society": {
+        "base": 14
+      },
+      "diplomacy": {
+        "base": 14
+      }
     },
-    "_migration": { "version": null, "previous": null },
-    "perception": { "details": "", "mod": 16, "senses": [], "vision": true },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 16,
+      "senses": [],
+      "vision": true
+    },
     "resources": {},
-    "initiative": { "statistic": "perception" }
+    "initiative": {
+      "statistic": "perception"
+    }
   },
   "items": [
     {
@@ -82,20 +198,51 @@
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
-        "weaponType": { "value": "ranged" },
+        "weaponType": {
+          "value": "ranged"
+        },
         "slug": "bailey-predator",
-        "bonus": { "value": 16 },
-        "damageRolls": { "0": { "damage": "1d6+4", "damageType": "piercing" } },
-        "range": { "value": 30 },
-        "traits": { "value": ["agile"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+4",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "range-increment-30"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 100000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!f1a2b3c4d5e60003.bailyw0000000001"
     },
     {
@@ -105,17 +252,46 @@
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
         "slug": "bailey-baton",
-        "bonus": { "value": 17 },
-        "damageRolls": { "0": { "damage": "1d6+5", "damageType": "bludgeoning" } },
-        "traits": { "value": ["agile"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 17
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+5",
+            "damageType": "bludgeoning"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 200000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!f1a2b3c4d5e60003.bailyw0000000002"
     },
     {
@@ -125,21 +301,60 @@
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
         "slug": "me-kinetic-shield",
-        "description": { "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>", "gm": "" },
-        "level": { "value": 1 },
-        "price": { "value": { "sp": 150 } },
-        "bulk": { "value": 1 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
         "rules": [],
-        "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 300000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldMax": 30, "shieldRegen": 10 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!f1a2b3c4d5e60003.bailysh000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f1a2b3c4d5e60003.bailysh000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "bailyhm000000001",
@@ -148,21 +363,59 @@
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "system": {
         "slug": "me-shield-hp-mod-t1",
-        "description": { "value": "<p>Increases kinetic shield capacity by <strong>+10 HP</strong> (base 30 → 40).</p>", "gm": "" },
-        "level": { "value": 3 },
-        "price": { "value": { "sp": 600 } },
-        "bulk": { "value": 0 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+10 HP</strong> (base 30 → 40).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "price": {
+          "value": {
+            "sp": 600
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
         "rules": [],
-        "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 400000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldHpBonus": 10 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!f1a2b3c4d5e60003.bailyhm000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f1a2b3c4d5e60003.bailyhm000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod001"
+      }
     }
   ],
   "_id": "f1a2b3c4d5e60003",

@@ -4,76 +4,192 @@
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/aria.png",
   "folder": null,
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "name": "Aria T'Loak",
     "displayName": 20,
     "actorLink": false,
-    "width": 1, "height": 1,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/aria.png",
-      "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0,
-      "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0,
-      "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
     "disposition": 0,
     "displayBars": 20,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
-      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": [],
-    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
   },
   "system": {
     "slug": "aria-tloak",
     "details": {
-      "level": { "value": 11 },
+      "level": {
+        "value": 11
+      },
       "publicNotes": "<p>Aria T'Loak is the self-declared ruler of Omega — the largest space station in the Terminus Systems and the galaxy's most lawless port. She has held this position for centuries through a combination of overwhelming biotic power, ruthless pragmatism, and an intelligence network that rivals any government. She doesn't negotiate from weakness. Ever.</p><p><strong>I Am Omega (aura):</strong> All enemies within 30 feet of Aria take a –1 circumstance penalty to saves against her abilities. Enemies who fail a save against one of her abilities are also Frightened 1.</p><p><strong>Biotic Shockwave (2 actions):</strong> A 30-foot line of biotic force. All creatures in the area take 4d8+10 force damage (DC 30 Reflex for half).</p><p><strong>Biotic Pull (2 actions):</strong> Up to three targets within 60 feet must succeed on a DC 30 Fortitude save or be pulled 20 feet toward Aria and become Grabbed until the end of their next turn.</p><p><strong>Omega's Resolve (reaction):</strong> When Aria is reduced to 0 HP, she may spend her reaction: she is instead reduced to 1 HP and all enemies within 30 feet take 2d10 force damage (no save). 1/encounter.</p><p><strong>Kinetic Barrier:</strong> 70 Shield HP. Recharges 20 HP per turn.</p>",
       "privateNotes": "",
-      "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
-      "languages": { "value": [], "details": "" },
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
       "blurb": "Absolute ruler of Omega; centuries-old asari crime lord who enforces her will through raw biotic power."
     },
     "attributes": {
-      "hp": { "value": 190, "max": 190, "temp": 70, "details": "" },
-      "ac": { "value": 30, "details": "" },
-      "speed": { "value": 30, "details": "" }
+      "hp": {
+        "value": 190,
+        "max": 190,
+        "temp": 70,
+        "details": ""
+      },
+      "ac": {
+        "value": 30,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
     },
     "traits": {
-      "value": ["humanoid", "asari", "unique"],
-      "size": { "value": "med" },
+      "value": [
+        "humanoid",
+        "asari",
+        "unique"
+      ],
+      "size": {
+        "value": "med"
+      },
       "rarity": "unique"
     },
     "abilities": {
-      "str": { "mod": 2 }, "dex": { "mod": 5 }, "con": { "mod": 4 },
-      "int": { "mod": 5 }, "wis": { "mod": 5 }, "cha": { "mod": 7 }
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 5
+      },
+      "cha": {
+        "mod": 7
+      }
     },
     "saves": {
-      "fortitude": { "value": 21, "saveDetail": "" },
-      "reflex": { "value": 22, "saveDetail": "" },
-      "will": { "value": 28, "saveDetail": "" }
+      "fortitude": {
+        "value": 21,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 22,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 28,
+        "saveDetail": ""
+      }
     },
     "skills": {
-      "intimidation": { "base": 28 },
-      "deception": { "base": 24 },
-      "society": { "base": 22 },
-      "stealth": { "base": 20 }
+      "intimidation": {
+        "base": 28
+      },
+      "deception": {
+        "base": 24
+      },
+      "society": {
+        "base": 22
+      },
+      "stealth": {
+        "base": 20
+      }
     },
-    "_migration": { "version": null, "previous": null },
-    "perception": { "details": "", "mod": 24, "senses": [], "vision": true },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 24,
+      "senses": [],
+      "vision": true
+    },
     "resources": {},
-    "initiative": { "statistic": "perception" }
+    "initiative": {
+      "statistic": "perception"
+    }
   },
   "items": [
     {
@@ -82,20 +198,51 @@
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
-        "weaponType": { "value": "ranged" },
+        "weaponType": {
+          "value": "ranged"
+        },
         "slug": "aria-phalanx",
-        "bonus": { "value": 22 },
-        "damageRolls": { "0": { "damage": "2d6+7", "damageType": "piercing" } },
-        "range": { "value": 40 },
-        "traits": { "value": ["fatal-d10"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "<p>Aria rarely needs a gun. When she picks it up, the conversation is over.</p>", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+7",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "fatal-d10",
+            "range-increment-40"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Aria rarely needs a gun. When she picks it up, the conversation is over.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 100000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60010.ariaw00000000001"
     },
     {
@@ -105,16 +252,43 @@
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "system": {
         "slug": "aria-i-am-omega",
-        "actionType": { "value": "passive" },
-        "actions": { "value": null },
-        "description": { "value": "<p>All enemies within 30 feet of Aria take a –1 circumstance penalty to saves against her abilities. Additionally, enemies who fail a save against one of her abilities are Frightened 1.</p>", "gm": "" },
-        "traits": { "value": ["aura", "biotic", "mental", "fear"] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p>All enemies within 30 feet of Aria take a –1 circumstance penalty to saves against her abilities. Additionally, enemies who fail a save against one of her abilities are Frightened 1.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "aura",
+            "biotic",
+            "mental",
+            "fear"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 200000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60010.ariaa00000000001"
     },
     {
@@ -124,16 +298,42 @@
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "system": {
         "slug": "aria-biotic-shockwave",
-        "actionType": { "value": "action" },
-        "actions": { "value": 2 },
-        "description": { "value": "<p>A 30-foot line of biotic force erupts from Aria. All creatures in the area take 4d8+10 force damage (DC 30 Reflex for half).</p>", "gm": "" },
-        "traits": { "value": ["biotic", "force", "concentrate"] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>A 30-foot line of biotic force erupts from Aria. All creatures in the area take 4d8+10 force damage (DC 30 Reflex for half).</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "biotic",
+            "force",
+            "concentrate"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 300000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60010.ariaa00000000002"
     },
     {
@@ -143,16 +343,41 @@
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "system": {
         "slug": "aria-biotic-pull",
-        "actionType": { "value": "action" },
-        "actions": { "value": 2 },
-        "description": { "value": "<p>Up to three targets within 60 feet must succeed on a DC 30 Fortitude save or be pulled 20 feet toward Aria and become Grabbed until the end of their next turn.</p>", "gm": "" },
-        "traits": { "value": ["biotic", "concentrate"] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>Up to three targets within 60 feet must succeed on a DC 30 Fortitude save or be pulled 20 feet toward Aria and become Grabbed until the end of their next turn.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "biotic",
+            "concentrate"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 400000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60010.ariaa00000000003"
     },
     {
@@ -162,16 +387,41 @@
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "system": {
         "slug": "aria-omegas-resolve",
-        "actionType": { "value": "reaction" },
-        "actions": { "value": null },
-        "description": { "value": "<p><strong>Trigger</strong> Aria would be reduced to 0 HP. She is instead reduced to 1 HP and all enemies within 30 feet take 2d10 force damage (no save). 1/encounter.</p>", "gm": "" },
-        "traits": { "value": ["biotic", "force"] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p><strong>Trigger</strong> Aria would be reduced to 0 HP. She is instead reduced to 1 HP and all enemies within 30 feet take 2d10 force damage (no save). 1/encounter.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "biotic",
+            "force"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 500000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60010.ariaa00000000004"
     },
     {
@@ -181,18 +431,60 @@
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
         "slug": "me-kinetic-shield",
-        "description": { "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>", "gm": "" },
-        "level": { "value": 1 }, "price": { "value": { "sp": 150 } }, "bulk": { "value": 1 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
-        "rules": [], "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 600000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldMax": 30, "shieldRegen": 10 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!g1h2i3j4k5l60010.ariash0000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60010.ariash0000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "ariahm0000000001",
@@ -201,18 +493,59 @@
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "system": {
         "slug": "me-shield-hp-mod-t3",
-        "description": { "value": "<p>Increases kinetic shield capacity by <strong>+40 HP</strong> (base 30 → 70).</p>", "gm": "" },
-        "level": { "value": 10 }, "price": { "value": { "sp": 8000 } }, "bulk": { "value": 0 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
-        "rules": [], "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+40 HP</strong> (base 30 → 70).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 10
+        },
+        "price": {
+          "value": {
+            "sp": 8000
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 700000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldHpBonus": 40 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!g1h2i3j4k5l60010.ariahm0000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 40
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60010.ariahm0000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod003"
+      }
     },
     {
       "_id": "ariarm0000000001",
@@ -221,18 +554,59 @@
       "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
       "system": {
         "slug": "me-shield-regen-mod-t2",
-        "description": { "value": "<p>Doubles kinetic shield recharge rate (base 10 → 20 HP/turn).</p>", "gm": "" },
-        "level": { "value": 8 }, "price": { "value": { "sp": 4000 } }, "bulk": { "value": 0 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
-        "rules": [], "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "description": {
+          "value": "<p>Doubles kinetic shield recharge rate (base 10 → 20 HP/turn).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 8
+        },
+        "price": {
+          "value": {
+            "sp": 4000
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 800000,
-      "flags": { "mass-effect-sf2e-conversion": { "regenMult": 2.0 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!g1h2i3j4k5l60010.ariarm0000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "regenMult": 2.0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60010.ariarm0000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldRegen002"
+      }
     }
   ],
   "_id": "g1h2i3j4k5l60010",

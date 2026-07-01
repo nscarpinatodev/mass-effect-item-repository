@@ -4,76 +4,192 @@
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/legion.png",
   "folder": null,
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "name": "Legion",
     "displayName": 20,
     "actorLink": false,
-    "width": 1, "height": 1,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/legion.png",
-      "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0,
-      "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0,
-      "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
     "disposition": 0,
     "displayBars": 20,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
-      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": [],
-    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
   },
   "system": {
     "slug": "legion",
     "details": {
-      "level": { "value": 9 },
+      "level": {
+        "value": 9
+      },
       "publicNotes": "<p>Legion is a unique geth platform housing 1,183 geth programs — technically a collective, functionally an individual. It is a hunter-killer unit that investigated Shepard after the destruction of the Collector Base, and now seeks to understand the concept of 'self.' Legion is precise, logical, and surprisingly philosophical. Its platform is patched with a piece of Shepard's N7 armor.</p><p><strong>Geth Network:</strong> Legion cannot be Flanked. It is immune to fear effects and Confused.</p><p><strong>AI Hacking (3 actions, 1/encounter):</strong> One synthetic creature within 60 feet must succeed on a DC 28 Will save or become Confused for 1 round (Confused for 2 rounds on a critical failure).</p><p><strong>Self-Repair:</strong> Legion recovers 10 HP at the start of each of its turns.</p>",
       "privateNotes": "",
-      "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
-      "languages": { "value": [], "details": "" },
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
       "blurb": "A unique geth platform of 1,183 programs; hunter-killer turned philosopher, patched with Shepard's armor."
     },
     "attributes": {
-      "hp": { "value": 175, "max": 175, "temp": 50, "details": "" },
-      "ac": { "value": 29, "details": "" },
-      "speed": { "value": 30, "details": "" }
+      "hp": {
+        "value": 175,
+        "max": 175,
+        "temp": 50,
+        "details": ""
+      },
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
     },
     "traits": {
-      "value": ["construct", "geth", "unique"],
-      "size": { "value": "med" },
+      "value": [
+        "construct",
+        "geth",
+        "unique"
+      ],
+      "size": {
+        "value": "med"
+      },
       "rarity": "unique"
     },
     "abilities": {
-      "str": { "mod": 4 }, "dex": { "mod": 5 }, "con": { "mod": 3 },
-      "int": { "mod": 6 }, "wis": { "mod": 4 }, "cha": { "mod": 0 }
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 6
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 0
+      }
     },
     "saves": {
-      "fortitude": { "value": 20, "saveDetail": "" },
-      "reflex": { "value": 22, "saveDetail": "" },
-      "will": { "value": 20, "saveDetail": "" }
+      "fortitude": {
+        "value": 20,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 22,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 20,
+        "saveDetail": ""
+      }
     },
     "skills": {
-      "computers": { "base": 24 },
-      "stealth": { "base": 22 },
-      "engineering": { "base": 22 },
-      "athletics": { "base": 20 }
+      "computers": {
+        "base": 24
+      },
+      "stealth": {
+        "base": 22
+      },
+      "engineering": {
+        "base": 22
+      },
+      "athletics": {
+        "base": 20
+      }
     },
-    "_migration": { "version": null, "previous": null },
-    "perception": { "details": "", "mod": 22, "senses": [], "vision": true },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 22,
+      "senses": [],
+      "vision": true
+    },
     "resources": {},
-    "initiative": { "statistic": "perception" }
+    "initiative": {
+      "statistic": "perception"
+    }
   },
   "items": [
     {
@@ -82,20 +198,52 @@
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
-        "weaponType": { "value": "ranged" },
+        "weaponType": {
+          "value": "ranged"
+        },
         "slug": "legion-widow",
-        "bonus": { "value": 22 },
-        "damageRolls": { "0": { "damage": "3d10+8", "damageType": "piercing" } },
-        "range": { "value": 200 },
-        "traits": { "value": ["fatal-d12", "volley-50"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "<p>An anti-material sniper rifle normally too heavy for organics to use effectively. Legion has no such limitation.</p>", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "3d10+8",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "fatal-d12",
+            "volley-50",
+            "range-increment-200"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>An anti-material sniper rifle normally too heavy for organics to use effectively. Legion has no such limitation.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 100000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60008.leginw0000000001"
     },
     {
@@ -104,20 +252,51 @@
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
-        "weaponType": { "value": "ranged" },
+        "weaponType": {
+          "value": "ranged"
+        },
         "slug": "legion-pulse-rifle",
-        "bonus": { "value": 20 },
-        "damageRolls": { "0": { "damage": "2d8+6", "damageType": "electricity" } },
-        "range": { "value": 60 },
-        "traits": { "value": ["burst-fire"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "<p>Standard geth energy weapon — fires compressed bolts of ionized gas.</p>", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d8+6",
+            "damageType": "electricity"
+          }
+        },
+        "traits": {
+          "value": [
+            "burst-fire",
+            "range-increment-60"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Standard geth energy weapon — fires compressed bolts of ionized gas.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 200000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60008.leginw0000000002"
     },
     {
@@ -127,16 +306,38 @@
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "system": {
         "slug": "legion-geth-network",
-        "actionType": { "value": "passive" },
-        "actions": { "value": null },
-        "description": { "value": "<p>Legion cannot be Flanked. It is immune to fear effects and the Confused condition.</p>", "gm": "" },
-        "traits": { "value": [] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p>Legion cannot be Flanked. It is immune to fear effects and the Confused condition.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": []
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 300000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60008.legina0000000001"
     },
     {
@@ -146,16 +347,41 @@
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "system": {
         "slug": "legion-ai-hacking",
-        "actionType": { "value": "action" },
-        "actions": { "value": 3 },
-        "description": { "value": "<p>One synthetic creature within 60 feet must succeed on a DC 28 Will save or become Confused for 1 round (2 rounds on a critical failure). 1/encounter.</p>", "gm": "" },
-        "traits": { "value": ["tech", "concentrate"] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "description": {
+          "value": "<p>One synthetic creature within 60 feet must succeed on a DC 28 Will save or become Confused for 1 round (2 rounds on a critical failure). 1/encounter.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "tech",
+            "concentrate"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 400000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60008.legina0000000002"
     },
     {
@@ -165,16 +391,38 @@
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "system": {
         "slug": "legion-self-repair",
-        "actionType": { "value": "passive" },
-        "actions": { "value": null },
-        "description": { "value": "<p>Legion recovers <strong>10 HP</strong> at the start of each of its turns.</p>", "gm": "" },
-        "traits": { "value": [] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p>Legion recovers <strong>10 HP</strong> at the start of each of its turns.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": []
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 500000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!g1h2i3j4k5l60008.legina0000000003"
     },
     {
@@ -184,18 +432,60 @@
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
         "slug": "me-kinetic-shield",
-        "description": { "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>", "gm": "" },
-        "level": { "value": 1 }, "price": { "value": { "sp": 150 } }, "bulk": { "value": 1 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
-        "rules": [], "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 600000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldMax": 30, "shieldRegen": 10 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!g1h2i3j4k5l60008.leginsh000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60008.leginsh000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "leginhm000000001",
@@ -204,18 +494,59 @@
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "system": {
         "slug": "me-shield-hp-mod-t2",
-        "description": { "value": "<p>Increases kinetic shield capacity by <strong>+20 HP</strong> (base 30 → 50).</p>", "gm": "" },
-        "level": { "value": 6 }, "price": { "value": { "sp": 2500 } }, "bulk": { "value": 0 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
-        "rules": [], "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+20 HP</strong> (base 30 → 50).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 6
+        },
+        "price": {
+          "value": {
+            "sp": 2500
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 700000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldHpBonus": 20 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!g1h2i3j4k5l60008.leginhm000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 20
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60008.leginhm000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod002"
+      }
     }
   ],
   "_id": "g1h2i3j4k5l60008",

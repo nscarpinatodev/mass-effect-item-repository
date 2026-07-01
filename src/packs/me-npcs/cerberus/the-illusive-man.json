@@ -294,7 +294,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d1e2f3a4b5c60003.1llus1v3m4ns0001"
+      "_key": "!actors.items!d1e2f3a4b5c60003.1llus1v3m4ns0001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "1llus1v3m4nm0001",
@@ -352,7 +355,10 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d1e2f3a4b5c60003.1llus1v3m4nm0001"
+      "_key": "!actors.items!d1e2f3a4b5c60003.1llus1v3m4nm0001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod003"
+      }
     },
     {
       "_id": "1llus1v3m4nr0001",
@@ -410,7 +416,69 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d1e2f3a4b5c60003.1llus1v3m4nr0001"
+      "_key": "!actors.items!d1e2f3a4b5c60003.1llus1v3m4nr0001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldRegen003"
+      }
+    },
+    {
+      "_id": "f1stillusiveman0",
+      "name": "Fist",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "damageRolls": {
+          "dmgroll0001": {
+            "damage": "2d6+7",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 23
+        },
+        "description": {
+          "value": "<p>A basic unarmed strike.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "nonlethal",
+            "unarmed"
+          ],
+          "config": {}
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d1e2f3a4b5c60003.f1stillusiveman0"
     }
   ],
   "_id": "d1e2f3a4b5c60003",

@@ -261,11 +261,10 @@
             "damageType": "electricity"
           }
         },
-        "range": {
-          "value": 30
-        },
         "traits": {
-          "value": []
+          "value": [
+            "range-increment-30"
+          ]
         },
         "attackEffects": {
           "value": []

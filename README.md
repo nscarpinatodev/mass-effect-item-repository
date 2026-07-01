@@ -8,7 +8,7 @@ A Foundry VTT module that brings the Mass Effect universe to the **Pathfinder 2e
 
 | Software | Minimum | Verified |
 |----------|---------|---------|
-| Foundry VTT | v13 | v14 |
+| Foundry VTT | v14 | v14 |
 | Pathfinder 2e | 7.0 | 8.1.1 |
 | Starfinder 2e | 1.0 | 1.1.1 |
 

@@ -205,11 +205,10 @@
             "damageType": "force"
           }
         },
-        "range": {
-          "value": 60
-        },
         "traits": {
-          "value": []
+          "value": [
+            "range-increment-60"
+          ]
         },
         "attackEffects": {
           "value": []

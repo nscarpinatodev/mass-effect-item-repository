@@ -201,11 +201,10 @@
             "damageType": "fire"
           }
         },
-        "range": {
-          "value": 150
-        },
         "traits": {
-          "value": []
+          "value": [
+            "range-increment-150"
+          ]
         },
         "attackEffects": {
           "value": []

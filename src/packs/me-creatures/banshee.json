@@ -261,12 +261,10 @@
             "damageType": "force"
           }
         },
-        "range": {
-          "value": 60
-        },
         "traits": {
           "value": [
-            "splash-10"
+            "splash-10",
+            "range-increment-60"
           ]
         },
         "attackEffects": {

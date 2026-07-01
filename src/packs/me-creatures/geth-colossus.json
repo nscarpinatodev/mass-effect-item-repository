@@ -201,13 +201,11 @@
             "damageType": "bludgeoning"
           }
         },
-        "range": {
-          "value": 200
-        },
         "traits": {
           "value": [
             "brutal",
-            "splash-15"
+            "splash-15",
+            "range-increment-200"
           ]
         },
         "attackEffects": {

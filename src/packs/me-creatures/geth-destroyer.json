@@ -201,12 +201,10 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 60
-        },
         "traits": {
           "value": [
-            "brutal"
+            "brutal",
+            "range-increment-60"
           ]
         },
         "attackEffects": {

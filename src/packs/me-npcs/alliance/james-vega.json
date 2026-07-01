@@ -4,74 +4,187 @@
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/james-vega.png",
   "folder": null,
   "flags": {},
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "name": "James Vega",
     "displayName": 20,
     "actorLink": false,
-    "width": 1, "height": 1,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/james-vega.png",
-      "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0,
-      "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0,
-      "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": true, "rotation": 0, "alpha": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
     "disposition": 1,
     "displayBars": 20,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": true, "range": 0, "angle": 360, "visionMode": "basic",
-      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": [],
-    "flags": { "pf2e": { "linkToActorSize": true, "autoscale": true } }
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
   },
   "system": {
     "slug": "james-vega",
     "details": {
-      "level": { "value": 7 },
+      "level": {
+        "value": 7
+      },
       "publicNotes": "<p>Lieutenant James Vega is a decorated Alliance marine who serves aboard the Normandy SR-2. He is massive, physically powerful, and surprisingly thoughtful beneath the bravado. Vega fights in close quarters with a heavy assault rifle and a combat knife, preferring to close the distance and overwhelm enemies before they can react.</p><p><strong>Soldier's Endurance (1/encounter):</strong> When Vega would take a critical hit, he may treat it as a normal hit instead.</p><p><strong>Kinetic Barrier:</strong> 40 Shield HP. Recharges 12 HP per turn.</p>",
       "privateNotes": "",
-      "publication": { "title": "Mass Effect Compendium", "authors": "nscarpinatodev", "license": "ORC", "remaster": true },
-      "languages": { "value": [], "details": "" },
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
       "blurb": "Alliance marine aboard the Normandy; exceptional physical specimen and close-quarters specialist."
     },
     "attributes": {
-      "hp": { "value": 130, "max": 130, "temp": 40, "details": "" },
-      "ac": { "value": 24, "details": "" },
-      "speed": { "value": 30, "details": "" }
+      "hp": {
+        "value": 130,
+        "max": 130,
+        "temp": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
     },
     "traits": {
-      "value": ["human", "humanoid", "alliance", "unique"],
-      "size": { "value": "med" },
+      "value": [
+        "human",
+        "humanoid",
+        "alliance",
+        "unique"
+      ],
+      "size": {
+        "value": "med"
+      },
       "rarity": "unique"
     },
     "abilities": {
-      "str": { "mod": 7 }, "dex": { "mod": 3 }, "con": { "mod": 5 },
-      "int": { "mod": 1 }, "wis": { "mod": 2 }, "cha": { "mod": 2 }
+      "str": {
+        "mod": 7
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 2
+      }
     },
     "saves": {
-      "fortitude": { "value": 20, "saveDetail": "" },
-      "reflex": { "value": 15, "saveDetail": "" },
-      "will": { "value": 14, "saveDetail": "" }
+      "fortitude": {
+        "value": 20,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 14,
+        "saveDetail": ""
+      }
     },
     "skills": {
-      "athletics": { "base": 22 },
-      "intimidation": { "base": 16 }
+      "athletics": {
+        "base": 22
+      },
+      "intimidation": {
+        "base": 16
+      }
     },
-    "_migration": { "version": null, "previous": null },
-    "perception": { "details": "", "mod": 14, "senses": [], "vision": true },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [],
+      "vision": true
+    },
     "resources": {},
-    "initiative": { "statistic": "perception" }
+    "initiative": {
+      "statistic": "perception"
+    }
   },
   "items": [
     {
@@ -80,20 +193,51 @@
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
-        "weaponType": { "value": "ranged" },
+        "weaponType": {
+          "value": "ranged"
+        },
         "slug": "vega-mattock",
-        "bonus": { "value": 20 },
-        "damageRolls": { "0": { "damage": "2d8+9", "damageType": "piercing" } },
-        "range": { "value": 80 },
-        "traits": { "value": ["fatal-d10"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "<p>Vega's heavy assault rifle of choice — hard-hitting and reliable under fire.</p>", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d8+9",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "fatal-d10",
+            "range-increment-80"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Vega's heavy assault rifle of choice — hard-hitting and reliable under fire.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 100000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!f1a2b3c4d5e60004.vegaw00000000001"
     },
     {
@@ -103,17 +247,47 @@
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "system": {
         "slug": "vega-knife",
-        "bonus": { "value": 21 },
-        "damageRolls": { "0": { "damage": "1d6+10", "damageType": "piercing" } },
-        "traits": { "value": ["agile", "finesse"] },
-        "attackEffects": { "value": [] },
-        "description": { "value": "", "gm": "" },
-        "_migration": { "version": null, "previous": null },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+10",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 200000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!f1a2b3c4d5e60004.vegaw00000000002"
     },
     {
@@ -123,16 +297,38 @@
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "system": {
         "slug": "vega-soldiers-endurance",
-        "actionType": { "value": "passive" },
-        "actions": { "value": null },
-        "description": { "value": "<p>1/encounter, when Vega would take a critical hit, he may treat it as a normal hit instead.</p>", "gm": "" },
-        "traits": { "value": [] },
-        "_migration": { "version": null, "previous": null },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p>1/encounter, when Vega would take a critical hit, he may treat it as a normal hit instead.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": []
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
         "rules": [],
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 300000, "flags": {},
-      "ownership": { "default": 0 },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
       "_key": "!actors.items!f1a2b3c4d5e60004.vegaa00000000001"
     },
     {
@@ -142,21 +338,60 @@
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
         "slug": "me-kinetic-shield",
-        "description": { "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>", "gm": "" },
-        "level": { "value": 1 },
-        "price": { "value": { "sp": 150 } },
-        "bulk": { "value": 1 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
         "rules": [],
-        "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 400000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldMax": 30, "shieldRegen": 10 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!f1a2b3c4d5e60004.vegash0000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f1a2b3c4d5e60004.vegash0000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
     },
     {
       "_id": "vegahm0000000001",
@@ -165,21 +400,59 @@
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "system": {
         "slug": "me-shield-hp-mod-t1",
-        "description": { "value": "<p>Increases kinetic shield capacity by <strong>+10 HP</strong> (base 30 → 40).</p>", "gm": "" },
-        "level": { "value": 3 },
-        "price": { "value": { "sp": 600 } },
-        "bulk": { "value": 0 },
-        "equipped": { "carryType": "worn", "inSlot": true },
-        "usage": { "value": "other" },
-        "traits": { "value": [], "rarity": "common" },
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+10 HP</strong> (base 30 → 40).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "price": {
+          "value": {
+            "sp": 600
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
         "rules": [],
-        "_migration": { "version": null, "previous": null },
-        "publication": { "title": "", "authors": "", "license": "OGL", "remaster": false }
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
       },
-      "effects": [], "folder": null, "sort": 500000,
-      "flags": { "mass-effect-sf2e-conversion": { "shieldHpBonus": 10 } },
-      "ownership": { "default": 0 },
-      "_key": "!actors.items!f1a2b3c4d5e60004.vegahm0000000001"
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f1a2b3c4d5e60004.vegahm0000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod001"
+      }
     }
   ],
   "_id": "f1a2b3c4d5e60004",

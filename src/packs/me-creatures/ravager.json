@@ -202,12 +202,10 @@
             "category": "persistent"
           }
         },
-        "range": {
-          "value": 100
-        },
         "traits": {
           "value": [
-            "splash-5"
+            "splash-5",
+            "range-increment-100"
           ]
         },
         "attackEffects": {

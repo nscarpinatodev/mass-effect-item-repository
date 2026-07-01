@@ -204,13 +204,11 @@
             "damageType": "piercing"
           }
         },
-        "range": {
-          "value": 200
-        },
         "traits": {
           "value": [
             "fatal-d12",
-            "volley-50"
+            "volley-50",
+            "range-increment-200"
           ]
         },
         "attackEffects": {

@@ -261,11 +261,10 @@
             "category": "persistent"
           }
         },
-        "range": {
-          "value": 80
-        },
         "traits": {
-          "value": []
+          "value": [
+            "range-increment-80"
+          ]
         },
         "attackEffects": {
           "value": []

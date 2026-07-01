@@ -192,7 +192,67 @@
       }
     }
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "f1stturianmagist",
+      "name": "Fist",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "damageRolls": {
+          "dmgroll0001": {
+            "damage": "1d4+1",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 6
+        },
+        "description": {
+          "value": "<p>A basic unarmed strike.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "nonlethal",
+            "unarmed"
+          ],
+          "config": {}
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000032.f1stturianmagist"
+    }
+  ],
   "effects": [],
   "folder": null,
   "flags": {},
