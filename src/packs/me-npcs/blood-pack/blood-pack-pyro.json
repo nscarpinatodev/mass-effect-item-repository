@@ -1,0 +1,403 @@
+{
+  "_key": "!actors!sSCRwH8NKcw4fLT5",
+  "_id": "sSCRwH8NKcw4fLT5",
+  "name": "Blood Pack Pyro",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 55,
+        "temp": 0,
+        "max": 55,
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "vorcha"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "blurb": "Vorcha flamethrower fanatic of the Blood Pack.",
+      "publicNotes": "<p>Blood Pack Pyros strap volatile fuel tanks to their backs and charge in cackling, drenching enemies in fire. When the tank ruptures, the results are spectacular for everyone nearby.</p><p><strong>Vorcha Regeneration:</strong> See ability below.</p><p><strong>Volatile Tank:</strong> When the Pyro is reduced to 0 HP, its fuel tank explodes: each creature within 10 feet takes [[/r 2d6[fire]]] damage (basic Reflex save, DC 19).</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -1
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 9,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 10
+      },
+      "intimidation": {
+        "base": 8
+      }
+    },
+    "traits": {
+      "value": [
+        "vorcha",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Blood Pack Pyro",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "szG7TDKd5uTR9gJv",
+      "name": "Flamethrower",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "dmg00szG7": {
+            "damage": "2d6+3",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "range-increment-15"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "<p>A jury-rigged flamethrower. See Immolate.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true,
+        "weaponType": {
+          "value": "ranged"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!sSCRwH8NKcw4fLT5.szG7TDKd5uTR9gJv"
+    },
+    {
+      "_id": "W24lHXJuI0OFQ8V2",
+      "name": "Claws",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "dmg00W24l": {
+            "damage": "1d8+3",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!sSCRwH8NKcw4fLT5.W24lHXJuI0OFQ8V2"
+    },
+    {
+      "_id": "JPEA81Yu3051Tas8",
+      "name": "Immolate",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Immolate</strong> <span class=\"action-glyph\">2</span></p><hr /><p><strong>Area</strong> 15-foot cone.</p><p>Each creature in the cone takes [[/r 2d6+3[fire]]] damage (basic Reflex save, DC 19) plus 1d6 persistent fire damage on a failure.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!sSCRwH8NKcw4fLT5.JPEA81Yu3051Tas8"
+    },
+    {
+      "_id": "wodDHcS8ctYHjAh5",
+      "name": "Vorcha Regeneration",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Vorcha Regeneration</strong></p><hr /><p>At the start of each of its turns, the vorcha regains 10 Hit Points and adapts to recent harm. The first time each round it would be reduced to 0 HP by a damage type it has already taken this encounter, it instead remains at 1 HP. This ability is deactivated for 1 round if the vorcha takes fire or acid damage.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "vorcha"
+          ]
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!sSCRwH8NKcw4fLT5.wodDHcS8ctYHjAh5"
+    }
+  ],
+  "effects": [],
+  "folder": "menpcfoldr000007",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "_key": "!actors!MENPC00000000025",
+  "_id": "MENPC00000000025",
+  "name": "Hanar Keeper",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/hanar-keeper.png",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 16,
+        "temp": 15,
+        "max": 16,
+        "details": ""
+      },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "swim",
+            "value": 35
+          }
+        ],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "taldane",
+          "hanar"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "Hanar religious attendant and support caster",
+      "publicNotes": "<p>Hanar keepers serve as attendants in Enkindler temples and hanar diplomatic missions. They rarely engage in direct combat, preferring to support allies and use bioluminescent displays to disorient attackers. Their tentacles can deliver a surprisingly potent strike when pressed.</p><p><strong>Amphibious:</strong> Can breathe both air and water. Swim speed 35 ft.</p><p><strong>Kinetic Barrier:</strong> 15 Shield HP. Recharges 4 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Actor and Ancestry Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 4
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 6,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 9,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "diplomacy": {
+        "base": 8
+      },
+      "religion": {
+        "base": 7
+      },
+      "medicine": {
+        "base": 5
+      }
+    },
+    "traits": {
+      "value": [
+        "amphibious",
+        "hanar"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Hanar Keeper",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/hanar-keeper.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "NPCMelee0000001A",
+      "name": "Tentacle Lash",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "damageRolls": {
+          "dmgroll0001": {
+            "damage": "1d4+0",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 5
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "reach-5",
+            "unarmed"
+          ],
+          "config": {}
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000025.NPCMelee0000001A"
+    },
+    {
+      "_id": "NPCShield000001A",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A personal kinetic barrier providing <strong>15 Shield HP</strong>. Recharges <strong>4 HP per turn</strong>.</p>"
+        },
+        "rules": [],
+        "slug": "me-kinetic-shield",
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000025.NPCShield000001A",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
+    },
+    {
+      "_id": "NPCAction000001A",
+      "name": "Bioluminescent Display",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "system": {
+        "slug": "hanar-bioluminescent-display",
+        "description": {
+          "value": "<p><strong>Bioluminescent Display</strong> <span class=\"action-glyph\">2</span></p><hr /><p>The hanar produces a disorienting strobing display. Each sighted creature in a 20-foot cone must succeed at a Will save (DC 15) or become dazzled for 1 minute (stunned 1 on a critical failure). Creatures that critically succeed are immune for 24 hours. The hanar becomes concealed until the start of its next turn.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "light",
+            "visual"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Actor and Ancestry Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000025.NPCAction000001A"
+    }
+  ],
+  "effects": [],
+  "folder": "menpcfoldr000011",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

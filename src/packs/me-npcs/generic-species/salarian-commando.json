@@ -1,0 +1,479 @@
+{
+  "_key": "!actors!3cJhtCqUqjPP56EL",
+  "_id": "3cJhtCqUqjPP56EL",
+  "name": "Salarian Commando",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 50,
+        "temp": 30,
+        "max": 50,
+        "details": ""
+      },
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "taldane",
+          "salarian"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "Salarian Special Tasks Group operative.",
+      "publicNotes": "<p>STG commandos are the galaxy's premier special forces: fast, clever, and precise. They strike from stealth with tech and precision fire, then vanish before the enemy can respond.</p><p><strong>Kinetic Barrier:</strong> 30 Shield HP. Recharges 10 HP per turn.</p><p><strong>Salarian Reflexes:</strong> +2 circumstance bonus to initiative.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 4
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "stealth": {
+        "base": 14
+      },
+      "acrobatics": {
+        "base": 13
+      },
+      "computers": {
+        "base": 12
+      },
+      "deception": {
+        "base": 11
+      }
+    },
+    "traits": {
+      "value": [
+        "salarian",
+        "humanoid"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Salarian Commando",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "EWCdi6IbdmSb3T3K",
+      "name": "Machine Pistol",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 14
+        },
+        "damageRolls": {
+          "dmg00EWCd": {
+            "damage": "1d6+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "automatic",
+            "range-increment-40"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true,
+        "weaponType": {
+          "value": "ranged"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3cJhtCqUqjPP56EL.EWCdi6IbdmSb3T3K"
+    },
+    {
+      "_id": "G2QRPBMUNXJjcEfp",
+      "name": "Omni-Blade",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 14
+        },
+        "damageRolls": {
+          "dmg00G2QR": {
+            "damage": "1d8+3",
+            "damageType": "slashing",
+            "category": null
+          },
+          "dmg01G2QR": {
+            "damage": "1d4",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3cJhtCqUqjPP56EL.G2QRPBMUNXJjcEfp"
+    },
+    {
+      "_id": "xvfTspkWukxvsHWP",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p><p>If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3cJhtCqUqjPP56EL.xvfTspkWukxvsHWP",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
+    },
+    {
+      "_id": "mbjeFHEjD0VlFc54",
+      "name": "Tactical Cloak",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Tactical Cloak</strong> <span class=\"action-glyph\">1</span></p><hr /><p>The commando becomes hidden until the end of its next turn or until it attacks. Its next Strike while cloaked deals an extra [[/r 2d6[precision]]] damage.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "defensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3cJhtCqUqjPP56EL.mbjeFHEjD0VlFc54"
+    },
+    {
+      "_id": "8nqi16ERRUgXhTlY",
+      "name": "Incinerate",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Incinerate</strong> <span class=\"action-glyph\">2</span></p><hr /><p><strong>Range</strong> 40 feet, one creature. Deals [[/r 2d6[fire]]] damage (basic Reflex save, DC 20) plus 1d6 persistent fire on a failure; ignores armor bonuses from kinetic barriers.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech",
+            "fire"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3cJhtCqUqjPP56EL.8nqi16ERRUgXhTlY"
+    }
+  ],
+  "effects": [],
+  "folder": "menpcfoldr000011",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

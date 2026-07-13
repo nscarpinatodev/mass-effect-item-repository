@@ -1,0 +1,453 @@
+{
+  "_key": "!actors!Ba4e2our66qWW6RY",
+  "_id": "Ba4e2our66qWW6RY",
+  "name": "Blood Pack Warrior",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 90,
+        "temp": 0,
+        "max": 90,
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "taldane",
+          "kroganese"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "Krogan heavy of the Blood Pack.",
+      "publicNotes": "<p>Blood Pack Warriors are krogan mercenaries — mountains of muscle and armor plate who wade through gunfire to reach melee range. Their regenerative physiology and battle fury make them a nightmare to bring down.</p><p><strong>Redundant Physiology & Blood Rage:</strong> See abilities below.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 11,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 10,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 14
+      },
+      "intimidation": {
+        "base": 12
+      },
+      "survival": {
+        "base": 10
+      }
+    },
+    "traits": {
+      "value": [
+        "krogan",
+        "humanoid"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Blood Pack Warrior",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "Jo0E8vBIvWYWY8wl",
+      "name": "Combat Shotgun",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 13
+        },
+        "damageRolls": {
+          "dmg00Jo0E": {
+            "damage": "2d8+5",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "range-increment-20"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "<p>A heavy krogan shotgun.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true,
+        "weaponType": {
+          "value": "ranged"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Ba4e2our66qWW6RY.Jo0E8vBIvWYWY8wl"
+    },
+    {
+      "_id": "ibrjEdRpkj7Lm9zL",
+      "name": "Krogan Headbutt",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 14
+        },
+        "damageRolls": {
+          "dmg00ibrj": {
+            "damage": "1d10+5",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "<p>A brutal armored headbutt.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Ba4e2our66qWW6RY.ibrjEdRpkj7Lm9zL"
+    },
+    {
+      "_id": "AUY2wksoxKYf8clO",
+      "name": "Krogan Charge",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Krogan Charge</strong> <span class=\"action-glyph\">2</span></p><hr /><p>The warrior Strides up to double its Speed in a straight line and makes a melee Strike. If it moved at least 15 feet, the Strike deals an extra [[/r 2d6[bludgeoning]]] damage and the target must succeed at a Fortitude save (DC 21) or be knocked prone.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "krogan"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Ba4e2our66qWW6RY.AUY2wksoxKYf8clO"
+    },
+    {
+      "_id": "mby8epgd9aBq5P2b",
+      "name": "Redundant Physiology",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Redundant Physiology</strong></p><hr /><p>The krogan's duplicated organs make it brutally hard to kill. It is not knocked out at 0 HP unless the damage is a critical hit or from fire; otherwise it acts on 1 HP until reduced a second time. It also gains a +2 circumstance bonus to saves against being sickened, poisoned, or made to bleed.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "krogan"
+          ]
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Ba4e2our66qWW6RY.mby8epgd9aBq5P2b"
+    },
+    {
+      "_id": "S8UWa5T6dT461wZc",
+      "name": "Blood Rage",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Blood Rage</strong> <span class=\"action-glyph\">F</span></p><p><strong>Trigger</strong> The krogan is reduced to half its Hit Points or fewer.</p><hr /><p>The krogan enters a battle fury, gaining a +2 status bonus to melee damage and fast healing 5 until the end of the encounter. While enraged it takes a –1 penalty to AC.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "krogan",
+            "emotion",
+            "mental"
+          ]
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Ba4e2our66qWW6RY.S8UWa5T6dT461wZc"
+    }
+  ],
+  "effects": [],
+  "folder": "menpcfoldr000007",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

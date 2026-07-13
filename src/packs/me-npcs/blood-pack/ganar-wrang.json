@@ -1,0 +1,453 @@
+{
+  "_key": "!actors!jxMUuFve6P4ToFXI",
+  "_id": "jxMUuFve6P4ToFXI",
+  "name": "Ganar Wrang",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 110,
+        "temp": 0,
+        "max": 110,
+        "details": ""
+      },
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "taldane",
+          "kroganese"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "blurb": "Krogan Blood Pack lieutenant.",
+      "publicNotes": "<p>Ganar Wrang is a veteran krogan enforcer who keeps the Blood Pack's vorcha rabble in line through sheer brutality. He leads assault details personally, relishing any excuse to break something.</p><p><strong>Redundant Physiology & Blood Rage:</strong> See abilities below.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 12,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 16,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 16
+      },
+      "intimidation": {
+        "base": 14
+      },
+      "survival": {
+        "base": 11
+      }
+    },
+    "traits": {
+      "value": [
+        "krogan",
+        "humanoid"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Ganar Wrang",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "GvXoLWbtU5GSy9LD",
+      "name": "Heavy Shotgun",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 15
+        },
+        "damageRolls": {
+          "dmg00GvXo": {
+            "damage": "2d8+6",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "range-increment-20"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true,
+        "weaponType": {
+          "value": "ranged"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!jxMUuFve6P4ToFXI.GvXoLWbtU5GSy9LD"
+    },
+    {
+      "_id": "kGPKUstkGETuk1GX",
+      "name": "Krogan Headbutt",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "dmg00kGPK": {
+            "damage": "1d12+6",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!jxMUuFve6P4ToFXI.kGPKUstkGETuk1GX"
+    },
+    {
+      "_id": "BmyA7zJVIMolLYwP",
+      "name": "Krogan Charge",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Krogan Charge</strong> <span class=\"action-glyph\">2</span></p><hr /><p>Wrang Strides up to double his Speed in a straight line and makes a melee Strike. If he moved at least 15 feet, the Strike deals an extra [[/r 2d6[bludgeoning]]] damage and the target must succeed at a Fortitude save (DC 23) or be knocked prone.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "krogan"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!jxMUuFve6P4ToFXI.BmyA7zJVIMolLYwP"
+    },
+    {
+      "_id": "aaTCNJv0APPKpE7L",
+      "name": "Redundant Physiology",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Redundant Physiology</strong></p><hr /><p>The krogan's duplicated organs make it brutally hard to kill. It is not knocked out at 0 HP unless the damage is a critical hit or from fire; otherwise it acts on 1 HP until reduced a second time. It also gains a +2 circumstance bonus to saves against being sickened, poisoned, or made to bleed.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "krogan"
+          ]
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!jxMUuFve6P4ToFXI.aaTCNJv0APPKpE7L"
+    },
+    {
+      "_id": "augxxlM9LAaRBZW9",
+      "name": "Blood Rage",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Blood Rage</strong> <span class=\"action-glyph\">F</span></p><p><strong>Trigger</strong> The krogan is reduced to half its Hit Points or fewer.</p><hr /><p>The krogan enters a battle fury, gaining a +2 status bonus to melee damage and fast healing 5 until the end of the encounter. While enraged it takes a –1 penalty to AC.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "krogan",
+            "emotion",
+            "mental"
+          ]
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!jxMUuFve6P4ToFXI.augxxlM9LAaRBZW9"
+    }
+  ],
+  "effects": [],
+  "folder": "menpcfoldr000007",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

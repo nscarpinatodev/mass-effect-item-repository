@@ -1,0 +1,620 @@
+{
+  "_key": "!actors!MENPC00000000007",
+  "_id": "MENPC00000000007",
+  "name": "Salarian Scientist",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/salarian-scientist.png",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 32,
+        "temp": 30,
+        "max": 32,
+        "details": ""
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "taldane",
+          "salarian"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "blurb": "Salarian research operative with field-deployed chemical arsenal",
+      "publicNotes": "<p>Salarian scientists deployed in field conditions are not passive observers. They carry the chemical agents they've developed, use their analytical biology to identify weaknesses in hostile organisms, and process tactical information faster than most species can complete a thought. They are not soldiers, but they are considerably more dangerous than they appear.</p><p><strong>Chemical Analysis:</strong> Can identify substances, poisons, and biology by scent/contact. Automatically detects poisoned substances before ingesting.</p><p><strong>Accelerated Mind:</strong> +2 to initiative.</p><p><strong>Kinetic Barrier:</strong> 30 Shield HP. Recharges 9 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Actor and Ancestry Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "chemical sense 30 ft.",
+      "mod": 10,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 10,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "arcana": {
+        "base": 12
+      },
+      "crafting": {
+        "base": 12
+      },
+      "medicine": {
+        "base": 11
+      },
+      "nature": {
+        "base": 12
+      },
+      "society": {
+        "base": 12
+      }
+    },
+    "traits": {
+      "value": [
+        "salarian",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Salarian Scientist",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/salarian-scientist.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "NPCMelee0000001A",
+      "name": "Omni-Blade",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "damageRolls": {
+          "dmgroll0001": {
+            "damage": "1d4+0",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 7
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "tech"
+          ],
+          "config": {}
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000007.NPCMelee0000001A"
+    },
+    {
+      "_id": "NPCRanged000001A",
+      "name": "Chemical Dispenser",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 9
+        },
+        "damageRolls": {
+          "dmgroll0002": {
+            "damage": "1d8",
+            "damageType": "poison",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "poison",
+            "splash-5"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "range": {
+          "increment": 20,
+          "max": 40
+        },
+        "description": {
+          "value": "<p>A targeted chemical agent delivery system. Targets hit must succeed DC 18 Fortitude or become sickened 1 (sickened 2 on a critical failure).</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000007.NPCRanged000001A"
+    },
+    {
+      "_id": "NPCShield000001A",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>9 HP per turn</strong>.</p>"
+        },
+        "rules": [],
+        "slug": "me-kinetic-shield",
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!MENPC00000000007.NPCShield000001A",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
+    },
+    {
+      "_key": "!actors.items!MENPC00000000007.4422b92789fc0163",
+      "_id": "4422b92789fc0163",
+      "name": "M-9 Tempest",
+      "type": "weapon",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/weapons/ME2_SMG_-_Tempest.png",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The M-9 Tempest is an Alliance-issue submachine gun optimized for the highest sustained fire rate of any one-handed weapon in service. Its enormous heat sink holds one hundred rounds that it can expend in seconds, filling a volume with kinetic fire that makes individual accuracy less critical than statistical certainty. The Tempest is light enough that experienced users can sprint and fire simultaneously without significant penalty.</p>"
+        },
+        "rules": [],
+        "slug": "m-9-tempest",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech",
+            "automatic",
+            "agile"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Mass Effect Homebrew",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "baseItem": "m-9-tempest",
+        "bulk": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "martial",
+        "group": "pistol",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d4",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 30,
+        "expend": 1,
+        "ammo": {
+          "capacity": 100,
+          "baseType": "projectile-ammo",
+          "builtIn": false
+        },
+        "reload": {
+          "value": "0"
+        },
+        "grade": "tactical",
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-weapons.Item.2f2201ed226e0516"
+      }
+    },
+    {
+      "_key": "!actors.items!MENPC00000000007.0e7a21030c6f523d",
+      "_id": "0e7a21030c6f523d",
+      "name": "Phoenix Armor (L)",
+      "type": "armor",
+      "img": "modules/mass-effect-sf2e-conversion/assets/img/armors/Light-human-Phoenix.png",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The Sirta Foundation's Phoenix series incorporates medical-grade biosensors and VI-assisted trauma management alongside standard kinetic barriers. Originally developed for combat medics, the suit sees wide use among biotic-capable operatives who prioritize survivability in sustained engagements.</p>"
+        },
+        "rules": [],
+        "slug": "phoenix-armor-l",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Mass Effect Homebrew",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "phoenix-armor",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 20
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "light",
+        "group": "leather",
+        "acBonus": 2,
+        "strength": 1,
+        "dexCap": 3,
+        "checkPenalty": -1,
+        "speedPenalty": 0,
+        "grade": "commercial",
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-armors.Item.0483c7d809556b42"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "menpcfoldr000011",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

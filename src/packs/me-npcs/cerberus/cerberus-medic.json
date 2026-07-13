@@ -2,7 +2,7 @@
   "name": "Cerberus Medic",
   "type": "npc",
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-medic.png",
-  "folder": null,
+  "folder": "menpcfoldr000004",
   "flags": {},
   "ownership": {
     "default": 0
@@ -119,8 +119,7 @@
     },
     "traits": {
       "value": [
-        "humanoid",
-        "cerberus"
+        "humanoid"
       ],
       "size": {
         "value": "med"

@@ -1,0 +1,11 @@
+{
+  "name": "Companions",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "sort": 900000,
+  "color": null,
+  "flags": {},
+  "_id": "menpcfoldr000009",
+  "_key": "!folders!menpcfoldr000009"
+}

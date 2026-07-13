@@ -20,9 +20,10 @@ const TEMPLATE = {
   img: 'me2-journal-viewer.png',
   aspect: 1086 / 1448,
   vp:  { left: 10.22, top: 10.50, width: 80.02, height: 39.0, pad: 1.6 },
-  // width 30 buttons. Solo Close is centred; with Back present the pair is
-  // centred symmetrically about the datapad mid-line (Back 18–48, Close 52–82).
-  btn: { top: 52.0, width: 30.0, soloRight: 35.0, pairRight: 18.0, backRight: 52.0 },
+  // Centred-pair layout: Close is pinned to the right slot (occupies 52–76) so
+  // it never moves; Back fills the left slot (24–48) when present. Together they
+  // straddle the mid-line; on the index Close alone sits in that same right slot.
+  btn: { top: 55.0, width: 24.0, closeRight: 24.0, backRight: 52.0 },
 };
 
 const padStyle = t => [
@@ -31,8 +32,7 @@ const padStyle = t => [
   `--vp-width:${t.vp.width}%`, `--vp-height:${t.vp.height}%`,
   `--vp-pad:${t.vp.pad}%`,
   `--btn-top:${t.btn.top}%`, `--btn-width:${t.btn.width}%`,
-  `--btn-solo-right:${t.btn.soloRight}%`, `--btn-pair-right:${t.btn.pairRight}%`,
-  `--btn-back-right:${t.btn.backRight}%`,
+  `--btn-close-right:${t.btn.closeRight}%`, `--btn-back-right:${t.btn.backRight}%`,
 ].join(';');
 
 // ── HELPERS ─────────────────────────────────────────────────────────────────
@@ -54,11 +54,20 @@ function showToPlayers(entryId) {
   ui.notifications?.info(`Showing "${entry.name}" to players in the datapad.`);
 }
 
+// As showToPlayers, but opens straight to a single page within the entry.
+function showPageToPlayers(entryId, pageId) {
+  const entry = game.journal.get(entryId);
+  const page = entry?.pages.get(pageId);
+  if (!entry || !page) return;
+  game.socket.emit(SOCKET, { action: 'open', entryId, pageId });
+  ui.notifications?.info(`Showing "${page.name}" to players in the datapad.`);
+}
+
 function onSocket(data) {
   if (!data || data.action !== 'open') return;
   const entry = game.journal.get(data.entryId);
   if (!entry || !canRead(entry) || !Viewer) return;
-  Viewer.open(data.entryId);
+  Viewer.open(data.entryId, data.pageId ?? null);
 }
 
 async function entryPagesHTML(entry) {
@@ -75,6 +84,20 @@ async function entryPagesHTML(entry) {
     }
   }
   return parts.join('') || '<p class="me-jv-empty">This entry has no readable pages.</p>';
+}
+
+// Render a single page's content. Returns { name, html } or null if the page
+// is missing or the user can't read it.
+async function pageHTML(entry, pageId) {
+  const p = entry.pages.get(pageId);
+  if (!p || !canRead(p)) return null;
+  const name = foundry.utils.escapeHTML?.(p.name) ?? p.name;
+  if (p.type === 'text' && p.text?.content) return { name, html: await enrich(p.text.content) };
+  if (p.type === 'image' && p.src) {
+    const cap = p.image?.caption ? `<p class="me-jv-cap">${p.image.caption}</p>` : '';
+    return { name, html: `<img class="me-jv-page-img" src="${p.src}" alt="${p.name}">${cap}` };
+  }
+  return { name, html: '<p class="me-jv-empty">This page has no readable content.</p>' };
 }
 
 // ── STYLES ──────────────────────────────────────────────────────────────────
@@ -111,6 +134,10 @@ function injectStyles() {
     .me-jv-viewport::-webkit-scrollbar-track { background: transparent; }
     .me-jv-viewport::-webkit-scrollbar-thumb { background: #c8761e; border-radius: 4px; }
 
+    .me-jv-eyebrow {
+      font-size: clamp(9px, 1.25vh, 14px); letter-spacing: 0.14em;
+      text-transform: uppercase; color: #f9c08a; opacity: 0.75; margin: 0 0 0.15em 0;
+    }
     .me-jv-title {
       font-size: clamp(14px, 2.0vh, 26px); font-weight: 700;
       letter-spacing: 0.08em; text-transform: uppercase; color: #ffd9a8;
@@ -145,13 +172,12 @@ function injectStyles() {
       display: flex; align-items: center; justify-content: center; box-sizing: border-box;
       border: none; background-color: transparent;
       background-repeat: no-repeat; background-position: center; background-size: 100% 100%;
-      font-family: inherit; font-size: clamp(10px, 1.6vh, 19px); font-weight: 600;
+      font-family: inherit; font-size: clamp(9px, 1.4vh, 16px); font-weight: 600;
       letter-spacing: 0.04em; color: #ffe9cf; text-shadow: 0 1px 2px rgba(0,0,0,0.75);
       cursor: pointer; transition: filter 0.12s ease;
     }
-    /* Close is centred when alone; shifts right to balance Back when present. */
-    .me-jv-btn-right { right: var(--btn-solo-right); background-image: url('${ASSET('button-right.png')}'); padding-right: 8%; }
-    .me-jv-pad.me-jv-entry .me-jv-btn-right { right: var(--btn-pair-right); }
+    /* Close stays fixed (centred); Back appears to its left when present. */
+    .me-jv-btn-right { right: var(--btn-close-right); background-image: url('${ASSET('button-right.png')}'); padding-right: 8%; }
     .me-jv-btn-left  { right: var(--btn-back-right); background-image: url('${ASSET('button-left.png')}');  padding-left:  8%; }
     .me-jv-btn:hover  { filter: brightness(1.15); }
     .me-jv-btn:active { filter: brightness(0.95); transform: translateY(1px); }
@@ -174,8 +200,9 @@ Hooks.once('init', () => {
     static _instance = null;
 
     _entryId = null;
+    _pageId = null;
 
-    static open(entryId = null) {
+    static open(entryId = null, pageId = null) {
       const aspect = TEMPLATE.aspect;
       const height = Math.min(900, Math.round(window.innerHeight * 0.92));
       const width  = Math.round(height * aspect);
@@ -185,6 +212,7 @@ Hooks.once('init', () => {
       MEJournalViewer._instance?.close();
       const inst = MEJournalViewer._instance = new MEJournalViewer();
       inst._entryId = entryId;
+      inst._pageId = pageId;
       inst.render({ force: true, position: { width, height, left, top } });
     }
 
@@ -193,6 +221,11 @@ Hooks.once('init', () => {
 
       const entry = this._entryId ? game.journal.get(this._entryId) : null;
       if (entry && canRead(entry)) {
+        if (this._pageId) {
+          const page = await pageHTML(entry, this._pageId);
+          if (page) return { mode: 'page', tpl, entryName: entry.name, pageName: page.name, pageHTML: page.html };
+          this._pageId = null; // page missing/unreadable → show the full entry instead
+        }
         return { mode: 'entry', tpl, entryName: entry.name, pagesHTML: await entryPagesHTML(entry) };
       }
       const entries = game.journal.contents
@@ -207,16 +240,22 @@ Hooks.once('init', () => {
       pad.className = 'me-jv-pad';
       pad.setAttribute('style', padStyle(context.tpl));
 
-      if (context.mode === 'entry') pad.classList.add('me-jv-entry');
+      const hasBack = context.mode === 'entry' || context.mode === 'page';
 
-      let inner, backBtn = '';
-      if (context.mode === 'entry') {
+      let inner;
+      if (context.mode === 'page') {
+        inner = `
+          <div class="me-jv-viewport">
+            <div class="me-jv-eyebrow">${context.entryName}</div>
+            <h1 class="me-jv-title">${context.pageName}</h1>
+            <div class="me-jv-body"><section class="me-jv-page">${context.pageHTML}</section></div>
+          </div>`;
+      } else if (context.mode === 'entry') {
         inner = `
           <div class="me-jv-viewport">
             <h1 class="me-jv-title">${context.entryName}</h1>
             <div class="me-jv-body">${context.pagesHTML}</div>
           </div>`;
-        backBtn = `<button type="button" class="me-jv-btn me-jv-btn-left" data-action="index">Back</button>`;
       } else {
         const items = context.entries.length
           ? context.entries.map(e => `<li class="me-jv-list-item" data-action="open-entry" data-entry-id="${e.id}">${e.name}</li>`).join('')
@@ -227,6 +266,9 @@ Hooks.once('init', () => {
             <ul class="me-jv-list">${items}</ul>
           </div>`;
       }
+      const backBtn = hasBack
+        ? `<button type="button" class="me-jv-btn me-jv-btn-left" data-action="back">Back</button>`
+        : '';
 
       pad.innerHTML = `
         <div class="me-jv-drag"></div>
@@ -265,15 +307,21 @@ Hooks.once('init', () => {
       if (!el) return;
       const action = el.dataset.action;
       if (action === 'close')      { this.close(); return; }
-      if (action === 'index')      { this._entryId = null; await this.render(); return; }
-      if (action === 'open-entry') { this._entryId = el.dataset.entryId; await this.render(); return; }
+      if (action === 'back') {
+        // Pop one level: page → full entry → index.
+        if (this._pageId) this._pageId = null;
+        else this._entryId = null;
+        await this.render(); return;
+      }
+      if (action === 'open-entry') { this._entryId = el.dataset.entryId; this._pageId = null; await this.render(); return; }
     }
   }
 
   Viewer = MEJournalViewer;
   globalThis.MassEffectJournalViewer = {
-    open: id => MEJournalViewer.open(id),
+    open: (id, pageId = null) => MEJournalViewer.open(id, pageId),
     showToPlayers: id => showToPlayers(id),
+    showPageToPlayers: (id, pageId) => showPageToPlayers(id, pageId),
   };
 
   // Right-click context-menu options on journal entries in the sidebar.
@@ -300,6 +348,54 @@ Hooks.once('init', () => {
   };
   for (const hook of ['getJournalDirectoryEntryContext', 'getJournalEntryContextOptions'])
     Hooks.on(hook, addEntryContext);
+
+  // Right-click context menu on individual journal pages. The journal entry sheet
+  // builds a native ContextMenu on ".toc .page" (the page list in the sidebar TOC)
+  // and fires getJournalEntryPageContextOptions(app, menuItems) — we append our
+  // entries. Menu entries are provided in both the modern (label/visible/onClick)
+  // and legacy (name/condition/callback) shapes so the same code works across
+  // Foundry versions.
+  const pageIdOf = target => {
+    const el = target instanceof HTMLElement ? target : target?.[0];
+    return el?.dataset?.pageId ?? el?.closest?.('[data-page-id]')?.dataset.pageId ?? null;
+  };
+  // Resolve the parent JournalEntry id: prefer the sheet captured at hook time,
+  // otherwise recover it from the clicked element's owning application.
+  const entryIdFor = (captured, target) => {
+    if (captured?.id) return captured.id;
+    const el = target instanceof HTMLElement ? target : target?.[0];
+    const root = el?.closest?.('.application');
+    const app = root && foundry.applications?.instances?.get?.(root.id);
+    return app?.document?.id ?? null;
+  };
+  const addPageContext = (...args) => {
+    const menuItems = args.find(a => Array.isArray(a));
+    const app = args.find(a => a && typeof a === 'object' && !Array.isArray(a) && a.document);
+    const entry = app?.document;
+    if (!menuItems) return;
+    const run = (fn) => (a, b) => {
+      // Native ContextMenu calls onClick(event, li) and legacy callback(li, event).
+      const target = a instanceof HTMLElement || a?.[0] instanceof HTMLElement ? a : b;
+      const pid = pageIdOf(target);
+      const eid = entryIdFor(entry, target);
+      if (pid && eid) fn(eid, pid);
+    };
+    menuItems.push({
+      name: 'Open Page in Datapad', label: 'Open Page in Datapad',
+      icon: '<i class="fa-solid fa-tablet-screen-button"></i>',
+      condition: () => true, visible: () => true,
+      callback: run((eid, pid) => MEJournalViewer.open(eid, pid)),
+      onClick: run((eid, pid) => MEJournalViewer.open(eid, pid)),
+    });
+    menuItems.push({
+      name: 'Show Page in Datapad', label: 'Show Page in Datapad',
+      icon: '<i class="fa-solid fa-tablet-screen-button"></i>',
+      condition: () => game.user.isGM, visible: () => game.user.isGM,
+      callback: run((eid, pid) => showPageToPlayers(eid, pid)),
+      onClick: run((eid, pid) => showPageToPlayers(eid, pid)),
+    });
+  };
+  Hooks.on('getJournalEntryPageContextOptions', addPageContext);
 
   // "Show in Datapad" button in the journal entry sheet header (GM only)
   const addSheetHeaderButton = (app, html) => {

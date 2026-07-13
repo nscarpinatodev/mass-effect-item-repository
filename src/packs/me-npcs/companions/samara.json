@@ -1,0 +1,610 @@
+{
+  "name": "Samara",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/samara.png",
+  "folder": "menpcfoldr000009",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Samara",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/samara.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "system": {
+    "slug": "samara",
+    "details": {
+      "level": {
+        "value": 10
+      },
+      "publicNotes": "<p>Samara is a 400-year-old asari justicar — a monastic warrior bound by a strict code of justice that supersedes all other law. She is among the most powerful biotics ever recorded. She hunts those who prey on the innocent across the galaxy, and she has never failed to bring her quarry to justice. Her serene demeanor conceals a will of absolute iron.</p><p><strong>Justicar's Resolve:</strong> Samara is immune to fear effects and cannot be Demoralized.</p><p><strong>Biotic Deflection (reaction):</strong> When Samara would be struck by a ranged attack, she may spend her reaction to impose a –2 penalty to that attack roll.</p><p><strong>Reave (2 actions):</strong> One target within 60 feet takes 3d10+8 negative damage (DC 28 Fortitude for half). On a failure, the target is also Enfeebled 1 until the end of its next turn.</p><p><strong>Biotic Throw (2 actions):</strong> One target within 60 feet must succeed on a DC 28 Fortitude save or be flung 20 feet and knocked Prone (2d6 bludgeoning).</p><p><strong>Kinetic Barrier:</strong> 70 Shield HP. Recharges 20 HP per turn.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Asari justicar of 400 years; absolute biotic power bound by a code that cannot be broken."
+    },
+    "attributes": {
+      "hp": {
+        "value": 165,
+        "max": 165,
+        "temp": 70,
+        "details": ""
+      },
+      "ac": {
+        "value": 28,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "details": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "asari",
+        "unique"
+      ],
+      "size": {
+        "value": "med"
+      },
+      "rarity": "unique"
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 6
+      },
+      "cha": {
+        "mod": 5
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 19,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 21,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 26,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "religion": {
+        "base": 24
+      },
+      "athletics": {
+        "base": 20
+      },
+      "intimidation": {
+        "base": 22
+      },
+      "society": {
+        "base": 18
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "perception": {
+      "details": "",
+      "mod": 22,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "initiative": {
+      "statistic": "perception"
+    }
+  },
+  "items": [
+    {
+      "_id": "samarw0000000001",
+      "name": "M-9 Tempest",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "weaponType": {
+          "value": "ranged"
+        },
+        "slug": "samara-tempest",
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+6",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "burst-fire",
+            "range-increment-50"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Samara's sidearm — rarely needed, always deadly.</p>",
+          "gm": ""
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60009.samarw0000000001"
+    },
+    {
+      "_id": "samara0000000001",
+      "name": "Reave",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "samara-reave",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>One target within 60 feet takes 3d10+8 negative damage (DC 28 Fortitude for half). On a failure, the target is also Enfeebled 1 until the end of its next turn.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "biotic",
+            "negative",
+            "concentrate"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60009.samara0000000001"
+    },
+    {
+      "_id": "samara0000000002",
+      "name": "Biotic Throw",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "system": {
+        "slug": "samara-biotic-throw",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "description": {
+          "value": "<p>One target within 60 feet must succeed on a DC 28 Fortitude save or be flung 20 feet in a direction of Samara's choice and knocked Prone (taking 2d6 bludgeoning fall damage).</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "biotic",
+            "concentrate"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60009.samara0000000002"
+    },
+    {
+      "_id": "samara0000000003",
+      "name": "Justicar's Resolve",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "system": {
+        "slug": "samara-justicars-resolve",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p>Samara is immune to fear effects and cannot be Demoralized by any means.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": []
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60009.samara0000000003"
+    },
+    {
+      "_id": "samara0000000004",
+      "name": "Biotic Deflection",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "system": {
+        "slug": "samara-biotic-deflection",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "description": {
+          "value": "<p><strong>Trigger</strong> Samara would be struck by a ranged attack. She imposes a –2 penalty to that attack roll.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "biotic"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "rules": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60009.samara0000000004"
+    },
+    {
+      "_id": "samarsh000000001",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>30 Shield HP</strong>. Recharges <strong>10 HP per turn</strong>.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 30,
+          "shieldRegen": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60009.samarsh000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
+    },
+    {
+      "_id": "samarhm000000001",
+      "name": "Shield HP Mod - Tier 3",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "slug": "me-shield-hp-mod-t3",
+        "description": {
+          "value": "<p>Increases kinetic shield capacity by <strong>+40 HP</strong> (base 30 → 70).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 10
+        },
+        "price": {
+          "value": {
+            "sp": 8000
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldHpBonus": 40
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60009.samarhm000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldHpMod003"
+      }
+    },
+    {
+      "_id": "samarrm000000001",
+      "name": "Shield Regen Mod - Tier 2",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+      "system": {
+        "slug": "me-shield-regen-mod-t2",
+        "description": {
+          "value": "<p>Doubles kinetic shield recharge rate (base 10 → 20 HP/turn).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 8
+        },
+        "price": {
+          "value": {
+            "sp": 4000
+          }
+        },
+        "bulk": {
+          "value": 0
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "regenMult": 2
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!g1h2i3j4k5l60009.samarrm000000001",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meShieldRegen002"
+      }
+    }
+  ],
+  "_id": "g1h2i3j4k5l60009",
+  "_key": "!actors!g1h2i3j4k5l60009",
+  "effects": []
+}

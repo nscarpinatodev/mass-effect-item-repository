@@ -22,12 +22,13 @@
 
     --vp-pad: 1.6%;       /* inner text padding */
 
-    /* button anchors (lower portion of the orange screen). Back + Close are
-       centred symmetrically about the datapad mid-line: Back 18–48, Close 52–82. */
-    --btn-pair-right: 18.0%;  /* Close, when Back is present */
-    --btn-back-right: 52.0%;  /* Back */
-    --btn-top:    52.0%;
-    --btn-width:  30.0%;  /* button png native is 25.5%; bumped up a touch */
+    /* button anchors (lower portion of the orange screen). Centred pair: Close
+       is pinned to the right slot (52–76) so it never moves; Back fills the
+       left slot (24–48) when present. On the index only Close shows, in place. */
+    --btn-close-right: 24.0%;  /* Close — fixed right slot, never moves */
+    --btn-back-right:  52.0%;  /* Back — left slot */
+    --btn-top:    55.0%;
+    --btn-width:  24.0%;
 
     --amber:        #f9c08a;
     --amber-bright: #ffd9a8;
@@ -120,7 +121,7 @@
     background-position: center;
     background-size: 100% 100%;
     font-family: inherit;
-    font-size: clamp(10px, 1.6vh, 19px);
+    font-size: clamp(9px, 1.4vh, 16px);
     font-weight: 600;
     letter-spacing: 0.04em;
     color: #ffe9cf;
@@ -130,7 +131,7 @@
   }
   /* nudge the label off the angled tip so it stays centred on the flat area */
   .me-btn-left  { right: var(--btn-back-right); background-image: url("button-left.png");  padding-left:  8%; }
-  .me-btn-right { right: var(--btn-pair-right); background-image: url("button-right.png"); padding-right: 8%; }
+  .me-btn-right { right: var(--btn-close-right); background-image: url("button-right.png"); padding-right: 8%; }
   .me-btn:hover  { filter: brightness(1.15); }
   .me-btn:active { filter: brightness(0.95); transform: translateY(1px); }
 

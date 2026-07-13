@@ -1,0 +1,486 @@
+{
+  "_key": "!actors!JWt3ntBfKzFmWTdX",
+  "_id": "JWt3ntBfKzFmWTdX",
+  "name": "Saren Arterius",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/saren-arterius.png",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 170,
+        "temp": 70,
+        "max": 170,
+        "details": ""
+      },
+      "ac": {
+        "value": 28,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "taldane",
+          "turian"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 9
+      },
+      "blurb": "Rogue turian Spectre, indoctrinated herald of Sovereign.",
+      "publicNotes": "<p>Once the most respected Spectre in the galaxy, Saren Arterius fell under the Reaper Sovereign's indoctrination and became its herald, augmenting his body with synthetic implants in pursuit of a doomed vision of survival through submission. He is a master gunman, a capable biotic, and utterly fanatical.</p><p><strong>Reinforced Barrier:</strong> 70 Shield HP. Recharges 20 HP per turn.</p><p><strong>Cybernetic Implants:</strong> Saren has resistance 5 to physical damage and is immune to the frightened condition.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 4
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 4
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 18,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 18,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 16,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 17
+      },
+      "athletics": {
+        "base": 17
+      },
+      "intimidation": {
+        "base": 20
+      },
+      "warfare": {
+        "base": 18
+      },
+      "computers": {
+        "base": 17
+      }
+    },
+    "traits": {
+      "value": [
+        "turian",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Saren Arterius",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/saren-arterius.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "HoQPq08MKlj0y4Gr",
+      "name": "Custom Assault Rifle",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "dmg00HoQP": {
+            "damage": "2d8+7",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "automatic",
+            "range-increment-70"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true,
+        "weaponType": {
+          "value": "ranged"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!JWt3ntBfKzFmWTdX.HoQPq08MKlj0y4Gr"
+    },
+    {
+      "_id": "mXUYhloyJSOLEPV7",
+      "name": "Biotic Slam",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "dmg00mXUY": {
+            "damage": "1d12+7",
+            "damageType": "bludgeoning",
+            "category": null
+          },
+          "dmg01mXUY": {
+            "damage": "1d6",
+            "damageType": "force",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "force",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!JWt3ntBfKzFmWTdX.mXUYhloyJSOLEPV7"
+    },
+    {
+      "_id": "i4RLsXi8i9Vtcgf1",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>70 Shield HP</strong>. Recharges <strong>20 HP per turn</strong>.</p><p>If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 70,
+          "shieldRegen": 20
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!JWt3ntBfKzFmWTdX.i4RLsXi8i9Vtcgf1",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
+    },
+    {
+      "_id": "05MM03ojQuxUPNmy",
+      "name": "Biotic Overload",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Biotic Overload</strong> <span class=\"action-glyph\">2</span> (recharge 5–6)</p><hr /><p><strong>Area</strong> 20-foot burst within 60 feet. Each creature takes [[/r 5d6[force]]] damage (basic Reflex save, DC 28) and is knocked prone on a failure.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "biotic",
+            "force"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!JWt3ntBfKzFmWTdX.05MM03ojQuxUPNmy"
+    },
+    {
+      "_id": "MSdl84lxA7MzRAeK",
+      "name": "Indoctrinated Zeal",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Indoctrinated Zeal</strong> <span class=\"action-glyph\">R</span></p><p><strong>Trigger</strong> Saren is critically hit, or an ally within 30 feet is reduced to 0 HP.</p><hr /><p>Saren's unnatural resolve flares. He gains 20 temporary Hit Points and a +2 status bonus to attack rolls until the start of his next turn.</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "emotion",
+            "fear",
+            "mental"
+          ]
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!JWt3ntBfKzFmWTdX.MSdl84lxA7MzRAeK"
+    }
+  ],
+  "effects": [],
+  "folder": "menpcfoldr000010",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

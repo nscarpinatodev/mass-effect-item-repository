@@ -1,0 +1,478 @@
+{
+  "_key": "!actors!CEKDJ8LCPGRHFyZl",
+  "_id": "CEKDJ8LCPGRHFyZl",
+  "name": "Tarak",
+  "type": "npc",
+  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/tarak.png",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 105,
+        "temp": 50,
+        "max": 105,
+        "details": ""
+      },
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "taldane",
+          "batarian"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 6
+      },
+      "blurb": "Batarian leader of the Blue Suns on Omega.",
+      "publicNotes": "<p>Tarak commands the Blue Suns' Omega operation, a ruthless batarian warlord who leads from the cockpit of a gunship as often as from the front line. Cruel and calculating, he built his power through slaving, extortion, and the occasional convenient betrayal.</p><p><strong>Kinetic Barrier:</strong> 50 Shield HP. Recharges 15 HP per turn.</p><p><strong>Batarian Resilience:</strong> Tarak treats a critical hit against him as a normal hit on a successful Fortitude save (DC 20) once per round.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Mass Effect Compendium",
+        "authors": "nscarpinatodev",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 15,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 13,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 14
+      },
+      "intimidation": {
+        "base": 16
+      },
+      "warfare": {
+        "base": 14
+      },
+      "piloting": {
+        "base": 13
+      }
+    },
+    "traits": {
+      "value": [
+        "batarian",
+        "humanoid"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Tarak",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/tarak.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "hcZ2naOYwgjUEoWf",
+      "name": "Custom Assault Rifle",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "dmg00hcZ2": {
+            "damage": "2d6+5",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "automatic",
+            "range-increment-60"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "<p>A heavily modified assault rifle.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true,
+        "weaponType": {
+          "value": "ranged"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!CEKDJ8LCPGRHFyZl.hcZ2naOYwgjUEoWf"
+    },
+    {
+      "_id": "HaA8DQY4iXwVuEkd",
+      "name": "Vibro-Blade",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "system": {
+        "slug": null,
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "dmg00HaA8": {
+            "damage": "1d8+5",
+            "damageType": "slashing",
+            "category": null
+          },
+          "dmg01HaA8": {
+            "damage": "1d6",
+            "damageType": "electricity",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!CEKDJ8LCPGRHFyZl.HaA8DQY4iXwVuEkd"
+    },
+    {
+      "_id": "RtmjHQcYLkGDEcUE",
+      "name": "Kinetic Shield",
+      "type": "equipment",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "slug": "me-kinetic-shield",
+        "description": {
+          "value": "<p>A personal kinetic barrier providing <strong>50 Shield HP</strong>. Recharges <strong>15 HP per turn</strong>.</p><p>If fully depleted, the wearer must <strong>Take Cover</strong> before the shield will begin recharging.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "price": {
+          "value": {
+            "sp": 150
+          }
+        },
+        "bulk": {
+          "value": 1
+        },
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true
+        },
+        "usage": {
+          "value": "other"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "rules": [],
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "mass-effect-sf2e-conversion": {
+          "shieldMax": 50,
+          "shieldRegen": 15
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!CEKDJ8LCPGRHFyZl.RtmjHQcYLkGDEcUE",
+      "_stats": {
+        "compendiumSource": "Compendium.mass-effect-sf2e-conversion.me-shields.Item.meKineticShield0"
+      }
+    },
+    {
+      "_id": "BWlZzaDxYYA34C8e",
+      "name": "Gunship Strafe",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Gunship Strafe</strong> <span class=\"action-glyph\">2</span> (recharge 5–6)</p><hr /><p><strong>Area</strong> 60-foot line, 5 feet wide.</p><p>Tarak calls in a strafing run from his gunship (or lays down a withering hail of fire). Each creature in the line takes [[/r 4d6[piercing]]] damage (basic Reflex save, DC 23).</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!CEKDJ8LCPGRHFyZl.BWlZzaDxYYA34C8e"
+    },
+    {
+      "_id": "HGrV2thGzEp1kYxY",
+      "name": "Slaver's Cruelty",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "flags": {},
+      "system": {
+        "slug": null,
+        "description": {
+          "value": "<p><strong>Slaver's Cruelty</strong> <span class=\"action-glyph\">R</span></p><p><strong>Trigger</strong> Tarak reduces a creature to 0 HP.</p><hr /><p>Each enemy within 30 feet that witnesses the kill must succeed at a Will save (DC 23) or become frightened 1 (frightened 2 on a critical failure).</p>",
+          "gm": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "emotion",
+            "fear",
+            "mental"
+          ]
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "publication": {
+          "title": "Mass Effect Compendium",
+          "authors": "nscarpinatodev",
+          "license": "ORC",
+          "remaster": true
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!CEKDJ8LCPGRHFyZl.HGrV2thGzEp1kYxY"
+    }
+  ],
+  "effects": [],
+  "folder": "menpcfoldr000005",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

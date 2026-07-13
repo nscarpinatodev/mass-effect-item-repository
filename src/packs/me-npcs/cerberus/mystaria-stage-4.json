@@ -2,7 +2,7 @@
   "name": "Mystaria — Stage IV",
   "type": "npc",
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/mystaria-stage-4.png",
-  "folder": null,
+  "folder": "menpcfoldr000004",
   "flags": {},
   "ownership": {
     "default": 0
@@ -128,8 +128,7 @@
       "value": [
         "evil",
         "human",
-        "humanoid",
-        "cerberus"
+        "humanoid"
       ],
       "size": {
         "value": "med"

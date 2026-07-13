@@ -1,8 +1,8 @@
 {
   "name": "Cerberus Technician",
   "type": "npc",
-  "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-technician.png",
-  "folder": null,
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "menpcfoldr000004",
   "flags": {},
   "ownership": {
     "default": 0
@@ -14,7 +14,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/mass-effect-sf2e-conversion/assets/img/npcs/cerberus-technician.png",
+      "src": "icons/svg/mystery-man.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -119,8 +119,7 @@
     },
     "traits": {
       "value": [
-        "humanoid",
-        "cerberus"
+        "humanoid"
       ],
       "size": {
         "value": "med"

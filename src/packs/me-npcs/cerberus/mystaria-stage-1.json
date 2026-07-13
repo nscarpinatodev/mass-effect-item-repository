@@ -2,7 +2,7 @@
   "name": "Mystaria — Stage I",
   "type": "npc",
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/mystaria.png",
-  "folder": null,
+  "folder": "menpcfoldr000004",
   "flags": {},
   "ownership": {
     "default": 0

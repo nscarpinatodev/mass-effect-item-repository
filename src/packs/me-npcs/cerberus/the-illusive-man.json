@@ -2,7 +2,7 @@
   "name": "The Illusive Man",
   "type": "npc",
   "img": "modules/mass-effect-sf2e-conversion/assets/img/npcs/illusive-man.png",
-  "folder": null,
+  "folder": "menpcfoldr000004",
   "flags": {},
   "ownership": {
     "default": 0
@@ -120,7 +120,6 @@
     "traits": {
       "value": [
         "humanoid",
-        "cerberus",
         "unique"
       ],
       "size": {
